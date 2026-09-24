@@ -1,5 +1,4 @@
 export const products = [
-
   {
     id: "atlas_p_all_0",
     name: "Animal Craft & Weave Kit",
@@ -889,5 +888,770 @@ export const products = [
     price: 0.145,
     brand: "Atlas",
     category: "Books & Supplies",
+  },
+
+  {
+    id: "atlas_book_new_1790251932184_5630",
+    name: "Atlas Book Science Botany 40Pgs",
+    image:
+      "https://www.atlas.lk/myshop/wp-content/uploads/2025/06/PF0042105.jpg",
+    price: 135,
+    brand: "Atlas",
+    category: "Books",
+  },
+  {
+    id: "atlas_book_new_1790251932184_4804",
+    name: "Innovate Book Divder CR Single Rule 240pg-0012",
+    image:
+      "https://www.atlas.lk/myshop/wp-content/uploads/2024/12/PF0034003.jpg",
+    price: 1000,
+    brand: "Atlas",
+    category: "Books",
+  },
+  {
+    id: "atlas_book_new_1790251932184_7362",
+    name: "Innovate Book Exe Single Rule 120Pgs-0100",
+    image:
+      "https://www.atlas.lk/myshop/wp-content/uploads/2024/12/PF0013328-1.jpg",
+    price: 165,
+    brand: "Atlas",
+    category: "Books",
+  },
+  {
+    id: "atlas_book_new_1790251932185_7190",
+    name: "Innovate Book Exe Single Rule 80pgs -0144",
+    image:
+      "https://www.atlas.lk/myshop/wp-content/uploads/2024/06/PF0013052.jpg",
+    price: 100,
+    brand: "Atlas",
+    category: "Books",
+  },
+  {
+    id: "atlas_book_new_1790251932185_6109",
+    name: "Innovate Book Spiral Exe Single Rule 120Pg-0060",
+    image:
+      "https://www.atlas.lk/myshop/wp-content/uploads/2024/12/PF0013345-1.jpg",
+    price: 400,
+    brand: "Atlas",
+    category: "Books",
+  },
+  {
+    id: "atlas_book_new_1790251932185_3792",
+    name: "Innovate Book Spiral B5 Single Ruled 120Pg-0030",
+    image:
+      "https://www.atlas.lk/myshop/wp-content/uploads/2024/12/PF0183311-1.jpg",
+    price: 600,
+    brand: "Atlas",
+    category: "Books",
+  },
+  {
+    id: "atlas_book_new_1790251932185_5519",
+    name: "Innovate Book Spiral CR Single Ruled 120Pg-0030",
+    image:
+      "https://www.atlas.lk/myshop/wp-content/uploads/2024/12/PF0033329-1.jpg",
+    price: 800,
+    brand: "Atlas",
+    category: "Books",
+  },
+  {
+    id: "atlas_book_new_1790251932186_1017",
+    name: "Atlas A5 Spiral Notebook 100pgs",
+    image:
+      "https://www.atlas.lk/myshop/wp-content/uploads/2021/06/PF0063211-min.jpg",
+    price: 230,
+    brand: "Atlas",
+    category: "Books",
+  },
+  {
+    id: "atlas_book_new_1790251932186_9239",
+    name: "Atlas A4 Drawing Book Small 20Pgs",
+    image:
+      "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0051501-min.jpg",
+    price: 80,
+    brand: "Atlas",
+    category: "Books",
+  },
+  {
+    id: "atlas_book_new_1790251932186_4559",
+    name: "Atlas A4 Drawing Book Small 40Pgs",
+    image:
+      "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0052101-min.jpg",
+    price: 120,
+    brand: "Atlas",
+    category: "Books",
+  },
+  {
+    id: "atlas_book_new_1790251932186_3959",
+    name: "Atlas A4 Black Drawing Book Small 40Pgs",
+    image:
+      "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0072101-min.jpg",
+    price: 240,
+    brand: "Atlas",
+    category: "Books",
+  },
+  {
+    id: "atlas_book_new_1790251932186_7454",
+    name: "Atlas A4 Book CR 40Pgs (=) Single Ruled",
+    image:
+      "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0032101-min.jpg",
+    price: 110,
+    brand: "Atlas",
+    category: "Books",
+  },
+  {
+    id: "atlas_book_new_1790251932186_162",
+    name: "Atlas A4 Book CR 80Pgs (=) Single Ruled",
+    image:
+      "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0033022-min.jpg",
+    price: 180,
+    brand: "Atlas",
+    category: "Books",
+  },
+  {
+    id: "atlas_book_new_1790251932187_9295",
+    name: "Atlas A4 Book CR 120Pgs (=) Single Ruled",
+    image:
+      "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0033301-min.jpg",
+    price: 250,
+    brand: "Atlas",
+    category: "Books",
+  },
+  {
+    id: "atlas_book_new_1790251932187_959",
+    name: "Atlas A4 Book CR 160Pgs (=) Single Ruled",
+    image:
+      "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0033701-min.jpg",
+    price: 350,
+    brand: "Atlas",
+    category: "Books",
+  },
+  {
+    id: "atlas_book_new_1790251932187_4881",
+    name: "Atlas A4 Book CR 200Pgs (=) Single Ruled",
+    image:
+      "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0033901-min.jpg",
+    price: 430,
+    brand: "Atlas",
+    category: "Books",
+  },
+  {
+    id: "atlas_book_new_1790251932188_3577",
+    name: "Atlas A4 Book CR 400Pgs (=) Single Ruled",
+    image:
+      "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0034701-min.jpg",
+    price: 850,
+    brand: "Atlas",
+    category: "Books",
+  },
+  {
+    id: "atlas_book_new_1790251932188_3603",
+    name: "Atlas A4 CR Book Square Ruled 40Pgs",
+    image:
+      "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0032102-min.jpg",
+    price: 110,
+    brand: "Atlas",
+    category: "Books",
+  },
+  {
+    id: "atlas_book_new_1790251932188_6596",
+    name: "Atlas A4 Book CR 80Pgs (#) Square Ruled",
+    image:
+      "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0033023-min.jpg",
+    price: 180,
+    brand: "Atlas",
+    category: "Books",
+  },
+  {
+    id: "atlas_book_new_1790251932188_633",
+    name: "Atlas A4 Book CR 120Pgs (#) Square Ruled",
+    image:
+      "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0033302-min.jpg",
+    price: 250,
+    brand: "Atlas",
+    category: "Books",
+  },
+  {
+    id: "atlas_book_new_1790251935120_7912",
+    name: "Atlas A4 Book CR 160Pgs (#) Square Ruled",
+    image:
+      "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0033702-min.jpg",
+    price: 350,
+    brand: "Atlas",
+    category: "Books",
+  },
+  {
+    id: "atlas_book_new_1790251935120_5640",
+    name: "Atlas A4 Book CR 200Pgs (#) Square Ruled",
+    image:
+      "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0033902-min.jpg",
+    price: 430,
+    brand: "Atlas",
+    category: "Books",
+  },
+  {
+    id: "atlas_book_new_1790251935120_1390",
+    name: "Innovate Book CR Single Rule 80Pgs",
+    image:
+      "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0033013.jpg",
+    price: 225,
+    brand: "Atlas",
+    category: "Books",
+  },
+  {
+    id: "atlas_book_new_1790251935120_5787",
+    name: "Atlas A4 Drawing Book Small 80Pgs",
+    image:
+      "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0053001-min.jpg",
+    price: 190,
+    brand: "Atlas",
+    category: "Books",
+  },
+  {
+    id: "atlas_book_new_1790251935120_1241",
+    name: "Atlas A4 Science Book Botany 80Pgs",
+    image:
+      "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0043002-min.jpg",
+    price: 230,
+    brand: "Atlas",
+    category: "Books",
+  },
+  {
+    id: "atlas_book_new_1790251935120_7939",
+    name: "Atlas A4 Science Book Botany 120Pgs",
+    image:
+      "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0043301-min.jpg",
+    price: 280,
+    brand: "Atlas",
+    category: "Books",
+  },
+  {
+    id: "atlas_book_new_1790251935120_2124",
+    name: "Atlas A4 Science Book Botany 160Pgs",
+    image:
+      "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0043701-min.jpg",
+    price: 360,
+    brand: "Atlas",
+    category: "Books",
+  },
+  {
+    id: "atlas_book_new_1790251935120_5428",
+    name: "Atlas A4 Science Book Graph 40Pgs",
+    image:
+      "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0042103-min.jpg",
+    price: 130,
+    brand: "Atlas",
+    category: "Books",
+  },
+  {
+    id: "atlas_book_new_1790251935121_1567",
+    name: "Atlas A4 Science Book Graph 80Pgs",
+    image:
+      "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0043003-min.jpg",
+    price: 230,
+    brand: "Atlas",
+    category: "Books",
+  },
+  {
+    id: "atlas_book_new_1790251935121_2676",
+    name: "Atlas A4 Science Book Plain 80Pgs",
+    image:
+      "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0043001-min.jpg",
+    price: 230,
+    brand: "Atlas",
+    category: "Books",
+  },
+  {
+    id: "atlas_book_new_1790251935121_619",
+    name: "Atlas A5 Book Exercise 40Pgs (=) Single Ruled",
+    image:
+      "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0012116-min.jpg",
+    price: 65,
+    brand: "Atlas",
+    category: "Books",
+  },
+  {
+    id: "atlas_book_new_1790251935121_9284",
+    name: "Atlas A5 Book Exercise 80Pgs (=) Single Ruled",
+    image:
+      "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0013041-min.jpg",
+    price: 80,
+    brand: "Atlas",
+    category: "Books",
+  },
+  {
+    id: "atlas_book_new_1790251935121_7331",
+    name: "Atlas A5 Book Exercise 120Pgs (=) Single Ruled",
+    image:
+      "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0013301-min.jpg",
+    price: 125,
+    brand: "Atlas",
+    category: "Books",
+  },
+  {
+    id: "atlas_book_new_1790251935121_5077",
+    name: 'Atlas A5 Book Practical 1/2"(=) Single Ruled 80Pgs',
+    image:
+      "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0023001-min.jpg",
+    price: 80,
+    brand: "Atlas",
+    category: "Books",
+  },
+  {
+    id: "atlas_book_new_1790251935121_7734",
+    name: "Atlas A5 Book Exercise 160Pgs (=) Single Ruled",
+    image:
+      "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0013701-min.jpg",
+    price: 170,
+    brand: "Atlas",
+    category: "Books",
+  },
+  {
+    id: "atlas_book_new_1790251935121_2273",
+    name: 'Atlas A5 Book Practical  1/2"(#) Square Ruled 80Pgs',
+    image:
+      "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0023003-min.jpg",
+    price: 80,
+    brand: "Atlas",
+    category: "Books",
+  },
+  {
+    id: "atlas_book_new_1790251935121_190",
+    name: "Atlas A5 Book Exercise 200Pgs (=) Single Ruled",
+    image:
+      "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0013901-min.jpg",
+    price: 210,
+    brand: "Atlas",
+    category: "Books",
+  },
+  {
+    id: "atlas_book_new_1790251935122_7246",
+    name: "Atlas A5 Book Exercise 400Pgs (=) Single Ruled",
+    image:
+      "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0014701-min.jpg",
+    price: 490,
+    brand: "Atlas",
+    category: "Books",
+  },
+  {
+    id: "atlas_book_new_1790251935122_3716",
+    name: "Atlas A5 Book Exercise 40Pgs (#) Square Ruled",
+    image:
+      "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0012117-min.jpg",
+    price: 60,
+    brand: "Atlas",
+    category: "Books",
+  },
+  {
+    id: "atlas_book_new_1790251935122_3646",
+    name: "Atlas A5 Book Exercise 80Pgs (#) Square Ruled",
+    image:
+      "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0013040-min.jpg",
+    price: 80,
+    brand: "Atlas",
+    category: "Books",
+  },
+  {
+    id: "atlas_book_new_1790251938068_1922",
+    name: "Atlas A5 Book Exercise 120Pgs (#) Square Ruled",
+    image:
+      "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0013302-min.jpg",
+    price: 125,
+    brand: "Atlas",
+    category: "Books",
+  },
+  {
+    id: "atlas_book_new_1790251938068_136",
+    name: "Atlas A5 Book Exercise 160Pgs (#) Square Ruled",
+    image:
+      "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0013702-min.jpg",
+    price: 170,
+    brand: "Atlas",
+    category: "Books",
+  },
+  {
+    id: "atlas_book_new_1790251938069_8654",
+    name: "Atlas A5 Book Exercise 200Pgs (#) Square Ruled",
+    image:
+      "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0013902-min.jpg",
+    price: 210,
+    brand: "Atlas",
+    category: "Books",
+  },
+  {
+    id: "atlas_book_new_1790251938069_3035",
+    name: "Atlas A5 Book Exercise 400Pgs (#) Square Ruled",
+    image:
+      "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0014702-min.jpg",
+    price: 420,
+    brand: "Atlas",
+    category: "Books",
+  },
+  {
+    id: "atlas_book_new_1790251938069_3976",
+    name: 'Atlas A5 Book Practical 1"(=) Single Ruled 80Pgs',
+    image:
+      "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0023002-min.jpg",
+    price: 80,
+    brand: "Atlas",
+    category: "Books",
+  },
+  {
+    id: "atlas_book_new_1790251938069_8841",
+    name: 'Atlas A5 Book Practical  1"(#) Square Ruled 80Pgs',
+    image:
+      "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0023004-min.jpg",
+    price: 80,
+    brand: "Atlas",
+    category: "Books",
+  },
+  {
+    id: "atlas_book_new_1790251938069_1255",
+    name: "Atlas A5 Book Practical Blank 80Pgs",
+    image:
+      "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0023007-min.jpg",
+    price: 80,
+    brand: "Atlas",
+    category: "Books",
+  },
+  {
+    id: "atlas_book_new_1790251938069_9313",
+    name: "Atlas A5 Book Practical Botany 80Pgs",
+    image:
+      "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0023008-min.jpg",
+    price: 80,
+    brand: "Atlas",
+    category: "Books",
+  },
+  {
+    id: "atlas_book_new_1790251938069_5758",
+    name: "Atlas A5 Book Practical Double Ruled 80Pgs",
+    image:
+      "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0023006-min.jpg",
+    price: 80,
+    brand: "Atlas",
+    category: "Books",
+  },
+  {
+    id: "atlas_book_new_1790251938069_4667",
+    name: "Atlas A5 Practical Book Double Ruled 120Pgs",
+    image:
+      "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0023308-min.jpg",
+    price: 125,
+    brand: "Atlas",
+    category: "Books",
+  },
+  {
+    id: "atlas_book_new_1790251938069_8245",
+    name: "Atlas A5 Book Practical Five Rule (Grade 2 & 3) 80Pgs",
+    image:
+      "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0023015-min.jpg",
+    price: 80,
+    brand: "Atlas",
+    category: "Books",
+  },
+  {
+    id: "atlas_book_new_1790251938069_1317",
+    name: "Atlas A5 Book Practical Five Rule 80Pgs",
+    image:
+      "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0023010-min.jpg",
+    price: 80,
+    brand: "Atlas",
+    category: "Books",
+  },
+  {
+    id: "atlas_book_new_1790251938069_4470",
+    name: "Atlas A5 Book Practical Jaffna Ruled 80Pgs",
+    image:
+      "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0023009-min.jpg",
+    price: 80,
+    brand: "Atlas",
+    category: "Books",
+  },
+  {
+    id: "atlas_book_new_1790251938070_9792",
+    name: "Atlas B5 Book 80Pgs (=) Single Ruled",
+    image:
+      "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0183001-min.jpg",
+    price: 125,
+    brand: "Atlas",
+    category: "Books",
+  },
+  {
+    id: "atlas_book_new_1790251938070_1066",
+    name: "Atlas B5 Book 160Pgs (=) Single Ruled",
+    image:
+      "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0183702-min.jpg",
+    price: 240,
+    brand: "Atlas",
+    category: "Books",
+  },
+  {
+    id: "atlas_book_new_1790251938070_5215",
+    name: "Atlas B5 Book 80Pgs (#) Square Ruled",
+    image:
+      "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0183301-min.jpg",
+    price: 125,
+    brand: "Atlas",
+    category: "Books",
+  },
+  {
+    id: "atlas_book_new_1790251938070_1889",
+    name: "Atlas B5 Book 120Pgs (#) Square Ruled",
+    image:
+      "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0183701-min.jpg",
+    price: 220,
+    brand: "Atlas",
+    category: "Books",
+  },
+  {
+    id: "atlas_book_new_1790251938070_4596",
+    name: "Atlas B5 Book 160Pgs (#) Square Ruled",
+    image:
+      "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0183004-min.jpg",
+    price: 240,
+    brand: "Atlas",
+    category: "Books",
+  },
+  {
+    id: "atlas_book_new_1790251938070_6288",
+    name: "Innovate Book B5 Single Rule 80Pgs",
+    image:
+      "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0183002.jpg",
+    price: 175,
+    brand: "Atlas",
+    category: "Books",
+  },
+  {
+    id: "atlas_book_new_1790251938070_2711",
+    name: "Innovate Book CR Single Rule 120Pgs",
+    image:
+      "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0033313.jpg",
+    price: 340,
+    brand: "Atlas",
+    category: "Books",
+  },
+  {
+    id: "atlas_book_new_1790251940933_6374",
+    name: "Innovate Book CR Single Rule 160Pgs",
+    image:
+      "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0033711.jpg",
+    price: 470,
+    brand: "Atlas",
+    category: "Books",
+  },
+  {
+    id: "atlas_book_new_1790251940933_4167",
+    name: "Innovate Book CR Single Rule 200Pgs -0032",
+    image:
+      "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0033911-1.jpg",
+    price: 575,
+    brand: "Atlas",
+    category: "Books",
+  },
+  {
+    id: "atlas_book_new_1790251940933_966",
+    name: "Innovate Book CR Square Rule 120Pgs- 0048",
+    image:
+      "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0033317-1.jpg",
+    price: 340,
+    brand: "Atlas",
+    category: "Books",
+  },
+  {
+    id: "atlas_book_new_1790251940933_5120",
+    name: "Innovate Book Exe Single Rule 160Pgs-0080",
+    image:
+      "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0013716-1.jpg",
+    price: 250,
+    brand: "Atlas",
+    category: "Books",
+  },
+  {
+    id: "atlas_book_new_1790251940933_6916",
+    name: "Innovate Book Exe Single Rule 200Pgs-0064",
+    image:
+      "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0013916-1.jpg",
+    price: 300,
+    brand: "Atlas",
+    category: "Books",
+  },
+  {
+    id: "atlas_book_new_1790251940933_5705",
+    name: "Innovate Book B5 Single Rule 120Pgs",
+    image:
+      "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0183302.jpg",
+    price: 275,
+    brand: "Atlas",
+    category: "Books",
+  },
+  {
+    id: "atlas_book_new_1790251940934_1427",
+    name: "Innovate B5 Book Single Ruled 160Pgs",
+    image:
+      "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0183703-min.jpg",
+    price: 340,
+    brand: "Atlas",
+    category: "Books",
+  },
+  {
+    id: "atlas_book_new_1790251940934_6409",
+    name: "Innovate Book B5 Single Rule 200Pgs - 0032",
+    image:
+      "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0183902-1.jpg",
+    price: 400,
+    brand: "Atlas",
+    category: "Books",
+  },
+  {
+    id: "atlas_book_new_1790251940934_1671",
+    name: "Innovate Book B5 Square Rule 200Pgs - 0032",
+    image:
+      "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0183903-1.jpg",
+    price: 400,
+    brand: "Atlas",
+    category: "Books",
+  },
+  {
+    id: "atlas_book_new_1790251940934_1016",
+    name: "Innovate Book B5 Square Rule 160Pgs - 0040",
+    image:
+      "https://www.atlas.lk/myshop/wp-content/uploads/2025/08/PF0183704.jpg",
+    price: 340,
+    brand: "Atlas",
+    category: "Books",
+  },
+  {
+    id: "atlas_book_new_1790251940934_8387",
+    name: "Homerun Book Exe (#) 120pg",
+    image:
+      "https://www.atlas.lk/myshop/wp-content/uploads/2024/10/PF0013352.jpg",
+    price: 105,
+    brand: "Atlas",
+    category: "Books",
+  },
+  {
+    id: "atlas_book_new_1790251940934_8565",
+    name: "Homerun Book Exe (=) 120pg",
+    image:
+      "https://www.atlas.lk/myshop/wp-content/uploads/2024/10/PF0013351.jpg",
+    price: 105,
+    brand: "Atlas",
+    category: "Books",
+  },
+  {
+    id: "atlas_book_new_1790251940934_552",
+    name: "Homerun Book CR (#) 120pg",
+    image:
+      "https://www.atlas.lk/myshop/wp-content/uploads/2025/01/PF0033335.jpg",
+    price: 220,
+    brand: "Atlas",
+    category: "Books",
+  },
+  {
+    id: "atlas_book_new_1790251940934_2284",
+    name: "Homerun Book CR (#) 80pg",
+    image:
+      "https://www.atlas.lk/myshop/wp-content/uploads/2025/03/PF0033038.jpg",
+    price: 150,
+    brand: "Atlas",
+    category: "Books",
+  },
+  {
+    id: "atlas_book_new_1790251940934_7918",
+    name: "Homerun Book Exe (#) 200pg",
+    image:
+      "https://www.atlas.lk/myshop/wp-content/uploads/2024/10/PF0013929.jpg",
+    price: 195,
+    brand: "Atlas",
+    category: "Books",
+  },
+  {
+    id: "atlas_book_new_1790251940934_8783",
+    name: "Homerun Book Pra Double Rule 80Pg",
+    image: "https://www.atlas.lk/myshop/wp-content/uploads/2026/06/509292.jpg",
+    price: 70,
+    brand: "Atlas",
+    category: "Books",
+  },
+  {
+    id: "atlas_book_new_1790251940934_4795",
+    name: "Homerun Book Exe (=) 200pg",
+    image:
+      "https://www.atlas.lk/myshop/wp-content/uploads/2024/10/PF0013928.jpg",
+    price: 185,
+    brand: "Atlas",
+    category: "Books",
+  },
+  {
+    id: "atlas_book_new_1790251940935_5268",
+    name: "Homerun Book Exe (=) 160pg",
+    image:
+      "https://www.atlas.lk/myshop/wp-content/uploads/2024/10/PF0013732.jpg",
+    price: 150,
+    brand: "Atlas",
+    category: "Books",
+  },
+  {
+    id: "atlas_book_new_1790251940935_5623",
+    name: "Homerun Book CR (=) 160pg",
+    image:
+      "https://www.atlas.lk/myshop/wp-content/uploads/2024/10/PF0033724.jpg",
+    price: 300,
+    brand: "Atlas",
+    category: "Books",
+  },
+  {
+    id: "atlas_book_new_1790251940935_4399",
+    name: "Homerun Book CR (=) 80pg",
+    image:
+      "https://www.atlas.lk/myshop/wp-content/uploads/2025/01/PF0033037.jpg",
+    price: 150,
+    brand: "Atlas",
+    category: "Books",
+  },
+  {
+    id: "atlas_book_new_1790251943402_1975",
+    name: "Homerun Book Exe (=) 80pg",
+    image:
+      "https://www.atlas.lk/myshop/wp-content/uploads/2024/10/PF0013063-.jpg",
+    price: 70,
+    brand: "Atlas",
+    category: "Books",
+  },
+  {
+    id: "atlas_book_new_1790251943402_8576",
+    name: "Homerun Book CR (=) 200pg",
+    image:
+      "https://www.atlas.lk/myshop/wp-content/uploads/2024/10/PF0033925.jpg",
+    price: 390,
+    brand: "Atlas",
+    category: "Books",
+  },
+  {
+    id: "atlas_book_new_1790251943402_1490",
+    name: "Homerun Book CR (#) 200pg",
+    image:
+      "https://www.atlas.lk/myshop/wp-content/uploads/2025/01/PF0033926.jpg",
+    price: 380,
+    brand: "Atlas",
+    category: "Books",
+  },
+  {
+    id: "atlas_book_new_1790251943402_629",
+    name: "Homerun Book Exe (#) 80pg",
+    image:
+      "https://www.atlas.lk/myshop/wp-content/uploads/2024/10/PF0013064.jpg",
+    price: 70,
+    brand: "Atlas",
+    category: "Books",
+  },
+  {
+    id: "atlas_book_new_1790251943402_2102",
+    name: "Homerun Book CR (#) 160pg",
+    image:
+      "https://www.atlas.lk/myshop/wp-content/uploads/2025/01/PF0033725.jpg",
+    price: 300,
+    brand: "Atlas",
+    category: "Books",
   },
 ];
