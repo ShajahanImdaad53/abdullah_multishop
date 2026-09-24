@@ -153,17 +153,17 @@ export default function CheckoutPage() {
             <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100 sticky top-24">
               <h2 className="text-xl font-semibold text-gray-900 mb-6 border-b pb-4">Order Summary</h2>
               
-              <div className="space-y-4 mb-6 max-h-64 overflow-y-auto pr-2">
+              <div className="space-y-4 mb-6 max-h-72 overflow-y-auto pr-1 sm:pr-2">
                 {cartItems.map((item) => (
-                  <div key={item.id} className="flex items-center gap-4">
-                    <div className="w-16 h-16 relative bg-gray-50 rounded-md border border-gray-200 overflow-hidden shrink-0">
+                  <div key={item.id} className="flex items-start sm:items-center gap-3 sm:gap-4">
+                    <div className="w-14 h-14 sm:w-16 sm:h-16 relative bg-gray-50 rounded-md border border-gray-200 overflow-hidden shrink-0">
                       <Image src={item.image} alt={item.name} fill className="object-contain p-1" />
                     </div>
-                    <div className="flex-1">
-                      <h4 className="text-sm font-medium text-gray-900 line-clamp-2">{item.name}</h4>
+                    <div className="flex-1 min-w-0">
+                      <h4 className="text-sm font-medium text-gray-900 line-clamp-2 break-words">{item.name}</h4>
                       <p className="text-xs text-gray-500 mt-1">Qty: {item.quantity}</p>
                     </div>
-                    <div className="font-semibold text-sm">
+                    <div className="font-semibold text-sm shrink-0 whitespace-nowrap text-right mt-0.5 sm:mt-0">
                       {siteConfig.currencySymbol} {(item.price * item.quantity).toFixed(2)}
                     </div>
                   </div>
