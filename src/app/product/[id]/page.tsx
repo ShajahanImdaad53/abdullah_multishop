@@ -20,7 +20,7 @@ export default function ProductDetailPage({ params }: { params: Promise<{ id: st
   const foundProduct = products.find(p => p.id === id);
   const product = foundProduct ? {
     ...foundProduct,
-    sku: foundProduct.sku || `SKU-${foundProduct.id}`,
+    sku: `SKU-${foundProduct.id}`,
     description: `High quality ${foundProduct.name} from ${foundProduct.brand}.`,
     inStock: true,
     images: [foundProduct.image]

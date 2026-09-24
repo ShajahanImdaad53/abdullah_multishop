@@ -13,7 +13,7 @@ export function AtlasProductCard({ product }: { product: any }) {
   const handleAddToCart = (e: React.MouseEvent) => {
     e.preventDefault();
     e.stopPropagation();
-    addItem(product, quantity);
+    addItem({ ...product, quantity });
   };
 
   const increase = (e: React.MouseEvent) => {
@@ -116,7 +116,7 @@ export function AtlasProductCard({ product }: { product: any }) {
               onClick={(e) => {
                   e.preventDefault();
                   e.stopPropagation();
-                  addItem(product, quantity);
+                  addItem({ ...product, quantity });
                   window.location.href = '/checkout';
               }}
               className="w-full bg-[#f47820] hover:bg-[#e96b15] text-white font-bold text-[11px] rounded h-9 transition-colors flex items-center justify-center tracking-wide"

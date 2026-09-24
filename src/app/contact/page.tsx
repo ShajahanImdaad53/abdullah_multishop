@@ -1,3 +1,5 @@
+"use client";
+
 import { siteConfig } from "@/config/site";
 import { Phone, Mail, MapPin } from "lucide-react";
 

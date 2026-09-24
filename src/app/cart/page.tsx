@@ -42,28 +42,28 @@ export default function CartPage() {
               </thead>
               <tbody>
                 {items.map((item) => (
-                  <tr key={item.product.id} className="border-b border-gray-100 last:border-0 hover:bg-gray-50">
+                  <tr key={item.id} className="border-b border-gray-100 last:border-0 hover:bg-gray-50">
                     <td className="p-4">
                       <div className="flex items-center gap-4">
                         <div className="w-16 h-16 relative bg-white border border-gray-200 rounded p-1 shrink-0">
-                          <Image src={item.product.image || '/logo.jpg'} alt={item.product.name} fill className="object-contain" />
+                          <Image src={item.image || '/logo.jpg'} alt={item.name} fill className="object-contain" />
                         </div>
-                        <Link href={`/product/${item.product.id}`} className="font-bold text-sm text-gray-800 hover:text-[#f47820]">
-                          {item.product.name}
+                        <Link href={`/product/${item.id}`} className="font-bold text-sm text-gray-800 hover:text-[#f47820]">
+                          {item.name}
                         </Link>
                       </div>
                     </td>
-                    <td className="p-4 font-bold text-gray-600">Rs.{item.product.price.toFixed(2)}</td>
+                    <td className="p-4 font-bold text-gray-600">Rs.{item.price.toFixed(2)}</td>
                     <td className="p-4 text-center">
                       <div className="inline-flex items-center border border-gray-200 rounded">
-                        <button onClick={() => updateQuantity(item.product.id, Math.max(1, item.quantity - 1))} className="px-3 py-1 bg-gray-50 hover:bg-gray-100 font-bold text-gray-600">-</button>
+                        <button onClick={() => updateQuantity(item.id, Math.max(1, item.quantity - 1))} className="px-3 py-1 bg-gray-50 hover:bg-gray-100 font-bold text-gray-600">-</button>
                         <span className="px-3 font-bold text-sm w-10 text-center">{item.quantity}</span>
-                        <button onClick={() => updateQuantity(item.product.id, item.quantity + 1)} className="px-3 py-1 bg-gray-50 hover:bg-gray-100 font-bold text-gray-600">+</button>
+                        <button onClick={() => updateQuantity(item.id, item.quantity + 1)} className="px-3 py-1 bg-gray-50 hover:bg-gray-100 font-bold text-gray-600">+</button>
                       </div>
                     </td>
-                    <td className="p-4 font-bold text-[#f47820] text-right">Rs.{(item.product.price * item.quantity).toFixed(2)}</td>
+                    <td className="p-4 font-bold text-[#f47820] text-right">Rs.{(item.price * item.quantity).toFixed(2)}</td>
                     <td className="p-4 text-right">
-                      <button onClick={() => removeItem(item.product.id)} className="text-red-500 hover:text-red-700 p-2 font-bold text-xl leading-none" title="Remove">&times;</button>
+                      <button onClick={() => removeItem(item.id)} className="text-red-500 hover:text-red-700 p-2 font-bold text-xl leading-none" title="Remove">&times;</button>
                     </td>
                   </tr>
                 ))}
