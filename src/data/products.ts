@@ -640,36 +640,32 @@ export const products = [
   {
     id: "atlas_p_all_72",
     name: "Homerun 12 Colour Pencil",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2024/08/WF7050207.jpg",
-    price: 4300,
+    image: "/products/WF7050207.jpg",
+    price: 430,
     brand: "Atlas",
     category: "Books & Supplies",
   },
   {
     id: "atlas_p_all_73",
     name: "Homerun 6 Colour Pencil",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2024/08/WF7050104-1.jpg",
-    price: 2400,
+    image: "/products/WF7050104-1.jpg",
+    price: 240,
     brand: "Atlas",
     category: "Books & Supplies",
   },
   {
     id: "atlas_p_all_74",
     name: "Homerun Pastel 12 Colours",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2024/08/GF4501104.jpg",
-    price: 1950,
+    image: "/products/GF4501104.jpg",
+    price: 195,
     brand: "Atlas",
     category: "Books & Supplies",
   },
   {
     id: "atlas_p_all_75",
     name: "Homerun Pastel 24 Colours",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2024/08/GF4501603-.jpg",
-    price: 3500,
+    image: "/products/GF4501603-.jpg",
+    price: 350,
     brand: "Atlas",
     category: "Books & Supplies",
   },
@@ -1523,8 +1519,7 @@ export const products = [
   {
     id: "atlas_book_new_1790251940934_8387",
     name: "Homerun Book Exe (#) 120pg",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2024/10/PF0013352.jpg",
+    image: "/products/PF0013352.jpg",
     price: 105,
     brand: "Atlas",
     category: "Books",
@@ -1532,8 +1527,7 @@ export const products = [
   {
     id: "atlas_book_new_1790251940934_8565",
     name: "Homerun Book Exe (=) 120pg",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2024/10/PF0013351.jpg",
+    image: "/products/PF0013351.jpg",
     price: 105,
     brand: "Atlas",
     category: "Books",
@@ -1541,8 +1535,7 @@ export const products = [
   {
     id: "atlas_book_new_1790251940934_552",
     name: "Homerun Book CR (#) 120pg",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2025/01/PF0033335.jpg",
+    image: "/products/PF0033335.jpg",
     price: 220,
     brand: "Atlas",
     category: "Books",
@@ -1550,8 +1543,7 @@ export const products = [
   {
     id: "atlas_book_new_1790251940934_2284",
     name: "Homerun Book CR (#) 80pg",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2025/03/PF0033038.jpg",
+    image: "/products/PF0033038.jpg",
     price: 150,
     brand: "Atlas",
     category: "Books",
@@ -1559,8 +1551,7 @@ export const products = [
   {
     id: "atlas_book_new_1790251940934_7918",
     name: "Homerun Book Exe (#) 200pg",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2024/10/PF0013929.jpg",
+    image: "/products/PF0013929.jpg",
     price: 195,
     brand: "Atlas",
     category: "Books",
@@ -1576,8 +1567,7 @@ export const products = [
   {
     id: "atlas_book_new_1790251940934_4795",
     name: "Homerun Book Exe (=) 200pg",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2024/10/PF0013928.jpg",
+    image: "/products/PF0013928.jpg",
     price: 185,
     brand: "Atlas",
     category: "Books",
@@ -1585,8 +1575,7 @@ export const products = [
   {
     id: "atlas_book_new_1790251940935_5268",
     name: "Homerun Book Exe (=) 160pg",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2024/10/PF0013732.jpg",
+    image: "/products/PF0013732.jpg",
     price: 150,
     brand: "Atlas",
     category: "Books",
@@ -1594,8 +1583,7 @@ export const products = [
   {
     id: "atlas_book_new_1790251940935_5623",
     name: "Homerun Book CR (=) 160pg",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2024/10/PF0033724.jpg",
+    image: "/products/PF0033724.jpg",
     price: 300,
     brand: "Atlas",
     category: "Books",
@@ -1603,8 +1591,7 @@ export const products = [
   {
     id: "atlas_book_new_1790251940935_4399",
     name: "Homerun Book CR (=) 80pg",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2025/01/PF0033037.jpg",
+    image: "/products/PF0033037.jpg",
     price: 150,
     brand: "Atlas",
     category: "Books",
@@ -1612,8 +1599,7 @@ export const products = [
   {
     id: "atlas_book_new_1790251943402_1975",
     name: "Homerun Book Exe (=) 80pg",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2024/10/PF0013063-.jpg",
+    image: "/products/PF0013063-.jpg",
     price: 70,
     brand: "Atlas",
     category: "Books",
@@ -1621,8 +1607,7 @@ export const products = [
   {
     id: "atlas_book_new_1790251943402_8576",
     name: "Homerun Book CR (=) 200pg",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2024/10/PF0033925.jpg",
+    image: "/products/PF0033925.jpg",
     price: 390,
     brand: "Atlas",
     category: "Books",
@@ -1630,8 +1615,7 @@ export const products = [
   {
     id: "atlas_book_new_1790251943402_1490",
     name: "Homerun Book CR (#) 200pg",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2025/01/PF0033926.jpg",
+    image: "/products/PF0033926.jpg",
     price: 380,
     brand: "Atlas",
     category: "Books",
@@ -1639,8 +1623,7 @@ export const products = [
   {
     id: "atlas_book_new_1790251943402_629",
     name: "Homerun Book Exe (#) 80pg",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2024/10/PF0013064.jpg",
+    image: "/products/PF0013064.jpg",
     price: 70,
     brand: "Atlas",
     category: "Books",
@@ -1648,8 +1631,7 @@ export const products = [
   {
     id: "atlas_book_new_1790251943402_2102",
     name: "Homerun Book CR (#) 160pg",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2025/01/PF0033725.jpg",
+    image: "/products/PF0033725.jpg",
     price: 300,
     brand: "Atlas",
     category: "Books",
@@ -2605,7 +2587,7 @@ export const products = [
   {
     id: "homerun_1790268842820_43",
     name: "Homerun Jumbo Pastel 24 Colours",
-    image: "/products/PF0013352.jpg",
+    image: "/products/GF4501602-min.jpg",
     price: 500,
     brand: "Homerun",
     category: "Pastels",
