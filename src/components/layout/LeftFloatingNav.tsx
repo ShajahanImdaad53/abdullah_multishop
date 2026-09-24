@@ -2,7 +2,8 @@
 
 import { Menu, Book, PenTool, Scissors, Calculator, Briefcase, Paperclip, Monitor, Headphones, Backpack, BookOpen, ChevronRight } from "lucide-react";
 import Link from "next/link";
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import { usePathname } from "next/navigation";
 import { MegaMenu } from "./MegaMenu";
 
 const navItems = [
@@ -22,13 +23,17 @@ const navItems = [
 ];
 
 export function LeftFloatingNav() {
-  const [isExpanded, setIsExpanded] = setIsExpandedState(false);
+  const pathname = usePathname();
+  const isHomePage = pathname === "/";
+  const [isHovered, setIsHovered] = useState(false);
   const [activeHover, setActiveHover] = useState<string | null>(null);
 
+  const isExpanded = isHomePage || isHovered;
+
   // Helper to ensure hover logic only triggers on desktop
-  const handleMouseEnter = () => setIsExpanded(true);
+  const handleMouseEnter = () => setIsHovered(true);
   const handleMouseLeave = () => {
-    setIsExpanded(false);
+    setIsHovered(false);
     setActiveHover(null);
   };
 

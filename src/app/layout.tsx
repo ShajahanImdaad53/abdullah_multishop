@@ -5,6 +5,7 @@ import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { LeftFloatingNav } from "@/components/layout/LeftFloatingNav";
 import { BottomNav } from "@/components/layout/BottomNav";
+import { MainContentWrapper } from "@/components/layout/MainContentWrapper";
 import { siteConfig } from "@/config/site";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -26,13 +27,13 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${inter.className} min-h-screen flex bg-gray-50`}>
         <LeftFloatingNav />
-        <div className="flex-1 flex flex-col md:ml-12 w-full overflow-hidden pb-16 md:pb-0">
+        <MainContentWrapper>
           <Header />
           <main className="flex-1 w-full">
             {children}
           </main>
           <Footer />
-        </div>
+        </MainContentWrapper>
         <BottomNav />
       </body>
     </html>

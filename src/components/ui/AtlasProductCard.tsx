@@ -31,16 +31,16 @@ export function AtlasProductCard({ product }: { product: any }) {
   const installmentPrice = (product.price / 3).toFixed(2);
 
   return (
-    <div className="group bg-white rounded-lg overflow-hidden border border-gray-100 hover:shadow-[0_0_15px_rgba(0,0,0,0.1)] transition-all flex flex-col relative w-full font-sans">
+    <div className="group bg-white rounded-xl overflow-hidden border border-gray-100 hover:border-orange-200 hover:shadow-[0_8px_30px_rgba(244,120,32,0.12)] transition-all duration-300 flex flex-col relative w-full font-sans h-full">
       
       {/* Top Image Area */}
-      <div className="relative aspect-[4/5] p-6 flex justify-center items-center bg-white border-b border-gray-100">
+      <div className="relative aspect-[4/5] p-6 flex justify-center items-center bg-white border-b border-gray-50 overflow-hidden">
         <Link href={`/product/${product.id}`} className="block w-full h-full relative">
           <Image 
             src={product.image || '/logo.jpg'} 
             alt={product.name}
             fill
-            className="object-contain hover:scale-105 transition-transform duration-500"
+            className="object-contain group-hover:scale-110 transition-transform duration-500"
           />
         </Link>
         

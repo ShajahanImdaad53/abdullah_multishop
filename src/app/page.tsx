@@ -40,20 +40,20 @@ export default function Home() {
           </Link>
         </div>
         
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
+        <div className="flex overflow-x-auto pb-4 gap-6 no-scrollbar snap-x">
           {popularCategories.map((cat, i) => (
-            <Link key={i} href={`/shop?cat=${cat.slug}`} className="group flex flex-col bg-white border border-gray-200 rounded-lg overflow-hidden hover:shadow-lg transition-all">
-              <div className="relative aspect-square p-2 flex items-center justify-center">
+            <Link key={i} href={`/shop?cat=${cat.slug}`} className="group flex flex-col items-center flex-shrink-0 snap-start w-[100px] md:w-[120px]">
+              <div className="relative w-[80px] h-[80px] md:w-[100px] md:h-[100px] rounded-full bg-gray-50 border border-gray-100 flex items-center justify-center overflow-hidden hover:border-[#f47820] hover:shadow-md transition-all mb-3">
                 <Image 
                   src={cat.image} 
                   alt={cat.name}
                   fill
-                  className="object-contain p-4 group-hover:scale-105 transition-transform duration-500"
+                  className="object-cover group-hover:scale-110 transition-transform duration-500"
                 />
               </div>
-              <div className="bg-[#f0ece9] text-center py-3 border-t border-gray-200">
-                <span className="font-bold text-gray-800 text-[13px]">{cat.name}</span>
-              </div>
+              <span className="font-semibold text-gray-800 text-[12px] md:text-[13px] text-center group-hover:text-[#f47820] transition-colors line-clamp-2">
+                {cat.name}
+              </span>
             </Link>
           ))}
         </div>
