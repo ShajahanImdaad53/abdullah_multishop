@@ -10,12 +10,12 @@ const bestSellers = products.slice(0, 6);
 const newProducts = products.slice(6, 10);
 
 const popularCategories = [
-  { name: "EDU Toys", image: "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/Books-800x800-min-600x600.jpg", slug: "toys" },
-  { name: "Book Lists", image: "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/Pens-800x800-min-600x600.jpg", slug: "book-lists" },
-  { name: "Books", image: "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/Books-800x800-min-600x600.jpg", slug: "books" },
-  { name: "Pens", image: "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/Pens-800x800-min-600x600.jpg", slug: "pens" },
-  { name: "Colour Products", image: "https://www.atlas.lk/myshop/wp-content/uploads/2025/09/C1-008-B-min-600x600.jpg", slug: "colour" },
-  { name: "School Products", image: "https://www.atlas.lk/myshop/wp-content/uploads/2025/09/GF7001405-31-min-600x600.jpg", slug: "school" },
+  { name: "EDU Toys", image: "/categories/cat_edu_toys_1790267386577.jpg", url: "/shop?cat=EDU%20Toys" },
+  { name: "Book Lists", image: "/categories/cat_book_lists_1790267399283.jpg", url: "/shop?search=Book%20List" },
+  { name: "Books", image: "/categories/cat_books_1790267416843.jpg", url: "/shop?cat=Books" },
+  { name: "Pens", image: "/categories/cat_pens_1790267480253.jpg", url: "/shop?search=Pen" },
+  { name: "Colour Products", image: "/categories/cat_colour_1790267540551.jpg", url: "/shop?search=Colour" },
+  { name: "School Products", image: "/categories/cat_school_1790267558503.jpg", url: "/shop?cat=Books%20%26%20Supplies" },
 ];
 
 export default function Home() {
@@ -42,7 +42,7 @@ export default function Home() {
         
         <div className="flex overflow-x-auto pb-4 gap-6 no-scrollbar snap-x">
           {popularCategories.map((cat, i) => (
-            <Link key={i} href={`/shop?cat=${cat.slug}`} className="group flex flex-col items-center flex-shrink-0 snap-start w-[100px] md:w-[120px]">
+            <Link key={i} href={cat.url} className="group flex flex-col items-center flex-shrink-0 snap-start w-[100px] md:w-[120px]">
               <div className="relative w-[80px] h-[80px] md:w-[100px] md:h-[100px] rounded-full bg-gray-50 border border-gray-100 flex items-center justify-center overflow-hidden hover:border-[#f47820] hover:shadow-md transition-all mb-3">
                 <Image 
                   src={cat.image} 

@@ -29,7 +29,8 @@ export default function CartPage() {
       
       <div className="flex flex-col lg:flex-row gap-8">
         <div className="w-full lg:w-2/3">
-          <div className="bg-white rounded-lg shadow-sm border border-gray-100 overflow-hidden">
+          {/* Desktop View */}
+          <div className="hidden md:block bg-white rounded-lg shadow-sm border border-gray-100 overflow-hidden">
             <table className="w-full text-left border-collapse">
               <thead>
                 <tr className="bg-gray-50 text-gray-600 text-sm uppercase tracking-wider border-b border-gray-200">
@@ -69,6 +70,34 @@ export default function CartPage() {
                 ))}
               </tbody>
             </table>
+          </div>
+
+          {/* Mobile View */}
+          <div className="md:hidden flex flex-col gap-4">
+            {items.map((item) => (
+              <div key={item.id} className="bg-white p-4 rounded-lg shadow-sm border border-gray-100 flex flex-col gap-4">
+                <div className="flex gap-4">
+                  <div className="w-20 h-20 relative bg-gray-50 border border-gray-200 rounded p-1 shrink-0">
+                    <Image src={item.image || '/logo.jpg'} alt={item.name} fill className="object-contain" />
+                  </div>
+                  <div className="flex-1 flex flex-col min-w-0">
+                    <Link href={`/product/${item.id}`} className="font-bold text-sm text-gray-800 hover:text-[#f47820] line-clamp-2">
+                      {item.name}
+                    </Link>
+                    <div className="font-bold text-gray-600 mt-1">Rs.{item.price.toFixed(2)}</div>
+                  </div>
+                  <button onClick={() => removeItem(item.id)} className="text-red-500 hover:text-red-700 p-1 font-bold text-2xl leading-none self-start shrink-0" title="Remove">&times;</button>
+                </div>
+                <div className="flex items-center justify-between border-t border-gray-100 pt-4">
+                  <div className="inline-flex items-center border border-gray-200 rounded">
+                    <button onClick={() => updateQuantity(item.id, Math.max(1, item.quantity - 1))} className="px-4 py-1 bg-gray-50 hover:bg-gray-100 font-bold text-gray-600">-</button>
+                    <span className="px-3 font-bold text-sm w-10 text-center">{item.quantity}</span>
+                    <button onClick={() => updateQuantity(item.id, item.quantity + 1)} className="px-4 py-1 bg-gray-50 hover:bg-gray-100 font-bold text-gray-600">+</button>
+                  </div>
+                  <div className="font-bold text-[#f47820]">Rs.{(item.price * item.quantity).toFixed(2)}</div>
+                </div>
+              </div>
+            ))}
           </div>
         </div>
         
