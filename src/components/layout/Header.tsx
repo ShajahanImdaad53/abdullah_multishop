@@ -2,13 +2,25 @@
 
 import Link from "next/link";
 import Image from "next/image";
+import { useRouter } from "next/navigation";
 import { siteConfig } from "@/config/site";
 import { Search, ShoppingCart, Heart, User, Menu, Phone, Truck, GitCompare } from "lucide-react";
 import { useState, useEffect } from "react";
 import { useCartStore } from "@/store/useCartStore";
 
 export function Header() {
+  const router = useRouter();
   const [mounted, setMounted] = useState(false);
+  const [searchQuery, setSearchQuery] = useState("");
+
+  const handleSearch = (e: React.FormEvent) => {
+    e.preventDefault();
+    if (searchQuery.trim()) {
+      router.push(`/shop?search=${encodeURIComponent(searchQuery.trim())}`);
+    } else {
+      router.push(`/shop`);
+    }
+  };
   const totalItems = useCartStore((state) => state.getTotalItems());
   const subtotal = useCartStore((state) => state.getSubtotal());
 
@@ -29,7 +41,7 @@ export function Header() {
 
           {/* Middle: Search Bar */}
           <div className="flex-1 max-w-2xl w-full px-4 py-3 pb-4 md:pb-3">
-            <div className="relative flex w-full">
+            <form onSubmit={handleSearch} className="relative flex w-full">
               <select className="hidden md:block bg-white text-gray-700 border-2 border-r-0 border-transparent rounded-l-full px-4 py-2.5 focus:outline-none font-medium text-sm max-w-[150px] border-r border-gray-200">
                 <option>All Categories</option>
                 <option>Books</option>
@@ -38,13 +50,15 @@ export function Header() {
               </select>
               <input 
                 type="text" 
+                value={searchQuery}
+                onChange={(e) => setSearchQuery(e.target.value)}
                 placeholder="Search for products" 
                 className="w-full bg-white text-gray-900 border-2 border-transparent placeholder-gray-500 rounded-full md:rounded-none md:rounded-r-full py-3 px-6 pr-12 focus:outline-none shadow-sm md:py-2.5 transition-colors"
               />
-              <button className="absolute right-0 top-0 h-full px-4 text-white bg-gray-900 hover:bg-gray-800 rounded-full md:rounded-none md:rounded-r-full flex items-center justify-center transition-colors">
+              <button type="submit" className="absolute right-0 top-0 h-full px-4 text-white bg-gray-900 hover:bg-gray-800 rounded-full md:rounded-none md:rounded-r-full flex items-center justify-center transition-colors">
                 <Search className="h-5 w-5" />
               </button>
-            </div>
+            </form>
           </div>
 
           {/* Right: Icons & Cart */}

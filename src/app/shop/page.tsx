@@ -1,24 +1,33 @@
 "use client";
 
-import { useState, useMemo } from "react";
+import { useState, useMemo, useEffect, Suspense } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { useRouter } from "next/navigation";
+import { useRouter, useSearchParams } from "next/navigation";
 import { siteConfig } from "@/config/site";
 import { Filter, Search, ShoppingCart } from "lucide-react";
 import { products } from "@/data/products";
 import { useCartStore } from "@/store/useCartStore";
 
-export default function ShopPage() {
+function ShopContent() {
   const router = useRouter();
+  const searchParams = useSearchParams();
   const addItem = useCartStore((state) => state.addItem);
   
   // Filtering States
-  const [searchQuery, setSearchQuery] = useState("");
+  const [searchQuery, setSearchQuery] = useState(searchParams?.get("search") || "");
   const [selectedBrands, setSelectedBrands] = useState<string[]>([]);
   const [selectedCategories, setSelectedCategories] = useState<string[]>([]);
   const [priceRange, setPriceRange] = useState<number>(5000);
   const [sortBy, setSortBy] = useState("newest");
+
+  // Sync search query when URL changes
+  useEffect(() => {
+    const search = searchParams?.get("search");
+    if (search !== null && search !== undefined) {
+      setSearchQuery(search);
+    }
+  }, [searchParams]);
 
   // Extract unique brands and categories
   const brands = Array.from(new Set(products.map(p => p.brand))).filter(Boolean);
@@ -249,5 +258,13 @@ export default function ShopPage() {
         </div>
       </div>
     </div>
+  );
+}
+
+export default function ShopPage() {
+  return (
+    <Suspense fallback={<div className="min-h-screen flex items-center justify-center">Loading...</div>}>
+      <ShopContent />
+    </Suspense>
   );
 }
