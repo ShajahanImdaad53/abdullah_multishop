@@ -4,7 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
 import { siteConfig } from "@/config/site";
-import { Search, ShoppingCart, Heart, User, Menu, Phone, Truck, GitCompare } from "lucide-react";
+import { Search, ShoppingCart, Heart, User, Menu, Phone, Truck, GitCompare, HelpCircle } from "lucide-react";
 import { useState, useEffect } from "react";
 import { useCartStore } from "@/store/useCartStore";
 
@@ -64,7 +64,7 @@ export function Header() {
           {/* Right: Icons & Cart */}
           <div className="hidden lg:flex items-center gap-2 pr-4 md:pr-8 xl:pr-12 py-3 h-full">
             <Link href="/account" className="w-10 h-10 rounded-full bg-white/10 hover:bg-white/20 flex items-center justify-center transition-colors">
-              <User className="h-5 w-5" />
+              <HelpCircle className="h-5 w-5" />
             </Link>
             <Link href="/compare" className="w-10 h-10 rounded-full bg-white/10 hover:bg-white/20 flex items-center justify-center transition-colors relative">
               <GitCompare className="h-5 w-5" />
