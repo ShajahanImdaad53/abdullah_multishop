@@ -2,7 +2,9 @@ import { FeaturePage } from "@/components/ui/FeaturePage";
 import { products } from "@/data/products";
 import { notFound } from "next/navigation";
 
-export default function BrandPage({ params }: { params: { slug: string } }) {
+export default async function BrandPage({ params }: { params: Promise<{ slug: string }> }) {
+  const resolvedParams = await params;
+  const slug = resolvedParams.slug;
   const brandMap: Record<string, { title: string, subs: any[] }> = {
     "innovate": {
       title: "INNOVATE",
@@ -18,16 +20,16 @@ export default function BrandPage({ params }: { params: { slug: string } }) {
     }
   };
 
-  const brandInfo = brandMap[params.slug];
+  const brandInfo = brandMap[slug];
   
   if (!brandInfo) {
     // If not in the map, still render a default one based on products
-    const filtered = products.filter(p => p.brand.toLowerCase() === params.slug.replace(/-/g, ' '));
+    const filtered = products.filter(p => p.brand.toLowerCase() === slug.replace(/-/g, ' '));
     if (filtered.length === 0) return notFound();
     
     return (
       <FeaturePage 
-        title={params.slug.replace(/-/g, ' ')}
+        title={slug.replace(/-/g, ' ')}
         subCategories={[]}
         products={filtered}
       />

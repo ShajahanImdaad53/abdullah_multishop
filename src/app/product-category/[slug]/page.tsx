@@ -2,7 +2,9 @@ import { FeaturePage } from "@/components/ui/FeaturePage";
 import { products } from "@/data/products";
 import { notFound } from "next/navigation";
 
-export default function CategoryPage({ params }: { params: { slug: string } }) {
+export default async function CategoryPage({ params }: { params: Promise<{ slug: string }> }) {
+  const resolvedParams = await params;
+  const slug = resolvedParams.slug;
   const categoryMap: Record<string, { title: string, subs: any[] }> = {
     "edu-toys": {
       title: "EDU TOYS",
@@ -16,11 +18,11 @@ export default function CategoryPage({ params }: { params: { slug: string } }) {
     }
   };
 
-  const catInfo = categoryMap[params.slug];
+  const catInfo = categoryMap[slug];
   
   if (!catInfo) {
     // Fallback
-    const fallbackTitle = params.slug.replace(/-/g, ' ');
+    const fallbackTitle = slug.replace(/-/g, ' ');
     const filtered = products.filter(p => p.category.toLowerCase() === fallbackTitle.toLowerCase());
     if (filtered.length === 0) return notFound();
     
