@@ -7,19 +7,19 @@ import { usePathname } from "next/navigation";
 import { MegaMenu } from "./MegaMenu";
 
 const navItems = [
-  { icon: BookOpen, name: "Book Lists", slug: "book-lists" },
-  { icon: Book, name: "Books", slug: "books" },
-  { icon: PenTool, name: "Pens", slug: "pens" },
-  { icon: Scissors, name: "Colour Products", slug: "colour" },
-  { icon: Briefcase, name: "School Products", slug: "school" },
-  { icon: Paperclip, name: "Office Products", slug: "office" },
-  { icon: Monitor, name: "Bottle and Boxes", slug: "bottles" },
-  { icon: PenTool, name: "Highlighters and Markers", slug: "highlighters" },
-  { icon: Book, name: "Paper Products", slug: "paper" },
-  { icon: Calculator, name: "EDU Toys", slug: "edu-toys", hasSub: true },
-  { icon: Headphones, name: "Innovate", slug: "innovate" },
-  { icon: Backpack, name: "School Bags", slug: "bags", hasSub: true },
-  { icon: BookOpen, name: "Homerun", slug: "homerun" },
+  { icon: BookOpen, name: "Book Lists", slug: "/shop?cat=book-lists" },
+  { icon: Book, name: "Books", slug: "/shop?cat=books" },
+  { icon: PenTool, name: "Pens", slug: "/shop?cat=pens" },
+  { icon: Scissors, name: "Colour Products", slug: "/shop?cat=colour" },
+  { icon: Briefcase, name: "School Products", slug: "/shop?cat=school" },
+  { icon: Paperclip, name: "Office Products", slug: "/shop?cat=office" },
+  { icon: Monitor, name: "Bottle and Boxes", slug: "/shop?cat=bottles" },
+  { icon: PenTool, name: "Highlighters and Markers", slug: "/shop?cat=highlighters" },
+  { icon: Book, name: "Paper Products", slug: "/shop?cat=paper" },
+  { icon: Calculator, name: "EDU Toys", slug: "/product-category/edu-toys", hasSub: true },
+  { icon: Headphones, name: "Innovate", slug: "/brand/innovate" },
+  { icon: Backpack, name: "School Bags", slug: "/shop?cat=bags", hasSub: true },
+  { icon: BookOpen, name: "Homerun", slug: "/shop?cat=homerun" },
 ];
 
 export function LeftFloatingNav() {
@@ -58,7 +58,7 @@ export function LeftFloatingNav() {
             onMouseEnter={() => setActiveHover(item.slug)}
           >
             <Link 
-              href={`/shop?cat=${item.slug}`} 
+              href={item.slug} 
               className={`h-10 flex items-center text-gray-500 hover:text-[#f47820] transition-colors ${isExpanded ? 'px-4 hover:bg-orange-50' : 'justify-center mx-auto w-8 rounded-full hover:bg-orange-50'}`}
               title={!isExpanded ? item.name : undefined}
             >

@@ -1654,4 +1654,607 @@ export const products = [
     brand: "Atlas",
     category: "Books",
   },
+  {
+    id: "edu-toys-226889",
+    name: "Animal Craft & Weave Kit",
+    price: 0.139,
+    image: "https://www.atlas.lk/myshop/wp-content/uploads/2026/09/509832-.jpg",
+    category: "EDU Toys",
+    brand: "Atlas",
+    description: "Animal Craft & Weave Kit"
+  },
+  {
+    id: "edu-toys-226363",
+    name: "Mega Blocks 30 Pieces",
+    price: 0.16,
+    image: "https://www.atlas.lk/myshop/wp-content/uploads/2026/07/WF9020104.jpg",
+    category: "EDU Toys",
+    brand: "Atlas",
+    description: "Mega Blocks 30 Pieces"
+  },
+  {
+    id: "edu-toys-226675",
+    name: "Storytelling & Role-play Kit (Module 2)",
+    price: 0.139,
+    image: "https://www.atlas.lk/myshop/wp-content/uploads/2026/08/509831.jpg",
+    category: "EDU Toys",
+    brand: "Atlas",
+    description: "Storytelling & Role-play Kit (Module 2)"
+  },
+  {
+    id: "edu-toys-226943",
+    name: "Trace & Learn Alphabet Kit",
+    price: 0.99,
+    image: "https://www.atlas.lk/myshop/wp-content/uploads/2026/09/509978-.jpg",
+    category: "EDU Toys",
+    brand: "Atlas",
+    description: "Trace & Learn Alphabet Kit"
+  },
+  {
+    id: "edu-toys-226676",
+    name: "Word Building Kit (Module 3)",
+    price: 0.125,
+    image: "https://www.atlas.lk/myshop/wp-content/uploads/2026/08/509833.jpg",
+    category: "EDU Toys",
+    brand: "Atlas",
+    description: "Word Building Kit (Module 3)"
+  },
+  {
+    id: "edu-toys-225901",
+    name: "Dino Egg – Mechanical",
+    price: 0.49,
+    image: "https://www.atlas.lk/myshop/wp-content/uploads/2026/03/TT4000108-1.jpg",
+    category: "EDU Toys",
+    brand: "Atlas",
+    description: "Dino Egg – Mechanical"
+  },
+  {
+    id: "edu-toys-225900",
+    name: "Dino Egg – Stimulator",
+    price: 0.49,
+    image: "https://www.atlas.lk/myshop/wp-content/uploads/2026/03/TT4000107-1.jpg",
+    category: "EDU Toys",
+    brand: "Atlas",
+    description: "Dino Egg – Stimulator"
+  },
+  {
+    id: "edu-toys-225899",
+    name: "Animal Building Block",
+    price: 0.26,
+    image: "https://www.atlas.lk/myshop/wp-content/uploads/2026/03/TT4000205-1.jpg",
+    category: "EDU Toys",
+    brand: "Atlas",
+    description: "Animal Building Block"
+  },
+  {
+    id: "edu-toys-225343",
+    name: "Coloursand Activity Pack – Prince and the Dragon",
+    price: 0.149,
+    image: "https://www.atlas.lk/myshop/wp-content/uploads/2025/07/WF9030202.jpg",
+    category: "EDU Toys",
+    brand: "Atlas",
+    description: "Coloursand Activity Pack – Prince and the Dragon"
+  },
+  {
+    id: "edu-toys-225351",
+    name: "Coloursand Activity Pack – Tortoise and the Hare",
+    price: 0.149,
+    image: "https://www.atlas.lk/myshop/wp-content/uploads/2025/07/WF9030204.jpg",
+    category: "EDU Toys",
+    brand: "Atlas",
+    description: "Coloursand Activity Pack – Tortoise and the Hare"
+  },
+  {
+    id: "edu-toys-225856",
+    name: "Eco Block bag",
+    price: 0.109,
+    image: "https://www.atlas.lk/myshop/wp-content/uploads/2025/08/TT4020202.jpg",
+    category: "EDU Toys",
+    brand: "Atlas",
+    description: "Eco Block bag"
+  },
+  {
+    id: "edu-toys-225855",
+    name: "Eco Block car",
+    price: 0.99,
+    image: "https://www.atlas.lk/myshop/wp-content/uploads/2025/08/TT4020201.jpg",
+    category: "EDU Toys",
+    brand: "Atlas",
+    description: "Eco Block car"
+  },
+  {
+    id: "edu-toys-225881",
+    name: "Kinetic Sand",
+    price: 0.49,
+    image: "https://www.atlas.lk/myshop/wp-content/uploads/2025/10/Kinetic_sand_1.jpg",
+    category: "EDU Toys",
+    brand: "Atlas",
+    description: "Kinetic Sand"
+  },
+  {
+    id: "edu-toys-225866",
+    name: "PP Eduaids Flash Card Fruits20 – 0048",
+    price: 0.29,
+    image: "https://www.atlas.lk/myshop/wp-content/uploads/2025/09/PF8000117.jpg",
+    category: "EDU Toys",
+    brand: "Atlas",
+    description: "PP Eduaids Flash Card Fruits20 – 0048"
+  },
+  {
+    id: "edu-toys-225869",
+    name: "PP Eduaids Flash Card Numbers20 – 0048",
+    price: 0.29,
+    image: "https://www.atlas.lk/myshop/wp-content/uploads/2025/09/PF8000120.jpg",
+    category: "EDU Toys",
+    brand: "Atlas",
+    description: "PP Eduaids Flash Card Numbers20 – 0048"
+  },
+  {
+    id: "edu-toys-225825",
+    name: "3D Puzzle Insects",
+    price: 0.269,
+    image: "https://www.atlas.lk/myshop/wp-content/uploads/2024/10/TT4020115.jpg",
+    category: "EDU Toys",
+    brand: "Atlas",
+    description: "3D Puzzle Insects"
+  },
+  {
+    id: "edu-toys-225826",
+    name: "3D Puzzle Sea Creatures",
+    price: 0.269,
+    image: "https://www.atlas.lk/myshop/wp-content/uploads/2024/10/TT4020116.jpg",
+    category: "EDU Toys",
+    brand: "Atlas",
+    description: "3D Puzzle Sea Creatures"
+  },
+  {
+    id: "edu-toys-225823",
+    name: "3D Puzzle Transport",
+    price: 0.269,
+    image: "https://www.atlas.lk/myshop/wp-content/uploads/2024/10/TT4020114.jpg",
+    category: "EDU Toys",
+    brand: "Atlas",
+    description: "3D Puzzle Transport"
+  },
+  {
+    id: "edu-toys-225326",
+    name: "Blocks Mega Pre 100",
+    price: 0.629,
+    image: "https://www.atlas.lk/myshop/wp-content/uploads/2024/07/WF9020102-A.jpg",
+    category: "EDU Toys",
+    brand: "Atlas",
+    description: "Blocks Mega Pre 100"
+  },
+  {
+    id: "edu-toys-225330",
+    name: "Blocks Mega Pre 150",
+    price: 0.849,
+    image: "https://www.atlas.lk/myshop/wp-content/uploads/2024/07/WF9020103-A.jpg",
+    category: "EDU Toys",
+    brand: "Atlas",
+    description: "Blocks Mega Pre 150"
+  },
+  {
+    id: "edu-toys-225325",
+    name: "Blocks Mega Pre 50",
+    price: 0.349,
+    image: "https://www.atlas.lk/myshop/wp-content/uploads/2024/07/WF9020101-A.jpg",
+    category: "EDU Toys",
+    brand: "Atlas",
+    description: "Blocks Mega Pre 50"
+  },
+  {
+    id: "edu-toys-225822",
+    name: "Chunky Puzzle Professions",
+    price: 0.199,
+    image: "https://www.atlas.lk/myshop/wp-content/uploads/2024/10/TT4020113.jpg",
+    category: "EDU Toys",
+    brand: "Atlas",
+    description: "Chunky Puzzle Professions"
+  },
+  {
+    id: "edu-toys-225771",
+    name: "Eduaids Flash Card Birds",
+    price: 0.29,
+    image: "https://www.atlas.lk/myshop/wp-content/uploads/2024/07/PF8000105-A.jpg",
+    category: "EDU Toys",
+    brand: "Atlas",
+    description: "Eduaids Flash Card Birds"
+  },
+  {
+    id: "edu-toys-225767",
+    name: "Eduaids Flash Card English",
+    price: 0.49,
+    image: "https://www.atlas.lk/myshop/wp-content/uploads/2024/07/PF8000101-A-min.jpg",
+    category: "EDU Toys",
+    brand: "Atlas",
+    description: "Eduaids Flash Card English"
+  },
+  {
+    id: "edu-toys-225772",
+    name: "Eduaids Flash Card Sea Animals",
+    price: 0.29,
+    image: "https://www.atlas.lk/myshop/wp-content/uploads/2024/07/PF8000106-A.jpg",
+    category: "EDU Toys",
+    brand: "Atlas",
+    description: "Eduaids Flash Card Sea Animals"
+  },
+  {
+    id: "edu-toys-225768",
+    name: "Eduaids Flash Card Sinhala",
+    price: 0.49,
+    image: "https://www.atlas.lk/myshop/wp-content/uploads/2024/07/PF8000102-A.jpg",
+    category: "EDU Toys",
+    brand: "Atlas",
+    description: "Eduaids Flash Card Sinhala"
+  },
+  {
+    id: "edu-toys-225769",
+    name: "Eduaids Flash Card Tamil",
+    price: 0.49,
+    image: "https://www.atlas.lk/myshop/wp-content/uploads/2024/07/PF8000103-A.jpg",
+    category: "EDU Toys",
+    brand: "Atlas",
+    description: "Eduaids Flash Card Tamil"
+  },
+  {
+    id: "edu-toys-225781",
+    name: "Eduaids Puzzles 2 Letter Words Sinhala",
+    price: 0.149,
+    image: "https://www.atlas.lk/myshop/wp-content/uploads/2024/07/PF8000205-A.jpg",
+    category: "EDU Toys",
+    brand: "Atlas",
+    description: "Eduaids Puzzles 2 Letter Words Sinhala"
+  },
+  {
+    id: "edu-toys-225786",
+    name: "Eduaids Puzzles 2 Letter Words Tamil",
+    price: 0.149,
+    image: "https://www.atlas.lk/myshop/wp-content/uploads/2024/07/PF8000209-A.jpg",
+    category: "EDU Toys",
+    brand: "Atlas",
+    description: "Eduaids Puzzles 2 Letter Words Tamil"
+  },
+  {
+    id: "edu-toys-225784",
+    name: "Eduaids Puzzles 3 Letter Words English",
+    price: 0.149,
+    image: "https://www.atlas.lk/myshop/wp-content/uploads/2024/07/PF8000207-A.jpg",
+    category: "EDU Toys",
+    brand: "Atlas",
+    description: "Eduaids Puzzles 3 Letter Words English"
+  },
+  {
+    id: "edu-toys-225783",
+    name: "Eduaids Puzzles 3 Letter Words Sinhala",
+    price: 0.149,
+    image: "https://www.atlas.lk/myshop/wp-content/uploads/2024/07/PF8000206-A.jpg",
+    category: "EDU Toys",
+    brand: "Atlas",
+    description: "Eduaids Puzzles 3 Letter Words Sinhala"
+  },
+  {
+    id: "edu-toys-225782",
+    name: "Eduaids Puzzles 3 Letter Words Tamil",
+    price: 0.149,
+    image: "https://www.atlas.lk/myshop/wp-content/uploads/2024/07/PF8000210-A.jpg",
+    category: "EDU Toys",
+    brand: "Atlas",
+    description: "Eduaids Puzzles 3 Letter Words Tamil"
+  },
+  {
+    id: "edu-toys-225785",
+    name: "Eduaids Puzzles 4 Letter Words English",
+    price: 0.149,
+    image: "https://www.atlas.lk/myshop/wp-content/uploads/2024/07/PF8000208-A.jpg",
+    category: "EDU Toys",
+    brand: "Atlas",
+    description: "Eduaids Puzzles 4 Letter Words English"
+  },
+  {
+    id: "edu-toys-225780",
+    name: "Eduaids Puzzles Action Words",
+    price: 0.75,
+    image: "https://www.atlas.lk/myshop/wp-content/uploads/2024/07/PF8000204-A.jpg",
+    category: "EDU Toys",
+    brand: "Atlas",
+    description: "Eduaids Puzzles Action Words"
+  },
+  {
+    id: "edu-toys-225779",
+    name: "Eduaids Puzzles One and Many",
+    price: 0.75,
+    image: "https://www.atlas.lk/myshop/wp-content/uploads/2024/07/PF8000203-A.jpg",
+    category: "EDU Toys",
+    brand: "Atlas",
+    description: "Eduaids Puzzles One and Many"
+  },
+  {
+    id: "edu-toys-225778",
+    name: "Eduaids Puzzles Opposite",
+    price: 0.75,
+    image: "https://www.atlas.lk/myshop/wp-content/uploads/2024/07/PF8000202-A.jpg",
+    category: "EDU Toys",
+    brand: "Atlas",
+    description: "Eduaids Puzzles Opposite"
+  },
+  {
+    id: "edu-toys-225777",
+    name: "Eduaids Puzzles Synonyms",
+    price: 0.75,
+    image: "https://www.atlas.lk/myshop/wp-content/uploads/2024/07/PF8000201-A.jpg",
+    category: "EDU Toys",
+    brand: "Atlas",
+    description: "Eduaids Puzzles Synonyms"
+  },
+  {
+    id: "edu-toys-225789",
+    name: "Finger Paints 6 Pack 30ml",
+    price: 0.119,
+    image: "https://www.atlas.lk/myshop/wp-content/uploads/2024/07/TT4000103-A.jpg",
+    category: "EDU Toys",
+    brand: "Atlas",
+    description: "Finger Paints 6 Pack 30ml"
+  },
+  {
+    id: "edu-toys-225790",
+    name: "Finger Paints 6 Pack 75ml",
+    price: 0.215,
+    image: "https://www.atlas.lk/myshop/wp-content/uploads/2024/07/TT4000104-A.jpg",
+    category: "EDU Toys",
+    brand: "Atlas",
+    description: "Finger Paints 6 Pack 75ml"
+  },
+  {
+    id: "edu-toys-225774",
+    name: "PP Eduaids Flash Card Vegetables",
+    price: 0.29,
+    image: "https://www.atlas.lk/myshop/wp-content/uploads/2024/07/PF8000108-A.jpg",
+    category: "EDU Toys",
+    brand: "Atlas",
+    description: "PP Eduaids Flash Card Vegetables"
+  },
+  {
+    id: "edu-toys-225811",
+    name: "Wooden Puzzle Animals",
+    price: 0.139,
+    image: "https://www.atlas.lk/myshop/wp-content/uploads/2024/10/TT4020101.jpg",
+    category: "EDU Toys",
+    brand: "Atlas",
+    description: "Wooden Puzzle Animals"
+  },
+  {
+    id: "edu-toys-225824",
+    name: "Wooden Puzzle Farm Animals",
+    price: 0.179,
+    image: "https://www.atlas.lk/myshop/wp-content/uploads/2024/10/TT4020112.jpg",
+    category: "EDU Toys",
+    brand: "Atlas",
+    description: "Wooden Puzzle Farm Animals"
+  },
+  {
+    id: "edu-toys-225820",
+    name: "Wooden Puzzle Insects",
+    price: 0.179,
+    image: "https://www.atlas.lk/myshop/wp-content/uploads/2024/10/TT4020110.jpg",
+    category: "EDU Toys",
+    brand: "Atlas",
+    description: "Wooden Puzzle Insects"
+  },
+  {
+    id: "edu-toys-225816",
+    name: "Wooden Puzzle Public Transport",
+    price: 0.139,
+    image: "https://www.atlas.lk/myshop/wp-content/uploads/2024/10/TT4020106.jpg",
+    category: "EDU Toys",
+    brand: "Atlas",
+    description: "Wooden Puzzle Public Transport"
+  },
+  {
+    id: "edu-toys-225813",
+    name: "Wooden Puzzle Sea Animals",
+    price: 0.139,
+    image: "https://www.atlas.lk/myshop/wp-content/uploads/2024/10/TT4020103.jpg",
+    category: "EDU Toys",
+    brand: "Atlas",
+    description: "Wooden Puzzle Sea Animals"
+  },
+  {
+    id: "edu-toys-225819",
+    name: "Wooden Puzzle Tamil Alphabet",
+    price: 0.269,
+    image: "https://www.atlas.lk/myshop/wp-content/uploads/2024/10/TT4020109.jpg",
+    category: "EDU Toys",
+    brand: "Atlas",
+    description: "Wooden Puzzle Tamil Alphabet"
+  },
+  {
+    id: "edu-toys-225821",
+    name: "Wooden Puzzle Wild Animals",
+    price: 0.179,
+    image: "https://www.atlas.lk/myshop/wp-content/uploads/2024/10/TT4020111.jpg",
+    category: "EDU Toys",
+    brand: "Atlas",
+    description: "Wooden Puzzle Wild Animals"
+  },
+  {
+    id: "innovate-225853",
+    name: "Innovate Pen Akuru Blue",
+    price: 0.15,
+    image: "https://www.atlas.lk/myshop/wp-content/uploads/2025/07/WF2331901-1.jpg",
+    category: "Innovate",
+    brand: "Innovate",
+    description: "Innovate Pen Akuru Blue"
+  },
+  {
+    id: "innovate-225836",
+    name: "Innovate Book Divder CR Single Rule 240pg-0012",
+    price: 0.1,
+    image: "https://www.atlas.lk/myshop/wp-content/uploads/2024/12/PF0034003.jpg",
+    category: "Innovate",
+    brand: "Innovate",
+    description: "Innovate Book Divder CR Single Rule 240pg-0012"
+  },
+  {
+    id: "innovate-225833",
+    name: "Innovate Book Exe Single Rule 120Pgs-0100",
+    price: 0.165,
+    image: "https://www.atlas.lk/myshop/wp-content/uploads/2024/12/PF0013328-1.jpg",
+    category: "Innovate",
+    brand: "Innovate",
+    description: "Innovate Book Exe Single Rule 120Pgs-0100"
+  },
+  {
+    id: "innovate-206267",
+    name: "Innovate Book Exe Single Rule 80pgs -0144",
+    price: 0.1,
+    image: "https://www.atlas.lk/myshop/wp-content/uploads/2024/06/PF0013052.jpg",
+    category: "Innovate",
+    brand: "Innovate",
+    description: "Innovate Book Exe Single Rule 80pgs -0144"
+  },
+  {
+    id: "innovate-225837",
+    name: "Innovate Book Spiral Exe Single Rule 120Pg-0060",
+    price: 0.4,
+    image: "https://www.atlas.lk/myshop/wp-content/uploads/2024/12/PF0013345-1.jpg",
+    category: "Innovate",
+    brand: "Innovate",
+    description: "Innovate Book Spiral Exe Single Rule 120Pg-0060"
+  },
+  {
+    id: "innovate-225834",
+    name: "Innovate Book Spiral B5 Single Ruled 120Pg-0030",
+    price: 0.6,
+    image: "https://www.atlas.lk/myshop/wp-content/uploads/2024/12/PF0183311-1.jpg",
+    category: "Innovate",
+    brand: "Innovate",
+    description: "Innovate Book Spiral B5 Single Ruled 120Pg-0030"
+  },
+  {
+    id: "innovate-225835",
+    name: "Innovate Book Spiral CR Single Ruled 120Pg-0030",
+    price: 0.8,
+    image: "https://www.atlas.lk/myshop/wp-content/uploads/2024/12/PF0033329-1.jpg",
+    category: "Innovate",
+    brand: "Innovate",
+    description: "Innovate Book Spiral CR Single Ruled 120Pg-0030"
+  },
+  {
+    id: "innovate-225607",
+    name: "Innovate Book CR Single Rule 80Pgs",
+    price: 0.225,
+    image: "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0033013.jpg",
+    category: "Innovate",
+    brand: "Innovate",
+    description: "Innovate Book CR Single Rule 80Pgs"
+  },
+  {
+    id: "innovate-225615",
+    name: "Innovate Book B5 Single Rule 80Pgs",
+    price: 0.175,
+    image: "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0183002.jpg",
+    category: "Innovate",
+    brand: "Innovate",
+    description: "Innovate Book B5 Single Rule 80Pgs"
+  },
+  {
+    id: "innovate-225605",
+    name: "Innovate Book CR Single Rule 120Pgs",
+    price: 0.34,
+    image: "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0033313.jpg",
+    category: "Innovate",
+    brand: "Innovate",
+    description: "Innovate Book CR Single Rule 120Pgs"
+  },
+  {
+    id: "innovate-225603",
+    name: "Innovate Book CR Single Rule 160Pgs",
+    price: 0.47,
+    image: "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0033711.jpg",
+    category: "Innovate",
+    brand: "Innovate",
+    description: "Innovate Book CR Single Rule 160Pgs"
+  },
+  {
+    id: "innovate-225601",
+    name: "Innovate Book CR Single Rule 200Pgs -0032",
+    price: 0.575,
+    image: "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0033911-1.jpg",
+    category: "Innovate",
+    brand: "Innovate",
+    description: "Innovate Book CR Single Rule 200Pgs -0032"
+  },
+  {
+    id: "innovate-225604",
+    name: "Innovate Book CR Square Rule 120Pgs- 0048",
+    price: 0.34,
+    image: "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0033317-1.jpg",
+    category: "Innovate",
+    brand: "Innovate",
+    description: "Innovate Book CR Square Rule 120Pgs- 0048"
+  },
+  {
+    id: "innovate-225588",
+    name: "Innovate Book Exe Single Rule 160Pgs-0080",
+    price: 0.25,
+    image: "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0013716-1.jpg",
+    category: "Innovate",
+    brand: "Innovate",
+    description: "Innovate Book Exe Single Rule 160Pgs-0080"
+  },
+  {
+    id: "innovate-225578",
+    name: "Innovate Book Exe Single Rule 200Pgs-0064",
+    price: 0.3,
+    image: "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0013916-1.jpg",
+    category: "Innovate",
+    brand: "Innovate",
+    description: "Innovate Book Exe Single Rule 200Pgs-0064"
+  },
+  {
+    id: "innovate-225613",
+    name: "Innovate Book B5 Single Rule 120Pgs",
+    price: 0.275,
+    image: "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0183302.jpg",
+    category: "Innovate",
+    brand: "Innovate",
+    description: "Innovate Book B5 Single Rule 120Pgs"
+  },
+  {
+    id: "innovate-15161",
+    name: "Innovate B5 Book Single Ruled 160Pgs",
+    price: 0.34,
+    image: "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0183703-min.jpg",
+    category: "Innovate",
+    brand: "Innovate",
+    description: "Innovate B5 Book Single Ruled 160Pgs"
+  },
+  {
+    id: "innovate-225609",
+    name: "Innovate Book B5 Single Rule 200Pgs – 0032",
+    price: 0.4,
+    image: "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0183902-1.jpg",
+    category: "Innovate",
+    brand: "Innovate",
+    description: "Innovate Book B5 Single Rule 200Pgs – 0032"
+  },
+  {
+    id: "innovate-225608",
+    name: "Innovate Book B5 Square Rule 200Pgs – 0032",
+    price: 0.4,
+    image: "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0183903-1.jpg",
+    category: "Innovate",
+    brand: "Innovate",
+    description: "Innovate Book B5 Square Rule 200Pgs – 0032"
+  },
+  {
+    id: "innovate-225610",
+    name: "Innovate Book B5 Square Rule 160Pgs – 0040",
+    price: 0.34,
+    image: "https://www.atlas.lk/myshop/wp-content/uploads/2025/08/PF0183704.jpg",
+    category: "Innovate",
+    brand: "Innovate",
+    description: "Innovate Book B5 Square Rule 160Pgs – 0040"
+  }
 ];

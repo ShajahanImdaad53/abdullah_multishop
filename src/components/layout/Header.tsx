@@ -23,8 +23,8 @@ export function Header() {
         <div className="w-full flex flex-col md:flex-row items-center justify-between">
           
           {/* Left: Logo */}
-          <Link href="/" className="flex flex-col md:flex-row items-center flex-shrink-0 bg-transparent py-4 md:py-2 px-4 md:px-8 xl:px-12 self-stretch justify-center w-full md:w-auto">
-            <Image src="/logo.jpg" alt={siteConfig.companyName} width={400} height={160} className="object-contain mix-blend-multiply md:w-[240px] md:h-[80px] w-[200px] h-[60px]" priority />
+          <Link href="/" className="flex flex-col md:flex-row items-center flex-shrink-0 bg-transparent py-2 md:py-0 px-4 md:px-8 xl:px-12 self-stretch justify-center w-full md:w-auto">
+            <Image src="/logo.jpg" alt={siteConfig.companyName} width={500} height={200} className="object-contain mix-blend-multiply md:w-[320px] md:h-[100px] w-[240px] h-[70px]" priority />
           </Link>
 
           {/* Middle: Search Bar */}
@@ -94,7 +94,7 @@ export function Header() {
               <div className="absolute top-[48px] left-0 w-64 bg-white shadow-xl border-t-2 border-[#f47820] opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 flex flex-col z-50 py-2">
                 <Link href="/shop?cat=books" className="px-6 py-3 text-sm text-gray-600 hover:text-[#f47820] hover:bg-orange-50 font-medium">Books</Link>
                 <Link href="/shop?cat=pens" className="px-6 py-3 text-sm text-gray-600 hover:text-[#f47820] hover:bg-orange-50 font-medium">Pens</Link>
-                <Link href="/shop?cat=edu-toys" className="px-6 py-3 text-sm text-gray-600 hover:text-[#f47820] hover:bg-orange-50 font-medium">EDU Toys</Link>
+                <Link href="/product-category/edu-toys" className="px-6 py-3 text-sm text-gray-600 hover:text-[#f47820] hover:bg-orange-50 font-medium">EDU Toys</Link>
                 <Link href="/shop?cat=school" className="px-6 py-3 text-sm text-gray-600 hover:text-[#f47820] hover:bg-orange-50 font-medium">School Products</Link>
                 <Link href="/shop" className="px-6 py-3 text-sm font-bold text-[#f47820] hover:bg-orange-50 mt-2 border-t border-gray-100">View All Categories</Link>
               </div>
