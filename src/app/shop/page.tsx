@@ -17,15 +17,20 @@ function ShopContent() {
   // Filtering States
   const [searchQuery, setSearchQuery] = useState(searchParams?.get("search") || "");
   const [selectedBrands, setSelectedBrands] = useState<string[]>([]);
-  const [selectedCategories, setSelectedCategories] = useState<string[]>([]);
-  const [priceRange, setPriceRange] = useState<number>(5000);
+  const initialCat = searchParams?.get("cat");
+  const [selectedCategories, setSelectedCategories] = useState<string[]>(initialCat ? [initialCat] : []);
+  const [priceRange, setPriceRange] = useState<number>(25000);
   const [sortBy, setSortBy] = useState("newest");
 
-  // Sync search query when URL changes
+  // Sync query params when URL changes
   useEffect(() => {
     const search = searchParams?.get("search");
     if (search !== null && search !== undefined) {
       setSearchQuery(search);
+    }
+    const cat = searchParams?.get("cat");
+    if (cat !== null && cat !== undefined) {
+      setSelectedCategories([cat]);
     }
   }, [searchParams]);
 
@@ -76,7 +81,12 @@ function ShopContent() {
     let result = products;
 
     if (searchQuery) {
-      result = result.filter(p => p.name.toLowerCase().includes(searchQuery.toLowerCase()));
+      const q = searchQuery.toLowerCase();
+      result = result.filter(p => 
+        p.name.toLowerCase().includes(q) ||
+        (p.category && p.category.toLowerCase().includes(q)) ||
+        (p.brand && p.brand.toLowerCase().includes(q))
+      );
     }
     
     if (selectedBrands.length > 0) {
@@ -157,14 +167,14 @@ function ShopContent() {
                 type="range" 
                 className="w-full accent-brand-secondary" 
                 min="0" 
-                max="5000" 
-                step="50"
+                max="25000" 
+                step="250"
                 value={priceRange}
                 onChange={(e) => setPriceRange(Number(e.target.value))}
               />
               <div className="flex justify-between text-xs text-gray-500 mt-2">
                 <span>Rs. 0</span>
-                <span>Rs. 5000+</span>
+                <span>Rs. 25000+</span>
               </div>
             </div>
           </div>
@@ -208,7 +218,7 @@ function ShopContent() {
                   setSearchQuery("");
                   setSelectedBrands([]);
                   setSelectedCategories([]);
-                  setPriceRange(5000);
+                  setPriceRange(25000);
                 }}
                 className="text-brand-secondary font-medium hover:underline"
               >

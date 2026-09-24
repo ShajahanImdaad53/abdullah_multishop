@@ -160,10 +160,16 @@ export default function CheckoutPage() {
                       <Image src={item.image} alt={item.name} fill className="object-contain p-1" />
                     </div>
                     <div className="flex-1 min-w-0">
-                      <h4 className="text-sm font-medium text-gray-900 line-clamp-2 break-words">{item.name}</h4>
-                      <p className="text-xs text-gray-500 mt-1">Qty: {item.quantity}</p>
+                      <h4 className="text-sm font-medium text-gray-900 line-clamp-2 break-words leading-tight">{item.name}</h4>
+                      <div className="flex items-center justify-between mt-1 sm:hidden">
+                        <p className="text-xs text-gray-500">Qty: {item.quantity}</p>
+                        <div className="font-bold text-sm text-brand-primary">
+                          {siteConfig.currencySymbol} {(item.price * item.quantity).toFixed(2)}
+                        </div>
+                      </div>
+                      <p className="hidden sm:block text-xs text-gray-500 mt-1">Qty: {item.quantity}</p>
                     </div>
-                    <div className="font-semibold text-sm shrink-0 whitespace-nowrap text-right mt-0.5 sm:mt-0">
+                    <div className="hidden sm:block font-semibold text-sm shrink-0 whitespace-nowrap text-right mt-0.5 sm:mt-0">
                       {siteConfig.currencySymbol} {(item.price * item.quantity).toFixed(2)}
                     </div>
                   </div>
