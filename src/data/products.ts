@@ -278,7 +278,7 @@ export const products = [
     image:
       "https://www.atlas.lk/myshop/wp-content/uploads/2025/07/WF2331901-1.jpg",
     price: 1500,
-    brand: "Atlas",
+    brand: "Innovate",
     category: "Books & Supplies",
   },
   {
@@ -642,7 +642,7 @@ export const products = [
     name: "Homerun 12 Colour Pencil",
     image: "/products/WF7050207.jpg",
     price: 430,
-    brand: "Atlas",
+    brand: "Homerun",
     category: "Books & Supplies",
   },
   {
@@ -650,7 +650,7 @@ export const products = [
     name: "Homerun 6 Colour Pencil",
     image: "/products/WF7050104-1.jpg",
     price: 240,
-    brand: "Atlas",
+    brand: "Homerun",
     category: "Books & Supplies",
   },
   {
@@ -658,7 +658,7 @@ export const products = [
     name: "Homerun Pastel 12 Colours",
     image: "/products/GF4501104.jpg",
     price: 195,
-    brand: "Atlas",
+    brand: "Homerun",
     category: "Books & Supplies",
   },
   {
@@ -666,7 +666,7 @@ export const products = [
     name: "Homerun Pastel 24 Colours",
     image: "/products/GF4501603-.jpg",
     price: 350,
-    brand: "Atlas",
+    brand: "Homerun",
     category: "Books & Supplies",
   },
   {
@@ -675,7 +675,7 @@ export const products = [
     image:
       "https://www.atlas.lk/myshop/wp-content/uploads/2024/12/PF0034003.jpg",
     price: 1000,
-    brand: "Atlas",
+    brand: "Innovate",
     category: "Books & Supplies",
   },
   {
@@ -684,7 +684,7 @@ export const products = [
     image:
       "https://www.atlas.lk/myshop/wp-content/uploads/2024/12/PF0013328-1.jpg",
     price: 1650,
-    brand: "Atlas",
+    brand: "Innovate",
     category: "Books & Supplies",
   },
   {
@@ -693,7 +693,7 @@ export const products = [
     image:
       "https://www.atlas.lk/myshop/wp-content/uploads/2024/06/PF0013052.jpg",
     price: 1000,
-    brand: "Atlas",
+    brand: "Innovate",
     category: "Books & Supplies",
   },
   {
@@ -702,7 +702,7 @@ export const products = [
     image:
       "https://www.atlas.lk/myshop/wp-content/uploads/2024/12/PF0013345-1.jpg",
     price: 4000,
-    brand: "Atlas",
+    brand: "Innovate",
     category: "Books & Supplies",
   },
   {
@@ -711,7 +711,7 @@ export const products = [
     image:
       "https://www.atlas.lk/myshop/wp-content/uploads/2024/12/PF0183311-1.jpg",
     price: 6000,
-    brand: "Atlas",
+    brand: "Innovate",
     category: "Books & Supplies",
   },
   {
@@ -720,7 +720,7 @@ export const products = [
     image:
       "https://www.atlas.lk/myshop/wp-content/uploads/2024/12/PF0033329-1.jpg",
     price: 8000,
-    brand: "Atlas",
+    brand: "Innovate",
     category: "Books & Supplies",
   },
   {
@@ -901,7 +901,7 @@ export const products = [
     image:
       "https://www.atlas.lk/myshop/wp-content/uploads/2024/12/PF0034003.jpg",
     price: 1000,
-    brand: "Atlas",
+    brand: "Innovate",
     category: "Books",
   },
   {
@@ -910,7 +910,7 @@ export const products = [
     image:
       "https://www.atlas.lk/myshop/wp-content/uploads/2024/12/PF0013328-1.jpg",
     price: 165,
-    brand: "Atlas",
+    brand: "Innovate",
     category: "Books",
   },
   {
@@ -919,7 +919,7 @@ export const products = [
     image:
       "https://www.atlas.lk/myshop/wp-content/uploads/2024/06/PF0013052.jpg",
     price: 100,
-    brand: "Atlas",
+    brand: "Innovate",
     category: "Books",
   },
   {
@@ -928,7 +928,7 @@ export const products = [
     image:
       "https://www.atlas.lk/myshop/wp-content/uploads/2024/12/PF0013345-1.jpg",
     price: 400,
-    brand: "Atlas",
+    brand: "Innovate",
     category: "Books",
   },
   {
@@ -937,7 +937,7 @@ export const products = [
     image:
       "https://www.atlas.lk/myshop/wp-content/uploads/2024/12/PF0183311-1.jpg",
     price: 600,
-    brand: "Atlas",
+    brand: "Innovate",
     category: "Books",
   },
   {
@@ -946,7 +946,7 @@ export const products = [
     image:
       "https://www.atlas.lk/myshop/wp-content/uploads/2024/12/PF0033329-1.jpg",
     price: 800,
-    brand: "Atlas",
+    brand: "Innovate",
     category: "Books",
   },
   {
@@ -1090,7 +1090,7 @@ export const products = [
     image:
       "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0033013.jpg",
     price: 225,
-    brand: "Atlas",
+    brand: "Innovate",
     category: "Books",
   },
   {
@@ -1414,7 +1414,7 @@ export const products = [
     image:
       "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0183002.jpg",
     price: 175,
-    brand: "Atlas",
+    brand: "Innovate",
     category: "Books",
   },
   {
@@ -1423,7 +1423,7 @@ export const products = [
     image:
       "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0033313.jpg",
     price: 340,
-    brand: "Atlas",
+    brand: "Innovate",
     category: "Books",
   },
   {
@@ -1432,7 +1432,7 @@ export const products = [
     image:
       "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0033711.jpg",
     price: 470,
-    brand: "Atlas",
+    brand: "Innovate",
     category: "Books",
   },
   {
@@ -1441,7 +1441,7 @@ export const products = [
     image:
       "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0033911-1.jpg",
     price: 575,
-    brand: "Atlas",
+    brand: "Innovate",
     category: "Books",
   },
   {
@@ -1450,7 +1450,7 @@ export const products = [
     image:
       "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0033317-1.jpg",
     price: 340,
-    brand: "Atlas",
+    brand: "Innovate",
     category: "Books",
   },
   {
@@ -1459,7 +1459,7 @@ export const products = [
     image:
       "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0013716-1.jpg",
     price: 250,
-    brand: "Atlas",
+    brand: "Innovate",
     category: "Books",
   },
   {
@@ -1468,7 +1468,7 @@ export const products = [
     image:
       "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0013916-1.jpg",
     price: 300,
-    brand: "Atlas",
+    brand: "Innovate",
     category: "Books",
   },
   {
@@ -1477,7 +1477,7 @@ export const products = [
     image:
       "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0183302.jpg",
     price: 275,
-    brand: "Atlas",
+    brand: "Innovate",
     category: "Books",
   },
   {
@@ -1486,7 +1486,7 @@ export const products = [
     image:
       "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0183703-min.jpg",
     price: 340,
-    brand: "Atlas",
+    brand: "Innovate",
     category: "Books",
   },
   {
@@ -1495,7 +1495,7 @@ export const products = [
     image:
       "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0183902-1.jpg",
     price: 400,
-    brand: "Atlas",
+    brand: "Innovate",
     category: "Books",
   },
   {
@@ -1504,7 +1504,7 @@ export const products = [
     image:
       "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0183903-1.jpg",
     price: 400,
-    brand: "Atlas",
+    brand: "Innovate",
     category: "Books",
   },
   {
@@ -1513,7 +1513,7 @@ export const products = [
     image:
       "https://www.atlas.lk/myshop/wp-content/uploads/2025/08/PF0183704.jpg",
     price: 340,
-    brand: "Atlas",
+    brand: "Innovate",
     category: "Books",
   },
   {
@@ -1521,7 +1521,7 @@ export const products = [
     name: "Homerun Book Exe (#) 120pg",
     image: "/products/PF0013352.jpg",
     price: 105,
-    brand: "Atlas",
+    brand: "Homerun",
     category: "Books",
   },
   {
@@ -1529,7 +1529,7 @@ export const products = [
     name: "Homerun Book Exe (=) 120pg",
     image: "/products/PF0013351.jpg",
     price: 105,
-    brand: "Atlas",
+    brand: "Homerun",
     category: "Books",
   },
   {
@@ -1537,7 +1537,7 @@ export const products = [
     name: "Homerun Book CR (#) 120pg",
     image: "/products/PF0033335.jpg",
     price: 220,
-    brand: "Atlas",
+    brand: "Homerun",
     category: "Books",
   },
   {
@@ -1545,7 +1545,7 @@ export const products = [
     name: "Homerun Book CR (#) 80pg",
     image: "/products/PF0033038.jpg",
     price: 150,
-    brand: "Atlas",
+    brand: "Homerun",
     category: "Books",
   },
   {
@@ -1553,7 +1553,7 @@ export const products = [
     name: "Homerun Book Exe (#) 200pg",
     image: "/products/PF0013929.jpg",
     price: 195,
-    brand: "Atlas",
+    brand: "Homerun",
     category: "Books",
   },
   {
@@ -1561,7 +1561,7 @@ export const products = [
     name: "Homerun Book Pra Double Rule 80Pg",
     image: "/products/509292.jpg",
     price: 70,
-    brand: "Atlas",
+    brand: "Homerun",
     category: "Books",
   },
   {
@@ -1569,7 +1569,7 @@ export const products = [
     name: "Homerun Book Exe (=) 200pg",
     image: "/products/PF0013928.jpg",
     price: 185,
-    brand: "Atlas",
+    brand: "Homerun",
     category: "Books",
   },
   {
@@ -1577,7 +1577,7 @@ export const products = [
     name: "Homerun Book Exe (=) 160pg",
     image: "/products/PF0013732.jpg",
     price: 150,
-    brand: "Atlas",
+    brand: "Homerun",
     category: "Books",
   },
   {
@@ -1585,7 +1585,7 @@ export const products = [
     name: "Homerun Book CR (=) 160pg",
     image: "/products/PF0033724.jpg",
     price: 300,
-    brand: "Atlas",
+    brand: "Homerun",
     category: "Books",
   },
   {
@@ -1593,7 +1593,7 @@ export const products = [
     name: "Homerun Book CR (=) 80pg",
     image: "/products/PF0033037.jpg",
     price: 150,
-    brand: "Atlas",
+    brand: "Homerun",
     category: "Books",
   },
   {
@@ -1601,7 +1601,7 @@ export const products = [
     name: "Homerun Book Exe (=) 80pg",
     image: "/products/PF0013063-.jpg",
     price: 70,
-    brand: "Atlas",
+    brand: "Homerun",
     category: "Books",
   },
   {
@@ -1609,7 +1609,7 @@ export const products = [
     name: "Homerun Book CR (=) 200pg",
     image: "/products/PF0033925.jpg",
     price: 390,
-    brand: "Atlas",
+    brand: "Homerun",
     category: "Books",
   },
   {
@@ -1617,7 +1617,7 @@ export const products = [
     name: "Homerun Book CR (#) 200pg",
     image: "/products/PF0033926.jpg",
     price: 380,
-    brand: "Atlas",
+    brand: "Homerun",
     category: "Books",
   },
   {
@@ -1625,7 +1625,7 @@ export const products = [
     name: "Homerun Book Exe (#) 80pg",
     image: "/products/PF0013064.jpg",
     price: 70,
-    brand: "Atlas",
+    brand: "Homerun",
     category: "Books",
   },
   {
@@ -1633,7 +1633,7 @@ export const products = [
     name: "Homerun Book CR (#) 160pg",
     image: "/products/PF0033725.jpg",
     price: 300,
-    brand: "Atlas",
+    brand: "Homerun",
     category: "Books",
   },
   {
@@ -2245,7 +2245,7 @@ export const products = [
     name: "Innovate B5 Book Single Ruled 160Pgs",
     image: "/products/PF0183703-min-600x600.jpg",
     price: 340,
-    brand: "Homerun",
+    brand: "Innovate",
     category: "B5 Books",
   },
   {
@@ -2253,7 +2253,7 @@ export const products = [
     name: "Atlas A4 Science Book Graph 80Pgs",
     image: "/products/PF0043003-min-600x600.jpg",
     price: 230,
-    brand: "Homerun",
+    brand: "Atlas",
     category: "A4 Science Books",
   },
   {
@@ -2261,7 +2261,7 @@ export const products = [
     name: "Atlas B5 Book 160Pgs (#) Square Ruled",
     image: "/products/PF0183004-min-600x600.jpg",
     price: 240,
-    brand: "Homerun",
+    brand: "Atlas",
     category: "B5 Books",
   },
   {
@@ -2269,7 +2269,7 @@ export const products = [
     name: "Atlas B5 Book 160Pgs (=) Single Ruled",
     image: "/products/PF0183702-min-600x600.jpg",
     price: 240,
-    brand: "Homerun",
+    brand: "Atlas",
     category: "B5 Books",
   },
   {
@@ -2277,7 +2277,7 @@ export const products = [
     name: "Atlas Pen Chooty Gel Multicolor -  Pack of 5",
     image: "/products/WF1010701-min-1-600x600.jpg",
     price: 300,
-    brand: "Homerun",
+    brand: "Atlas",
     category: "Multi Color Pens",
   },
   {
@@ -2285,7 +2285,7 @@ export const products = [
     name: "Atlas Pen Chooty Gel Assorted - Pack of 3",
     image: "/products/WF1000402-min-600x600.jpg",
     price: 150,
-    brand: "Homerun",
+    brand: "Atlas",
     category: "Gel Pens",
   },
   {
@@ -2293,7 +2293,7 @@ export const products = [
     name: "Atlas Pen Chooty Multicolor -  Pack of 5",
     image: "/products/WF2020701-min-600x600.jpg",
     price: 200,
-    brand: "Homerun",
+    brand: "Atlas",
     category: "Multi Color Pens",
   },
   {
@@ -2301,7 +2301,7 @@ export const products = [
     name: "Atlas Pen Cool Multicolor -  Pack of 5",
     image: "/products/WF2050701-min-600x600.jpg",
     price: 200,
-    brand: "Homerun",
+    brand: "Atlas",
     category: "Multi Color Pens",
   },
   {
@@ -2309,7 +2309,7 @@ export const products = [
     name: "Atlas Jumbo Dino Pastel 24 Colours",
     image: "/products/GF4001113-min-600x600.jpg",
     price: 550,
-    brand: "Homerun",
+    brand: "Atlas",
     category: "Pastels",
   },
   {
@@ -2317,7 +2317,7 @@ export const products = [
     name: "Atlas Water colour pencil 12 Colours",
     image: "/products/TT0390102-min-600x600.jpg",
     price: 850,
-    brand: "Homerun",
+    brand: "Atlas",
     category: "Water Colours",
   },
   {
@@ -2325,7 +2325,7 @@ export const products = [
     name: "Atlas Colour Pen Wallets 6 Colours",
     image: "/products/508244-600x600.jpg",
     price: 260,
-    brand: "Homerun",
+    brand: "Atlas",
     category: "Felt Pens",
   },
   {
@@ -2333,7 +2333,7 @@ export const products = [
     name: "Atlas Colour Pen Felta 6 Colours",
     image: "/products/WF8050101-min-600x600.jpg",
     price: 285,
-    brand: "Homerun",
+    brand: "Atlas",
     category: "Felt Pens",
   },
   {
@@ -2341,7 +2341,7 @@ export const products = [
     name: "Atlas Natural Clay 250g",
     image: "/products/TT0071001-B-600x600.jpg",
     price: 120,
-    brand: "Homerun",
+    brand: "Atlas",
     category: "Kids Clay",
   },
   {
@@ -2349,7 +2349,7 @@ export const products = [
     name: "Atlas clay Activity set Small",
     image: "/products/TT0071101-min-600x600.jpg",
     price: 270,
-    brand: "Homerun",
+    brand: "Atlas",
     category: "Kids Clay",
   },
   {
@@ -2357,7 +2357,7 @@ export const products = [
     name: "Atlas  Super Glue 3g",
     image: "/products/TT0060101-1-600x600.jpg",
     price: 80,
-    brand: "Homerun",
+    brand: "Atlas",
     category: "Glue",
   },
   {
@@ -2365,7 +2365,7 @@ export const products = [
     name: "Atlas Binder Glue Bottle 200g",
     image: "/products/GF3013902-min-600x600.jpg",
     price: 300,
-    brand: "Homerun",
+    brand: "Atlas",
     category: "Glue",
   },
   {
@@ -2373,7 +2373,7 @@ export const products = [
     name: "Stapler Large",
     image: "/products/TT0040106-min-600x600.jpg",
     price: 520,
-    brand: "Homerun",
+    brand: "Atlas",
     category: "Staplers &amp; Pins",
   },
   {
@@ -2381,7 +2381,7 @@ export const products = [
     name: "Stapler Pin # 10",
     image: "/products/TT0040303-min-600x600.jpg",
     price: 50,
-    brand: "Homerun",
+    brand: "Atlas",
     category: "Staplers &amp; Pins",
   },
   {
@@ -2389,7 +2389,7 @@ export const products = [
     name: "Stapler Pin # 369",
     image: "/products/TT0040302-min-1-600x600.jpg",
     price: 80,
-    brand: "Homerun",
+    brand: "Atlas",
     category: "Staplers &amp; Pins",
   },
   {
@@ -2397,7 +2397,7 @@ export const products = [
     name: "White ink pen Big",
     image: "/products/TT0180601-min-600x600.jpg",
     price: 150,
-    brand: "Homerun",
+    brand: "Atlas",
     category: "Correction Pens",
   },
   {
@@ -2405,7 +2405,7 @@ export const products = [
     name: "Atlas Lunch Box Kids",
     image: "/products/TT1122101-600x600.jpg",
     price: 660,
-    brand: "Homerun",
+    brand: "Atlas",
     category: "Lock Tight Boxes",
   },
   {
@@ -2413,7 +2413,7 @@ export const products = [
     name: "Atlas Lunch Box Small Snackkit",
     image: "/products/3-Atlas-Lunch-Box-Small-Snackkit-0036-copy-1-600x600.png",
     price: 330,
-    brand: "Homerun",
+    brand: "Atlas",
     category: "Easy Open Boxes",
   },
   {
@@ -2421,7 +2421,7 @@ export const products = [
     name: "Atlas Lunch Box Medium Home Fresh",
     image: "/products/4-Atlas-Lunch-Box-Medium-Home-Fresh-0036-copy-1-600x600.png",
     price: 390,
-    brand: "Homerun",
+    brand: "Atlas",
     category: "Easy Open Boxes",
   },
   {
@@ -2429,7 +2429,7 @@ export const products = [
     name: "Atlas Lunch Box Large FitPAK",
     image: "/products/WF7240103-2-600x600.jpg",
     price: 490,
-    brand: "Homerun",
+    brand: "Atlas",
     category: "Partitioned Boxes",
   },
   {
@@ -2437,7 +2437,7 @@ export const products = [
     name: "Atl Finelighter Yellow",
     image: "/products/WF7020204-min-600x600.jpg",
     price: 120,
-    brand: "Homerun",
+    brand: "Atlas",
     category: "Highlighters",
   },
   {
@@ -2445,7 +2445,7 @@ export const products = [
     name: "White Board Marker - Blue",
     image: "/products/WF8060101-600x600.jpg",
     price: 130,
-    brand: "Homerun",
+    brand: "Atlas",
     category: "Whiteboard Markers",
   },
   {
@@ -2453,7 +2453,7 @@ export const products = [
     name: "White Board Marker - Black",
     image: "/products/WF8060102-600x600.jpg",
     price: 130,
-    brand: "Homerun",
+    brand: "Atlas",
     category: "Whiteboard Markers",
   },
   {
@@ -2461,7 +2461,7 @@ export const products = [
     name: "White Board Marker - Red",
     image: "/products/WF8060103-600x600.jpg",
     price: 130,
-    brand: "Homerun",
+    brand: "Atlas",
     category: "Whiteboard Markers",
   },
   {
@@ -2469,7 +2469,7 @@ export const products = [
     name: "Atlas A4 Colour Paper Assorted (250SH) 10 colours",
     image: "/products/PF0084103-min-600x600.jpg",
     price: 1700,
-    brand: "Homerun",
+    brand: "Atlas",
     category: "Colour Papers",
   },
   {
@@ -2477,7 +2477,7 @@ export const products = [
     name: "JK Sparkle - A4 75GSM",
     image: "/products/TT0011002-600x600.jpg",
     price: 1359.02,
-    brand: "Homerun",
+    brand: "Atlas",
     category: "Paper Products",
   },
   {
@@ -2485,7 +2485,7 @@ export const products = [
     name: "JK Sparkle - A4 70GSM",
     image: "/products/TT0011001-600x600.jpg",
     price: 1240.6,
-    brand: "Homerun",
+    brand: "Atlas",
     category: "Paper Products",
   },
   {
@@ -2493,7 +2493,7 @@ export const products = [
     name: "Atlas Paper Foolscap 250 Sheets Square Ruled",
     image: "/products/PF0084105-600x600.jpg",
     price: 1000,
-    brand: "Homerun",
+    brand: "Atlas",
     category: "Foolscap Papers",
   },
   {
@@ -2501,7 +2501,7 @@ export const products = [
     name: "Trace &amp; Learn Alphabet Kit",
     image: "/products/509978--600x600.jpg",
     price: 990,
-    brand: "Homerun",
+    brand: "Atlas",
     category: "EDU Toys",
   },
   {
@@ -2509,7 +2509,7 @@ export const products = [
     name: "Animal Craft &amp; Weave Kit",
     image: "/products/509832--600x600.jpg",
     price: 1390,
-    brand: "Homerun",
+    brand: "Atlas",
     category: "EDU Toys",
   },
   {
@@ -2517,7 +2517,7 @@ export const products = [
     name: "Word Building Kit (Module 3)",
     image: "/products/509833-600x600.jpg",
     price: 1250,
-    brand: "Homerun",
+    brand: "Atlas",
     category: "EDU Toys",
   },
   {
@@ -2525,7 +2525,7 @@ export const products = [
     name: "Storytelling &amp; Role-play Kit (Module 2)",
     image: "/products/509831-600x600.jpg",
     price: 1390,
-    brand: "Homerun",
+    brand: "Atlas",
     category: "EDU Toys",
   },
   {
@@ -2533,7 +2533,7 @@ export const products = [
     name: "Atlas Active Fit School Bag Blue L C1",
     image: "/products/GF7001405-11-min-600x600.jpg",
     price: 3300,
-    brand: "Homerun",
+    brand: "Atlas",
     category: "Bags",
   },
   {
@@ -2541,7 +2541,7 @@ export const products = [
     name: "Atlas Active Fit School Bag Black L C2",
     image: "/products/GF7001402-31-min-600x600.jpg",
     price: 3300,
-    brand: "Homerun",
+    brand: "Atlas",
     category: "Bags",
   },
   {
@@ -2549,7 +2549,7 @@ export const products = [
     name: "Atlas Active Fit School Bag Black L C1",
     image: "/products/GF7001401-21-min-600x600.jpg",
     price: 3300,
-    brand: "Homerun",
+    brand: "Atlas",
     category: "Bags",
   },
   {
