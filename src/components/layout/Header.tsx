@@ -23,8 +23,8 @@ export function Header() {
         <div className="w-full flex flex-col md:flex-row items-center justify-between">
           
           {/* Left: Logo */}
-          <Link href="/" className="flex flex-col md:flex-row items-center flex-shrink-0 bg-white py-6 md:py-4 px-4 md:px-8 xl:px-12 h-full self-stretch justify-center w-full md:w-auto">
-            <Image src="/logo.jpg" alt={siteConfig.companyName} width={300} height={120} className="object-contain mix-blend-multiply md:w-[120px] md:h-[50px] w-full max-w-[280px] h-auto" priority />
+          <Link href="/" className="flex flex-col md:flex-row items-center flex-shrink-0 bg-transparent py-4 md:py-2 px-4 md:px-8 xl:px-12 h-full self-stretch justify-center w-full md:w-auto">
+            <Image src="/logo.jpg" alt={siteConfig.companyName} width={400} height={160} className="object-contain mix-blend-multiply md:w-[240px] md:h-[80px] w-[200px] h-[60px]" priority />
           </Link>
 
           {/* Middle: Search Bar */}
