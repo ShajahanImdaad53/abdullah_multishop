@@ -23,21 +23,21 @@ export function Header() {
         <div className="w-full flex flex-col md:flex-row items-center justify-between">
           
           {/* Left: Logo */}
-          <Link href="/" className="flex items-center flex-shrink-0 bg-white py-3 px-4 md:px-8 xl:px-12 h-full self-stretch">
-            <Image src="/logo.jpg" alt={siteConfig.companyName} width={120} height={50} className="object-contain mix-blend-multiply" />
-            <span className="text-[#f47820] font-black text-2xl ml-3 tracking-tight whitespace-nowrap">{siteConfig.companyShortName}</span>
+          <Link href="/" className="flex items-center flex-shrink-0 bg-white py-4 px-4 md:px-8 xl:px-12 h-full self-stretch justify-center w-full md:w-auto">
+            <Image src="/logo.jpg" alt={siteConfig.companyName} width={180} height={70} className="object-contain mix-blend-multiply md:w-[120px] md:h-[50px] w-[180px] h-[70px]" priority />
+            <span className="text-[#f47820] font-black text-3xl md:text-2xl ml-3 tracking-tight whitespace-nowrap hidden md:block">{siteConfig.companyShortName}</span>
           </Link>
 
           {/* Middle: Search Bar */}
-          <div className="flex-1 max-w-2xl w-full px-4 py-3">
+          <div className="flex-1 max-w-2xl w-full px-4 py-3 pb-4 md:pb-3">
             <div className="relative">
               <input 
                 type="text" 
                 placeholder="Search for products" 
-                className="w-full bg-transparent border-2 border-white/40 text-white placeholder-white/80 rounded-full py-2.5 px-6 pr-12 focus:outline-none focus:border-white transition-colors"
+                className="w-full bg-white text-gray-900 border-2 border-transparent placeholder-gray-500 rounded-full py-3 px-6 pr-12 focus:outline-none shadow-sm md:bg-transparent md:border-white/40 md:text-white md:placeholder-white/80 md:shadow-none md:py-2.5 transition-colors"
               />
-              <button className="absolute right-4 top-1/2 -translate-y-1/2 text-white hover:text-gray-200">
-                <Search className="h-5 w-5" />
+              <button className="absolute right-4 top-1/2 -translate-y-1/2 text-gray-500 md:text-white hover:text-gray-700 md:hover:text-gray-200">
+                <Search className="h-6 w-6 md:h-5 md:w-5" />
               </button>
             </div>
           </div>
@@ -63,7 +63,7 @@ export function Header() {
       </div>
 
       {/* Secondary Nav Bar */}
-      <div className="bg-[#e96b15] text-white border-t border-white/10 shadow-md relative z-40">
+      <div className="hidden md:block bg-[#e96b15] text-white border-t border-white/10 shadow-md relative z-40">
         <div className="container mx-auto px-4 flex items-center justify-between h-14">
           
           {/* Left: Nav Links */}
