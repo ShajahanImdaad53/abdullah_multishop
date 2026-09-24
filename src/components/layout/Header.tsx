@@ -25,7 +25,6 @@ export function Header() {
           {/* Left: Logo */}
           <Link href="/" className="flex flex-col md:flex-row items-center flex-shrink-0 bg-white py-6 md:py-4 px-4 md:px-8 xl:px-12 h-full self-stretch justify-center w-full md:w-auto">
             <Image src="/logo.jpg" alt={siteConfig.companyName} width={300} height={120} className="object-contain mix-blend-multiply md:w-[120px] md:h-[50px] w-full max-w-[280px] h-auto" priority />
-            <span className="text-[#f47820] font-black text-4xl md:text-2xl mt-2 md:mt-0 md:ml-3 tracking-tight whitespace-nowrap text-center">{siteConfig.companyShortName}</span>
           </Link>
 
           {/* Middle: Search Bar */}
