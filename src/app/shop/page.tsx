@@ -80,8 +80,8 @@ function ShopContent() {
   const filteredProducts = useMemo(() => {
     let result = products;
 
-    if (searchQuery) {
-      const q = searchQuery.toLowerCase();
+    if (searchQuery && searchQuery.trim().length > 0) {
+      const q = searchQuery.trim().toLowerCase();
       result = result.filter(p => 
         p.name.toLowerCase().includes(q) ||
         (p.category && p.category.toLowerCase().includes(q)) ||
@@ -94,7 +94,11 @@ function ShopContent() {
     }
 
     if (selectedCategories.length > 0) {
-      result = result.filter(p => selectedCategories.includes(p.category));
+      result = result.filter(p => {
+        return selectedCategories.some(sc => 
+          p.category && p.category.toLowerCase().includes(sc.toLowerCase())
+        );
+      });
     }
 
     result = result.filter(p => p.price <= priceRange);
