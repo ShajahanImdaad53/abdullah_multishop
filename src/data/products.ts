@@ -2,7 +2,7 @@ export const products = [
   {
     id: "atlas_p_all_0",
     name: "Animal Craft & Weave Kit",
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2026/09/509832-.jpg",
+    image: "/products/509832-.jpg",
     price: 1390,
     brand: "Atlas",
     category: "Books & Supplies",
@@ -10,7 +10,7 @@ export const products = [
   {
     id: "atlas_p_all_1",
     name: "Atlas (SLS Certified) Aqua Water Bottle",
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2026/08/508137.jpg",
+    image: "/products/508137.jpg",
     price: 9900,
     brand: "Atlas",
     category: "Books & Supplies",
@@ -18,7 +18,7 @@ export const products = [
   {
     id: "atlas_p_all_2",
     name: "Atlas (SLS Certified) Clear Water Bottle",
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2026/08/508134.jpg",
+    image: "/products/508134.jpg",
     price: 4500,
     brand: "Atlas",
     category: "Books & Supplies",
@@ -26,7 +26,7 @@ export const products = [
   {
     id: "atlas_p_all_3",
     name: "Atlas Colour Pen Wallet 12 Colours",
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2026/09/508246.jpg",
+    image: "/products/508246.jpg",
     price: 4700,
     brand: "Atlas",
     category: "Books & Supplies",
@@ -70,7 +70,7 @@ export const products = [
   {
     id: "atlas_p_all_8",
     name: "Storytelling & Role-play Kit (Module 2)",
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2026/08/509831.jpg",
+    image: "/products/509831.jpg",
     price: 1390,
     brand: "Atlas",
     category: "Books & Supplies",
@@ -78,7 +78,7 @@ export const products = [
   {
     id: "atlas_p_all_9",
     name: "Word Building Kit (Module 3)",
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2026/08/509833.jpg",
+    image: "/products/509833.jpg",
     price: 1250,
     brand: "Atlas",
     category: "Books & Supplies",
@@ -338,7 +338,7 @@ export const products = [
   {
     id: "atlas_p_all_38",
     name: "SMART Hilite Yelow",
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2026/08/508453.jpg",
+    image: "/products/508453.jpg",
     price: 1500,
     brand: "Atlas",
     category: "Books & Supplies",
@@ -373,7 +373,7 @@ export const products = [
   {
     id: "atlas_p_all_42",
     name: "Atlas Binder Glue Bottle 40g",
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2026/06/Glue1.webp",
+    image: "/products/Glue1.webp",
     price: 1000,
     brand: "Atlas",
     category: "Books & Supplies",
@@ -417,7 +417,7 @@ export const products = [
   {
     id: "atlas_p_all_47",
     name: "Atlas Sharp Pen Black",
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2025/02/Pen_2_2.jpg",
+    image: "/products/Pen_2_2.jpg",
     price: 3000,
     brand: "Atlas",
     category: "Books & Supplies",
@@ -425,7 +425,7 @@ export const products = [
   {
     id: "atlas_p_all_48",
     name: "Atlas Sharp Pen Blue",
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2025/02/Pen_1_2.jpg",
+    image: "/products/Pen_1_2.jpg",
     price: 3000,
     brand: "Atlas",
     category: "Books & Supplies",
@@ -1568,7 +1568,7 @@ export const products = [
   {
     id: "atlas_book_new_1790251940934_8783",
     name: "Homerun Book Pra Double Rule 80Pg",
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2026/06/509292.jpg",
+    image: "/products/509292.jpg",
     price: 70,
     brand: "Atlas",
     category: "Books",
@@ -1658,7 +1658,7 @@ export const products = [
     id: "edu-toys-226889",
     name: "Animal Craft & Weave Kit",
     price: 1390,
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2026/09/509832-.jpg",
+    image: "/products/509832-.jpg",
     category: "EDU Toys",
     brand: "Atlas",
     description: "Animal Craft & Weave Kit"
@@ -1667,7 +1667,7 @@ export const products = [
     id: "edu-toys-226363",
     name: "Mega Blocks 30 Pieces",
     price: 1600,
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2026/07/WF9020104.jpg",
+    image: "/products/WF9020104.jpg",
     category: "EDU Toys",
     brand: "Atlas",
     description: "Mega Blocks 30 Pieces"
@@ -1676,7 +1676,7 @@ export const products = [
     id: "edu-toys-226675",
     name: "Storytelling & Role-play Kit (Module 2)",
     price: 1390,
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2026/08/509831.jpg",
+    image: "/products/509831.jpg",
     category: "EDU Toys",
     brand: "Atlas",
     description: "Storytelling & Role-play Kit (Module 2)"
@@ -1685,7 +1685,7 @@ export const products = [
     id: "edu-toys-226943",
     name: "Trace & Learn Alphabet Kit",
     price: 9900,
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2026/09/509978-.jpg",
+    image: "/products/509978-.jpg",
     category: "EDU Toys",
     brand: "Atlas",
     description: "Trace & Learn Alphabet Kit"
@@ -1694,7 +1694,7 @@ export const products = [
     id: "edu-toys-226676",
     name: "Word Building Kit (Module 3)",
     price: 1250,
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2026/08/509833.jpg",
+    image: "/products/509833.jpg",
     category: "EDU Toys",
     brand: "Atlas",
     description: "Word Building Kit (Module 3)"
@@ -1703,7 +1703,7 @@ export const products = [
     id: "edu-toys-225901",
     name: "Dino Egg – Mechanical",
     price: 4900,
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2026/03/TT4000108-1.jpg",
+    image: "/products/TT4000108-1.jpg",
     category: "EDU Toys",
     brand: "Atlas",
     description: "Dino Egg – Mechanical"
@@ -1712,7 +1712,7 @@ export const products = [
     id: "edu-toys-225900",
     name: "Dino Egg – Stimulator",
     price: 4900,
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2026/03/TT4000107-1.jpg",
+    image: "/products/TT4000107-1.jpg",
     category: "EDU Toys",
     brand: "Atlas",
     description: "Dino Egg – Stimulator"
@@ -1721,7 +1721,7 @@ export const products = [
     id: "edu-toys-225899",
     name: "Animal Building Block",
     price: 2600,
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2026/03/TT4000205-1.jpg",
+    image: "/products/TT4000205-1.jpg",
     category: "EDU Toys",
     brand: "Atlas",
     description: "Animal Building Block"
@@ -1730,7 +1730,7 @@ export const products = [
     id: "edu-toys-225343",
     name: "Coloursand Activity Pack – Prince and the Dragon",
     price: 1490,
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2025/07/WF9030202.jpg",
+    image: "/products/WF9030202.jpg",
     category: "EDU Toys",
     brand: "Atlas",
     description: "Coloursand Activity Pack – Prince and the Dragon"
@@ -1739,7 +1739,7 @@ export const products = [
     id: "edu-toys-225351",
     name: "Coloursand Activity Pack – Tortoise and the Hare",
     price: 1490,
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2025/07/WF9030204.jpg",
+    image: "/products/WF9030204.jpg",
     category: "EDU Toys",
     brand: "Atlas",
     description: "Coloursand Activity Pack – Tortoise and the Hare"
@@ -1748,7 +1748,7 @@ export const products = [
     id: "edu-toys-225856",
     name: "Eco Block bag",
     price: 1090,
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2025/08/TT4020202.jpg",
+    image: "/products/TT4020202.jpg",
     category: "EDU Toys",
     brand: "Atlas",
     description: "Eco Block bag"
@@ -1757,7 +1757,7 @@ export const products = [
     id: "edu-toys-225855",
     name: "Eco Block car",
     price: 9900,
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2025/08/TT4020201.jpg",
+    image: "/products/TT4020201.jpg",
     category: "EDU Toys",
     brand: "Atlas",
     description: "Eco Block car"
@@ -1766,7 +1766,7 @@ export const products = [
     id: "edu-toys-225881",
     name: "Kinetic Sand",
     price: 4900,
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2025/10/Kinetic_sand_1.jpg",
+    image: "/products/Kinetic_sand_1.jpg",
     category: "EDU Toys",
     brand: "Atlas",
     description: "Kinetic Sand"
@@ -1775,7 +1775,7 @@ export const products = [
     id: "edu-toys-225866",
     name: "PP Eduaids Flash Card Fruits20 – 0048",
     price: 2900,
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2025/09/PF8000117.jpg",
+    image: "/products/PF8000117.jpg",
     category: "EDU Toys",
     brand: "Atlas",
     description: "PP Eduaids Flash Card Fruits20 – 0048"
@@ -1784,7 +1784,7 @@ export const products = [
     id: "edu-toys-225869",
     name: "PP Eduaids Flash Card Numbers20 – 0048",
     price: 2900,
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2025/09/PF8000120.jpg",
+    image: "/products/PF8000120.jpg",
     category: "EDU Toys",
     brand: "Atlas",
     description: "PP Eduaids Flash Card Numbers20 – 0048"
@@ -1793,7 +1793,7 @@ export const products = [
     id: "edu-toys-225825",
     name: "3D Puzzle Insects",
     price: 2690,
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2024/10/TT4020115.jpg",
+    image: "/products/TT4020115.jpg",
     category: "EDU Toys",
     brand: "Atlas",
     description: "3D Puzzle Insects"
@@ -1802,7 +1802,7 @@ export const products = [
     id: "edu-toys-225826",
     name: "3D Puzzle Sea Creatures",
     price: 2690,
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2024/10/TT4020116.jpg",
+    image: "/products/TT4020116.jpg",
     category: "EDU Toys",
     brand: "Atlas",
     description: "3D Puzzle Sea Creatures"
@@ -1811,7 +1811,7 @@ export const products = [
     id: "edu-toys-225823",
     name: "3D Puzzle Transport",
     price: 2690,
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2024/10/TT4020114.jpg",
+    image: "/products/TT4020114.jpg",
     category: "EDU Toys",
     brand: "Atlas",
     description: "3D Puzzle Transport"
@@ -1820,7 +1820,7 @@ export const products = [
     id: "edu-toys-225326",
     name: "Blocks Mega Pre 100",
     price: 6290,
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2024/07/WF9020102-A.jpg",
+    image: "/products/WF9020102-A.jpg",
     category: "EDU Toys",
     brand: "Atlas",
     description: "Blocks Mega Pre 100"
@@ -1829,7 +1829,7 @@ export const products = [
     id: "edu-toys-225330",
     name: "Blocks Mega Pre 150",
     price: 8490,
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2024/07/WF9020103-A.jpg",
+    image: "/products/WF9020103-A.jpg",
     category: "EDU Toys",
     brand: "Atlas",
     description: "Blocks Mega Pre 150"
@@ -1838,7 +1838,7 @@ export const products = [
     id: "edu-toys-225325",
     name: "Blocks Mega Pre 50",
     price: 3490,
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2024/07/WF9020101-A.jpg",
+    image: "/products/WF9020101-A.jpg",
     category: "EDU Toys",
     brand: "Atlas",
     description: "Blocks Mega Pre 50"
@@ -1847,7 +1847,7 @@ export const products = [
     id: "edu-toys-225822",
     name: "Chunky Puzzle Professions",
     price: 1990,
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2024/10/TT4020113.jpg",
+    image: "/products/TT4020113.jpg",
     category: "EDU Toys",
     brand: "Atlas",
     description: "Chunky Puzzle Professions"
@@ -1856,7 +1856,7 @@ export const products = [
     id: "edu-toys-225771",
     name: "Eduaids Flash Card Birds",
     price: 2900,
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2024/07/PF8000105-A.jpg",
+    image: "/products/PF8000105-A.jpg",
     category: "EDU Toys",
     brand: "Atlas",
     description: "Eduaids Flash Card Birds"
@@ -1865,7 +1865,7 @@ export const products = [
     id: "edu-toys-225767",
     name: "Eduaids Flash Card English",
     price: 4900,
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2024/07/PF8000101-A-min.jpg",
+    image: "/products/PF8000101-A-min.jpg",
     category: "EDU Toys",
     brand: "Atlas",
     description: "Eduaids Flash Card English"
@@ -1874,7 +1874,7 @@ export const products = [
     id: "edu-toys-225772",
     name: "Eduaids Flash Card Sea Animals",
     price: 2900,
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2024/07/PF8000106-A.jpg",
+    image: "/products/PF8000106-A.jpg",
     category: "EDU Toys",
     brand: "Atlas",
     description: "Eduaids Flash Card Sea Animals"
@@ -1883,7 +1883,7 @@ export const products = [
     id: "edu-toys-225768",
     name: "Eduaids Flash Card Sinhala",
     price: 4900,
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2024/07/PF8000102-A.jpg",
+    image: "/products/PF8000102-A.jpg",
     category: "EDU Toys",
     brand: "Atlas",
     description: "Eduaids Flash Card Sinhala"
@@ -1892,7 +1892,7 @@ export const products = [
     id: "edu-toys-225769",
     name: "Eduaids Flash Card Tamil",
     price: 4900,
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2024/07/PF8000103-A.jpg",
+    image: "/products/PF8000103-A.jpg",
     category: "EDU Toys",
     brand: "Atlas",
     description: "Eduaids Flash Card Tamil"
@@ -1901,7 +1901,7 @@ export const products = [
     id: "edu-toys-225781",
     name: "Eduaids Puzzles 2 Letter Words Sinhala",
     price: 1490,
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2024/07/PF8000205-A.jpg",
+    image: "/products/PF8000205-A.jpg",
     category: "EDU Toys",
     brand: "Atlas",
     description: "Eduaids Puzzles 2 Letter Words Sinhala"
@@ -1910,7 +1910,7 @@ export const products = [
     id: "edu-toys-225786",
     name: "Eduaids Puzzles 2 Letter Words Tamil",
     price: 1490,
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2024/07/PF8000209-A.jpg",
+    image: "/products/PF8000209-A.jpg",
     category: "EDU Toys",
     brand: "Atlas",
     description: "Eduaids Puzzles 2 Letter Words Tamil"
@@ -1919,7 +1919,7 @@ export const products = [
     id: "edu-toys-225784",
     name: "Eduaids Puzzles 3 Letter Words English",
     price: 1490,
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2024/07/PF8000207-A.jpg",
+    image: "/products/PF8000207-A.jpg",
     category: "EDU Toys",
     brand: "Atlas",
     description: "Eduaids Puzzles 3 Letter Words English"
@@ -1928,7 +1928,7 @@ export const products = [
     id: "edu-toys-225783",
     name: "Eduaids Puzzles 3 Letter Words Sinhala",
     price: 1490,
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2024/07/PF8000206-A.jpg",
+    image: "/products/PF8000206-A.jpg",
     category: "EDU Toys",
     brand: "Atlas",
     description: "Eduaids Puzzles 3 Letter Words Sinhala"
@@ -1937,7 +1937,7 @@ export const products = [
     id: "edu-toys-225782",
     name: "Eduaids Puzzles 3 Letter Words Tamil",
     price: 1490,
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2024/07/PF8000210-A.jpg",
+    image: "/products/PF8000210-A.jpg",
     category: "EDU Toys",
     brand: "Atlas",
     description: "Eduaids Puzzles 3 Letter Words Tamil"
@@ -1946,7 +1946,7 @@ export const products = [
     id: "edu-toys-225785",
     name: "Eduaids Puzzles 4 Letter Words English",
     price: 1490,
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2024/07/PF8000208-A.jpg",
+    image: "/products/PF8000208-A.jpg",
     category: "EDU Toys",
     brand: "Atlas",
     description: "Eduaids Puzzles 4 Letter Words English"
@@ -1955,7 +1955,7 @@ export const products = [
     id: "edu-toys-225780",
     name: "Eduaids Puzzles Action Words",
     price: 7500,
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2024/07/PF8000204-A.jpg",
+    image: "/products/PF8000204-A.jpg",
     category: "EDU Toys",
     brand: "Atlas",
     description: "Eduaids Puzzles Action Words"
@@ -1964,7 +1964,7 @@ export const products = [
     id: "edu-toys-225779",
     name: "Eduaids Puzzles One and Many",
     price: 7500,
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2024/07/PF8000203-A.jpg",
+    image: "/products/PF8000203-A.jpg",
     category: "EDU Toys",
     brand: "Atlas",
     description: "Eduaids Puzzles One and Many"
@@ -1973,7 +1973,7 @@ export const products = [
     id: "edu-toys-225778",
     name: "Eduaids Puzzles Opposite",
     price: 7500,
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2024/07/PF8000202-A.jpg",
+    image: "/products/PF8000202-A.jpg",
     category: "EDU Toys",
     brand: "Atlas",
     description: "Eduaids Puzzles Opposite"
@@ -1982,7 +1982,7 @@ export const products = [
     id: "edu-toys-225777",
     name: "Eduaids Puzzles Synonyms",
     price: 7500,
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2024/07/PF8000201-A.jpg",
+    image: "/products/PF8000201-A.jpg",
     category: "EDU Toys",
     brand: "Atlas",
     description: "Eduaids Puzzles Synonyms"
@@ -1991,7 +1991,7 @@ export const products = [
     id: "edu-toys-225789",
     name: "Finger Paints 6 Pack 30ml",
     price: 1190,
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2024/07/TT4000103-A.jpg",
+    image: "/products/TT4000103-A.jpg",
     category: "EDU Toys",
     brand: "Atlas",
     description: "Finger Paints 6 Pack 30ml"
@@ -2000,7 +2000,7 @@ export const products = [
     id: "edu-toys-225790",
     name: "Finger Paints 6 Pack 75ml",
     price: 2150,
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2024/07/TT4000104-A.jpg",
+    image: "/products/TT4000104-A.jpg",
     category: "EDU Toys",
     brand: "Atlas",
     description: "Finger Paints 6 Pack 75ml"
@@ -2009,7 +2009,7 @@ export const products = [
     id: "edu-toys-225774",
     name: "PP Eduaids Flash Card Vegetables",
     price: 2900,
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2024/07/PF8000108-A.jpg",
+    image: "/products/PF8000108-A.jpg",
     category: "EDU Toys",
     brand: "Atlas",
     description: "PP Eduaids Flash Card Vegetables"
@@ -2018,7 +2018,7 @@ export const products = [
     id: "edu-toys-225811",
     name: "Wooden Puzzle Animals",
     price: 1390,
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2024/10/TT4020101.jpg",
+    image: "/products/TT4020101.jpg",
     category: "EDU Toys",
     brand: "Atlas",
     description: "Wooden Puzzle Animals"
@@ -2027,7 +2027,7 @@ export const products = [
     id: "edu-toys-225824",
     name: "Wooden Puzzle Farm Animals",
     price: 1790,
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2024/10/TT4020112.jpg",
+    image: "/products/TT4020112.jpg",
     category: "EDU Toys",
     brand: "Atlas",
     description: "Wooden Puzzle Farm Animals"
@@ -2036,7 +2036,7 @@ export const products = [
     id: "edu-toys-225820",
     name: "Wooden Puzzle Insects",
     price: 1790,
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2024/10/TT4020110.jpg",
+    image: "/products/TT4020110.jpg",
     category: "EDU Toys",
     brand: "Atlas",
     description: "Wooden Puzzle Insects"
@@ -2045,7 +2045,7 @@ export const products = [
     id: "edu-toys-225816",
     name: "Wooden Puzzle Public Transport",
     price: 1390,
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2024/10/TT4020106.jpg",
+    image: "/products/TT4020106.jpg",
     category: "EDU Toys",
     brand: "Atlas",
     description: "Wooden Puzzle Public Transport"
@@ -2054,7 +2054,7 @@ export const products = [
     id: "edu-toys-225813",
     name: "Wooden Puzzle Sea Animals",
     price: 1390,
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2024/10/TT4020103.jpg",
+    image: "/products/TT4020103.jpg",
     category: "EDU Toys",
     brand: "Atlas",
     description: "Wooden Puzzle Sea Animals"
@@ -2063,7 +2063,7 @@ export const products = [
     id: "edu-toys-225819",
     name: "Wooden Puzzle Tamil Alphabet",
     price: 2690,
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2024/10/TT4020109.jpg",
+    image: "/products/TT4020109.jpg",
     category: "EDU Toys",
     brand: "Atlas",
     description: "Wooden Puzzle Tamil Alphabet"
@@ -2072,7 +2072,7 @@ export const products = [
     id: "edu-toys-225821",
     name: "Wooden Puzzle Wild Animals",
     price: 1790,
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2024/10/TT4020111.jpg",
+    image: "/products/TT4020111.jpg",
     category: "EDU Toys",
     brand: "Atlas",
     description: "Wooden Puzzle Wild Animals"
@@ -2081,7 +2081,7 @@ export const products = [
     id: "innovate-225853",
     name: "Innovate Pen Akuru Blue",
     price: 1500,
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2025/07/WF2331901-1.jpg",
+    image: "/products/WF2331901-1.jpg",
     category: "Innovate",
     brand: "Innovate",
     description: "Innovate Pen Akuru Blue"
@@ -2090,7 +2090,7 @@ export const products = [
     id: "innovate-225836",
     name: "Innovate Book Divder CR Single Rule 240pg-0012",
     price: 1000,
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2024/12/PF0034003.jpg",
+    image: "/products/PF0034003.jpg",
     category: "Innovate",
     brand: "Innovate",
     description: "Innovate Book Divder CR Single Rule 240pg-0012"
@@ -2099,7 +2099,7 @@ export const products = [
     id: "innovate-225833",
     name: "Innovate Book Exe Single Rule 120Pgs-0100",
     price: 1650,
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2024/12/PF0013328-1.jpg",
+    image: "/products/PF0013328-1.jpg",
     category: "Innovate",
     brand: "Innovate",
     description: "Innovate Book Exe Single Rule 120Pgs-0100"
@@ -2108,7 +2108,7 @@ export const products = [
     id: "innovate-206267",
     name: "Innovate Book Exe Single Rule 80pgs -0144",
     price: 1000,
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2024/06/PF0013052.jpg",
+    image: "/products/PF0013052.jpg",
     category: "Innovate",
     brand: "Innovate",
     description: "Innovate Book Exe Single Rule 80pgs -0144"
@@ -2117,7 +2117,7 @@ export const products = [
     id: "innovate-225837",
     name: "Innovate Book Spiral Exe Single Rule 120Pg-0060",
     price: 4000,
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2024/12/PF0013345-1.jpg",
+    image: "/products/PF0013345-1.jpg",
     category: "Innovate",
     brand: "Innovate",
     description: "Innovate Book Spiral Exe Single Rule 120Pg-0060"
@@ -2126,7 +2126,7 @@ export const products = [
     id: "innovate-225834",
     name: "Innovate Book Spiral B5 Single Ruled 120Pg-0030",
     price: 6000,
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2024/12/PF0183311-1.jpg",
+    image: "/products/PF0183311-1.jpg",
     category: "Innovate",
     brand: "Innovate",
     description: "Innovate Book Spiral B5 Single Ruled 120Pg-0030"
@@ -2135,7 +2135,7 @@ export const products = [
     id: "innovate-225835",
     name: "Innovate Book Spiral CR Single Ruled 120Pg-0030",
     price: 8000,
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2024/12/PF0033329-1.jpg",
+    image: "/products/PF0033329-1.jpg",
     category: "Innovate",
     brand: "Innovate",
     description: "Innovate Book Spiral CR Single Ruled 120Pg-0030"
@@ -2144,7 +2144,7 @@ export const products = [
     id: "innovate-225607",
     name: "Innovate Book CR Single Rule 80Pgs",
     price: 2250,
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0033013.jpg",
+    image: "/products/PF0033013.jpg",
     category: "Innovate",
     brand: "Innovate",
     description: "Innovate Book CR Single Rule 80Pgs"
@@ -2153,7 +2153,7 @@ export const products = [
     id: "innovate-225615",
     name: "Innovate Book B5 Single Rule 80Pgs",
     price: 1750,
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0183002.jpg",
+    image: "/products/PF0183002.jpg",
     category: "Innovate",
     brand: "Innovate",
     description: "Innovate Book B5 Single Rule 80Pgs"
@@ -2162,7 +2162,7 @@ export const products = [
     id: "innovate-225605",
     name: "Innovate Book CR Single Rule 120Pgs",
     price: 3400,
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0033313.jpg",
+    image: "/products/PF0033313.jpg",
     category: "Innovate",
     brand: "Innovate",
     description: "Innovate Book CR Single Rule 120Pgs"
@@ -2171,7 +2171,7 @@ export const products = [
     id: "innovate-225603",
     name: "Innovate Book CR Single Rule 160Pgs",
     price: 4700,
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0033711.jpg",
+    image: "/products/PF0033711.jpg",
     category: "Innovate",
     brand: "Innovate",
     description: "Innovate Book CR Single Rule 160Pgs"
@@ -2180,7 +2180,7 @@ export const products = [
     id: "innovate-225601",
     name: "Innovate Book CR Single Rule 200Pgs -0032",
     price: 5750,
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0033911-1.jpg",
+    image: "/products/PF0033911-1.jpg",
     category: "Innovate",
     brand: "Innovate",
     description: "Innovate Book CR Single Rule 200Pgs -0032"
@@ -2189,7 +2189,7 @@ export const products = [
     id: "innovate-225604",
     name: "Innovate Book CR Square Rule 120Pgs- 0048",
     price: 3400,
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0033317-1.jpg",
+    image: "/products/PF0033317-1.jpg",
     category: "Innovate",
     brand: "Innovate",
     description: "Innovate Book CR Square Rule 120Pgs- 0048"
@@ -2198,7 +2198,7 @@ export const products = [
     id: "innovate-225588",
     name: "Innovate Book Exe Single Rule 160Pgs-0080",
     price: 2500,
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0013716-1.jpg",
+    image: "/products/PF0013716-1.jpg",
     category: "Innovate",
     brand: "Innovate",
     description: "Innovate Book Exe Single Rule 160Pgs-0080"
@@ -2207,7 +2207,7 @@ export const products = [
     id: "innovate-225578",
     name: "Innovate Book Exe Single Rule 200Pgs-0064",
     price: 3000,
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0013916-1.jpg",
+    image: "/products/PF0013916-1.jpg",
     category: "Innovate",
     brand: "Innovate",
     description: "Innovate Book Exe Single Rule 200Pgs-0064"
@@ -2216,7 +2216,7 @@ export const products = [
     id: "innovate-225613",
     name: "Innovate Book B5 Single Rule 120Pgs",
     price: 2750,
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0183302.jpg",
+    image: "/products/PF0183302.jpg",
     category: "Innovate",
     brand: "Innovate",
     description: "Innovate Book B5 Single Rule 120Pgs"
@@ -2225,7 +2225,7 @@ export const products = [
     id: "innovate-15161",
     name: "Innovate B5 Book Single Ruled 160Pgs",
     price: 3400,
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0183703-min.jpg",
+    image: "/products/PF0183703-min.jpg",
     category: "Innovate",
     brand: "Innovate",
     description: "Innovate B5 Book Single Ruled 160Pgs"
@@ -2234,7 +2234,7 @@ export const products = [
     id: "innovate-225609",
     name: "Innovate Book B5 Single Rule 200Pgs – 0032",
     price: 4000,
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0183902-1.jpg",
+    image: "/products/PF0183902-1.jpg",
     category: "Innovate",
     brand: "Innovate",
     description: "Innovate Book B5 Single Rule 200Pgs – 0032"
@@ -2243,7 +2243,7 @@ export const products = [
     id: "innovate-225608",
     name: "Innovate Book B5 Square Rule 200Pgs – 0032",
     price: 4000,
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0183903-1.jpg",
+    image: "/products/PF0183903-1.jpg",
     category: "Innovate",
     brand: "Innovate",
     description: "Innovate Book B5 Square Rule 200Pgs – 0032"
@@ -2252,7 +2252,7 @@ export const products = [
     id: "innovate-225610",
     name: "Innovate Book B5 Square Rule 160Pgs – 0040",
     price: 3400,
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2025/08/PF0183704.jpg",
+    image: "/products/PF0183704.jpg",
     category: "Innovate",
     brand: "Innovate",
     description: "Innovate Book B5 Square Rule 160Pgs – 0040"
@@ -2261,7 +2261,7 @@ export const products = [
   {
     id: "homerun_1790268842819_0",
     name: "Innovate B5 Book Single Ruled 160Pgs",
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0183703-min-600x600.jpg",
+    image: "/products/PF0183703-min-600x600.jpg",
     price: 340,
     brand: "Homerun",
     category: "B5 Books",
@@ -2269,7 +2269,7 @@ export const products = [
   {
     id: "homerun_1790268842819_1",
     name: "Atlas A4 Science Book Graph 80Pgs",
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0043003-min-600x600.jpg",
+    image: "/products/PF0043003-min-600x600.jpg",
     price: 230,
     brand: "Homerun",
     category: "A4 Science Books",
@@ -2277,7 +2277,7 @@ export const products = [
   {
     id: "homerun_1790268842819_2",
     name: "Atlas B5 Book 160Pgs (#) Square Ruled",
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0183004-min-600x600.jpg",
+    image: "/products/PF0183004-min-600x600.jpg",
     price: 240,
     brand: "Homerun",
     category: "B5 Books",
@@ -2285,7 +2285,7 @@ export const products = [
   {
     id: "homerun_1790268842819_3",
     name: "Atlas B5 Book 160Pgs (=) Single Ruled",
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0183702-min-600x600.jpg",
+    image: "/products/PF0183702-min-600x600.jpg",
     price: 240,
     brand: "Homerun",
     category: "B5 Books",
@@ -2293,7 +2293,7 @@ export const products = [
   {
     id: "homerun_1790268842819_4",
     name: "Atlas Pen Chooty Gel Multicolor -  Pack of 5",
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/WF1010701-min-1-600x600.jpg",
+    image: "/products/WF1010701-min-1-600x600.jpg",
     price: 300,
     brand: "Homerun",
     category: "Multi Color Pens",
@@ -2301,7 +2301,7 @@ export const products = [
   {
     id: "homerun_1790268842819_5",
     name: "Atlas Pen Chooty Gel Assorted - Pack of 3",
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/WF1000402-min-600x600.jpg",
+    image: "/products/WF1000402-min-600x600.jpg",
     price: 150,
     brand: "Homerun",
     category: "Gel Pens",
@@ -2309,7 +2309,7 @@ export const products = [
   {
     id: "homerun_1790268842819_6",
     name: "Atlas Pen Chooty Multicolor -  Pack of 5",
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/WF2020701-min-600x600.jpg",
+    image: "/products/WF2020701-min-600x600.jpg",
     price: 200,
     brand: "Homerun",
     category: "Multi Color Pens",
@@ -2317,7 +2317,7 @@ export const products = [
   {
     id: "homerun_1790268842819_7",
     name: "Atlas Pen Cool Multicolor -  Pack of 5",
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/WF2050701-min-600x600.jpg",
+    image: "/products/WF2050701-min-600x600.jpg",
     price: 200,
     brand: "Homerun",
     category: "Multi Color Pens",
@@ -2325,7 +2325,7 @@ export const products = [
   {
     id: "homerun_1790268842819_8",
     name: "Atlas Jumbo Dino Pastel 24 Colours",
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/GF4001113-min-600x600.jpg",
+    image: "/products/GF4001113-min-600x600.jpg",
     price: 550,
     brand: "Homerun",
     category: "Pastels",
@@ -2333,7 +2333,7 @@ export const products = [
   {
     id: "homerun_1790268842819_9",
     name: "Atlas Water colour pencil 12 Colours",
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/TT0390102-min-600x600.jpg",
+    image: "/products/TT0390102-min-600x600.jpg",
     price: 850,
     brand: "Homerun",
     category: "Water Colours",
@@ -2341,7 +2341,7 @@ export const products = [
   {
     id: "homerun_1790268842819_10",
     name: "Atlas Colour Pen Wallets 6 Colours",
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2026/08/508244-600x600.jpg",
+    image: "/products/508244-600x600.jpg",
     price: 260,
     brand: "Homerun",
     category: "Felt Pens",
@@ -2349,7 +2349,7 @@ export const products = [
   {
     id: "homerun_1790268842819_11",
     name: "Atlas Colour Pen Felta 6 Colours",
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/WF8050101-min-600x600.jpg",
+    image: "/products/WF8050101-min-600x600.jpg",
     price: 285,
     brand: "Homerun",
     category: "Felt Pens",
@@ -2357,7 +2357,7 @@ export const products = [
   {
     id: "homerun_1790268842819_12",
     name: "Atlas Natural Clay 250g",
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2023/01/TT0071001-B-600x600.jpg",
+    image: "/products/TT0071001-B-600x600.jpg",
     price: 120,
     brand: "Homerun",
     category: "Kids Clay",
@@ -2365,7 +2365,7 @@ export const products = [
   {
     id: "homerun_1790268842819_13",
     name: "Atlas clay Activity set Small",
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/TT0071101-min-600x600.jpg",
+    image: "/products/TT0071101-min-600x600.jpg",
     price: 270,
     brand: "Homerun",
     category: "Kids Clay",
@@ -2373,7 +2373,7 @@ export const products = [
   {
     id: "homerun_1790268842819_14",
     name: "Atlas  Super Glue 3g",
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/TT0060101-1-600x600.jpg",
+    image: "/products/TT0060101-1-600x600.jpg",
     price: 80,
     brand: "Homerun",
     category: "Glue",
@@ -2381,7 +2381,7 @@ export const products = [
   {
     id: "homerun_1790268842819_15",
     name: "Atlas Binder Glue Bottle 200g",
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/GF3013902-min-600x600.jpg",
+    image: "/products/GF3013902-min-600x600.jpg",
     price: 300,
     brand: "Homerun",
     category: "Glue",
@@ -2389,7 +2389,7 @@ export const products = [
   {
     id: "homerun_1790268842819_16",
     name: "Stapler Large",
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/TT0040106-min-600x600.jpg",
+    image: "/products/TT0040106-min-600x600.jpg",
     price: 520,
     brand: "Homerun",
     category: "Staplers &amp; Pins",
@@ -2397,7 +2397,7 @@ export const products = [
   {
     id: "homerun_1790268842819_17",
     name: "Stapler Pin # 10",
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/TT0040303-min-600x600.jpg",
+    image: "/products/TT0040303-min-600x600.jpg",
     price: 50,
     brand: "Homerun",
     category: "Staplers &amp; Pins",
@@ -2405,7 +2405,7 @@ export const products = [
   {
     id: "homerun_1790268842819_18",
     name: "Stapler Pin # 369",
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/TT0040302-min-1-600x600.jpg",
+    image: "/products/TT0040302-min-1-600x600.jpg",
     price: 80,
     brand: "Homerun",
     category: "Staplers &amp; Pins",
@@ -2413,7 +2413,7 @@ export const products = [
   {
     id: "homerun_1790268842819_19",
     name: "White ink pen Big",
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/TT0180601-min-600x600.jpg",
+    image: "/products/TT0180601-min-600x600.jpg",
     price: 150,
     brand: "Homerun",
     category: "Correction Pens",
@@ -2421,7 +2421,7 @@ export const products = [
   {
     id: "homerun_1790268842819_20",
     name: "Atlas Lunch Box Kids",
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2023/01/TT1122101-600x600.jpg",
+    image: "/products/TT1122101-600x600.jpg",
     price: 660,
     brand: "Homerun",
     category: "Lock Tight Boxes",
@@ -2429,7 +2429,7 @@ export const products = [
   {
     id: "homerun_1790268842819_21",
     name: "Atlas Lunch Box Small Snackkit",
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/3-Atlas-Lunch-Box-Small-Snackkit-0036-copy-1-600x600.png",
+    image: "/products/3-Atlas-Lunch-Box-Small-Snackkit-0036-copy-1-600x600.png",
     price: 330,
     brand: "Homerun",
     category: "Easy Open Boxes",
@@ -2437,7 +2437,7 @@ export const products = [
   {
     id: "homerun_1790268842820_22",
     name: "Atlas Lunch Box Medium Home Fresh",
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/4-Atlas-Lunch-Box-Medium-Home-Fresh-0036-copy-1-600x600.png",
+    image: "/products/4-Atlas-Lunch-Box-Medium-Home-Fresh-0036-copy-1-600x600.png",
     price: 390,
     brand: "Homerun",
     category: "Easy Open Boxes",
@@ -2445,7 +2445,7 @@ export const products = [
   {
     id: "homerun_1790268842820_23",
     name: "Atlas Lunch Box Large FitPAK",
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/WF7240103-2-600x600.jpg",
+    image: "/products/WF7240103-2-600x600.jpg",
     price: 490,
     brand: "Homerun",
     category: "Partitioned Boxes",
@@ -2453,7 +2453,7 @@ export const products = [
   {
     id: "homerun_1790268842820_24",
     name: "Atl Finelighter Yellow",
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2021/08/WF7020204-min-600x600.jpg",
+    image: "/products/WF7020204-min-600x600.jpg",
     price: 120,
     brand: "Homerun",
     category: "Highlighters",
@@ -2461,7 +2461,7 @@ export const products = [
   {
     id: "homerun_1790268842820_25",
     name: "White Board Marker - Blue",
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/WF8060101-600x600.jpg",
+    image: "/products/WF8060101-600x600.jpg",
     price: 130,
     brand: "Homerun",
     category: "Whiteboard Markers",
@@ -2469,7 +2469,7 @@ export const products = [
   {
     id: "homerun_1790268842820_26",
     name: "White Board Marker - Black",
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/WF8060102-600x600.jpg",
+    image: "/products/WF8060102-600x600.jpg",
     price: 130,
     brand: "Homerun",
     category: "Whiteboard Markers",
@@ -2477,7 +2477,7 @@ export const products = [
   {
     id: "homerun_1790268842820_27",
     name: "White Board Marker - Red",
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/WF8060103-600x600.jpg",
+    image: "/products/WF8060103-600x600.jpg",
     price: 130,
     brand: "Homerun",
     category: "Whiteboard Markers",
@@ -2485,7 +2485,7 @@ export const products = [
   {
     id: "homerun_1790268842820_28",
     name: "Atlas A4 Colour Paper Assorted (250SH) 10 colours",
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0084103-min-600x600.jpg",
+    image: "/products/PF0084103-min-600x600.jpg",
     price: 1700,
     brand: "Homerun",
     category: "Colour Papers",
@@ -2493,7 +2493,7 @@ export const products = [
   {
     id: "homerun_1790268842820_29",
     name: "JK Sparkle - A4 75GSM",
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2025/09/TT0011002-600x600.jpg",
+    image: "/products/TT0011002-600x600.jpg",
     price: 1359.02,
     brand: "Homerun",
     category: "Paper Products",
@@ -2501,7 +2501,7 @@ export const products = [
   {
     id: "homerun_1790268842820_30",
     name: "JK Sparkle - A4 70GSM",
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2025/09/TT0011001-600x600.jpg",
+    image: "/products/TT0011001-600x600.jpg",
     price: 1240.6,
     brand: "Homerun",
     category: "Paper Products",
@@ -2509,7 +2509,7 @@ export const products = [
   {
     id: "homerun_1790268842820_31",
     name: "Atlas Paper Foolscap 250 Sheets Square Ruled",
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0084105-600x600.jpg",
+    image: "/products/PF0084105-600x600.jpg",
     price: 1000,
     brand: "Homerun",
     category: "Foolscap Papers",
@@ -2517,7 +2517,7 @@ export const products = [
   {
     id: "homerun_1790268842820_32",
     name: "Trace &amp; Learn Alphabet Kit",
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2026/09/509978--600x600.jpg",
+    image: "/products/509978--600x600.jpg",
     price: 990,
     brand: "Homerun",
     category: "EDU Toys",
@@ -2525,7 +2525,7 @@ export const products = [
   {
     id: "homerun_1790268842820_33",
     name: "Animal Craft &amp; Weave Kit",
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2026/09/509832--600x600.jpg",
+    image: "/products/509832--600x600.jpg",
     price: 1390,
     brand: "Homerun",
     category: "EDU Toys",
@@ -2533,7 +2533,7 @@ export const products = [
   {
     id: "homerun_1790268842820_34",
     name: "Word Building Kit (Module 3)",
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2026/08/509833-600x600.jpg",
+    image: "/products/509833-600x600.jpg",
     price: 1250,
     brand: "Homerun",
     category: "EDU Toys",
@@ -2541,7 +2541,7 @@ export const products = [
   {
     id: "homerun_1790268842820_35",
     name: "Storytelling &amp; Role-play Kit (Module 2)",
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2026/08/509831-600x600.jpg",
+    image: "/products/509831-600x600.jpg",
     price: 1390,
     brand: "Homerun",
     category: "EDU Toys",
@@ -2549,7 +2549,7 @@ export const products = [
   {
     id: "homerun_1790268842820_36",
     name: "Atlas Active Fit School Bag Blue L C1",
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2025/09/GF7001405-11-min-600x600.jpg",
+    image: "/products/GF7001405-11-min-600x600.jpg",
     price: 3300,
     brand: "Homerun",
     category: "Bags",
@@ -2557,7 +2557,7 @@ export const products = [
   {
     id: "homerun_1790268842820_37",
     name: "Atlas Active Fit School Bag Black L C2",
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2025/11/GF7001402-31-min-600x600.jpg",
+    image: "/products/GF7001402-31-min-600x600.jpg",
     price: 3300,
     brand: "Homerun",
     category: "Bags",
@@ -2565,7 +2565,7 @@ export const products = [
   {
     id: "homerun_1790268842820_38",
     name: "Atlas Active Fit School Bag Black L C1",
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2025/11/GF7001401-21-min-600x600.jpg",
+    image: "/products/GF7001401-21-min-600x600.jpg",
     price: 3300,
     brand: "Homerun",
     category: "Bags",
@@ -2573,7 +2573,7 @@ export const products = [
   {
     id: "homerun_1790268842820_39",
     name: "Homerun 12 Colour Pencil",
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2024/08/WF7050104-1.jpg",
+    image: "/products/WF7050104-1.jpg",
     price: 430,
     brand: "Homerun",
     category: "Colour Pencils",
@@ -2581,7 +2581,7 @@ export const products = [
   {
     id: "homerun_1790268842820_40",
     name: "Homerun 6 Colour Pencil",
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2024/08/GF4501104.jpg",
+    image: "/products/GF4501104.jpg",
     price: 240,
     brand: "Homerun",
     category: "Colour Pencils",
@@ -2589,7 +2589,7 @@ export const products = [
   {
     id: "homerun_1790268842820_41",
     name: "Homerun Pastel 12 Colours",
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2024/08/GF4501603-.jpg",
+    image: "/products/GF4501603-.jpg",
     price: 195,
     brand: "Homerun",
     category: "Pastels",
@@ -2597,7 +2597,7 @@ export const products = [
   {
     id: "homerun_1790268842820_42",
     name: "Homerun Pastel 24 Colours",
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/GF4501602-min.jpg",
+    image: "/products/GF4501602-min.jpg",
     price: 350,
     brand: "Homerun",
     category: "Pastels",
@@ -2605,7 +2605,7 @@ export const products = [
   {
     id: "homerun_1790268842820_43",
     name: "Homerun Jumbo Pastel 24 Colours",
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2024/10/PF0013352.jpg",
+    image: "/products/PF0013352.jpg",
     price: 500,
     brand: "Homerun",
     category: "Pastels",
@@ -2613,7 +2613,7 @@ export const products = [
   {
     id: "homerun_1790268842820_44",
     name: "Homerun Book Exe (#) 120pg",
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2024/10/PF0013351.jpg",
+    image: "/products/PF0013351.jpg",
     price: 105,
     brand: "Homerun",
     category: "A5 Exercise Books",
@@ -2621,7 +2621,7 @@ export const products = [
   {
     id: "homerun_1790268842820_45",
     name: "Homerun Book Exe (=) 120pg",
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2025/01/PF0033335.jpg",
+    image: "/products/PF0033335.jpg",
     price: 105,
     brand: "Homerun",
     category: "A5 Exercise Books",
@@ -2629,7 +2629,7 @@ export const products = [
   {
     id: "homerun_1790268842820_46",
     name: "Homerun Book CR (#) 120pg",
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2025/03/PF0033038.jpg",
+    image: "/products/PF0033038.jpg",
     price: 220,
     brand: "Homerun",
     category: "A4 CR Books",
@@ -2637,7 +2637,7 @@ export const products = [
   {
     id: "homerun_1790268842820_47",
     name: "Homerun Book CR (#) 80pg",
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2024/10/PF0013929.jpg",
+    image: "/products/PF0013929.jpg",
     price: 150,
     brand: "Homerun",
     category: "A4 CR Books",
@@ -2645,7 +2645,7 @@ export const products = [
   {
     id: "homerun_1790268842820_48",
     name: "Homerun Book Exe (#) 200pg",
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2024/10/PF0013928.jpg",
+    image: "/products/PF0013928.jpg",
     price: 195,
     brand: "Homerun",
     category: "A5 Exercise Books",
@@ -2653,7 +2653,7 @@ export const products = [
   {
     id: "homerun_1790268842820_49",
     name: "Homerun Book Exe (=) 200pg",
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2024/10/PF0013732.jpg",
+    image: "/products/PF0013732.jpg",
     price: 185,
     brand: "Homerun",
     category: "A5 Exercise Books",
@@ -2661,7 +2661,7 @@ export const products = [
   {
     id: "homerun_1790268842820_50",
     name: "Homerun Book Exe (=) 160pg",
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2024/10/PF0033724.jpg",
+    image: "/products/PF0033724.jpg",
     price: 150,
     brand: "Homerun",
     category: "A5 Exercise Books",
@@ -2669,7 +2669,7 @@ export const products = [
   {
     id: "homerun_1790268842820_51",
     name: "Homerun Book CR (=) 160pg",
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2025/01/PF0033037.jpg",
+    image: "/products/PF0033037.jpg",
     price: 300,
     brand: "Homerun",
     category: "A4 CR Books",
@@ -2677,7 +2677,7 @@ export const products = [
   {
     id: "homerun_1790268842820_52",
     name: "Homerun Book CR (=) 80pg",
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2024/10/PF0013063-.jpg",
+    image: "/products/PF0013063-.jpg",
     price: 150,
     brand: "Homerun",
     category: "A4 CR Books",
@@ -2685,7 +2685,7 @@ export const products = [
   {
     id: "homerun_1790268842820_53",
     name: "Homerun Book Exe (=) 80pg",
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2024/10/PF0033925.jpg",
+    image: "/products/PF0033925.jpg",
     price: 70,
     brand: "Homerun",
     category: "A5 Exercise Books",
@@ -2693,7 +2693,7 @@ export const products = [
   {
     id: "homerun_1790268842820_54",
     name: "Homerun Book CR (=) 200pg",
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2025/01/PF0033926.jpg",
+    image: "/products/PF0033926.jpg",
     price: 390,
     brand: "Homerun",
     category: "A4 CR Books",
@@ -2701,7 +2701,7 @@ export const products = [
   {
     id: "homerun_1790268842820_55",
     name: "Homerun Book CR (#) 200pg",
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2024/10/PF0013064.jpg",
+    image: "/products/PF0013064.jpg",
     price: 380,
     brand: "Homerun",
     category: "A4 CR Books",
@@ -2709,7 +2709,7 @@ export const products = [
   {
     id: "homerun_1790268842820_56",
     name: "Homerun Book Exe (#) 80pg",
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2025/01/PF0033725.jpg",
+    image: "/products/PF0033725.jpg",
     price: 70,
     brand: "Homerun",
     category: "A5 Exercise Books",
@@ -2717,7 +2717,7 @@ export const products = [
   {
     id: "homerun_1790268842820_57",
     name: "Homerun Book CR (#) 160pg",
-    image: "https://www.atlas.lk/myshop/wp-content/uploads/2020/10/atlas-logo-min-110x63.png",
+    image: "/products/atlas-logo-min-110x63.png",
     price: 300,
     brand: "Homerun",
     category: "A4 CR Books",
