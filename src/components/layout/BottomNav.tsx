@@ -24,7 +24,7 @@ export function BottomNav() {
   ];
 
   return (
-    <div className="md:hidden fixed bottom-0 left-0 w-full bg-white border-t border-gray-200 z-[60] shadow-[0_-2px_10px_rgba(0,0,0,0.05)]">
+    <div className="md:hidden fixed bottom-0 left-0 w-full bg-white dark:bg-[#0a192f] border-t border-gray-200 dark:border-white/10 z-[60] shadow-[0_-2px_10px_rgba(0,0,0,0.05)] transition-colors duration-300">
       <div className="flex justify-around items-center h-16 px-1">
         {navItems.map((item) => {
           const isActive = pathname === item.href;
@@ -34,8 +34,8 @@ export function BottomNav() {
             <Link 
               key={item.href} 
               href={item.href}
-              className={`flex flex-col items-center justify-center w-full h-full space-y-1 ${
-                isActive ? "text-[#f47820]" : "text-gray-500 hover:text-gray-900"
+              className={`flex flex-col items-center justify-center w-full h-full space-y-1 transition-colors ${
+                isActive ? "text-[#f47820] dark:text-white" : "text-gray-500 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200"
               }`}
             >
               <div className="relative">

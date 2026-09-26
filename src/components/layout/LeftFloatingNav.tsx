@@ -39,12 +39,12 @@ export function LeftFloatingNav() {
 
   return (
     <div 
-      className={`fixed left-0 top-0 bottom-0 bg-white border-r border-gray-200 z-50 flex flex-col shadow-2xl transition-all duration-300 ${isExpanded ? 'w-64' : 'w-12'} hidden md:flex`}
+      className={`fixed left-0 top-0 bottom-0 bg-white dark:bg-[#0a192f] border-r border-gray-200 dark:border-white/10 z-50 flex flex-col shadow-2xl transition-all duration-300 ${isExpanded ? 'w-64' : 'w-12'} hidden md:flex`}
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
     >
       {/* Top Orange Menu Button */}
-      <button className={`w-full h-12 bg-[#f47820] flex items-center hover:bg-[#e96b15] transition-colors text-white ${isExpanded ? 'px-4 justify-start' : 'justify-center'}`}>
+      <button className={`w-full h-12 bg-[#f47820] dark:bg-black flex items-center hover:bg-[#e96b15] dark:hover:bg-gray-900 transition-colors text-white ${isExpanded ? 'px-4 justify-start' : 'justify-center'}`}>
         <Menu className="h-6 w-6 flex-shrink-0" />
         {isExpanded && <span className="ml-3 font-bold text-sm tracking-wide whitespace-nowrap">All Categories</span>}
       </button>
@@ -59,7 +59,7 @@ export function LeftFloatingNav() {
           >
             <Link 
               href={item.slug} 
-              className={`h-10 flex items-center text-gray-500 hover:text-[#f47820] transition-colors ${isExpanded ? 'px-4 hover:bg-orange-50' : 'justify-center mx-auto w-8 rounded-full hover:bg-orange-50'}`}
+              className={`h-10 flex items-center text-gray-500 dark:text-gray-400 hover:text-[#f47820] dark:hover:text-white transition-colors ${isExpanded ? 'px-4 hover:bg-orange-50 dark:hover:bg-white/5' : 'justify-center mx-auto w-8 rounded-full hover:bg-orange-50 dark:hover:bg-white/5'}`}
               title={!isExpanded ? item.name : undefined}
             >
               <item.icon className="h-4 w-4 flex-shrink-0" />
