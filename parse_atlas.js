@@ -27,7 +27,7 @@ function parseAtlas() {
     let priceText = priceEl.text().trim();
     let price = 0; 
     if (priceText) {
-        const match = priceText.match(/[\d,.]+/);
+        const match = priceText.match(/[\d,]+(\.\d+)?/);
         if (match) {
             price = parseFloat(match[0].replace(/,/g, ''));
         }

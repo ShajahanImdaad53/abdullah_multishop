@@ -1,2707 +1,3190 @@
-export const products = [
-  {
-    id: "atlas_p_all_0",
-    name: "Animal Craft & Weave Kit",
-    image: "/products/509832-.jpg",
-    price: 1390,
-    brand: "Atlas",
-    category: "Books & Supplies",
-  },
-  {
-    id: "atlas_p_all_1",
-    name: "Atlas (SLS Certified) Aqua Water Bottle",
-    image: "/products/508137.jpg",
-    price: 9900,
-    brand: "Atlas",
-    category: "Books & Supplies",
-  },
-  {
-    id: "atlas_p_all_2",
-    name: "Atlas (SLS Certified) Clear Water Bottle",
-    image: "/products/508134.jpg",
-    price: 4500,
-    brand: "Atlas",
-    category: "Books & Supplies",
-  },
-  {
-    id: "atlas_p_all_3",
-    name: "Atlas Colour Pen Wallet 12 Colours",
-    image: "/products/508246.jpg",
-    price: 4700,
-    brand: "Atlas",
-    category: "Books & Supplies",
-  },
-  {
-    id: "atlas_p_all_4",
-    name: "Atlas myshop Gift voucher Rs 1000  Printed",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2026/04/Atlas-myshop-Gift-voucher-Rs-1000-printed.jpg",
-    price: 1000,
-    brand: "Atlas",
-    category: "Books & Supplies",
-  },
-  {
-    id: "atlas_p_all_5",
-    name: "Atlas Myshop Gift voucher Rs 5000  Printed",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2026/04/Atlas-myshop-Gift-voucher-Rs-5000-printed.jpg",
-    price: 5000,
-    brand: "Atlas",
-    category: "Books & Supplies",
-  },
-  {
-    id: "atlas_p_all_6",
-    name: "Mega Blocks 30 Pieces",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2026/07/WF9020104.jpg",
-    price: 1600,
-    brand: "Atlas",
-    category: "Books & Supplies",
-  },
-  {
-    id: "atlas_p_all_7",
-    name: "Raze by Atlas",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2026/03/WFO410103.jpg",
-    price: 3500,
-    brand: "Atlas",
-    category: "Books & Supplies",
-  },
-  {
-    id: "atlas_p_all_8",
-    name: "Storytelling & Role-play Kit (Module 2)",
-    image: "/products/509831.jpg",
-    price: 1390,
-    brand: "Atlas",
-    category: "Books & Supplies",
-  },
-  {
-    id: "atlas_p_all_9",
-    name: "Word Building Kit (Module 3)",
-    image: "/products/509833.jpg",
-    price: 1250,
-    brand: "Atlas",
-    category: "Books & Supplies",
-  },
-  {
-    id: "atlas_p_all_10",
-    name: "Dino Egg  Mechanical",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2026/03/TT4000108-1.jpg",
-    price: 4900,
-    brand: "Atlas",
-    category: "Books & Supplies",
-  },
-  {
-    id: "atlas_p_all_11",
-    name: "Dino Egg  Stimulator",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2026/03/TT4000107-1.jpg",
-    price: 4900,
-    brand: "Atlas",
-    category: "Books & Supplies",
-  },
-  {
-    id: "atlas_p_all_12",
-    name: "Animal Building Block",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2026/03/TT4000205-1.jpg",
-    price: 2600,
-    brand: "Atlas",
-    category: "Books & Supplies",
-  },
-  {
-    id: "atlas_p_all_13",
-    name: "Atl SFY Exam Writer pencil 12pkt  0280",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2025/10/WF7043101.jpg",
-    price: 6000,
-    brand: "Atlas",
-    category: "Books & Supplies",
-  },
-  {
-    id: "atlas_p_all_14",
-    name: "Atlas Active Fit School Bag Black L C1",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2025/11/GF7001401-21-min.jpg",
-    price: 3300,
-    brand: "Atlas",
-    category: "Books & Supplies",
-  },
-  {
-    id: "atlas_p_all_15",
-    name: "Atlas Active Fit School Bag Black L C2",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2025/11/GF7001402-31-min.jpg",
-    price: 3300,
-    brand: "Atlas",
-    category: "Books & Supplies",
-  },
-  {
-    id: "atlas_p_all_16",
-    name: "Atlas Active Fit School Bag Blue L C1",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2025/09/GF7001405-11-min.jpg",
-    price: 3300,
-    brand: "Atlas",
-    category: "Books & Supplies",
-  },
-  {
-    id: "atlas_p_all_17",
-    name: "Atlas Colour Paper A4  Blue",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2025/12/PF0083228.jpg",
-    price: 6600,
-    brand: "Atlas",
-    category: "Books & Supplies",
-  },
-  {
-    id: "atlas_p_all_18",
-    name: "Atlas Colour Paper A4  Green",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2025/12/PF0083227.jpg",
-    price: 6600,
-    brand: "Atlas",
-    category: "Books & Supplies",
-  },
-  {
-    id: "atlas_p_all_19",
-    name: "Atlas Colour Paper A4  Orange",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2025/12/PF0083225.jpg",
-    price: 6600,
-    brand: "Atlas",
-    category: "Books & Supplies",
-  },
-  {
-    id: "atlas_p_all_20",
-    name: "Atlas Colour Paper A4  Pink",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2025/12/PF0083229.jpg",
-    price: 7500,
-    brand: "Atlas",
-    category: "Books & Supplies",
-  },
-  {
-    id: "atlas_p_all_21",
-    name: "Atlas Colour Paper A4  Red",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2025/12/PF0083226.jpg",
-    price: 6600,
-    brand: "Atlas",
-    category: "Books & Supplies",
-  },
-  {
-    id: "atlas_p_all_22",
-    name: "Atlas Colour Paper A4  Yellow",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2025/12/PF0083224.jpg",
-    price: 6600,
-    brand: "Atlas",
-    category: "Books & Supplies",
-  },
-  {
-    id: "atlas_p_all_23",
-    name: "Atlas Glyde Pen Black",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2026/01/WF2350202.jpg",
-    price: 4000,
-    brand: "Atlas",
-    category: "Books & Supplies",
-  },
-  {
-    id: "atlas_p_all_24",
-    name: "Atlas Glyde Pen Blue",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2026/01/WF2350201.jpg",
-    price: 4000,
-    brand: "Atlas",
-    category: "Books & Supplies",
-  },
-  {
-    id: "atlas_p_all_25",
-    name: "Atlas Lunch Box Luncher Pro Divider-0018",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2025/09/WF7240115-3.jpg",
-    price: 1850,
-    brand: "Atlas",
-    category: "Books & Supplies",
-  },
-  {
-    id: "atlas_p_all_26",
-    name: "Atlas Lunch Box Snacker-0036",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2025/09/Snacker-group-copy.png",
-    price: 3800,
-    brand: "Atlas",
-    category: "Books & Supplies",
-  },
-  {
-    id: "atlas_p_all_27",
-    name: "Coloursand Activity Pack  Prince and the Dragon",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2025/07/WF9030202.jpg",
-    price: 1490,
-    brand: "Atlas",
-    category: "Books & Supplies",
-  },
-  {
-    id: "atlas_p_all_28",
-    name: "Coloursand Activity Pack  Tortoise and the Hare",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2025/07/WF9030204.jpg",
-    price: 1490,
-    brand: "Atlas",
-    category: "Books & Supplies",
-  },
-  {
-    id: "atlas_p_all_29",
-    name: "Eco Block bag",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2025/08/TT4020202.jpg",
-    price: 1090,
-    brand: "Atlas",
-    category: "Books & Supplies",
-  },
-  {
-    id: "atlas_p_all_30",
-    name: "Eco Block car",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2025/08/TT4020201.jpg",
-    price: 9900,
-    brand: "Atlas",
-    category: "Books & Supplies",
-  },
-  {
-    id: "atlas_p_all_31",
-    name: "Innovate Pen Akuru Blue",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2025/07/WF2331901-1.jpg",
-    price: 1500,
-    brand: "Innovate",
-    category: "Books & Supplies",
-  },
-  {
-    id: "atlas_p_all_32",
-    name: "JK Sparkle  A4 70GSM",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2025/09/TT0011001.jpg",
-    price: 1240,
-    brand: "Atlas",
-    category: "Books & Supplies",
-  },
-  {
-    id: "atlas_p_all_33",
-    name: "JK Sparkle  A4 75GSM",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2025/09/TT0011002.jpg",
-    price: 1359,
-    brand: "Atlas",
-    category: "Books & Supplies",
-  },
-  {
-    id: "atlas_p_all_34",
-    name: "JK Sparkle  A4 80GSM",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2025/09/TT0011003.jpg",
-    price: 1422,
-    brand: "Atlas",
-    category: "Books & Supplies",
-  },
-  {
-    id: "atlas_p_all_35",
-    name: "Kinetic Sand",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2025/10/Kinetic_sand_1.jpg",
-    price: 4900,
-    brand: "Atlas",
-    category: "Books & Supplies",
-  },
-  {
-    id: "atlas_p_all_36",
-    name: "PP Eduaids Flash Card Fruits20  0048",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2025/09/PF8000117.jpg",
-    price: 2900,
-    brand: "Atlas",
-    category: "Books & Supplies",
-  },
-  {
-    id: "atlas_p_all_37",
-    name: "PP Eduaids Flash Card Numbers20  0048",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2025/09/PF8000120.jpg",
-    price: 2900,
-    brand: "Atlas",
-    category: "Books & Supplies",
-  },
-  {
-    id: "atlas_p_all_38",
-    name: "SMART Hilite Yelow",
-    image: "/products/508453.jpg",
-    price: 1500,
-    brand: "Atlas",
-    category: "Books & Supplies",
-  },
-  {
-    id: "atlas_p_all_39",
-    name: "3D Puzzle Insects",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2024/10/TT4020115.jpg",
-    price: 2690,
-    brand: "Atlas",
-    category: "Books & Supplies",
-  },
-  {
-    id: "atlas_p_all_40",
-    name: "3D Puzzle Sea Creatures",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2024/10/TT4020116.jpg",
-    price: 2690,
-    brand: "Atlas",
-    category: "Books & Supplies",
-  },
-  {
-    id: "atlas_p_all_41",
-    name: "3D Puzzle Transport",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2024/10/TT4020114.jpg",
-    price: 2690,
-    brand: "Atlas",
-    category: "Books & Supplies",
-  },
-  {
-    id: "atlas_p_all_42",
-    name: "Atlas Binder Glue Bottle 40g",
-    image: "/products/Glue1.webp",
-    price: 1000,
-    brand: "Atlas",
-    category: "Books & Supplies",
-  },
-  {
-    id: "atlas_p_all_43",
-    name: "Atlas Book Science Botany 40Pgs",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2025/06/PF0042105.jpg",
-    price: 1350,
-    brand: "Atlas",
-    category: "Books & Supplies",
-  },
-  {
-    id: "atlas_p_all_44",
-    name: "Atlas Calculator AT2276C",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2025/02/AT-2276C_front_.jpg",
-    price: 2100,
-    brand: "Atlas",
-    category: "Books & Supplies",
-  },
-  {
-    id: "atlas_p_all_45",
-    name: "Atlas Colour SparX Pastel 12 Colours",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2024/07/GF4001118-5.jpg",
-    price: 2500,
-    brand: "Atlas",
-    category: "Books & Supplies",
-  },
-  {
-    id: "atlas_p_all_46",
-    name: "Atlas Lunch Box Luncher Pro",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2024/10/WF7240114.jpg",
-    price: 1750,
-    brand: "Atlas",
-    category: "Books & Supplies",
-  },
-  {
-    id: "atlas_p_all_47",
-    name: "Atlas Sharp Pen Black",
-    image: "/products/Pen_2_2.jpg",
-    price: 3000,
-    brand: "Atlas",
-    category: "Books & Supplies",
-  },
-  {
-    id: "atlas_p_all_48",
-    name: "Atlas Sharp Pen Blue",
-    image: "/products/Pen_1_2.jpg",
-    price: 3000,
-    brand: "Atlas",
-    category: "Books & Supplies",
-  },
-  {
-    id: "atlas_p_all_49",
-    name: "Atlas SparX Crayon 12 colours",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2024/09/TT0260601.jpg",
-    price: 4200,
-    brand: "Atlas",
-    category: "Books & Supplies",
-  },
-  {
-    id: "atlas_p_all_50",
-    name: "Atlas Water colour cake 12 Colours",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2024/09/TT0390104.jpg",
-    price: 3750,
-    brand: "Atlas",
-    category: "Books & Supplies",
-  },
-  {
-    id: "atlas_p_all_51",
-    name: "Blocks Mega Pre 100",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2024/07/WF9020102-A.jpg",
-    price: 6290,
-    brand: "Atlas",
-    category: "Books & Supplies",
-  },
-  {
-    id: "atlas_p_all_52",
-    name: "Blocks Mega Pre 150",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2024/07/WF9020103-A.jpg",
-    price: 8490,
-    brand: "Atlas",
-    category: "Books & Supplies",
-  },
-  {
-    id: "atlas_p_all_53",
-    name: "Blocks Mega Pre 50",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2024/07/WF9020101-A.jpg",
-    price: 3490,
-    brand: "Atlas",
-    category: "Books & Supplies",
-  },
-  {
-    id: "atlas_p_all_54",
-    name: "Chunky Puzzle Professions",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2024/10/TT4020113.jpg",
-    price: 1990,
-    brand: "Atlas",
-    category: "Books & Supplies",
-  },
-  {
-    id: "atlas_p_all_55",
-    name: "Eduaids Flash Card Birds",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2024/07/PF8000105-A.jpg",
-    price: 2900,
-    brand: "Atlas",
-    category: "Books & Supplies",
-  },
-  {
-    id: "atlas_p_all_56",
-    name: "Eduaids Flash Card English",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2024/07/PF8000101-A-min.jpg",
-    price: 4900,
-    brand: "Atlas",
-    category: "Books & Supplies",
-  },
-  {
-    id: "atlas_p_all_57",
-    name: "Eduaids Flash Card Sea Animals",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2024/07/PF8000106-A.jpg",
-    price: 2900,
-    brand: "Atlas",
-    category: "Books & Supplies",
-  },
-  {
-    id: "atlas_p_all_58",
-    name: "Eduaids Flash Card Sinhala",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2024/07/PF8000102-A.jpg",
-    price: 4900,
-    brand: "Atlas",
-    category: "Books & Supplies",
-  },
-  {
-    id: "atlas_p_all_59",
-    name: "Eduaids Flash Card Tamil",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2024/07/PF8000103-A.jpg",
-    price: 4900,
-    brand: "Atlas",
-    category: "Books & Supplies",
-  },
-  {
-    id: "atlas_p_all_60",
-    name: "Eduaids Puzzles 2 Letter Words Sinhala",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2024/07/PF8000205-A.jpg",
-    price: 1490,
-    brand: "Atlas",
-    category: "Books & Supplies",
-  },
-  {
-    id: "atlas_p_all_61",
-    name: "Eduaids Puzzles 2 Letter Words Tamil",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2024/07/PF8000209-A.jpg",
-    price: 1490,
-    brand: "Atlas",
-    category: "Books & Supplies",
-  },
-  {
-    id: "atlas_p_all_62",
-    name: "Eduaids Puzzles 3 Letter Words English",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2024/07/PF8000207-A.jpg",
-    price: 1490,
-    brand: "Atlas",
-    category: "Books & Supplies",
-  },
-  {
-    id: "atlas_p_all_63",
-    name: "Eduaids Puzzles 3 Letter Words Sinhala",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2024/07/PF8000206-A.jpg",
-    price: 1490,
-    brand: "Atlas",
-    category: "Books & Supplies",
-  },
-  {
-    id: "atlas_p_all_64",
-    name: "Eduaids Puzzles 3 Letter Words Tamil",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2024/07/PF8000210-A.jpg",
-    price: 1490,
-    brand: "Atlas",
-    category: "Books & Supplies",
-  },
-  {
-    id: "atlas_p_all_65",
-    name: "Eduaids Puzzles 4 Letter Words English",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2024/07/PF8000208-A.jpg",
-    price: 1490,
-    brand: "Atlas",
-    category: "Books & Supplies",
-  },
-  {
-    id: "atlas_p_all_66",
-    name: "Eduaids Puzzles Action Words",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2024/07/PF8000204-A.jpg",
-    price: 7500,
-    brand: "Atlas",
-    category: "Books & Supplies",
-  },
-  {
-    id: "atlas_p_all_67",
-    name: "Eduaids Puzzles One and Many",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2024/07/PF8000203-A.jpg",
-    price: 7500,
-    brand: "Atlas",
-    category: "Books & Supplies",
-  },
-  {
-    id: "atlas_p_all_68",
-    name: "Eduaids Puzzles Opposite",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2024/07/PF8000202-A.jpg",
-    price: 7500,
-    brand: "Atlas",
-    category: "Books & Supplies",
-  },
-  {
-    id: "atlas_p_all_69",
-    name: "Eduaids Puzzles Synonyms",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2024/07/PF8000201-A.jpg",
-    price: 7500,
-    brand: "Atlas",
-    category: "Books & Supplies",
-  },
-  {
-    id: "atlas_p_all_70",
-    name: "Finger Paints 6 Pack 30ml",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2024/07/TT4000103-A.jpg",
-    price: 1190,
-    brand: "Atlas",
-    category: "Books & Supplies",
-  },
-  {
-    id: "atlas_p_all_71",
-    name: "Finger Paints 6 Pack 75ml",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2024/07/TT4000104-A.jpg",
-    price: 2150,
-    brand: "Atlas",
-    category: "Books & Supplies",
-  },
-  {
-    id: "atlas_p_all_72",
-    name: "Homerun 12 Colour Pencil",
-    image: "/products/WF7050207.jpg",
-    price: 430,
-    brand: "Homerun",
-    category: "Books & Supplies",
-  },
-  {
-    id: "atlas_p_all_73",
-    name: "Homerun 6 Colour Pencil",
-    image: "/products/WF7050104-1.jpg",
-    price: 240,
-    brand: "Homerun",
-    category: "Books & Supplies",
-  },
-  {
-    id: "atlas_p_all_74",
-    name: "Homerun Pastel 12 Colours",
-    image: "/products/GF4501104.jpg",
-    price: 195,
-    brand: "Homerun",
-    category: "Books & Supplies",
-  },
-  {
-    id: "atlas_p_all_75",
-    name: "Homerun Pastel 24 Colours",
-    image: "/products/GF4501603-.jpg",
-    price: 350,
-    brand: "Homerun",
-    category: "Books & Supplies",
-  },
-  {
-    id: "atlas_p_all_76",
-    name: "Innovate Book Divder CR Single Rule 240pg-0012",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2024/12/PF0034003.jpg",
-    price: 1000,
-    brand: "Innovate",
-    category: "Books & Supplies",
-  },
-  {
-    id: "atlas_p_all_77",
-    name: "Innovate Book Exe Single Rule 120Pgs-0100",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2024/12/PF0013328-1.jpg",
-    price: 1650,
-    brand: "Innovate",
-    category: "Books & Supplies",
-  },
-  {
-    id: "atlas_p_all_78",
-    name: "Innovate Book Exe Single Rule 80pgs -0144",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2024/06/PF0013052.jpg",
-    price: 1000,
-    brand: "Innovate",
-    category: "Books & Supplies",
-  },
-  {
-    id: "atlas_p_all_79",
-    name: "Innovate Book Spiral Exe Single Rule 120Pg-0060",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2024/12/PF0013345-1.jpg",
-    price: 4000,
-    brand: "Innovate",
-    category: "Books & Supplies",
-  },
-  {
-    id: "atlas_p_all_80",
-    name: "Innovate Book Spiral B5 Single Ruled 120Pg-0030",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2024/12/PF0183311-1.jpg",
-    price: 6000,
-    brand: "Innovate",
-    category: "Books & Supplies",
-  },
-  {
-    id: "atlas_p_all_81",
-    name: "Innovate Book Spiral CR Single Ruled 120Pg-0030",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2024/12/PF0033329-1.jpg",
-    price: 8000,
-    brand: "Innovate",
-    category: "Books & Supplies",
-  },
-  {
-    id: "atlas_p_all_82",
-    name: "PP Eduaids Flash Card Vegetables",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2024/07/PF8000108-A.jpg",
-    price: 2900,
-    brand: "Atlas",
-    category: "Books & Supplies",
-  },
-  {
-    id: "atlas_p_all_83",
-    name: "Wooden Puzzle Animals",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2024/10/TT4020101.jpg",
-    price: 1390,
-    brand: "Atlas",
-    category: "Books & Supplies",
-  },
-  {
-    id: "atlas_p_all_84",
-    name: "Wooden Puzzle Farm Animals",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2024/10/TT4020112.jpg",
-    price: 1790,
-    brand: "Atlas",
-    category: "Books & Supplies",
-  },
-  {
-    id: "atlas_p_all_85",
-    name: "Wooden Puzzle Insects",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2024/10/TT4020110.jpg",
-    price: 1790,
-    brand: "Atlas",
-    category: "Books & Supplies",
-  },
-  {
-    id: "atlas_p_all_86",
-    name: "Wooden Puzzle Public Transport",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2024/10/TT4020106.jpg",
-    price: 1390,
-    brand: "Atlas",
-    category: "Books & Supplies",
-  },
-  {
-    id: "atlas_p_all_87",
-    name: "Wooden Puzzle Sea Animals",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2024/10/TT4020103.jpg",
-    price: 1390,
-    brand: "Atlas",
-    category: "Books & Supplies",
-  },
-  {
-    id: "atlas_p_all_88",
-    name: "Wooden Puzzle Tamil Alphabet",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2024/10/TT4020109.jpg",
-    price: 2690,
-    brand: "Atlas",
-    category: "Books & Supplies",
-  },
-  {
-    id: "atlas_p_all_89",
-    name: "Wooden Puzzle Wild Animals",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2024/10/TT4020111.jpg",
-    price: 1790,
-    brand: "Atlas",
-    category: "Books & Supplies",
-  },
-  {
-    id: "atlas_p_all_90",
-    name: "Atl Eraser AH30 big mistake",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2022/10/TT0020201-1.jpg",
-    price: 6000,
-    brand: "Atlas",
-    category: "Books & Supplies",
-  },
-  {
-    id: "atlas_p_all_91",
-    name: "Atl Eraser AH30 real big mistake  3 in 1",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2022/10/WF7140202.jpg",
-    price: 1000,
-    brand: "Atlas",
-    category: "Books & Supplies",
-  },
-  {
-    id: "atlas_p_all_92",
-    name: "Atl Finelighter Green",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2021/08/WF7020201-min.jpg",
-    price: 1200,
-    brand: "Atlas",
-    category: "Books & Supplies",
-  },
-  {
-    id: "atlas_p_all_93",
-    name: "Atl Finelighter Orange",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2021/08/WF7020202-min.jpg",
-    price: 1200,
-    brand: "Atlas",
-    category: "Books & Supplies",
-  },
-  {
-    id: "atlas_p_all_94",
-    name: "Atl Finelighter Pink",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2021/08/WF7020203-min.jpg",
-    price: 1200,
-    brand: "Atlas",
-    category: "Books & Supplies",
-  },
-  {
-    id: "atlas_p_all_95",
-    name: "Atl Finelighter Yellow",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2021/08/WF7020204-min.jpg",
-    price: 1200,
-    brand: "Atlas",
-    category: "Books & Supplies",
-  },
-  {
-    id: "atlas_p_all_96",
-    name: "Atl Pen Chooty Black",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2021/07/WF2002405.jpg",
-    price: 3500,
-    brand: "Atlas",
-    category: "Books & Supplies",
-  },
-  {
-    id: "atlas_p_all_97",
-    name: "Atlas Pen  Chooty Red",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2022/01/WF2001903.jpg",
-    price: 3500,
-    brand: "Atlas",
-    category: "Books & Supplies",
-  },
-  {
-    id: "atlas_p_all_98",
-    name: "Atl Pencil SFY Ewriter 2B-12Pkt-0240",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2022/04/WF7042702-1.jpg",
-    price: 6000,
-    brand: "Atlas",
-    category: "Books & Supplies",
-  },
-  {
-    id: "atlas_p_all_99",
-    name: "Atl scissor fun cut",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2022/10/WF7090302.jpg",
-    price: 1450,
-    brand: "Atlas",
-    category: "Books & Supplies",
-  },
-
-  {
-    id: "atlas_book_new_1790251932184_5630",
-    name: "Atlas Book Science Botany 40Pgs",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2025/06/PF0042105.jpg",
-    price: 135,
-    brand: "Atlas",
-    category: "Books",
-  },
-  {
-    id: "atlas_book_new_1790251932184_4804",
-    name: "Innovate Book Divder CR Single Rule 240pg-0012",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2024/12/PF0034003.jpg",
-    price: 1000,
-    brand: "Innovate",
-    category: "Books",
-  },
-  {
-    id: "atlas_book_new_1790251932184_7362",
-    name: "Innovate Book Exe Single Rule 120Pgs-0100",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2024/12/PF0013328-1.jpg",
-    price: 165,
-    brand: "Innovate",
-    category: "Books",
-  },
-  {
-    id: "atlas_book_new_1790251932185_7190",
-    name: "Innovate Book Exe Single Rule 80pgs -0144",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2024/06/PF0013052.jpg",
-    price: 100,
-    brand: "Innovate",
-    category: "Books",
-  },
-  {
-    id: "atlas_book_new_1790251932185_6109",
-    name: "Innovate Book Spiral Exe Single Rule 120Pg-0060",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2024/12/PF0013345-1.jpg",
-    price: 400,
-    brand: "Innovate",
-    category: "Books",
-  },
-  {
-    id: "atlas_book_new_1790251932185_3792",
-    name: "Innovate Book Spiral B5 Single Ruled 120Pg-0030",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2024/12/PF0183311-1.jpg",
-    price: 600,
-    brand: "Innovate",
-    category: "Books",
-  },
-  {
-    id: "atlas_book_new_1790251932185_5519",
-    name: "Innovate Book Spiral CR Single Ruled 120Pg-0030",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2024/12/PF0033329-1.jpg",
-    price: 800,
-    brand: "Innovate",
-    category: "Books",
-  },
-  {
-    id: "atlas_book_new_1790251932186_1017",
-    name: "Atlas A5 Spiral Notebook 100pgs",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2021/06/PF0063211-min.jpg",
-    price: 230,
-    brand: "Atlas",
-    category: "Books",
-  },
-  {
-    id: "atlas_book_new_1790251932186_9239",
-    name: "Atlas A4 Drawing Book Small 20Pgs",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0051501-min.jpg",
-    price: 80,
-    brand: "Atlas",
-    category: "Books",
-  },
-  {
-    id: "atlas_book_new_1790251932186_4559",
-    name: "Atlas A4 Drawing Book Small 40Pgs",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0052101-min.jpg",
-    price: 120,
-    brand: "Atlas",
-    category: "Books",
-  },
-  {
-    id: "atlas_book_new_1790251932186_3959",
-    name: "Atlas A4 Black Drawing Book Small 40Pgs",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0072101-min.jpg",
-    price: 240,
-    brand: "Atlas",
-    category: "Books",
-  },
-  {
-    id: "atlas_book_new_1790251932186_7454",
-    name: "Atlas A4 Book CR 40Pgs (=) Single Ruled",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0032101-min.jpg",
-    price: 110,
-    brand: "Atlas",
-    category: "Books",
-  },
-  {
-    id: "atlas_book_new_1790251932186_162",
-    name: "Atlas A4 Book CR 80Pgs (=) Single Ruled",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0033022-min.jpg",
-    price: 180,
-    brand: "Atlas",
-    category: "Books",
-  },
-  {
-    id: "atlas_book_new_1790251932187_9295",
-    name: "Atlas A4 Book CR 120Pgs (=) Single Ruled",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0033301-min.jpg",
-    price: 250,
-    brand: "Atlas",
-    category: "Books",
-  },
-  {
-    id: "atlas_book_new_1790251932187_959",
-    name: "Atlas A4 Book CR 160Pgs (=) Single Ruled",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0033701-min.jpg",
-    price: 350,
-    brand: "Atlas",
-    category: "Books",
-  },
-  {
-    id: "atlas_book_new_1790251932187_4881",
-    name: "Atlas A4 Book CR 200Pgs (=) Single Ruled",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0033901-min.jpg",
-    price: 430,
-    brand: "Atlas",
-    category: "Books",
-  },
-  {
-    id: "atlas_book_new_1790251932188_3577",
-    name: "Atlas A4 Book CR 400Pgs (=) Single Ruled",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0034701-min.jpg",
-    price: 850,
-    brand: "Atlas",
-    category: "Books",
-  },
-  {
-    id: "atlas_book_new_1790251932188_3603",
-    name: "Atlas A4 CR Book Square Ruled 40Pgs",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0032102-min.jpg",
-    price: 110,
-    brand: "Atlas",
-    category: "Books",
-  },
-  {
-    id: "atlas_book_new_1790251932188_6596",
-    name: "Atlas A4 Book CR 80Pgs (#) Square Ruled",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0033023-min.jpg",
-    price: 180,
-    brand: "Atlas",
-    category: "Books",
-  },
-  {
-    id: "atlas_book_new_1790251932188_633",
-    name: "Atlas A4 Book CR 120Pgs (#) Square Ruled",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0033302-min.jpg",
-    price: 250,
-    brand: "Atlas",
-    category: "Books",
-  },
-  {
-    id: "atlas_book_new_1790251935120_7912",
-    name: "Atlas A4 Book CR 160Pgs (#) Square Ruled",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0033702-min.jpg",
-    price: 350,
-    brand: "Atlas",
-    category: "Books",
-  },
-  {
-    id: "atlas_book_new_1790251935120_5640",
-    name: "Atlas A4 Book CR 200Pgs (#) Square Ruled",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0033902-min.jpg",
-    price: 430,
-    brand: "Atlas",
-    category: "Books",
-  },
-  {
-    id: "atlas_book_new_1790251935120_1390",
-    name: "Innovate Book CR Single Rule 80Pgs",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0033013.jpg",
-    price: 225,
-    brand: "Innovate",
-    category: "Books",
-  },
-  {
-    id: "atlas_book_new_1790251935120_5787",
-    name: "Atlas A4 Drawing Book Small 80Pgs",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0053001-min.jpg",
-    price: 190,
-    brand: "Atlas",
-    category: "Books",
-  },
-  {
-    id: "atlas_book_new_1790251935120_1241",
-    name: "Atlas A4 Science Book Botany 80Pgs",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0043002-min.jpg",
-    price: 230,
-    brand: "Atlas",
-    category: "Books",
-  },
-  {
-    id: "atlas_book_new_1790251935120_7939",
-    name: "Atlas A4 Science Book Botany 120Pgs",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0043301-min.jpg",
-    price: 280,
-    brand: "Atlas",
-    category: "Books",
-  },
-  {
-    id: "atlas_book_new_1790251935120_2124",
-    name: "Atlas A4 Science Book Botany 160Pgs",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0043701-min.jpg",
-    price: 360,
-    brand: "Atlas",
-    category: "Books",
-  },
-  {
-    id: "atlas_book_new_1790251935120_5428",
-    name: "Atlas A4 Science Book Graph 40Pgs",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0042103-min.jpg",
-    price: 130,
-    brand: "Atlas",
-    category: "Books",
-  },
-  {
-    id: "atlas_book_new_1790251935121_1567",
-    name: "Atlas A4 Science Book Graph 80Pgs",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0043003-min.jpg",
-    price: 230,
-    brand: "Atlas",
-    category: "Books",
-  },
-  {
-    id: "atlas_book_new_1790251935121_2676",
-    name: "Atlas A4 Science Book Plain 80Pgs",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0043001-min.jpg",
-    price: 230,
-    brand: "Atlas",
-    category: "Books",
-  },
-  {
-    id: "atlas_book_new_1790251935121_619",
-    name: "Atlas A5 Book Exercise 40Pgs (=) Single Ruled",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0012116-min.jpg",
-    price: 65,
-    brand: "Atlas",
-    category: "Books",
-  },
-  {
-    id: "atlas_book_new_1790251935121_9284",
-    name: "Atlas A5 Book Exercise 80Pgs (=) Single Ruled",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0013041-min.jpg",
-    price: 80,
-    brand: "Atlas",
-    category: "Books",
-  },
-  {
-    id: "atlas_book_new_1790251935121_7331",
-    name: "Atlas A5 Book Exercise 120Pgs (=) Single Ruled",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0013301-min.jpg",
-    price: 125,
-    brand: "Atlas",
-    category: "Books",
-  },
-  {
-    id: "atlas_book_new_1790251935121_5077",
-    name: 'Atlas A5 Book Practical 1/2"(=) Single Ruled 80Pgs',
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0023001-min.jpg",
-    price: 80,
-    brand: "Atlas",
-    category: "Books",
-  },
-  {
-    id: "atlas_book_new_1790251935121_7734",
-    name: "Atlas A5 Book Exercise 160Pgs (=) Single Ruled",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0013701-min.jpg",
-    price: 170,
-    brand: "Atlas",
-    category: "Books",
-  },
-  {
-    id: "atlas_book_new_1790251935121_2273",
-    name: 'Atlas A5 Book Practical  1/2"(#) Square Ruled 80Pgs',
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0023003-min.jpg",
-    price: 80,
-    brand: "Atlas",
-    category: "Books",
-  },
-  {
-    id: "atlas_book_new_1790251935121_190",
-    name: "Atlas A5 Book Exercise 200Pgs (=) Single Ruled",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0013901-min.jpg",
-    price: 210,
-    brand: "Atlas",
-    category: "Books",
-  },
-  {
-    id: "atlas_book_new_1790251935122_7246",
-    name: "Atlas A5 Book Exercise 400Pgs (=) Single Ruled",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0014701-min.jpg",
-    price: 490,
-    brand: "Atlas",
-    category: "Books",
-  },
-  {
-    id: "atlas_book_new_1790251935122_3716",
-    name: "Atlas A5 Book Exercise 40Pgs (#) Square Ruled",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0012117-min.jpg",
-    price: 60,
-    brand: "Atlas",
-    category: "Books",
-  },
-  {
-    id: "atlas_book_new_1790251935122_3646",
-    name: "Atlas A5 Book Exercise 80Pgs (#) Square Ruled",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0013040-min.jpg",
-    price: 80,
-    brand: "Atlas",
-    category: "Books",
-  },
-  {
-    id: "atlas_book_new_1790251938068_1922",
-    name: "Atlas A5 Book Exercise 120Pgs (#) Square Ruled",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0013302-min.jpg",
-    price: 125,
-    brand: "Atlas",
-    category: "Books",
-  },
-  {
-    id: "atlas_book_new_1790251938068_136",
-    name: "Atlas A5 Book Exercise 160Pgs (#) Square Ruled",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0013702-min.jpg",
-    price: 170,
-    brand: "Atlas",
-    category: "Books",
-  },
-  {
-    id: "atlas_book_new_1790251938069_8654",
-    name: "Atlas A5 Book Exercise 200Pgs (#) Square Ruled",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0013902-min.jpg",
-    price: 210,
-    brand: "Atlas",
-    category: "Books",
-  },
-  {
-    id: "atlas_book_new_1790251938069_3035",
-    name: "Atlas A5 Book Exercise 400Pgs (#) Square Ruled",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0014702-min.jpg",
-    price: 420,
-    brand: "Atlas",
-    category: "Books",
-  },
-  {
-    id: "atlas_book_new_1790251938069_3976",
-    name: 'Atlas A5 Book Practical 1"(=) Single Ruled 80Pgs',
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0023002-min.jpg",
-    price: 80,
-    brand: "Atlas",
-    category: "Books",
-  },
-  {
-    id: "atlas_book_new_1790251938069_8841",
-    name: 'Atlas A5 Book Practical  1"(#) Square Ruled 80Pgs',
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0023004-min.jpg",
-    price: 80,
-    brand: "Atlas",
-    category: "Books",
-  },
-  {
-    id: "atlas_book_new_1790251938069_1255",
-    name: "Atlas A5 Book Practical Blank 80Pgs",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0023007-min.jpg",
-    price: 80,
-    brand: "Atlas",
-    category: "Books",
-  },
-  {
-    id: "atlas_book_new_1790251938069_9313",
-    name: "Atlas A5 Book Practical Botany 80Pgs",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0023008-min.jpg",
-    price: 80,
-    brand: "Atlas",
-    category: "Books",
-  },
-  {
-    id: "atlas_book_new_1790251938069_5758",
-    name: "Atlas A5 Book Practical Double Ruled 80Pgs",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0023006-min.jpg",
-    price: 80,
-    brand: "Atlas",
-    category: "Books",
-  },
-  {
-    id: "atlas_book_new_1790251938069_4667",
-    name: "Atlas A5 Practical Book Double Ruled 120Pgs",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0023308-min.jpg",
-    price: 125,
-    brand: "Atlas",
-    category: "Books",
-  },
-  {
-    id: "atlas_book_new_1790251938069_8245",
-    name: "Atlas A5 Book Practical Five Rule (Grade 2 & 3) 80Pgs",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0023015-min.jpg",
-    price: 80,
-    brand: "Atlas",
-    category: "Books",
-  },
-  {
-    id: "atlas_book_new_1790251938069_1317",
-    name: "Atlas A5 Book Practical Five Rule 80Pgs",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0023010-min.jpg",
-    price: 80,
-    brand: "Atlas",
-    category: "Books",
-  },
-  {
-    id: "atlas_book_new_1790251938069_4470",
-    name: "Atlas A5 Book Practical Jaffna Ruled 80Pgs",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0023009-min.jpg",
-    price: 80,
-    brand: "Atlas",
-    category: "Books",
-  },
-  {
-    id: "atlas_book_new_1790251938070_9792",
-    name: "Atlas B5 Book 80Pgs (=) Single Ruled",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0183001-min.jpg",
-    price: 125,
-    brand: "Atlas",
-    category: "Books",
-  },
-  {
-    id: "atlas_book_new_1790251938070_1066",
-    name: "Atlas B5 Book 160Pgs (=) Single Ruled",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0183702-min.jpg",
-    price: 240,
-    brand: "Atlas",
-    category: "Books",
-  },
-  {
-    id: "atlas_book_new_1790251938070_5215",
-    name: "Atlas B5 Book 80Pgs (#) Square Ruled",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0183301-min.jpg",
-    price: 125,
-    brand: "Atlas",
-    category: "Books",
-  },
-  {
-    id: "atlas_book_new_1790251938070_1889",
-    name: "Atlas B5 Book 120Pgs (#) Square Ruled",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0183701-min.jpg",
-    price: 220,
-    brand: "Atlas",
-    category: "Books",
-  },
-  {
-    id: "atlas_book_new_1790251938070_4596",
-    name: "Atlas B5 Book 160Pgs (#) Square Ruled",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0183004-min.jpg",
-    price: 240,
-    brand: "Atlas",
-    category: "Books",
-  },
-  {
-    id: "atlas_book_new_1790251938070_6288",
-    name: "Innovate Book B5 Single Rule 80Pgs",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0183002.jpg",
-    price: 175,
-    brand: "Innovate",
-    category: "Books",
-  },
-  {
-    id: "atlas_book_new_1790251938070_2711",
-    name: "Innovate Book CR Single Rule 120Pgs",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0033313.jpg",
-    price: 340,
-    brand: "Innovate",
-    category: "Books",
-  },
-  {
-    id: "atlas_book_new_1790251940933_6374",
-    name: "Innovate Book CR Single Rule 160Pgs",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0033711.jpg",
-    price: 470,
-    brand: "Innovate",
-    category: "Books",
-  },
-  {
-    id: "atlas_book_new_1790251940933_4167",
-    name: "Innovate Book CR Single Rule 200Pgs -0032",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0033911-1.jpg",
-    price: 575,
-    brand: "Innovate",
-    category: "Books",
-  },
-  {
-    id: "atlas_book_new_1790251940933_966",
-    name: "Innovate Book CR Square Rule 120Pgs- 0048",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0033317-1.jpg",
-    price: 340,
-    brand: "Innovate",
-    category: "Books",
-  },
-  {
-    id: "atlas_book_new_1790251940933_5120",
-    name: "Innovate Book Exe Single Rule 160Pgs-0080",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0013716-1.jpg",
-    price: 250,
-    brand: "Innovate",
-    category: "Books",
-  },
-  {
-    id: "atlas_book_new_1790251940933_6916",
-    name: "Innovate Book Exe Single Rule 200Pgs-0064",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0013916-1.jpg",
-    price: 300,
-    brand: "Innovate",
-    category: "Books",
-  },
-  {
-    id: "atlas_book_new_1790251940933_5705",
-    name: "Innovate Book B5 Single Rule 120Pgs",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0183302.jpg",
-    price: 275,
-    brand: "Innovate",
-    category: "Books",
-  },
-  {
-    id: "atlas_book_new_1790251940934_1427",
-    name: "Innovate B5 Book Single Ruled 160Pgs",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0183703-min.jpg",
-    price: 340,
-    brand: "Innovate",
-    category: "Books",
-  },
-  {
-    id: "atlas_book_new_1790251940934_6409",
-    name: "Innovate Book B5 Single Rule 200Pgs - 0032",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0183902-1.jpg",
-    price: 400,
-    brand: "Innovate",
-    category: "Books",
-  },
-  {
-    id: "atlas_book_new_1790251940934_1671",
-    name: "Innovate Book B5 Square Rule 200Pgs - 0032",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0183903-1.jpg",
-    price: 400,
-    brand: "Innovate",
-    category: "Books",
-  },
-  {
-    id: "atlas_book_new_1790251940934_1016",
-    name: "Innovate Book B5 Square Rule 160Pgs - 0040",
-    image:
-      "https://www.atlas.lk/myshop/wp-content/uploads/2025/08/PF0183704.jpg",
-    price: 340,
-    brand: "Innovate",
-    category: "Books",
-  },
-  {
-    id: "atlas_book_new_1790251940934_8387",
-    name: "Homerun Book Exe (#) 120pg",
-    image: "/products/PF0013352.jpg",
-    price: 105,
-    brand: "Homerun",
-    category: "Books",
-  },
-  {
-    id: "atlas_book_new_1790251940934_8565",
-    name: "Homerun Book Exe (=) 120pg",
-    image: "/products/PF0013351.jpg",
-    price: 105,
-    brand: "Homerun",
-    category: "Books",
-  },
-  {
-    id: "atlas_book_new_1790251940934_552",
-    name: "Homerun Book CR (#) 120pg",
-    image: "/products/PF0033335.jpg",
-    price: 220,
-    brand: "Homerun",
-    category: "Books",
-  },
-  {
-    id: "atlas_book_new_1790251940934_2284",
-    name: "Homerun Book CR (#) 80pg",
-    image: "/products/PF0033038.jpg",
-    price: 150,
-    brand: "Homerun",
-    category: "Books",
-  },
-  {
-    id: "atlas_book_new_1790251940934_7918",
-    name: "Homerun Book Exe (#) 200pg",
-    image: "/products/PF0013929.jpg",
-    price: 195,
-    brand: "Homerun",
-    category: "Books",
-  },
-  {
-    id: "atlas_book_new_1790251940934_8783",
-    name: "Homerun Book Pra Double Rule 80Pg",
-    image: "/products/509292.jpg",
-    price: 70,
-    brand: "Homerun",
-    category: "Books",
-  },
-  {
-    id: "atlas_book_new_1790251940934_4795",
-    name: "Homerun Book Exe (=) 200pg",
-    image: "/products/PF0013928.jpg",
-    price: 185,
-    brand: "Homerun",
-    category: "Books",
-  },
-  {
-    id: "atlas_book_new_1790251940935_5268",
-    name: "Homerun Book Exe (=) 160pg",
-    image: "/products/PF0013732.jpg",
-    price: 150,
-    brand: "Homerun",
-    category: "Books",
-  },
-  {
-    id: "atlas_book_new_1790251940935_5623",
-    name: "Homerun Book CR (=) 160pg",
-    image: "/products/PF0033724.jpg",
-    price: 300,
-    brand: "Homerun",
-    category: "Books",
-  },
-  {
-    id: "atlas_book_new_1790251940935_4399",
-    name: "Homerun Book CR (=) 80pg",
-    image: "/products/PF0033037.jpg",
-    price: 150,
-    brand: "Homerun",
-    category: "Books",
-  },
-  {
-    id: "atlas_book_new_1790251943402_1975",
-    name: "Homerun Book Exe (=) 80pg",
-    image: "/products/PF0013063-.jpg",
-    price: 70,
-    brand: "Homerun",
-    category: "Books",
-  },
-  {
-    id: "atlas_book_new_1790251943402_8576",
-    name: "Homerun Book CR (=) 200pg",
-    image: "/products/PF0033925.jpg",
-    price: 390,
-    brand: "Homerun",
-    category: "Books",
-  },
-  {
-    id: "atlas_book_new_1790251943402_1490",
-    name: "Homerun Book CR (#) 200pg",
-    image: "/products/PF0033926.jpg",
-    price: 380,
-    brand: "Homerun",
-    category: "Books",
-  },
-  {
-    id: "atlas_book_new_1790251943402_629",
-    name: "Homerun Book Exe (#) 80pg",
-    image: "/products/PF0013064.jpg",
-    price: 70,
-    brand: "Homerun",
-    category: "Books",
-  },
-  {
-    id: "atlas_book_new_1790251943402_2102",
-    name: "Homerun Book CR (#) 160pg",
-    image: "/products/PF0033725.jpg",
-    price: 300,
-    brand: "Homerun",
-    category: "Books",
-  },
-  {
-    id: "edu-toys-226889",
-    name: "Animal Craft & Weave Kit",
-    price: 1390,
-    image: "/products/509832-.jpg",
-    category: "EDU Toys",
-    brand: "Atlas",
-    description: "Animal Craft & Weave Kit"
-  },
-  {
-    id: "edu-toys-226363",
-    name: "Mega Blocks 30 Pieces",
-    price: 1600,
-    image: "/products/WF9020104.jpg",
-    category: "EDU Toys",
-    brand: "Atlas",
-    description: "Mega Blocks 30 Pieces"
-  },
-  {
-    id: "edu-toys-226675",
-    name: "Storytelling & Role-play Kit (Module 2)",
-    price: 1390,
-    image: "/products/509831.jpg",
-    category: "EDU Toys",
-    brand: "Atlas",
-    description: "Storytelling & Role-play Kit (Module 2)"
-  },
-  {
-    id: "edu-toys-226943",
-    name: "Trace & Learn Alphabet Kit",
-    price: 9900,
-    image: "/products/509978-.jpg",
-    category: "EDU Toys",
-    brand: "Atlas",
-    description: "Trace & Learn Alphabet Kit"
-  },
-  {
-    id: "edu-toys-226676",
-    name: "Word Building Kit (Module 3)",
-    price: 1250,
-    image: "/products/509833.jpg",
-    category: "EDU Toys",
-    brand: "Atlas",
-    description: "Word Building Kit (Module 3)"
-  },
-  {
-    id: "edu-toys-225901",
-    name: "Dino Egg – Mechanical",
-    price: 4900,
-    image: "/products/TT4000108-1.jpg",
-    category: "EDU Toys",
-    brand: "Atlas",
-    description: "Dino Egg – Mechanical"
-  },
-  {
-    id: "edu-toys-225900",
-    name: "Dino Egg – Stimulator",
-    price: 4900,
-    image: "/products/TT4000107-1.jpg",
-    category: "EDU Toys",
-    brand: "Atlas",
-    description: "Dino Egg – Stimulator"
-  },
-  {
-    id: "edu-toys-225899",
-    name: "Animal Building Block",
-    price: 2600,
-    image: "/products/TT4000205-1.jpg",
-    category: "EDU Toys",
-    brand: "Atlas",
-    description: "Animal Building Block"
-  },
-  {
-    id: "edu-toys-225343",
-    name: "Coloursand Activity Pack – Prince and the Dragon",
-    price: 1490,
-    image: "/products/WF9030202.jpg",
-    category: "EDU Toys",
-    brand: "Atlas",
-    description: "Coloursand Activity Pack – Prince and the Dragon"
-  },
-  {
-    id: "edu-toys-225351",
-    name: "Coloursand Activity Pack – Tortoise and the Hare",
-    price: 1490,
-    image: "/products/WF9030204.jpg",
-    category: "EDU Toys",
-    brand: "Atlas",
-    description: "Coloursand Activity Pack – Tortoise and the Hare"
-  },
-  {
-    id: "edu-toys-225856",
-    name: "Eco Block bag",
-    price: 1090,
-    image: "/products/TT4020202.jpg",
-    category: "EDU Toys",
-    brand: "Atlas",
-    description: "Eco Block bag"
-  },
-  {
-    id: "edu-toys-225855",
-    name: "Eco Block car",
-    price: 9900,
-    image: "/products/TT4020201.jpg",
-    category: "EDU Toys",
-    brand: "Atlas",
-    description: "Eco Block car"
-  },
-  {
-    id: "edu-toys-225881",
-    name: "Kinetic Sand",
-    price: 4900,
-    image: "/products/Kinetic_sand_1.jpg",
-    category: "EDU Toys",
-    brand: "Atlas",
-    description: "Kinetic Sand"
-  },
-  {
-    id: "edu-toys-225866",
-    name: "PP Eduaids Flash Card Fruits20 – 0048",
-    price: 2900,
-    image: "/products/PF8000117.jpg",
-    category: "EDU Toys",
-    brand: "Atlas",
-    description: "PP Eduaids Flash Card Fruits20 – 0048"
-  },
-  {
-    id: "edu-toys-225869",
-    name: "PP Eduaids Flash Card Numbers20 – 0048",
-    price: 2900,
-    image: "/products/PF8000120.jpg",
-    category: "EDU Toys",
-    brand: "Atlas",
-    description: "PP Eduaids Flash Card Numbers20 – 0048"
-  },
-  {
-    id: "edu-toys-225825",
-    name: "3D Puzzle Insects",
-    price: 2690,
-    image: "/products/TT4020115.jpg",
-    category: "EDU Toys",
-    brand: "Atlas",
-    description: "3D Puzzle Insects"
-  },
-  {
-    id: "edu-toys-225826",
-    name: "3D Puzzle Sea Creatures",
-    price: 2690,
-    image: "/products/TT4020116.jpg",
-    category: "EDU Toys",
-    brand: "Atlas",
-    description: "3D Puzzle Sea Creatures"
-  },
-  {
-    id: "edu-toys-225823",
-    name: "3D Puzzle Transport",
-    price: 2690,
-    image: "/products/TT4020114.jpg",
-    category: "EDU Toys",
-    brand: "Atlas",
-    description: "3D Puzzle Transport"
-  },
-  {
-    id: "edu-toys-225326",
-    name: "Blocks Mega Pre 100",
-    price: 6290,
-    image: "/products/WF9020102-A.jpg",
-    category: "EDU Toys",
-    brand: "Atlas",
-    description: "Blocks Mega Pre 100"
-  },
-  {
-    id: "edu-toys-225330",
-    name: "Blocks Mega Pre 150",
-    price: 8490,
-    image: "/products/WF9020103-A.jpg",
-    category: "EDU Toys",
-    brand: "Atlas",
-    description: "Blocks Mega Pre 150"
-  },
-  {
-    id: "edu-toys-225325",
-    name: "Blocks Mega Pre 50",
-    price: 3490,
-    image: "/products/WF9020101-A.jpg",
-    category: "EDU Toys",
-    brand: "Atlas",
-    description: "Blocks Mega Pre 50"
-  },
-  {
-    id: "edu-toys-225822",
-    name: "Chunky Puzzle Professions",
-    price: 1990,
-    image: "/products/TT4020113.jpg",
-    category: "EDU Toys",
-    brand: "Atlas",
-    description: "Chunky Puzzle Professions"
-  },
-  {
-    id: "edu-toys-225771",
-    name: "Eduaids Flash Card Birds",
-    price: 2900,
-    image: "/products/PF8000105-A.jpg",
-    category: "EDU Toys",
-    brand: "Atlas",
-    description: "Eduaids Flash Card Birds"
-  },
-  {
-    id: "edu-toys-225767",
-    name: "Eduaids Flash Card English",
-    price: 4900,
-    image: "/products/PF8000101-A-min.jpg",
-    category: "EDU Toys",
-    brand: "Atlas",
-    description: "Eduaids Flash Card English"
-  },
-  {
-    id: "edu-toys-225772",
-    name: "Eduaids Flash Card Sea Animals",
-    price: 2900,
-    image: "/products/PF8000106-A.jpg",
-    category: "EDU Toys",
-    brand: "Atlas",
-    description: "Eduaids Flash Card Sea Animals"
-  },
-  {
-    id: "edu-toys-225768",
-    name: "Eduaids Flash Card Sinhala",
-    price: 4900,
-    image: "/products/PF8000102-A.jpg",
-    category: "EDU Toys",
-    brand: "Atlas",
-    description: "Eduaids Flash Card Sinhala"
-  },
-  {
-    id: "edu-toys-225769",
-    name: "Eduaids Flash Card Tamil",
-    price: 4900,
-    image: "/products/PF8000103-A.jpg",
-    category: "EDU Toys",
-    brand: "Atlas",
-    description: "Eduaids Flash Card Tamil"
-  },
-  {
-    id: "edu-toys-225781",
-    name: "Eduaids Puzzles 2 Letter Words Sinhala",
-    price: 1490,
-    image: "/products/PF8000205-A.jpg",
-    category: "EDU Toys",
-    brand: "Atlas",
-    description: "Eduaids Puzzles 2 Letter Words Sinhala"
-  },
-  {
-    id: "edu-toys-225786",
-    name: "Eduaids Puzzles 2 Letter Words Tamil",
-    price: 1490,
-    image: "/products/PF8000209-A.jpg",
-    category: "EDU Toys",
-    brand: "Atlas",
-    description: "Eduaids Puzzles 2 Letter Words Tamil"
-  },
-  {
-    id: "edu-toys-225784",
-    name: "Eduaids Puzzles 3 Letter Words English",
-    price: 1490,
-    image: "/products/PF8000207-A.jpg",
-    category: "EDU Toys",
-    brand: "Atlas",
-    description: "Eduaids Puzzles 3 Letter Words English"
-  },
-  {
-    id: "edu-toys-225783",
-    name: "Eduaids Puzzles 3 Letter Words Sinhala",
-    price: 1490,
-    image: "/products/PF8000206-A.jpg",
-    category: "EDU Toys",
-    brand: "Atlas",
-    description: "Eduaids Puzzles 3 Letter Words Sinhala"
-  },
-  {
-    id: "edu-toys-225782",
-    name: "Eduaids Puzzles 3 Letter Words Tamil",
-    price: 1490,
-    image: "/products/PF8000210-A.jpg",
-    category: "EDU Toys",
-    brand: "Atlas",
-    description: "Eduaids Puzzles 3 Letter Words Tamil"
-  },
-  {
-    id: "edu-toys-225785",
-    name: "Eduaids Puzzles 4 Letter Words English",
-    price: 1490,
-    image: "/products/PF8000208-A.jpg",
-    category: "EDU Toys",
-    brand: "Atlas",
-    description: "Eduaids Puzzles 4 Letter Words English"
-  },
-  {
-    id: "edu-toys-225780",
-    name: "Eduaids Puzzles Action Words",
-    price: 7500,
-    image: "/products/PF8000204-A.jpg",
-    category: "EDU Toys",
-    brand: "Atlas",
-    description: "Eduaids Puzzles Action Words"
-  },
-  {
-    id: "edu-toys-225779",
-    name: "Eduaids Puzzles One and Many",
-    price: 7500,
-    image: "/products/PF8000203-A.jpg",
-    category: "EDU Toys",
-    brand: "Atlas",
-    description: "Eduaids Puzzles One and Many"
-  },
-  {
-    id: "edu-toys-225778",
-    name: "Eduaids Puzzles Opposite",
-    price: 7500,
-    image: "/products/PF8000202-A.jpg",
-    category: "EDU Toys",
-    brand: "Atlas",
-    description: "Eduaids Puzzles Opposite"
-  },
-  {
-    id: "edu-toys-225777",
-    name: "Eduaids Puzzles Synonyms",
-    price: 7500,
-    image: "/products/PF8000201-A.jpg",
-    category: "EDU Toys",
-    brand: "Atlas",
-    description: "Eduaids Puzzles Synonyms"
-  },
-  {
-    id: "edu-toys-225789",
-    name: "Finger Paints 6 Pack 30ml",
-    price: 1190,
-    image: "/products/TT4000103-A.jpg",
-    category: "EDU Toys",
-    brand: "Atlas",
-    description: "Finger Paints 6 Pack 30ml"
-  },
-  {
-    id: "edu-toys-225790",
-    name: "Finger Paints 6 Pack 75ml",
-    price: 2150,
-    image: "/products/TT4000104-A.jpg",
-    category: "EDU Toys",
-    brand: "Atlas",
-    description: "Finger Paints 6 Pack 75ml"
-  },
-  {
-    id: "edu-toys-225774",
-    name: "PP Eduaids Flash Card Vegetables",
-    price: 2900,
-    image: "/products/PF8000108-A.jpg",
-    category: "EDU Toys",
-    brand: "Atlas",
-    description: "PP Eduaids Flash Card Vegetables"
-  },
-  {
-    id: "edu-toys-225811",
-    name: "Wooden Puzzle Animals",
-    price: 1390,
-    image: "/products/TT4020101.jpg",
-    category: "EDU Toys",
-    brand: "Atlas",
-    description: "Wooden Puzzle Animals"
-  },
-  {
-    id: "edu-toys-225824",
-    name: "Wooden Puzzle Farm Animals",
-    price: 1790,
-    image: "/products/TT4020112.jpg",
-    category: "EDU Toys",
-    brand: "Atlas",
-    description: "Wooden Puzzle Farm Animals"
-  },
-  {
-    id: "edu-toys-225820",
-    name: "Wooden Puzzle Insects",
-    price: 1790,
-    image: "/products/TT4020110.jpg",
-    category: "EDU Toys",
-    brand: "Atlas",
-    description: "Wooden Puzzle Insects"
-  },
-  {
-    id: "edu-toys-225816",
-    name: "Wooden Puzzle Public Transport",
-    price: 1390,
-    image: "/products/TT4020106.jpg",
-    category: "EDU Toys",
-    brand: "Atlas",
-    description: "Wooden Puzzle Public Transport"
-  },
-  {
-    id: "edu-toys-225813",
-    name: "Wooden Puzzle Sea Animals",
-    price: 1390,
-    image: "/products/TT4020103.jpg",
-    category: "EDU Toys",
-    brand: "Atlas",
-    description: "Wooden Puzzle Sea Animals"
-  },
-  {
-    id: "edu-toys-225819",
-    name: "Wooden Puzzle Tamil Alphabet",
-    price: 2690,
-    image: "/products/TT4020109.jpg",
-    category: "EDU Toys",
-    brand: "Atlas",
-    description: "Wooden Puzzle Tamil Alphabet"
-  },
-  {
-    id: "edu-toys-225821",
-    name: "Wooden Puzzle Wild Animals",
-    price: 1790,
-    image: "/products/TT4020111.jpg",
-    category: "EDU Toys",
-    brand: "Atlas",
-    description: "Wooden Puzzle Wild Animals"
-  },
-  {
-    id: "innovate-225853",
-    name: "Innovate Pen Akuru Blue",
-    price: 1500,
-    image: "/products/WF2331901-1.jpg",
-    category: "Innovate",
-    brand: "Innovate",
-    description: "Innovate Pen Akuru Blue"
-  },
-  {
-    id: "innovate-225836",
-    name: "Innovate Book Divder CR Single Rule 240pg-0012",
-    price: 1000,
-    image: "/products/PF0034003.jpg",
-    category: "Innovate",
-    brand: "Innovate",
-    description: "Innovate Book Divder CR Single Rule 240pg-0012"
-  },
-  {
-    id: "innovate-225833",
-    name: "Innovate Book Exe Single Rule 120Pgs-0100",
-    price: 1650,
-    image: "/products/PF0013328-1.jpg",
-    category: "Innovate",
-    brand: "Innovate",
-    description: "Innovate Book Exe Single Rule 120Pgs-0100"
-  },
-  {
-    id: "innovate-206267",
-    name: "Innovate Book Exe Single Rule 80pgs -0144",
-    price: 1000,
-    image: "/products/PF0013052.jpg",
-    category: "Innovate",
-    brand: "Innovate",
-    description: "Innovate Book Exe Single Rule 80pgs -0144"
-  },
-  {
-    id: "innovate-225837",
-    name: "Innovate Book Spiral Exe Single Rule 120Pg-0060",
-    price: 4000,
-    image: "/products/PF0013345-1.jpg",
-    category: "Innovate",
-    brand: "Innovate",
-    description: "Innovate Book Spiral Exe Single Rule 120Pg-0060"
-  },
-  {
-    id: "innovate-225834",
-    name: "Innovate Book Spiral B5 Single Ruled 120Pg-0030",
-    price: 6000,
-    image: "/products/PF0183311-1.jpg",
-    category: "Innovate",
-    brand: "Innovate",
-    description: "Innovate Book Spiral B5 Single Ruled 120Pg-0030"
-  },
-  {
-    id: "innovate-225835",
-    name: "Innovate Book Spiral CR Single Ruled 120Pg-0030",
-    price: 8000,
-    image: "/products/PF0033329-1.jpg",
-    category: "Innovate",
-    brand: "Innovate",
-    description: "Innovate Book Spiral CR Single Ruled 120Pg-0030"
-  },
-  {
-    id: "innovate-225607",
-    name: "Innovate Book CR Single Rule 80Pgs",
-    price: 2250,
-    image: "/products/PF0033013.jpg",
-    category: "Innovate",
-    brand: "Innovate",
-    description: "Innovate Book CR Single Rule 80Pgs"
-  },
-  {
-    id: "innovate-225615",
-    name: "Innovate Book B5 Single Rule 80Pgs",
-    price: 1750,
-    image: "/products/PF0183002.jpg",
-    category: "Innovate",
-    brand: "Innovate",
-    description: "Innovate Book B5 Single Rule 80Pgs"
-  },
-  {
-    id: "innovate-225605",
-    name: "Innovate Book CR Single Rule 120Pgs",
-    price: 3400,
-    image: "/products/PF0033313.jpg",
-    category: "Innovate",
-    brand: "Innovate",
-    description: "Innovate Book CR Single Rule 120Pgs"
-  },
-  {
-    id: "innovate-225603",
-    name: "Innovate Book CR Single Rule 160Pgs",
-    price: 4700,
-    image: "/products/PF0033711.jpg",
-    category: "Innovate",
-    brand: "Innovate",
-    description: "Innovate Book CR Single Rule 160Pgs"
-  },
-  {
-    id: "innovate-225601",
-    name: "Innovate Book CR Single Rule 200Pgs -0032",
-    price: 5750,
-    image: "/products/PF0033911-1.jpg",
-    category: "Innovate",
-    brand: "Innovate",
-    description: "Innovate Book CR Single Rule 200Pgs -0032"
-  },
-  {
-    id: "innovate-225604",
-    name: "Innovate Book CR Square Rule 120Pgs- 0048",
-    price: 3400,
-    image: "/products/PF0033317-1.jpg",
-    category: "Innovate",
-    brand: "Innovate",
-    description: "Innovate Book CR Square Rule 120Pgs- 0048"
-  },
-  {
-    id: "innovate-225588",
-    name: "Innovate Book Exe Single Rule 160Pgs-0080",
-    price: 2500,
-    image: "/products/PF0013716-1.jpg",
-    category: "Innovate",
-    brand: "Innovate",
-    description: "Innovate Book Exe Single Rule 160Pgs-0080"
-  },
-  {
-    id: "innovate-225578",
-    name: "Innovate Book Exe Single Rule 200Pgs-0064",
-    price: 3000,
-    image: "/products/PF0013916-1.jpg",
-    category: "Innovate",
-    brand: "Innovate",
-    description: "Innovate Book Exe Single Rule 200Pgs-0064"
-  },
-  {
-    id: "innovate-225613",
-    name: "Innovate Book B5 Single Rule 120Pgs",
-    price: 2750,
-    image: "/products/PF0183302.jpg",
-    category: "Innovate",
-    brand: "Innovate",
-    description: "Innovate Book B5 Single Rule 120Pgs"
-  },
-  {
-    id: "innovate-15161",
-    name: "Innovate B5 Book Single Ruled 160Pgs",
-    price: 3400,
-    image: "/products/PF0183703-min.jpg",
-    category: "Innovate",
-    brand: "Innovate",
-    description: "Innovate B5 Book Single Ruled 160Pgs"
-  },
-  {
-    id: "innovate-225609",
-    name: "Innovate Book B5 Single Rule 200Pgs – 0032",
-    price: 4000,
-    image: "/products/PF0183902-1.jpg",
-    category: "Innovate",
-    brand: "Innovate",
-    description: "Innovate Book B5 Single Rule 200Pgs – 0032"
-  },
-  {
-    id: "innovate-225608",
-    name: "Innovate Book B5 Square Rule 200Pgs – 0032",
-    price: 4000,
-    image: "/products/PF0183903-1.jpg",
-    category: "Innovate",
-    brand: "Innovate",
-    description: "Innovate Book B5 Square Rule 200Pgs – 0032"
-  },
-  {
-    id: "innovate-225610",
-    name: "Innovate Book B5 Square Rule 160Pgs – 0040",
-    price: 3400,
-    image: "/products/PF0183704.jpg",
-    category: "Innovate",
-    brand: "Innovate",
-    description: "Innovate Book B5 Square Rule 160Pgs – 0040"
-  }
-,
-  {
-    id: "homerun_1790268842819_0",
-    name: "Innovate B5 Book Single Ruled 160Pgs",
-    image: "/products/PF0183703-min-600x600.jpg",
-    price: 340,
-    brand: "Innovate",
-    category: "B5 Books",
-  },
-  {
-    id: "homerun_1790268842819_1",
-    name: "Atlas A4 Science Book Graph 80Pgs",
-    image: "/products/PF0043003-min-600x600.jpg",
-    price: 230,
-    brand: "Atlas",
-    category: "A4 Science Books",
-  },
-  {
-    id: "homerun_1790268842819_2",
-    name: "Atlas B5 Book 160Pgs (#) Square Ruled",
-    image: "/products/PF0183004-min-600x600.jpg",
-    price: 240,
-    brand: "Atlas",
-    category: "B5 Books",
-  },
-  {
-    id: "homerun_1790268842819_3",
-    name: "Atlas B5 Book 160Pgs (=) Single Ruled",
-    image: "/products/PF0183702-min-600x600.jpg",
-    price: 240,
-    brand: "Atlas",
-    category: "B5 Books",
-  },
-  {
-    id: "homerun_1790268842819_4",
-    name: "Atlas Pen Chooty Gel Multicolor -  Pack of 5",
-    image: "/products/WF1010701-min-1-600x600.jpg",
-    price: 300,
-    brand: "Atlas",
-    category: "Multi Color Pens",
-  },
-  {
-    id: "homerun_1790268842819_5",
-    name: "Atlas Pen Chooty Gel Assorted - Pack of 3",
-    image: "/products/WF1000402-min-600x600.jpg",
-    price: 150,
-    brand: "Atlas",
-    category: "Gel Pens",
-  },
-  {
-    id: "homerun_1790268842819_6",
-    name: "Atlas Pen Chooty Multicolor -  Pack of 5",
-    image: "/products/WF2020701-min-600x600.jpg",
-    price: 200,
-    brand: "Atlas",
-    category: "Multi Color Pens",
-  },
-  {
-    id: "homerun_1790268842819_7",
-    name: "Atlas Pen Cool Multicolor -  Pack of 5",
-    image: "/products/WF2050701-min-600x600.jpg",
-    price: 200,
-    brand: "Atlas",
-    category: "Multi Color Pens",
-  },
-  {
-    id: "homerun_1790268842819_8",
-    name: "Atlas Jumbo Dino Pastel 24 Colours",
-    image: "/products/GF4001113-min-600x600.jpg",
-    price: 550,
-    brand: "Atlas",
-    category: "Pastels",
-  },
-  {
-    id: "homerun_1790268842819_9",
-    name: "Atlas Water colour pencil 12 Colours",
-    image: "/products/TT0390102-min-600x600.jpg",
-    price: 850,
-    brand: "Atlas",
-    category: "Water Colours",
-  },
-  {
-    id: "homerun_1790268842819_10",
-    name: "Atlas Colour Pen Wallets 6 Colours",
-    image: "/products/508244-600x600.jpg",
-    price: 260,
-    brand: "Atlas",
-    category: "Felt Pens",
-  },
-  {
-    id: "homerun_1790268842819_11",
-    name: "Atlas Colour Pen Felta 6 Colours",
-    image: "/products/WF8050101-min-600x600.jpg",
-    price: 285,
-    brand: "Atlas",
-    category: "Felt Pens",
-  },
-  {
-    id: "homerun_1790268842819_12",
-    name: "Atlas Natural Clay 250g",
-    image: "/products/TT0071001-B-600x600.jpg",
-    price: 120,
-    brand: "Atlas",
-    category: "Kids Clay",
-  },
-  {
-    id: "homerun_1790268842819_13",
-    name: "Atlas clay Activity set Small",
-    image: "/products/TT0071101-min-600x600.jpg",
-    price: 270,
-    brand: "Atlas",
-    category: "Kids Clay",
-  },
-  {
-    id: "homerun_1790268842819_14",
-    name: "Atlas  Super Glue 3g",
-    image: "/products/TT0060101-1-600x600.jpg",
-    price: 80,
-    brand: "Atlas",
-    category: "Glue",
-  },
-  {
-    id: "homerun_1790268842819_15",
-    name: "Atlas Binder Glue Bottle 200g",
-    image: "/products/GF3013902-min-600x600.jpg",
-    price: 300,
-    brand: "Atlas",
-    category: "Glue",
-  },
-  {
-    id: "homerun_1790268842819_16",
-    name: "Stapler Large",
-    image: "/products/TT0040106-min-600x600.jpg",
-    price: 520,
-    brand: "Atlas",
-    category: "Staplers &amp; Pins",
-  },
-  {
-    id: "homerun_1790268842819_17",
-    name: "Stapler Pin # 10",
-    image: "/products/TT0040303-min-600x600.jpg",
-    price: 50,
-    brand: "Atlas",
-    category: "Staplers &amp; Pins",
-  },
-  {
-    id: "homerun_1790268842819_18",
-    name: "Stapler Pin # 369",
-    image: "/products/TT0040302-min-1-600x600.jpg",
-    price: 80,
-    brand: "Atlas",
-    category: "Staplers &amp; Pins",
-  },
-  {
-    id: "homerun_1790268842819_19",
-    name: "White ink pen Big",
-    image: "/products/TT0180601-min-600x600.jpg",
-    price: 150,
-    brand: "Atlas",
-    category: "Correction Pens",
-  },
-  {
-    id: "homerun_1790268842819_20",
-    name: "Atlas Lunch Box Kids",
-    image: "/products/TT1122101-600x600.jpg",
-    price: 660,
-    brand: "Atlas",
-    category: "Lock Tight Boxes",
-  },
-  {
-    id: "homerun_1790268842819_21",
-    name: "Atlas Lunch Box Small Snackkit",
-    image: "/products/3-Atlas-Lunch-Box-Small-Snackkit-0036-copy-1-600x600.png",
-    price: 330,
-    brand: "Atlas",
-    category: "Easy Open Boxes",
-  },
-  {
-    id: "homerun_1790268842820_22",
-    name: "Atlas Lunch Box Medium Home Fresh",
-    image: "/products/4-Atlas-Lunch-Box-Medium-Home-Fresh-0036-copy-1-600x600.png",
-    price: 390,
-    brand: "Atlas",
-    category: "Easy Open Boxes",
-  },
-  {
-    id: "homerun_1790268842820_23",
-    name: "Atlas Lunch Box Large FitPAK",
-    image: "/products/WF7240103-2-600x600.jpg",
-    price: 490,
-    brand: "Atlas",
-    category: "Partitioned Boxes",
-  },
-  {
-    id: "homerun_1790268842820_24",
-    name: "Atl Finelighter Yellow",
-    image: "/products/WF7020204-min-600x600.jpg",
-    price: 120,
-    brand: "Atlas",
-    category: "Highlighters",
-  },
-  {
-    id: "homerun_1790268842820_25",
-    name: "White Board Marker - Blue",
-    image: "/products/WF8060101-600x600.jpg",
-    price: 130,
-    brand: "Atlas",
-    category: "Whiteboard Markers",
-  },
-  {
-    id: "homerun_1790268842820_26",
-    name: "White Board Marker - Black",
-    image: "/products/WF8060102-600x600.jpg",
-    price: 130,
-    brand: "Atlas",
-    category: "Whiteboard Markers",
-  },
-  {
-    id: "homerun_1790268842820_27",
-    name: "White Board Marker - Red",
-    image: "/products/WF8060103-600x600.jpg",
-    price: 130,
-    brand: "Atlas",
-    category: "Whiteboard Markers",
-  },
-  {
-    id: "homerun_1790268842820_28",
-    name: "Atlas A4 Colour Paper Assorted (250SH) 10 colours",
-    image: "/products/PF0084103-min-600x600.jpg",
-    price: 1700,
-    brand: "Atlas",
-    category: "Colour Papers",
-  },
-  {
-    id: "homerun_1790268842820_29",
-    name: "JK Sparkle - A4 75GSM",
-    image: "/products/TT0011002-600x600.jpg",
-    price: 1359.02,
-    brand: "Atlas",
-    category: "Paper Products",
-  },
-  {
-    id: "homerun_1790268842820_30",
-    name: "JK Sparkle - A4 70GSM",
-    image: "/products/TT0011001-600x600.jpg",
-    price: 1240.6,
-    brand: "Atlas",
-    category: "Paper Products",
-  },
-  {
-    id: "homerun_1790268842820_31",
-    name: "Atlas Paper Foolscap 250 Sheets Square Ruled",
-    image: "/products/PF0084105-600x600.jpg",
-    price: 1000,
-    brand: "Atlas",
-    category: "Foolscap Papers",
-  },
-  {
-    id: "homerun_1790268842820_32",
-    name: "Trace &amp; Learn Alphabet Kit",
-    image: "/products/509978--600x600.jpg",
-    price: 990,
-    brand: "Atlas",
-    category: "EDU Toys",
-  },
-  {
-    id: "homerun_1790268842820_33",
-    name: "Animal Craft &amp; Weave Kit",
-    image: "/products/509832--600x600.jpg",
-    price: 1390,
-    brand: "Atlas",
-    category: "EDU Toys",
-  },
-  {
-    id: "homerun_1790268842820_34",
-    name: "Word Building Kit (Module 3)",
-    image: "/products/509833-600x600.jpg",
-    price: 1250,
-    brand: "Atlas",
-    category: "EDU Toys",
-  },
-  {
-    id: "homerun_1790268842820_35",
-    name: "Storytelling &amp; Role-play Kit (Module 2)",
-    image: "/products/509831-600x600.jpg",
-    price: 1390,
-    brand: "Atlas",
-    category: "EDU Toys",
-  },
-  {
-    id: "homerun_1790268842820_36",
-    name: "Atlas Active Fit School Bag Blue L C1",
-    image: "/products/GF7001405-11-min-600x600.jpg",
-    price: 3300,
-    brand: "Atlas",
-    category: "Bags",
-  },
-  {
-    id: "homerun_1790268842820_37",
-    name: "Atlas Active Fit School Bag Black L C2",
-    image: "/products/GF7001402-31-min-600x600.jpg",
-    price: 3300,
-    brand: "Atlas",
-    category: "Bags",
-  },
-  {
-    id: "homerun_1790268842820_38",
-    name: "Atlas Active Fit School Bag Black L C1",
-    image: "/products/GF7001401-21-min-600x600.jpg",
-    price: 3300,
-    brand: "Atlas",
-    category: "Bags",
-  },
-  {
-    id: "homerun_1790268842820_39",
-    name: "Homerun 12 Colour Pencil",
-    image: "/products/WF7050104-1.jpg",
-    price: 430,
-    brand: "Homerun",
-    category: "Colour Pencils",
-  },
-  {
-    id: "homerun_1790268842820_40",
-    name: "Homerun 6 Colour Pencil",
-    image: "/products/GF4501104.jpg",
-    price: 240,
-    brand: "Homerun",
-    category: "Colour Pencils",
-  },
-  {
-    id: "homerun_1790268842820_41",
-    name: "Homerun Pastel 12 Colours",
-    image: "/products/GF4501603-.jpg",
-    price: 195,
-    brand: "Homerun",
-    category: "Pastels",
-  },
-  {
-    id: "homerun_1790268842820_42",
-    name: "Homerun Pastel 24 Colours",
-    image: "/products/GF4501602-min.jpg",
-    price: 350,
-    brand: "Homerun",
-    category: "Pastels",
-  },
-  {
-    id: "homerun_1790268842820_43",
-    name: "Homerun Jumbo Pastel 24 Colours",
-    image: "/products/GF4501602-min.jpg",
-    price: 500,
-    brand: "Homerun",
-    category: "Pastels",
-  },
-  {
-    id: "homerun_1790268842820_44",
-    name: "Homerun Book Exe (#) 120pg",
-    image: "/products/PF0013351.jpg",
-    price: 105,
-    brand: "Homerun",
-    category: "A5 Exercise Books",
-  },
-  {
-    id: "homerun_1790268842820_45",
-    name: "Homerun Book Exe (=) 120pg",
-    image: "/products/PF0033335.jpg",
-    price: 105,
-    brand: "Homerun",
-    category: "A5 Exercise Books",
-  },
-  {
-    id: "homerun_1790268842820_46",
-    name: "Homerun Book CR (#) 120pg",
-    image: "/products/PF0033038.jpg",
-    price: 220,
-    brand: "Homerun",
-    category: "A4 CR Books",
-  },
-  {
-    id: "homerun_1790268842820_47",
-    name: "Homerun Book CR (#) 80pg",
-    image: "/products/PF0013929.jpg",
-    price: 150,
-    brand: "Homerun",
-    category: "A4 CR Books",
-  },
-  {
-    id: "homerun_1790268842820_48",
-    name: "Homerun Book Exe (#) 200pg",
-    image: "/products/PF0013928.jpg",
-    price: 195,
-    brand: "Homerun",
-    category: "A5 Exercise Books",
-  },
-  {
-    id: "homerun_1790268842820_49",
-    name: "Homerun Book Exe (=) 200pg",
-    image: "/products/PF0013732.jpg",
-    price: 185,
-    brand: "Homerun",
-    category: "A5 Exercise Books",
-  },
-  {
-    id: "homerun_1790268842820_50",
-    name: "Homerun Book Exe (=) 160pg",
-    image: "/products/PF0033724.jpg",
-    price: 150,
-    brand: "Homerun",
-    category: "A5 Exercise Books",
-  },
-  {
-    id: "homerun_1790268842820_51",
-    name: "Homerun Book CR (=) 160pg",
-    image: "/products/PF0033037.jpg",
-    price: 300,
-    brand: "Homerun",
-    category: "A4 CR Books",
-  },
-  {
-    id: "homerun_1790268842820_52",
-    name: "Homerun Book CR (=) 80pg",
-    image: "/products/PF0013063-.jpg",
-    price: 150,
-    brand: "Homerun",
-    category: "A4 CR Books",
-  },
-  {
-    id: "homerun_1790268842820_53",
-    name: "Homerun Book Exe (=) 80pg",
-    image: "/products/PF0033925.jpg",
-    price: 70,
-    brand: "Homerun",
-    category: "A5 Exercise Books",
-  },
-  {
-    id: "homerun_1790268842820_54",
-    name: "Homerun Book CR (=) 200pg",
-    image: "/products/PF0033926.jpg",
-    price: 390,
-    brand: "Homerun",
-    category: "A4 CR Books",
-  },
-  {
-    id: "homerun_1790268842820_55",
-    name: "Homerun Book CR (#) 200pg",
-    image: "/products/PF0013064.jpg",
-    price: 380,
-    brand: "Homerun",
-    category: "A4 CR Books",
-  },
-  {
-    id: "homerun_1790268842820_56",
-    name: "Homerun Book Exe (#) 80pg",
-    image: "/products/PF0033725.jpg",
-    price: 70,
-    brand: "Homerun",
-    category: "A5 Exercise Books",
-  },
-  {
-    id: "homerun_1790268842820_57",
-    name: "Homerun Book CR (#) 160pg",
-    image: "/products/atlas-logo-min-110x63.png",
-    price: 300,
-    brand: "Homerun",
-    category: "A4 CR Books",
+export const products = 
+[
+  {
+    "id": "atlas_p_all_0",
+    "name": "Animal Craft & Weave Kit",
+    "image": "/products/509832-.jpg",
+    "price": 1390,
+    "brand": "Atlas",
+    "category": "Books & Supplies"
+  },
+  {
+    "id": "atlas_p_all_1",
+    "name": "Atlas (SLS Certified) Aqua Water Bottle",
+    "image": "/products/508137.jpg",
+    "price": 990,
+    "brand": "Atlas",
+    "category": "Books & Supplies"
+  },
+  {
+    "id": "atlas_p_all_2",
+    "name": "Atlas (SLS Certified) Clear Water Bottle",
+    "image": "/products/508134.jpg",
+    "price": 450,
+    "brand": "Atlas",
+    "category": "Books & Supplies"
+  },
+  {
+    "id": "atlas_p_all_3",
+    "name": "Atlas Colour Pen Wallet 12 Colours",
+    "image": "/products/508246.jpg",
+    "price": 470,
+    "brand": "Atlas",
+    "category": "Books & Supplies"
+  },
+  {
+    "id": "atlas_p_all_4",
+    "name": "Atlas myshop Gift voucher Rs 1000  Printed",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2026/04/Atlas-myshop-Gift-voucher-Rs-1000-printed.jpg",
+    "price": 1000,
+    "brand": "Atlas",
+    "category": "Books & Supplies"
+  },
+  {
+    "id": "atlas_p_all_5",
+    "name": "Atlas Myshop Gift voucher Rs 5000  Printed",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2026/04/Atlas-myshop-Gift-voucher-Rs-5000-printed.jpg",
+    "price": 5000,
+    "brand": "Atlas",
+    "category": "Books & Supplies"
+  },
+  {
+    "id": "atlas_p_all_6",
+    "name": "Mega Blocks 30 Pieces",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2026/07/WF9020104.jpg",
+    "price": 1600,
+    "brand": "Atlas",
+    "category": "Books & Supplies"
+  },
+  {
+    "id": "atlas_p_all_7",
+    "name": "Raze by Atlas",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2026/03/WFO410103.jpg",
+    "price": 350,
+    "brand": "Atlas",
+    "category": "Books & Supplies"
+  },
+  {
+    "id": "atlas_p_all_8",
+    "name": "Storytelling & Role-play Kit (Module 2)",
+    "image": "/products/509831.jpg",
+    "price": 1390,
+    "brand": "Atlas",
+    "category": "Books & Supplies"
+  },
+  {
+    "id": "atlas_p_all_9",
+    "name": "Word Building Kit (Module 3)",
+    "image": "/products/509833.jpg",
+    "price": 1250,
+    "brand": "Atlas",
+    "category": "Books & Supplies"
+  },
+  {
+    "id": "atlas_p_all_10",
+    "name": "Dino Egg  Mechanical",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2026/03/TT4000108-1.jpg",
+    "price": 490,
+    "brand": "Atlas",
+    "category": "Books & Supplies"
+  },
+  {
+    "id": "atlas_p_all_11",
+    "name": "Dino Egg  Stimulator",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2026/03/TT4000107-1.jpg",
+    "price": 490,
+    "brand": "Atlas",
+    "category": "Books & Supplies"
+  },
+  {
+    "id": "atlas_p_all_12",
+    "name": "Animal Building Block",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2026/03/TT4000205-1.jpg",
+    "price": 260,
+    "brand": "Atlas",
+    "category": "Books & Supplies"
+  },
+  {
+    "id": "atlas_p_all_13",
+    "name": "Atl SFY Exam Writer pencil 12pkt  0280",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2025/10/WF7043101.jpg",
+    "price": 600,
+    "brand": "Atlas",
+    "category": "Books & Supplies"
+  },
+  {
+    "id": "atlas_p_all_14",
+    "name": "Atlas Active Fit School Bag Black L C1",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2025/11/GF7001401-21-min.jpg",
+    "price": 3300,
+    "brand": "Atlas",
+    "category": "Books & Supplies"
+  },
+  {
+    "id": "atlas_p_all_15",
+    "name": "Atlas Active Fit School Bag Black L C2",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2025/11/GF7001402-31-min.jpg",
+    "price": 3300,
+    "brand": "Atlas",
+    "category": "Books & Supplies"
+  },
+  {
+    "id": "atlas_p_all_16",
+    "name": "Atlas Active Fit School Bag Blue L C1",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2025/09/GF7001405-11-min.jpg",
+    "price": 3300,
+    "brand": "Atlas",
+    "category": "Books & Supplies"
+  },
+  {
+    "id": "atlas_p_all_17",
+    "name": "Atlas Colour Paper A4  Blue",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2025/12/PF0083228.jpg",
+    "price": 660,
+    "brand": "Atlas",
+    "category": "Books & Supplies"
+  },
+  {
+    "id": "atlas_p_all_18",
+    "name": "Atlas Colour Paper A4  Green",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2025/12/PF0083227.jpg",
+    "price": 660,
+    "brand": "Atlas",
+    "category": "Books & Supplies"
+  },
+  {
+    "id": "atlas_p_all_19",
+    "name": "Atlas Colour Paper A4  Orange",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2025/12/PF0083225.jpg",
+    "price": 660,
+    "brand": "Atlas",
+    "category": "Books & Supplies"
+  },
+  {
+    "id": "atlas_p_all_20",
+    "name": "Atlas Colour Paper A4  Pink",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2025/12/PF0083229.jpg",
+    "price": 750,
+    "brand": "Atlas",
+    "category": "Books & Supplies"
+  },
+  {
+    "id": "atlas_p_all_21",
+    "name": "Atlas Colour Paper A4  Red",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2025/12/PF0083226.jpg",
+    "price": 660,
+    "brand": "Atlas",
+    "category": "Books & Supplies"
+  },
+  {
+    "id": "atlas_p_all_22",
+    "name": "Atlas Colour Paper A4  Yellow",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2025/12/PF0083224.jpg",
+    "price": 660,
+    "brand": "Atlas",
+    "category": "Books & Supplies"
+  },
+  {
+    "id": "atlas_p_all_23",
+    "name": "Atlas Glyde Pen Black",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2026/01/WF2350202.jpg",
+    "price": 40,
+    "brand": "Atlas",
+    "category": "Books & Supplies"
+  },
+  {
+    "id": "atlas_p_all_24",
+    "name": "Atlas Glyde Pen Blue",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2026/01/WF2350201.jpg",
+    "price": 40,
+    "brand": "Atlas",
+    "category": "Books & Supplies"
+  },
+  {
+    "id": "atlas_p_all_25",
+    "name": "Atlas Lunch Box Luncher Pro Divider-0018",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2025/09/WF7240115-3.jpg",
+    "price": 1850,
+    "brand": "Atlas",
+    "category": "Books & Supplies"
+  },
+  {
+    "id": "atlas_p_all_26",
+    "name": "Atlas Lunch Box Snacker-0036",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2025/09/Snacker-group-copy.png",
+    "price": 380,
+    "brand": "Atlas",
+    "category": "Books & Supplies"
+  },
+  {
+    "id": "atlas_p_all_27",
+    "name": "Coloursand Activity Pack  Prince and the Dragon",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2025/07/WF9030202.jpg",
+    "price": 1490,
+    "brand": "Atlas",
+    "category": "Books & Supplies"
+  },
+  {
+    "id": "atlas_p_all_28",
+    "name": "Coloursand Activity Pack  Tortoise and the Hare",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2025/07/WF9030204.jpg",
+    "price": 1490,
+    "brand": "Atlas",
+    "category": "Books & Supplies"
+  },
+  {
+    "id": "atlas_p_all_29",
+    "name": "Eco Block bag",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2025/08/TT4020202.jpg",
+    "price": 1090,
+    "brand": "Atlas",
+    "category": "Books & Supplies"
+  },
+  {
+    "id": "atlas_p_all_30",
+    "name": "Eco Block car",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2025/08/TT4020201.jpg",
+    "price": 990,
+    "brand": "Atlas",
+    "category": "Books & Supplies"
+  },
+  {
+    "id": "atlas_p_all_31",
+    "name": "Innovate Pen Akuru Blue",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2025/07/WF2331901-1.jpg",
+    "price": 150,
+    "brand": "Innovate",
+    "category": "Books & Supplies"
+  },
+  {
+    "id": "atlas_p_all_32",
+    "name": "JK Sparkle  A4 70GSM",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2025/09/TT0011001.jpg",
+    "price": 1240.6,
+    "brand": "Atlas",
+    "category": "Books & Supplies"
+  },
+  {
+    "id": "atlas_p_all_33",
+    "name": "JK Sparkle  A4 75GSM",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2025/09/TT0011002.jpg",
+    "price": 1359.02,
+    "brand": "Atlas",
+    "category": "Books & Supplies"
+  },
+  {
+    "id": "atlas_p_all_34",
+    "name": "JK Sparkle  A4 80GSM",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2025/09/TT0011003.jpg",
+    "price": 1422.31,
+    "brand": "Atlas",
+    "category": "Books & Supplies"
+  },
+  {
+    "id": "atlas_p_all_35",
+    "name": "Kinetic Sand",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2025/10/Kinetic_sand_1.jpg",
+    "price": 490,
+    "brand": "Atlas",
+    "category": "Books & Supplies"
+  },
+  {
+    "id": "atlas_p_all_36",
+    "name": "PP Eduaids Flash Card Fruits20  0048",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2025/09/PF8000117.jpg",
+    "price": 290,
+    "brand": "Atlas",
+    "category": "Books & Supplies"
+  },
+  {
+    "id": "atlas_p_all_37",
+    "name": "PP Eduaids Flash Card Numbers20  0048",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2025/09/PF8000120.jpg",
+    "price": 290,
+    "brand": "Atlas",
+    "category": "Books & Supplies"
+  },
+  {
+    "id": "atlas_p_all_38",
+    "name": "SMART Hilite Yelow",
+    "image": "/products/508453.jpg",
+    "price": 150,
+    "brand": "Atlas",
+    "category": "Books & Supplies"
+  },
+  {
+    "id": "atlas_p_all_39",
+    "name": "3D Puzzle Insects",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2024/10/TT4020115.jpg",
+    "price": 2690,
+    "brand": "Atlas",
+    "category": "Books & Supplies"
+  },
+  {
+    "id": "atlas_p_all_40",
+    "name": "3D Puzzle Sea Creatures",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2024/10/TT4020116.jpg",
+    "price": 2690,
+    "brand": "Atlas",
+    "category": "Books & Supplies"
+  },
+  {
+    "id": "atlas_p_all_41",
+    "name": "3D Puzzle Transport",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2024/10/TT4020114.jpg",
+    "price": 2690,
+    "brand": "Atlas",
+    "category": "Books & Supplies"
+  },
+  {
+    "id": "atlas_p_all_42",
+    "name": "Atlas Binder Glue Bottle 40g",
+    "image": "/products/Glue1.webp",
+    "price": 100,
+    "brand": "Atlas",
+    "category": "Books & Supplies"
+  },
+  {
+    "id": "atlas_p_all_43",
+    "name": "Atlas Book Science Botany 40Pgs",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2025/06/PF0042105.jpg",
+    "price": 135,
+    "brand": "Atlas",
+    "category": "Books & Supplies"
+  },
+  {
+    "id": "atlas_p_all_44",
+    "name": "Atlas Calculator AT2276C",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2025/02/AT-2276C_front_.jpg",
+    "price": 2100,
+    "brand": "Atlas",
+    "category": "Books & Supplies"
+  },
+  {
+    "id": "atlas_p_all_45",
+    "name": "Atlas Colour SparX Pastel 12 Colours",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2024/07/GF4001118-5.jpg",
+    "price": 250,
+    "brand": "Atlas",
+    "category": "Books & Supplies"
+  },
+  {
+    "id": "atlas_p_all_46",
+    "name": "Atlas Lunch Box Luncher Pro",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2024/10/WF7240114.jpg",
+    "price": 1750,
+    "brand": "Atlas",
+    "category": "Books & Supplies"
+  },
+  {
+    "id": "atlas_p_all_47",
+    "name": "Atlas Sharp Pen Black",
+    "image": "/products/Pen_2_2.jpg",
+    "price": 30,
+    "brand": "Atlas",
+    "category": "Books & Supplies"
+  },
+  {
+    "id": "atlas_p_all_48",
+    "name": "Atlas Sharp Pen Blue",
+    "image": "/products/Pen_1_2.jpg",
+    "price": 30,
+    "brand": "Atlas",
+    "category": "Books & Supplies"
+  },
+  {
+    "id": "atlas_p_all_49",
+    "name": "Atlas SparX Crayon 12 colours",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2024/09/TT0260601.jpg",
+    "price": 420,
+    "brand": "Atlas",
+    "category": "Books & Supplies"
+  },
+  {
+    "id": "atlas_p_all_50",
+    "name": "Atlas Water colour cake 12 Colours",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2024/09/TT0390104.jpg",
+    "price": 375,
+    "brand": "Atlas",
+    "category": "Books & Supplies"
+  },
+  {
+    "id": "atlas_p_all_51",
+    "name": "Blocks Mega Pre 100",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2024/07/WF9020102-A.jpg",
+    "price": 6290,
+    "brand": "Atlas",
+    "category": "Books & Supplies"
+  },
+  {
+    "id": "atlas_p_all_52",
+    "name": "Blocks Mega Pre 150",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2024/07/WF9020103-A.jpg",
+    "price": 8490,
+    "brand": "Atlas",
+    "category": "Books & Supplies"
+  },
+  {
+    "id": "atlas_p_all_53",
+    "name": "Blocks Mega Pre 50",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2024/07/WF9020101-A.jpg",
+    "price": 3490,
+    "brand": "Atlas",
+    "category": "Books & Supplies"
+  },
+  {
+    "id": "atlas_p_all_54",
+    "name": "Chunky Puzzle Professions",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2024/10/TT4020113.jpg",
+    "price": 1990,
+    "brand": "Atlas",
+    "category": "Books & Supplies"
+  },
+  {
+    "id": "atlas_p_all_55",
+    "name": "Eduaids Flash Card Birds",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2024/07/PF8000105-A.jpg",
+    "price": 290,
+    "brand": "Atlas",
+    "category": "Books & Supplies"
+  },
+  {
+    "id": "atlas_p_all_56",
+    "name": "Eduaids Flash Card English",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2024/07/PF8000101-A-min.jpg",
+    "price": 490,
+    "brand": "Atlas",
+    "category": "Books & Supplies"
+  },
+  {
+    "id": "atlas_p_all_57",
+    "name": "Eduaids Flash Card Sea Animals",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2024/07/PF8000106-A.jpg",
+    "price": 290,
+    "brand": "Atlas",
+    "category": "Books & Supplies"
+  },
+  {
+    "id": "atlas_p_all_58",
+    "name": "Eduaids Flash Card Sinhala",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2024/07/PF8000102-A.jpg",
+    "price": 490,
+    "brand": "Atlas",
+    "category": "Books & Supplies"
+  },
+  {
+    "id": "atlas_p_all_59",
+    "name": "Eduaids Flash Card Tamil",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2024/07/PF8000103-A.jpg",
+    "price": 490,
+    "brand": "Atlas",
+    "category": "Books & Supplies"
+  },
+  {
+    "id": "atlas_p_all_60",
+    "name": "Eduaids Puzzles 2 Letter Words Sinhala",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2024/07/PF8000205-A.jpg",
+    "price": 1490,
+    "brand": "Atlas",
+    "category": "Books & Supplies"
+  },
+  {
+    "id": "atlas_p_all_61",
+    "name": "Eduaids Puzzles 2 Letter Words Tamil",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2024/07/PF8000209-A.jpg",
+    "price": 1490,
+    "brand": "Atlas",
+    "category": "Books & Supplies"
+  },
+  {
+    "id": "atlas_p_all_62",
+    "name": "Eduaids Puzzles 3 Letter Words English",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2024/07/PF8000207-A.jpg",
+    "price": 1490,
+    "brand": "Atlas",
+    "category": "Books & Supplies"
+  },
+  {
+    "id": "atlas_p_all_63",
+    "name": "Eduaids Puzzles 3 Letter Words Sinhala",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2024/07/PF8000206-A.jpg",
+    "price": 1490,
+    "brand": "Atlas",
+    "category": "Books & Supplies"
+  },
+  {
+    "id": "atlas_p_all_64",
+    "name": "Eduaids Puzzles 3 Letter Words Tamil",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2024/07/PF8000210-A.jpg",
+    "price": 1490,
+    "brand": "Atlas",
+    "category": "Books & Supplies"
+  },
+  {
+    "id": "atlas_p_all_65",
+    "name": "Eduaids Puzzles 4 Letter Words English",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2024/07/PF8000208-A.jpg",
+    "price": 1490,
+    "brand": "Atlas",
+    "category": "Books & Supplies"
+  },
+  {
+    "id": "atlas_p_all_66",
+    "name": "Eduaids Puzzles Action Words",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2024/07/PF8000204-A.jpg",
+    "price": 750,
+    "brand": "Atlas",
+    "category": "Books & Supplies"
+  },
+  {
+    "id": "atlas_p_all_67",
+    "name": "Eduaids Puzzles One and Many",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2024/07/PF8000203-A.jpg",
+    "price": 750,
+    "brand": "Atlas",
+    "category": "Books & Supplies"
+  },
+  {
+    "id": "atlas_p_all_68",
+    "name": "Eduaids Puzzles Opposite",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2024/07/PF8000202-A.jpg",
+    "price": 750,
+    "brand": "Atlas",
+    "category": "Books & Supplies"
+  },
+  {
+    "id": "atlas_p_all_69",
+    "name": "Eduaids Puzzles Synonyms",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2024/07/PF8000201-A.jpg",
+    "price": 750,
+    "brand": "Atlas",
+    "category": "Books & Supplies"
+  },
+  {
+    "id": "atlas_p_all_70",
+    "name": "Finger Paints 6 Pack 30ml",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2024/07/TT4000103-A.jpg",
+    "price": 1190,
+    "brand": "Atlas",
+    "category": "Books & Supplies"
+  },
+  {
+    "id": "atlas_p_all_71",
+    "name": "Finger Paints 6 Pack 75ml",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2024/07/TT4000104-A.jpg",
+    "price": 2150,
+    "brand": "Atlas",
+    "category": "Books & Supplies"
+  },
+  {
+    "id": "atlas_p_all_72",
+    "name": "Homerun 12 Colour Pencil",
+    "image": "/products/WF7050207.jpg",
+    "price": 430,
+    "brand": "Homerun",
+    "category": "Books & Supplies"
+  },
+  {
+    "id": "atlas_p_all_73",
+    "name": "Homerun 6 Colour Pencil",
+    "image": "/products/WF7050104-1.jpg",
+    "price": 240,
+    "brand": "Homerun",
+    "category": "Books & Supplies"
+  },
+  {
+    "id": "atlas_p_all_74",
+    "name": "Homerun Pastel 12 Colours",
+    "image": "/products/GF4501104.jpg",
+    "price": 200,
+    "brand": "Homerun",
+    "category": "Books & Supplies"
+  },
+  {
+    "id": "atlas_p_all_75",
+    "name": "Homerun Pastel 24 Colours",
+    "image": "/products/GF4501603-.jpg",
+    "price": 350,
+    "brand": "Homerun",
+    "category": "Books & Supplies"
+  },
+  {
+    "id": "atlas_p_all_76",
+    "name": "Innovate Book Divder CR Single Rule 240pg-0012",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2024/12/PF0034003.jpg",
+    "price": 1000,
+    "brand": "Innovate",
+    "category": "Books & Supplies"
+  },
+  {
+    "id": "atlas_p_all_77",
+    "name": "Innovate Book Exe Single Rule 120Pgs-0100",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2024/12/PF0013328-1.jpg",
+    "price": 165,
+    "brand": "Innovate",
+    "category": "Books & Supplies"
+  },
+  {
+    "id": "atlas_p_all_78",
+    "name": "Innovate Book Exe Single Rule 80pgs -0144",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2024/06/PF0013052.jpg",
+    "price": 100,
+    "brand": "Innovate",
+    "category": "Books & Supplies"
+  },
+  {
+    "id": "atlas_p_all_79",
+    "name": "Innovate Book Spiral Exe Single Rule 120Pg-0060",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2024/12/PF0013345-1.jpg",
+    "price": 400,
+    "brand": "Innovate",
+    "category": "Books & Supplies"
+  },
+  {
+    "id": "atlas_p_all_80",
+    "name": "Innovate Book Spiral B5 Single Ruled 120Pg-0030",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2024/12/PF0183311-1.jpg",
+    "price": 600,
+    "brand": "Innovate",
+    "category": "Books & Supplies"
+  },
+  {
+    "id": "atlas_p_all_81",
+    "name": "Innovate Book Spiral CR Single Ruled 120Pg-0030",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2024/12/PF0033329-1.jpg",
+    "price": 800,
+    "brand": "Innovate",
+    "category": "Books & Supplies"
+  },
+  {
+    "id": "atlas_p_all_82",
+    "name": "PP Eduaids Flash Card Vegetables",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2024/07/PF8000108-A.jpg",
+    "price": 290,
+    "brand": "Atlas",
+    "category": "Books & Supplies"
+  },
+  {
+    "id": "atlas_p_all_83",
+    "name": "Wooden Puzzle Animals",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2024/10/TT4020101.jpg",
+    "price": 1390,
+    "brand": "Atlas",
+    "category": "Books & Supplies"
+  },
+  {
+    "id": "atlas_p_all_84",
+    "name": "Wooden Puzzle Farm Animals",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2024/10/TT4020112.jpg",
+    "price": 1790,
+    "brand": "Atlas",
+    "category": "Books & Supplies"
+  },
+  {
+    "id": "atlas_p_all_85",
+    "name": "Wooden Puzzle Insects",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2024/10/TT4020110.jpg",
+    "price": 1790,
+    "brand": "Atlas",
+    "category": "Books & Supplies"
+  },
+  {
+    "id": "atlas_p_all_86",
+    "name": "Wooden Puzzle Public Transport",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2024/10/TT4020106.jpg",
+    "price": 1390,
+    "brand": "Atlas",
+    "category": "Books & Supplies"
+  },
+  {
+    "id": "atlas_p_all_87",
+    "name": "Wooden Puzzle Sea Animals",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2024/10/TT4020103.jpg",
+    "price": 1390,
+    "brand": "Atlas",
+    "category": "Books & Supplies"
+  },
+  {
+    "id": "atlas_p_all_88",
+    "name": "Wooden Puzzle Tamil Alphabet",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2024/10/TT4020109.jpg",
+    "price": 2690,
+    "brand": "Atlas",
+    "category": "Books & Supplies"
+  },
+  {
+    "id": "atlas_p_all_89",
+    "name": "Wooden Puzzle Wild Animals",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2024/10/TT4020111.jpg",
+    "price": 1790,
+    "brand": "Atlas",
+    "category": "Books & Supplies"
+  },
+  {
+    "id": "atlas_p_all_90",
+    "name": "Atl Eraser AH30 big mistake",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2022/10/TT0020201-1.jpg",
+    "price": 600,
+    "brand": "Atlas",
+    "category": "Books & Supplies"
+  },
+  {
+    "id": "atlas_p_all_91",
+    "name": "Atl Eraser AH30 real big mistake  3 in 1",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2022/10/WF7140202.jpg",
+    "price": 100,
+    "brand": "Atlas",
+    "category": "Books & Supplies"
+  },
+  {
+    "id": "atlas_p_all_92",
+    "name": "Atl Finelighter Green",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2021/08/WF7020201-min.jpg",
+    "price": 120,
+    "brand": "Atlas",
+    "category": "Books & Supplies"
+  },
+  {
+    "id": "atlas_p_all_93",
+    "name": "Atl Finelighter Orange",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2021/08/WF7020202-min.jpg",
+    "price": 120,
+    "brand": "Atlas",
+    "category": "Books & Supplies"
+  },
+  {
+    "id": "atlas_p_all_94",
+    "name": "Atl Finelighter Pink",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2021/08/WF7020203-min.jpg",
+    "price": 120,
+    "brand": "Atlas",
+    "category": "Books & Supplies"
+  },
+  {
+    "id": "atlas_p_all_95",
+    "name": "Atl Finelighter Yellow",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2021/08/WF7020204-min.jpg",
+    "price": 120,
+    "brand": "Atlas",
+    "category": "Books & Supplies"
+  },
+  {
+    "id": "atlas_p_all_96",
+    "name": "Atl Pen Chooty Black",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2021/07/WF2002405.jpg",
+    "price": 35,
+    "brand": "Atlas",
+    "category": "Books & Supplies"
+  },
+  {
+    "id": "atlas_p_all_97",
+    "name": "Atlas Pen  Chooty Red",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2022/01/WF2001903.jpg",
+    "price": 35,
+    "brand": "Atlas",
+    "category": "Books & Supplies"
+  },
+  {
+    "id": "atlas_p_all_98",
+    "name": "Atl Pencil SFY Ewriter 2B-12Pkt-0240",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2022/04/WF7042702-1.jpg",
+    "price": 600,
+    "brand": "Atlas",
+    "category": "Books & Supplies"
+  },
+  {
+    "id": "atlas_p_all_99",
+    "name": "Atl scissor fun cut",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2022/10/WF7090302.jpg",
+    "price": 145,
+    "brand": "Atlas",
+    "category": "Books & Supplies"
+  },
+  {
+    "id": "atlas_book_new_1790251932184_5630",
+    "name": "Atlas Book Science Botany 40Pgs",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2025/06/PF0042105.jpg",
+    "price": 135,
+    "brand": "Atlas",
+    "category": "Books"
+  },
+  {
+    "id": "atlas_book_new_1790251932184_4804",
+    "name": "Innovate Book Divder CR Single Rule 240pg-0012",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2024/12/PF0034003.jpg",
+    "price": 1000,
+    "brand": "Innovate",
+    "category": "Books"
+  },
+  {
+    "id": "atlas_book_new_1790251932184_7362",
+    "name": "Innovate Book Exe Single Rule 120Pgs-0100",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2024/12/PF0013328-1.jpg",
+    "price": 165,
+    "brand": "Innovate",
+    "category": "Books"
+  },
+  {
+    "id": "atlas_book_new_1790251932185_7190",
+    "name": "Innovate Book Exe Single Rule 80pgs -0144",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2024/06/PF0013052.jpg",
+    "price": 100,
+    "brand": "Innovate",
+    "category": "Books"
+  },
+  {
+    "id": "atlas_book_new_1790251932185_6109",
+    "name": "Innovate Book Spiral Exe Single Rule 120Pg-0060",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2024/12/PF0013345-1.jpg",
+    "price": 400,
+    "brand": "Innovate",
+    "category": "Books"
+  },
+  {
+    "id": "atlas_book_new_1790251932185_3792",
+    "name": "Innovate Book Spiral B5 Single Ruled 120Pg-0030",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2024/12/PF0183311-1.jpg",
+    "price": 600,
+    "brand": "Innovate",
+    "category": "Books"
+  },
+  {
+    "id": "atlas_book_new_1790251932185_5519",
+    "name": "Innovate Book Spiral CR Single Ruled 120Pg-0030",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2024/12/PF0033329-1.jpg",
+    "price": 800,
+    "brand": "Innovate",
+    "category": "Books"
+  },
+  {
+    "id": "atlas_book_new_1790251932186_1017",
+    "name": "Atlas A5 Spiral Notebook 100pgs",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2021/06/PF0063211-min.jpg",
+    "price": 230,
+    "brand": "Atlas",
+    "category": "Books"
+  },
+  {
+    "id": "atlas_book_new_1790251932186_9239",
+    "name": "Atlas A4 Drawing Book Small 20Pgs",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0051501-min.jpg",
+    "price": 80,
+    "brand": "Atlas",
+    "category": "Books"
+  },
+  {
+    "id": "atlas_book_new_1790251932186_4559",
+    "name": "Atlas A4 Drawing Book Small 40Pgs",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0052101-min.jpg",
+    "price": 120,
+    "brand": "Atlas",
+    "category": "Books"
+  },
+  {
+    "id": "atlas_book_new_1790251932186_3959",
+    "name": "Atlas A4 Black Drawing Book Small 40Pgs",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0072101-min.jpg",
+    "price": 240,
+    "brand": "Atlas",
+    "category": "Books"
+  },
+  {
+    "id": "atlas_book_new_1790251932186_7454",
+    "name": "Atlas A4 Book CR 40Pgs (=) Single Ruled",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0032101-min.jpg",
+    "price": 110,
+    "brand": "Atlas",
+    "category": "Books"
+  },
+  {
+    "id": "atlas_book_new_1790251932186_162",
+    "name": "Atlas A4 Book CR 80Pgs (=) Single Ruled",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0033022-min.jpg",
+    "price": 180,
+    "brand": "Atlas",
+    "category": "Books"
+  },
+  {
+    "id": "atlas_book_new_1790251932187_9295",
+    "name": "Atlas A4 Book CR 120Pgs (=) Single Ruled",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0033301-min.jpg",
+    "price": 250,
+    "brand": "Atlas",
+    "category": "Books"
+  },
+  {
+    "id": "atlas_book_new_1790251932187_959",
+    "name": "Atlas A4 Book CR 160Pgs (=) Single Ruled",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0033701-min.jpg",
+    "price": 350,
+    "brand": "Atlas",
+    "category": "Books"
+  },
+  {
+    "id": "atlas_book_new_1790251932187_4881",
+    "name": "Atlas A4 Book CR 200Pgs (=) Single Ruled",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0033901-min.jpg",
+    "price": 430,
+    "brand": "Atlas",
+    "category": "Books"
+  },
+  {
+    "id": "atlas_book_new_1790251932188_3577",
+    "name": "Atlas A4 Book CR 400Pgs (=) Single Ruled",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0034701-min.jpg",
+    "price": 850,
+    "brand": "Atlas",
+    "category": "Books"
+  },
+  {
+    "id": "atlas_book_new_1790251932188_3603",
+    "name": "Atlas A4 CR Book Square Ruled 40Pgs",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0032102-min.jpg",
+    "price": 110,
+    "brand": "Atlas",
+    "category": "Books"
+  },
+  {
+    "id": "atlas_book_new_1790251932188_6596",
+    "name": "Atlas A4 Book CR 80Pgs (#) Square Ruled",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0033023-min.jpg",
+    "price": 180,
+    "brand": "Atlas",
+    "category": "Books"
+  },
+  {
+    "id": "atlas_book_new_1790251932188_633",
+    "name": "Atlas A4 Book CR 120Pgs (#) Square Ruled",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0033302-min.jpg",
+    "price": 250,
+    "brand": "Atlas",
+    "category": "Books"
+  },
+  {
+    "id": "atlas_book_new_1790251935120_7912",
+    "name": "Atlas A4 Book CR 160Pgs (#) Square Ruled",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0033702-min.jpg",
+    "price": 350,
+    "brand": "Atlas",
+    "category": "Books"
+  },
+  {
+    "id": "atlas_book_new_1790251935120_5640",
+    "name": "Atlas A4 Book CR 200Pgs (#) Square Ruled",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0033902-min.jpg",
+    "price": 430,
+    "brand": "Atlas",
+    "category": "Books"
+  },
+  {
+    "id": "atlas_book_new_1790251935120_1390",
+    "name": "Innovate Book CR Single Rule 80Pgs",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0033013.jpg",
+    "price": 225,
+    "brand": "Innovate",
+    "category": "Books"
+  },
+  {
+    "id": "atlas_book_new_1790251935120_5787",
+    "name": "Atlas A4 Drawing Book Small 80Pgs",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0053001-min.jpg",
+    "price": 190,
+    "brand": "Atlas",
+    "category": "Books"
+  },
+  {
+    "id": "atlas_book_new_1790251935120_1241",
+    "name": "Atlas A4 Science Book Botany 80Pgs",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0043002-min.jpg",
+    "price": 235,
+    "brand": "Atlas",
+    "category": "Books"
+  },
+  {
+    "id": "atlas_book_new_1790251935120_7939",
+    "name": "Atlas A4 Science Book Botany 120Pgs",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0043301-min.jpg",
+    "price": 280,
+    "brand": "Atlas",
+    "category": "Books"
+  },
+  {
+    "id": "atlas_book_new_1790251935120_2124",
+    "name": "Atlas A4 Science Book Botany 160Pgs",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0043701-min.jpg",
+    "price": 360,
+    "brand": "Atlas",
+    "category": "Books"
+  },
+  {
+    "id": "atlas_book_new_1790251935120_5428",
+    "name": "Atlas A4 Science Book Graph 40Pgs",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0042103-min.jpg",
+    "price": 130,
+    "brand": "Atlas",
+    "category": "Books"
+  },
+  {
+    "id": "atlas_book_new_1790251935121_1567",
+    "name": "Atlas A4 Science Book Graph 80Pgs",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0043003-min.jpg",
+    "price": 230,
+    "brand": "Atlas",
+    "category": "Books"
+  },
+  {
+    "id": "atlas_book_new_1790251935121_2676",
+    "name": "Atlas A4 Science Book Plain 80Pgs",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0043001-min.jpg",
+    "price": 230,
+    "brand": "Atlas",
+    "category": "Books"
+  },
+  {
+    "id": "atlas_book_new_1790251935121_619",
+    "name": "Atlas A5 Book Exercise 40Pgs (=) Single Ruled",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0012116-min.jpg",
+    "price": 65,
+    "brand": "Atlas",
+    "category": "Books"
+  },
+  {
+    "id": "atlas_book_new_1790251935121_9284",
+    "name": "Atlas A5 Book Exercise 80Pgs (=) Single Ruled",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0013041-min.jpg",
+    "price": 80,
+    "brand": "Atlas",
+    "category": "Books"
+  },
+  {
+    "id": "atlas_book_new_1790251935121_7331",
+    "name": "Atlas A5 Book Exercise 120Pgs (=) Single Ruled",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0013301-min.jpg",
+    "price": 125,
+    "brand": "Atlas",
+    "category": "Books"
+  },
+  {
+    "id": "atlas_book_new_1790251935121_5077",
+    "name": "Atlas A5 Book Practical 1/2\"(=) Single Ruled 80Pgs",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0023001-min.jpg",
+    "price": 80,
+    "brand": "Atlas",
+    "category": "Books"
+  },
+  {
+    "id": "atlas_book_new_1790251935121_7734",
+    "name": "Atlas A5 Book Exercise 160Pgs (=) Single Ruled",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0013701-min.jpg",
+    "price": 170,
+    "brand": "Atlas",
+    "category": "Books"
+  },
+  {
+    "id": "atlas_book_new_1790251935121_2273",
+    "name": "Atlas A5 Book Practical  1/2\"(#) Square Ruled 80Pgs",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0023003-min.jpg",
+    "price": 80,
+    "brand": "Atlas",
+    "category": "Books"
+  },
+  {
+    "id": "atlas_book_new_1790251935121_190",
+    "name": "Atlas A5 Book Exercise 200Pgs (=) Single Ruled",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0013901-min.jpg",
+    "price": 210,
+    "brand": "Atlas",
+    "category": "Books"
+  },
+  {
+    "id": "atlas_book_new_1790251935122_7246",
+    "name": "Atlas A5 Book Exercise 400Pgs (=) Single Ruled",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0014701-min.jpg",
+    "price": 490,
+    "brand": "Atlas",
+    "category": "Books"
+  },
+  {
+    "id": "atlas_book_new_1790251935122_3716",
+    "name": "Atlas A5 Book Exercise 40Pgs (#) Square Ruled",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0012117-min.jpg",
+    "price": 60,
+    "brand": "Atlas",
+    "category": "Books"
+  },
+  {
+    "id": "atlas_book_new_1790251935122_3646",
+    "name": "Atlas A5 Book Exercise 80Pgs (#) Square Ruled",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0013040-min.jpg",
+    "price": 80,
+    "brand": "Atlas",
+    "category": "Books"
+  },
+  {
+    "id": "atlas_book_new_1790251938068_1922",
+    "name": "Atlas A5 Book Exercise 120Pgs (#) Square Ruled",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0013302-min.jpg",
+    "price": 125,
+    "brand": "Atlas",
+    "category": "Books"
+  },
+  {
+    "id": "atlas_book_new_1790251938068_136",
+    "name": "Atlas A5 Book Exercise 160Pgs (#) Square Ruled",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0013702-min.jpg",
+    "price": 170,
+    "brand": "Atlas",
+    "category": "Books"
+  },
+  {
+    "id": "atlas_book_new_1790251938069_8654",
+    "name": "Atlas A5 Book Exercise 200Pgs (#) Square Ruled",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0013902-min.jpg",
+    "price": 210,
+    "brand": "Atlas",
+    "category": "Books"
+  },
+  {
+    "id": "atlas_book_new_1790251938069_3035",
+    "name": "Atlas A5 Book Exercise 400Pgs (#) Square Ruled",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0014702-min.jpg",
+    "price": 420,
+    "brand": "Atlas",
+    "category": "Books"
+  },
+  {
+    "id": "atlas_book_new_1790251938069_3976",
+    "name": "Atlas A5 Book Practical 1\"(=) Single Ruled 80Pgs",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0023002-min.jpg",
+    "price": 80,
+    "brand": "Atlas",
+    "category": "Books"
+  },
+  {
+    "id": "atlas_book_new_1790251938069_8841",
+    "name": "Atlas A5 Book Practical  1\"(#) Square Ruled 80Pgs",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0023004-min.jpg",
+    "price": 80,
+    "brand": "Atlas",
+    "category": "Books"
+  },
+  {
+    "id": "atlas_book_new_1790251938069_1255",
+    "name": "Atlas A5 Book Practical Blank 80Pgs",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0023007-min.jpg",
+    "price": 80,
+    "brand": "Atlas",
+    "category": "Books"
+  },
+  {
+    "id": "atlas_book_new_1790251938069_9313",
+    "name": "Atlas A5 Book Practical Botany 80Pgs",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0023008-min.jpg",
+    "price": 80,
+    "brand": "Atlas",
+    "category": "Books"
+  },
+  {
+    "id": "atlas_book_new_1790251938069_5758",
+    "name": "Atlas A5 Book Practical Double Ruled 80Pgs",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0023006-min.jpg",
+    "price": 80,
+    "brand": "Atlas",
+    "category": "Books"
+  },
+  {
+    "id": "atlas_book_new_1790251938069_4667",
+    "name": "Atlas A5 Practical Book Double Ruled 120Pgs",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0023308-min.jpg",
+    "price": 125,
+    "brand": "Atlas",
+    "category": "Books"
+  },
+  {
+    "id": "atlas_book_new_1790251938069_8245",
+    "name": "Atlas A5 Book Practical Five Rule (Grade 2 & 3) 80Pgs",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0023015-min.jpg",
+    "price": 80,
+    "brand": "Atlas",
+    "category": "Books"
+  },
+  {
+    "id": "atlas_book_new_1790251938069_1317",
+    "name": "Atlas A5 Book Practical Five Rule 80Pgs",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0023010-min.jpg",
+    "price": 80,
+    "brand": "Atlas",
+    "category": "Books"
+  },
+  {
+    "id": "atlas_book_new_1790251938069_4470",
+    "name": "Atlas A5 Book Practical Jaffna Ruled 80Pgs",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0023009-min.jpg",
+    "price": 80,
+    "brand": "Atlas",
+    "category": "Books"
+  },
+  {
+    "id": "atlas_book_new_1790251938070_9792",
+    "name": "Atlas B5 Book 80Pgs (=) Single Ruled",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0183001-min.jpg",
+    "price": 125,
+    "brand": "Atlas",
+    "category": "Books"
+  },
+  {
+    "id": "atlas_book_new_1790251938070_1066",
+    "name": "Atlas B5 Book 160Pgs (=) Single Ruled",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0183702-min.jpg",
+    "price": 240,
+    "brand": "Atlas",
+    "category": "Books"
+  },
+  {
+    "id": "atlas_book_new_1790251938070_5215",
+    "name": "Atlas B5 Book 80Pgs (#) Square Ruled",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0183301-min.jpg",
+    "price": 125,
+    "brand": "Atlas",
+    "category": "Books"
+  },
+  {
+    "id": "atlas_book_new_1790251938070_1889",
+    "name": "Atlas B5 Book 120Pgs (#) Square Ruled",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0183701-min.jpg",
+    "price": 220,
+    "brand": "Atlas",
+    "category": "Books"
+  },
+  {
+    "id": "atlas_book_new_1790251938070_4596",
+    "name": "Atlas B5 Book 160Pgs (#) Square Ruled",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0183004-min.jpg",
+    "price": 240,
+    "brand": "Atlas",
+    "category": "Books"
+  },
+  {
+    "id": "atlas_book_new_1790251938070_6288",
+    "name": "Innovate Book B5 Single Rule 80Pgs",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0183002.jpg",
+    "price": 175,
+    "brand": "Innovate",
+    "category": "Books"
+  },
+  {
+    "id": "atlas_book_new_1790251938070_2711",
+    "name": "Innovate Book CR Single Rule 120Pgs",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0033313.jpg",
+    "price": 340,
+    "brand": "Innovate",
+    "category": "Books"
+  },
+  {
+    "id": "atlas_book_new_1790251940933_6374",
+    "name": "Innovate Book CR Single Rule 160Pgs",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0033711.jpg",
+    "price": 470,
+    "brand": "Innovate",
+    "category": "Books"
+  },
+  {
+    "id": "atlas_book_new_1790251940933_4167",
+    "name": "Innovate Book CR Single Rule 200Pgs -0032",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0033911-1.jpg",
+    "price": 575,
+    "brand": "Innovate",
+    "category": "Books"
+  },
+  {
+    "id": "atlas_book_new_1790251940933_966",
+    "name": "Innovate Book CR Square Rule 120Pgs- 0048",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0033317-1.jpg",
+    "price": 340,
+    "brand": "Innovate",
+    "category": "Books"
+  },
+  {
+    "id": "atlas_book_new_1790251940933_5120",
+    "name": "Innovate Book Exe Single Rule 160Pgs-0080",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0013716-1.jpg",
+    "price": 250,
+    "brand": "Innovate",
+    "category": "Books"
+  },
+  {
+    "id": "atlas_book_new_1790251940933_6916",
+    "name": "Innovate Book Exe Single Rule 200Pgs-0064",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0013916-1.jpg",
+    "price": 300,
+    "brand": "Innovate",
+    "category": "Books"
+  },
+  {
+    "id": "atlas_book_new_1790251940933_5705",
+    "name": "Innovate Book B5 Single Rule 120Pgs",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0183302.jpg",
+    "price": 275,
+    "brand": "Innovate",
+    "category": "Books"
+  },
+  {
+    "id": "atlas_book_new_1790251940934_1427",
+    "name": "Innovate B5 Book Single Ruled 160Pgs",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0183703-min.jpg",
+    "price": 340,
+    "brand": "Innovate",
+    "category": "Books"
+  },
+  {
+    "id": "atlas_book_new_1790251940934_6409",
+    "name": "Innovate Book B5 Single Rule 200Pgs - 0032",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0183902-1.jpg",
+    "price": 400,
+    "brand": "Innovate",
+    "category": "Books"
+  },
+  {
+    "id": "atlas_book_new_1790251940934_1671",
+    "name": "Innovate Book B5 Square Rule 200Pgs - 0032",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0183903-1.jpg",
+    "price": 400,
+    "brand": "Innovate",
+    "category": "Books"
+  },
+  {
+    "id": "atlas_book_new_1790251940934_1016",
+    "name": "Innovate Book B5 Square Rule 160Pgs - 0040",
+    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2025/08/PF0183704.jpg",
+    "price": 340,
+    "brand": "Innovate",
+    "category": "Books"
+  },
+  {
+    "id": "atlas_book_new_1790251940934_8387",
+    "name": "Homerun Book Exe (#) 120pg",
+    "image": "/products/PF0013352.jpg",
+    "price": 105,
+    "brand": "Homerun",
+    "category": "Books"
+  },
+  {
+    "id": "atlas_book_new_1790251940934_8565",
+    "name": "Homerun Book Exe (=) 120pg",
+    "image": "/products/PF0013351.jpg",
+    "price": 105,
+    "brand": "Homerun",
+    "category": "Books"
+  },
+  {
+    "id": "atlas_book_new_1790251940934_552",
+    "name": "Homerun Book CR (#) 120pg",
+    "image": "/products/PF0033335.jpg",
+    "price": 220,
+    "brand": "Homerun",
+    "category": "Books"
+  },
+  {
+    "id": "atlas_book_new_1790251940934_2284",
+    "name": "Homerun Book CR (#) 80pg",
+    "image": "/products/PF0033038.jpg",
+    "price": 150,
+    "brand": "Homerun",
+    "category": "Books"
+  },
+  {
+    "id": "atlas_book_new_1790251940934_7918",
+    "name": "Homerun Book Exe (#) 200pg",
+    "image": "/products/PF0013929.jpg",
+    "price": 195,
+    "brand": "Homerun",
+    "category": "Books"
+  },
+  {
+    "id": "atlas_book_new_1790251940934_8783",
+    "name": "Homerun Book Pra Double Rule 80Pg",
+    "image": "/products/509292.jpg",
+    "price": 70,
+    "brand": "Homerun",
+    "category": "Books"
+  },
+  {
+    "id": "atlas_book_new_1790251940934_4795",
+    "name": "Homerun Book Exe (=) 200pg",
+    "image": "/products/PF0013928.jpg",
+    "price": 185,
+    "brand": "Homerun",
+    "category": "Books"
+  },
+  {
+    "id": "atlas_book_new_1790251940935_5268",
+    "name": "Homerun Book Exe (=) 160pg",
+    "image": "/products/PF0013732.jpg",
+    "price": 150,
+    "brand": "Homerun",
+    "category": "Books"
+  },
+  {
+    "id": "atlas_book_new_1790251940935_5623",
+    "name": "Homerun Book CR (=) 160pg",
+    "image": "/products/PF0033724.jpg",
+    "price": 300,
+    "brand": "Homerun",
+    "category": "Books"
+  },
+  {
+    "id": "atlas_book_new_1790251940935_4399",
+    "name": "Homerun Book CR (=) 80pg",
+    "image": "/products/PF0033037.jpg",
+    "price": 150,
+    "brand": "Homerun",
+    "category": "Books"
+  },
+  {
+    "id": "atlas_book_new_1790251943402_1975",
+    "name": "Homerun Book Exe (=) 80pg",
+    "image": "/products/PF0013063-.jpg",
+    "price": 70,
+    "brand": "Homerun",
+    "category": "Books"
+  },
+  {
+    "id": "atlas_book_new_1790251943402_8576",
+    "name": "Homerun Book CR (=) 200pg",
+    "image": "/products/PF0033925.jpg",
+    "price": 390,
+    "brand": "Homerun",
+    "category": "Books"
+  },
+  {
+    "id": "atlas_book_new_1790251943402_1490",
+    "name": "Homerun Book CR (#) 200pg",
+    "image": "/products/PF0033926.jpg",
+    "price": 380,
+    "brand": "Homerun",
+    "category": "Books"
+  },
+  {
+    "id": "atlas_book_new_1790251943402_629",
+    "name": "Homerun Book Exe (#) 80pg",
+    "image": "/products/PF0013064.jpg",
+    "price": 70,
+    "brand": "Homerun",
+    "category": "Books"
+  },
+  {
+    "id": "atlas_book_new_1790251943402_2102",
+    "name": "Homerun Book CR (#) 160pg",
+    "image": "/products/PF0033725.jpg",
+    "price": 300,
+    "brand": "Homerun",
+    "category": "Books"
+  },
+  {
+    "id": "edu-toys-226889",
+    "name": "Animal Craft & Weave Kit",
+    "price": 1390,
+    "image": "/products/509832-.jpg",
+    "category": "EDU Toys",
+    "brand": "Atlas",
+    "description": "Animal Craft & Weave Kit"
+  },
+  {
+    "id": "edu-toys-226363",
+    "name": "Mega Blocks 30 Pieces",
+    "price": 1600,
+    "image": "/products/WF9020104.jpg",
+    "category": "EDU Toys",
+    "brand": "Atlas",
+    "description": "Mega Blocks 30 Pieces"
+  },
+  {
+    "id": "edu-toys-226675",
+    "name": "Storytelling & Role-play Kit (Module 2)",
+    "price": 1390,
+    "image": "/products/509831.jpg",
+    "category": "EDU Toys",
+    "brand": "Atlas",
+    "description": "Storytelling & Role-play Kit (Module 2)"
+  },
+  {
+    "id": "edu-toys-226943",
+    "name": "Trace & Learn Alphabet Kit",
+    "price": 990,
+    "image": "/products/509978-.jpg",
+    "category": "EDU Toys",
+    "brand": "Atlas",
+    "description": "Trace & Learn Alphabet Kit"
+  },
+  {
+    "id": "edu-toys-226676",
+    "name": "Word Building Kit (Module 3)",
+    "price": 1250,
+    "image": "/products/509833.jpg",
+    "category": "EDU Toys",
+    "brand": "Atlas",
+    "description": "Word Building Kit (Module 3)"
+  },
+  {
+    "id": "edu-toys-225901",
+    "name": "Dino Egg – Mechanical",
+    "price": 4900,
+    "image": "/products/TT4000108-1.jpg",
+    "category": "EDU Toys",
+    "brand": "Atlas",
+    "description": "Dino Egg – Mechanical"
+  },
+  {
+    "id": "edu-toys-225900",
+    "name": "Dino Egg – Stimulator",
+    "price": 4900,
+    "image": "/products/TT4000107-1.jpg",
+    "category": "EDU Toys",
+    "brand": "Atlas",
+    "description": "Dino Egg – Stimulator"
+  },
+  {
+    "id": "edu-toys-225899",
+    "name": "Animal Building Block",
+    "price": 260,
+    "image": "/products/TT4000205-1.jpg",
+    "category": "EDU Toys",
+    "brand": "Atlas",
+    "description": "Animal Building Block"
+  },
+  {
+    "id": "edu-toys-225343",
+    "name": "Coloursand Activity Pack – Prince and the Dragon",
+    "price": 1490,
+    "image": "/products/WF9030202.jpg",
+    "category": "EDU Toys",
+    "brand": "Atlas",
+    "description": "Coloursand Activity Pack – Prince and the Dragon"
+  },
+  {
+    "id": "edu-toys-225351",
+    "name": "Coloursand Activity Pack – Tortoise and the Hare",
+    "price": 1490,
+    "image": "/products/WF9030204.jpg",
+    "category": "EDU Toys",
+    "brand": "Atlas",
+    "description": "Coloursand Activity Pack – Tortoise and the Hare"
+  },
+  {
+    "id": "edu-toys-225856",
+    "name": "Eco Block bag",
+    "price": 1090,
+    "image": "/products/TT4020202.jpg",
+    "category": "EDU Toys",
+    "brand": "Atlas",
+    "description": "Eco Block bag"
+  },
+  {
+    "id": "edu-toys-225855",
+    "name": "Eco Block car",
+    "price": 990,
+    "image": "/products/TT4020201.jpg",
+    "category": "EDU Toys",
+    "brand": "Atlas",
+    "description": "Eco Block car"
+  },
+  {
+    "id": "edu-toys-225881",
+    "name": "Kinetic Sand",
+    "price": 490,
+    "image": "/products/Kinetic_sand_1.jpg",
+    "category": "EDU Toys",
+    "brand": "Atlas",
+    "description": "Kinetic Sand"
+  },
+  {
+    "id": "edu-toys-225866",
+    "name": "PP Eduaids Flash Card Fruits20 – 0048",
+    "price": 2900,
+    "image": "/products/PF8000117.jpg",
+    "category": "EDU Toys",
+    "brand": "Atlas",
+    "description": "PP Eduaids Flash Card Fruits20 – 0048"
+  },
+  {
+    "id": "edu-toys-225869",
+    "name": "PP Eduaids Flash Card Numbers20 – 0048",
+    "price": 2900,
+    "image": "/products/PF8000120.jpg",
+    "category": "EDU Toys",
+    "brand": "Atlas",
+    "description": "PP Eduaids Flash Card Numbers20 – 0048"
+  },
+  {
+    "id": "edu-toys-225825",
+    "name": "3D Puzzle Insects",
+    "price": 2690,
+    "image": "/products/TT4020115.jpg",
+    "category": "EDU Toys",
+    "brand": "Atlas",
+    "description": "3D Puzzle Insects"
+  },
+  {
+    "id": "edu-toys-225826",
+    "name": "3D Puzzle Sea Creatures",
+    "price": 2690,
+    "image": "/products/TT4020116.jpg",
+    "category": "EDU Toys",
+    "brand": "Atlas",
+    "description": "3D Puzzle Sea Creatures"
+  },
+  {
+    "id": "edu-toys-225823",
+    "name": "3D Puzzle Transport",
+    "price": 2690,
+    "image": "/products/TT4020114.jpg",
+    "category": "EDU Toys",
+    "brand": "Atlas",
+    "description": "3D Puzzle Transport"
+  },
+  {
+    "id": "edu-toys-225326",
+    "name": "Blocks Mega Pre 100",
+    "price": 6290,
+    "image": "/products/WF9020102-A.jpg",
+    "category": "EDU Toys",
+    "brand": "Atlas",
+    "description": "Blocks Mega Pre 100"
+  },
+  {
+    "id": "edu-toys-225330",
+    "name": "Blocks Mega Pre 150",
+    "price": 8490,
+    "image": "/products/WF9020103-A.jpg",
+    "category": "EDU Toys",
+    "brand": "Atlas",
+    "description": "Blocks Mega Pre 150"
+  },
+  {
+    "id": "edu-toys-225325",
+    "name": "Blocks Mega Pre 50",
+    "price": 3490,
+    "image": "/products/WF9020101-A.jpg",
+    "category": "EDU Toys",
+    "brand": "Atlas",
+    "description": "Blocks Mega Pre 50"
+  },
+  {
+    "id": "edu-toys-225822",
+    "name": "Chunky Puzzle Professions",
+    "price": 1990,
+    "image": "/products/TT4020113.jpg",
+    "category": "EDU Toys",
+    "brand": "Atlas",
+    "description": "Chunky Puzzle Professions"
+  },
+  {
+    "id": "edu-toys-225771",
+    "name": "Eduaids Flash Card Birds",
+    "price": 290,
+    "image": "/products/PF8000105-A.jpg",
+    "category": "EDU Toys",
+    "brand": "Atlas",
+    "description": "Eduaids Flash Card Birds"
+  },
+  {
+    "id": "edu-toys-225767",
+    "name": "Eduaids Flash Card English",
+    "price": 490,
+    "image": "/products/PF8000101-A-min.jpg",
+    "category": "EDU Toys",
+    "brand": "Atlas",
+    "description": "Eduaids Flash Card English"
+  },
+  {
+    "id": "edu-toys-225772",
+    "name": "Eduaids Flash Card Sea Animals",
+    "price": 290,
+    "image": "/products/PF8000106-A.jpg",
+    "category": "EDU Toys",
+    "brand": "Atlas",
+    "description": "Eduaids Flash Card Sea Animals"
+  },
+  {
+    "id": "edu-toys-225768",
+    "name": "Eduaids Flash Card Sinhala",
+    "price": 490,
+    "image": "/products/PF8000102-A.jpg",
+    "category": "EDU Toys",
+    "brand": "Atlas",
+    "description": "Eduaids Flash Card Sinhala"
+  },
+  {
+    "id": "edu-toys-225769",
+    "name": "Eduaids Flash Card Tamil",
+    "price": 490,
+    "image": "/products/PF8000103-A.jpg",
+    "category": "EDU Toys",
+    "brand": "Atlas",
+    "description": "Eduaids Flash Card Tamil"
+  },
+  {
+    "id": "edu-toys-225781",
+    "name": "Eduaids Puzzles 2 Letter Words Sinhala",
+    "price": 1490,
+    "image": "/products/PF8000205-A.jpg",
+    "category": "EDU Toys",
+    "brand": "Atlas",
+    "description": "Eduaids Puzzles 2 Letter Words Sinhala"
+  },
+  {
+    "id": "edu-toys-225786",
+    "name": "Eduaids Puzzles 2 Letter Words Tamil",
+    "price": 1490,
+    "image": "/products/PF8000209-A.jpg",
+    "category": "EDU Toys",
+    "brand": "Atlas",
+    "description": "Eduaids Puzzles 2 Letter Words Tamil"
+  },
+  {
+    "id": "edu-toys-225784",
+    "name": "Eduaids Puzzles 3 Letter Words English",
+    "price": 1490,
+    "image": "/products/PF8000207-A.jpg",
+    "category": "EDU Toys",
+    "brand": "Atlas",
+    "description": "Eduaids Puzzles 3 Letter Words English"
+  },
+  {
+    "id": "edu-toys-225783",
+    "name": "Eduaids Puzzles 3 Letter Words Sinhala",
+    "price": 1490,
+    "image": "/products/PF8000206-A.jpg",
+    "category": "EDU Toys",
+    "brand": "Atlas",
+    "description": "Eduaids Puzzles 3 Letter Words Sinhala"
+  },
+  {
+    "id": "edu-toys-225782",
+    "name": "Eduaids Puzzles 3 Letter Words Tamil",
+    "price": 1490,
+    "image": "/products/PF8000210-A.jpg",
+    "category": "EDU Toys",
+    "brand": "Atlas",
+    "description": "Eduaids Puzzles 3 Letter Words Tamil"
+  },
+  {
+    "id": "edu-toys-225785",
+    "name": "Eduaids Puzzles 4 Letter Words English",
+    "price": 1490,
+    "image": "/products/PF8000208-A.jpg",
+    "category": "EDU Toys",
+    "brand": "Atlas",
+    "description": "Eduaids Puzzles 4 Letter Words English"
+  },
+  {
+    "id": "edu-toys-225780",
+    "name": "Eduaids Puzzles Action Words",
+    "price": 750,
+    "image": "/products/PF8000204-A.jpg",
+    "category": "EDU Toys",
+    "brand": "Atlas",
+    "description": "Eduaids Puzzles Action Words"
+  },
+  {
+    "id": "edu-toys-225779",
+    "name": "Eduaids Puzzles One and Many",
+    "price": 750,
+    "image": "/products/PF8000203-A.jpg",
+    "category": "EDU Toys",
+    "brand": "Atlas",
+    "description": "Eduaids Puzzles One and Many"
+  },
+  {
+    "id": "edu-toys-225778",
+    "name": "Eduaids Puzzles Opposite",
+    "price": 750,
+    "image": "/products/PF8000202-A.jpg",
+    "category": "EDU Toys",
+    "brand": "Atlas",
+    "description": "Eduaids Puzzles Opposite"
+  },
+  {
+    "id": "edu-toys-225777",
+    "name": "Eduaids Puzzles Synonyms",
+    "price": 750,
+    "image": "/products/PF8000201-A.jpg",
+    "category": "EDU Toys",
+    "brand": "Atlas",
+    "description": "Eduaids Puzzles Synonyms"
+  },
+  {
+    "id": "edu-toys-225789",
+    "name": "Finger Paints 6 Pack 30ml",
+    "price": 1190,
+    "image": "/products/TT4000103-A.jpg",
+    "category": "EDU Toys",
+    "brand": "Atlas",
+    "description": "Finger Paints 6 Pack 30ml"
+  },
+  {
+    "id": "edu-toys-225790",
+    "name": "Finger Paints 6 Pack 75ml",
+    "price": 2150,
+    "image": "/products/TT4000104-A.jpg",
+    "category": "EDU Toys",
+    "brand": "Atlas",
+    "description": "Finger Paints 6 Pack 75ml"
+  },
+  {
+    "id": "edu-toys-225774",
+    "name": "PP Eduaids Flash Card Vegetables",
+    "price": 290,
+    "image": "/products/PF8000108-A.jpg",
+    "category": "EDU Toys",
+    "brand": "Atlas",
+    "description": "PP Eduaids Flash Card Vegetables"
+  },
+  {
+    "id": "edu-toys-225811",
+    "name": "Wooden Puzzle Animals",
+    "price": 1390,
+    "image": "/products/TT4020101.jpg",
+    "category": "EDU Toys",
+    "brand": "Atlas",
+    "description": "Wooden Puzzle Animals"
+  },
+  {
+    "id": "edu-toys-225824",
+    "name": "Wooden Puzzle Farm Animals",
+    "price": 1790,
+    "image": "/products/TT4020112.jpg",
+    "category": "EDU Toys",
+    "brand": "Atlas",
+    "description": "Wooden Puzzle Farm Animals"
+  },
+  {
+    "id": "edu-toys-225820",
+    "name": "Wooden Puzzle Insects",
+    "price": 1790,
+    "image": "/products/TT4020110.jpg",
+    "category": "EDU Toys",
+    "brand": "Atlas",
+    "description": "Wooden Puzzle Insects"
+  },
+  {
+    "id": "edu-toys-225816",
+    "name": "Wooden Puzzle Public Transport",
+    "price": 1390,
+    "image": "/products/TT4020106.jpg",
+    "category": "EDU Toys",
+    "brand": "Atlas",
+    "description": "Wooden Puzzle Public Transport"
+  },
+  {
+    "id": "edu-toys-225813",
+    "name": "Wooden Puzzle Sea Animals",
+    "price": 1390,
+    "image": "/products/TT4020103.jpg",
+    "category": "EDU Toys",
+    "brand": "Atlas",
+    "description": "Wooden Puzzle Sea Animals"
+  },
+  {
+    "id": "edu-toys-225819",
+    "name": "Wooden Puzzle Tamil Alphabet",
+    "price": 2690,
+    "image": "/products/TT4020109.jpg",
+    "category": "EDU Toys",
+    "brand": "Atlas",
+    "description": "Wooden Puzzle Tamil Alphabet"
+  },
+  {
+    "id": "edu-toys-225821",
+    "name": "Wooden Puzzle Wild Animals",
+    "price": 1790,
+    "image": "/products/TT4020111.jpg",
+    "category": "EDU Toys",
+    "brand": "Atlas",
+    "description": "Wooden Puzzle Wild Animals"
+  },
+  {
+    "id": "innovate-225853",
+    "name": "Innovate Pen Akuru Blue",
+    "price": 150,
+    "image": "/products/WF2331901-1.jpg",
+    "category": "Innovate",
+    "brand": "Innovate",
+    "description": "Innovate Pen Akuru Blue"
+  },
+  {
+    "id": "innovate-225836",
+    "name": "Innovate Book Divder CR Single Rule 240pg-0012",
+    "price": 1000,
+    "image": "/products/PF0034003.jpg",
+    "category": "Innovate",
+    "brand": "Innovate",
+    "description": "Innovate Book Divder CR Single Rule 240pg-0012"
+  },
+  {
+    "id": "innovate-225833",
+    "name": "Innovate Book Exe Single Rule 120Pgs-0100",
+    "price": 165,
+    "image": "/products/PF0013328-1.jpg",
+    "category": "Innovate",
+    "brand": "Innovate",
+    "description": "Innovate Book Exe Single Rule 120Pgs-0100"
+  },
+  {
+    "id": "innovate-206267",
+    "name": "Innovate Book Exe Single Rule 80pgs -0144",
+    "price": 100,
+    "image": "/products/PF0013052.jpg",
+    "category": "Innovate",
+    "brand": "Innovate",
+    "description": "Innovate Book Exe Single Rule 80pgs -0144"
+  },
+  {
+    "id": "innovate-225837",
+    "name": "Innovate Book Spiral Exe Single Rule 120Pg-0060",
+    "price": 400,
+    "image": "/products/PF0013345-1.jpg",
+    "category": "Innovate",
+    "brand": "Innovate",
+    "description": "Innovate Book Spiral Exe Single Rule 120Pg-0060"
+  },
+  {
+    "id": "innovate-225834",
+    "name": "Innovate Book Spiral B5 Single Ruled 120Pg-0030",
+    "price": 600,
+    "image": "/products/PF0183311-1.jpg",
+    "category": "Innovate",
+    "brand": "Innovate",
+    "description": "Innovate Book Spiral B5 Single Ruled 120Pg-0030"
+  },
+  {
+    "id": "innovate-225835",
+    "name": "Innovate Book Spiral CR Single Ruled 120Pg-0030",
+    "price": 800,
+    "image": "/products/PF0033329-1.jpg",
+    "category": "Innovate",
+    "brand": "Innovate",
+    "description": "Innovate Book Spiral CR Single Ruled 120Pg-0030"
+  },
+  {
+    "id": "innovate-225607",
+    "name": "Innovate Book CR Single Rule 80Pgs",
+    "price": 225,
+    "image": "/products/PF0033013.jpg",
+    "category": "Innovate",
+    "brand": "Innovate",
+    "description": "Innovate Book CR Single Rule 80Pgs"
+  },
+  {
+    "id": "innovate-225615",
+    "name": "Innovate Book B5 Single Rule 80Pgs",
+    "price": 1750,
+    "image": "/products/PF0183002.jpg",
+    "category": "Innovate",
+    "brand": "Innovate",
+    "description": "Innovate Book B5 Single Rule 80Pgs"
+  },
+  {
+    "id": "innovate-225605",
+    "name": "Innovate Book CR Single Rule 120Pgs",
+    "price": 3400,
+    "image": "/products/PF0033313.jpg",
+    "category": "Innovate",
+    "brand": "Innovate",
+    "description": "Innovate Book CR Single Rule 120Pgs"
+  },
+  {
+    "id": "innovate-225603",
+    "name": "Innovate Book CR Single Rule 160Pgs",
+    "price": 4700,
+    "image": "/products/PF0033711.jpg",
+    "category": "Innovate",
+    "brand": "Innovate",
+    "description": "Innovate Book CR Single Rule 160Pgs"
+  },
+  {
+    "id": "innovate-225601",
+    "name": "Innovate Book CR Single Rule 200Pgs -0032",
+    "price": 5750,
+    "image": "/products/PF0033911-1.jpg",
+    "category": "Innovate",
+    "brand": "Innovate",
+    "description": "Innovate Book CR Single Rule 200Pgs -0032"
+  },
+  {
+    "id": "innovate-225604",
+    "name": "Innovate Book CR Square Rule 120Pgs- 0048",
+    "price": 3400,
+    "image": "/products/PF0033317-1.jpg",
+    "category": "Innovate",
+    "brand": "Innovate",
+    "description": "Innovate Book CR Square Rule 120Pgs- 0048"
+  },
+  {
+    "id": "innovate-225588",
+    "name": "Innovate Book Exe Single Rule 160Pgs-0080",
+    "price": 2500,
+    "image": "/products/PF0013716-1.jpg",
+    "category": "Innovate",
+    "brand": "Innovate",
+    "description": "Innovate Book Exe Single Rule 160Pgs-0080"
+  },
+  {
+    "id": "innovate-225578",
+    "name": "Innovate Book Exe Single Rule 200Pgs-0064",
+    "price": 3000,
+    "image": "/products/PF0013916-1.jpg",
+    "category": "Innovate",
+    "brand": "Innovate",
+    "description": "Innovate Book Exe Single Rule 200Pgs-0064"
+  },
+  {
+    "id": "innovate-225613",
+    "name": "Innovate Book B5 Single Rule 120Pgs",
+    "price": 2750,
+    "image": "/products/PF0183302.jpg",
+    "category": "Innovate",
+    "brand": "Innovate",
+    "description": "Innovate Book B5 Single Rule 120Pgs"
+  },
+  {
+    "id": "innovate-15161",
+    "name": "Innovate B5 Book Single Ruled 160Pgs",
+    "price": 3400,
+    "image": "/products/PF0183703-min.jpg",
+    "category": "Innovate",
+    "brand": "Innovate",
+    "description": "Innovate B5 Book Single Ruled 160Pgs"
+  },
+  {
+    "id": "innovate-225609",
+    "name": "Innovate Book B5 Single Rule 200Pgs – 0032",
+    "price": 4000,
+    "image": "/products/PF0183902-1.jpg",
+    "category": "Innovate",
+    "brand": "Innovate",
+    "description": "Innovate Book B5 Single Rule 200Pgs – 0032"
+  },
+  {
+    "id": "innovate-225608",
+    "name": "Innovate Book B5 Square Rule 200Pgs – 0032",
+    "price": 4000,
+    "image": "/products/PF0183903-1.jpg",
+    "category": "Innovate",
+    "brand": "Innovate",
+    "description": "Innovate Book B5 Square Rule 200Pgs – 0032"
+  },
+  {
+    "id": "innovate-225610",
+    "name": "Innovate Book B5 Square Rule 160Pgs – 0040",
+    "price": 3400,
+    "image": "/products/PF0183704.jpg",
+    "category": "Innovate",
+    "brand": "Innovate",
+    "description": "Innovate Book B5 Square Rule 160Pgs – 0040"
+  },
+  {
+    "id": "homerun_1790268842819_0",
+    "name": "Innovate B5 Book Single Ruled 160Pgs",
+    "image": "/products/PF0183703-min-600x600.jpg",
+    "price": 340,
+    "brand": "Innovate",
+    "category": "B5 Books"
+  },
+  {
+    "id": "homerun_1790268842819_1",
+    "name": "Atlas A4 Science Book Graph 80Pgs",
+    "image": "/products/PF0043003-min-600x600.jpg",
+    "price": 230,
+    "brand": "Atlas",
+    "category": "A4 Science Books"
+  },
+  {
+    "id": "homerun_1790268842819_2",
+    "name": "Atlas B5 Book 160Pgs (#) Square Ruled",
+    "image": "/products/PF0183004-min-600x600.jpg",
+    "price": 240,
+    "brand": "Atlas",
+    "category": "B5 Books"
+  },
+  {
+    "id": "homerun_1790268842819_3",
+    "name": "Atlas B5 Book 160Pgs (=) Single Ruled",
+    "image": "/products/PF0183702-min-600x600.jpg",
+    "price": 240,
+    "brand": "Atlas",
+    "category": "B5 Books"
+  },
+  {
+    "id": "homerun_1790268842819_4",
+    "name": "Atlas Pen Chooty Gel Multicolor -  Pack of 5",
+    "image": "/products/WF1010701-min-1-600x600.jpg",
+    "price": 300,
+    "brand": "Atlas",
+    "category": "Multi Color Pens"
+  },
+  {
+    "id": "homerun_1790268842819_5",
+    "name": "Atlas Pen Chooty Gel Assorted - Pack of 3",
+    "image": "/products/WF1000402-min-600x600.jpg",
+    "price": 150,
+    "brand": "Atlas",
+    "category": "Gel Pens"
+  },
+  {
+    "id": "homerun_1790268842819_6",
+    "name": "Atlas Pen Chooty Multicolor -  Pack of 5",
+    "image": "/products/WF2020701-min-600x600.jpg",
+    "price": 200,
+    "brand": "Atlas",
+    "category": "Multi Color Pens"
+  },
+  {
+    "id": "homerun_1790268842819_7",
+    "name": "Atlas Pen Cool Multicolor -  Pack of 5",
+    "image": "/products/WF2050701-min-600x600.jpg",
+    "price": 200,
+    "brand": "Atlas",
+    "category": "Multi Color Pens"
+  },
+  {
+    "id": "homerun_1790268842819_8",
+    "name": "Atlas Jumbo Dino Pastel 24 Colours",
+    "image": "/products/GF4001113-min-600x600.jpg",
+    "price": 550,
+    "brand": "Atlas",
+    "category": "Pastels"
+  },
+  {
+    "id": "homerun_1790268842819_9",
+    "name": "Atlas Water colour pencil 12 Colours",
+    "image": "/products/TT0390102-min-600x600.jpg",
+    "price": 850,
+    "brand": "Atlas",
+    "category": "Water Colours"
+  },
+  {
+    "id": "homerun_1790268842819_10",
+    "name": "Atlas Colour Pen Wallets 6 Colours",
+    "image": "/products/508244-600x600.jpg",
+    "price": 260,
+    "brand": "Atlas",
+    "category": "Felt Pens"
+  },
+  {
+    "id": "homerun_1790268842819_11",
+    "name": "Atlas Colour Pen Felta 6 Colours",
+    "image": "/products/WF8050101-min-600x600.jpg",
+    "price": 285,
+    "brand": "Atlas",
+    "category": "Felt Pens"
+  },
+  {
+    "id": "homerun_1790268842819_12",
+    "name": "Atlas Natural Clay 250g",
+    "image": "/products/TT0071001-B-600x600.jpg",
+    "price": 120,
+    "brand": "Atlas",
+    "category": "Kids Clay"
+  },
+  {
+    "id": "homerun_1790268842819_13",
+    "name": "Atlas clay Activity set Small",
+    "image": "/products/TT0071101-min-600x600.jpg",
+    "price": 270,
+    "brand": "Atlas",
+    "category": "Kids Clay"
+  },
+  {
+    "id": "homerun_1790268842819_14",
+    "name": "Atlas  Super Glue 3g",
+    "image": "/products/TT0060101-1-600x600.jpg",
+    "price": 85,
+    "brand": "Atlas",
+    "category": "Glue"
+  },
+  {
+    "id": "homerun_1790268842819_15",
+    "name": "Atlas Binder Glue Bottle 200g",
+    "image": "/products/GF3013902-min-600x600.jpg",
+    "price": 300,
+    "brand": "Atlas",
+    "category": "Glue"
+  },
+  {
+    "id": "homerun_1790268842819_16",
+    "name": "Stapler Large",
+    "image": "/products/TT0040106-min-600x600.jpg",
+    "price": 520,
+    "brand": "Atlas",
+    "category": "Staplers &amp; Pins"
+  },
+  {
+    "id": "homerun_1790268842819_17",
+    "name": "Stapler Pin # 10",
+    "image": "/products/TT0040303-min-600x600.jpg",
+    "price": 50,
+    "brand": "Atlas",
+    "category": "Staplers &amp; Pins"
+  },
+  {
+    "id": "homerun_1790268842819_18",
+    "name": "Stapler Pin # 369",
+    "image": "/products/TT0040302-min-1-600x600.jpg",
+    "price": 80,
+    "brand": "Atlas",
+    "category": "Staplers &amp; Pins"
+  },
+  {
+    "id": "homerun_1790268842819_19",
+    "name": "White ink pen Big",
+    "image": "/products/TT0180601-min-600x600.jpg",
+    "price": 150,
+    "brand": "Atlas",
+    "category": "Correction Pens"
+  },
+  {
+    "id": "homerun_1790268842819_20",
+    "name": "Atlas Lunch Box Kids",
+    "image": "/products/TT1122101-600x600.jpg",
+    "price": 660,
+    "brand": "Atlas",
+    "category": "Lock Tight Boxes"
+  },
+  {
+    "id": "homerun_1790268842819_21",
+    "name": "Atlas Lunch Box Small Snackkit",
+    "image": "/products/3-Atlas-Lunch-Box-Small-Snackkit-0036-copy-1-600x600.png",
+    "price": 330,
+    "brand": "Atlas",
+    "category": "Easy Open Boxes"
+  },
+  {
+    "id": "homerun_1790268842820_22",
+    "name": "Atlas Lunch Box Medium Home Fresh",
+    "image": "/products/4-Atlas-Lunch-Box-Medium-Home-Fresh-0036-copy-1-600x600.png",
+    "price": 390,
+    "brand": "Atlas",
+    "category": "Easy Open Boxes"
+  },
+  {
+    "id": "homerun_1790268842820_23",
+    "name": "Atlas Lunch Box Large FitPAK",
+    "image": "/products/WF7240103-2-600x600.jpg",
+    "price": 490,
+    "brand": "Atlas",
+    "category": "Partitioned Boxes"
+  },
+  {
+    "id": "homerun_1790268842820_24",
+    "name": "Atl Finelighter Yellow",
+    "image": "/products/WF7020204-min-600x600.jpg",
+    "price": 120,
+    "brand": "Atlas",
+    "category": "Highlighters"
+  },
+  {
+    "id": "homerun_1790268842820_25",
+    "name": "White Board Marker - Blue",
+    "image": "/products/WF8060101-600x600.jpg",
+    "price": 130,
+    "brand": "Atlas",
+    "category": "Whiteboard Markers"
+  },
+  {
+    "id": "homerun_1790268842820_26",
+    "name": "White Board Marker - Black",
+    "image": "/products/WF8060102-600x600.jpg",
+    "price": 130,
+    "brand": "Atlas",
+    "category": "Whiteboard Markers"
+  },
+  {
+    "id": "homerun_1790268842820_27",
+    "name": "White Board Marker - Red",
+    "image": "/products/WF8060103-600x600.jpg",
+    "price": 130,
+    "brand": "Atlas",
+    "category": "Whiteboard Markers"
+  },
+  {
+    "id": "homerun_1790268842820_28",
+    "name": "Atlas A4 Colour Paper Assorted (250SH) 10 colours",
+    "image": "/products/PF0084103-min-600x600.jpg",
+    "price": 1700,
+    "brand": "Atlas",
+    "category": "Colour Papers"
+  },
+  {
+    "id": "homerun_1790268842820_29",
+    "name": "JK Sparkle - A4 75GSM",
+    "image": "/products/TT0011002-600x600.jpg",
+    "price": 1359.02,
+    "brand": "Atlas",
+    "category": "Paper Products"
+  },
+  {
+    "id": "homerun_1790268842820_30",
+    "name": "JK Sparkle - A4 70GSM",
+    "image": "/products/TT0011001-600x600.jpg",
+    "price": 1240.6,
+    "brand": "Atlas",
+    "category": "Paper Products"
+  },
+  {
+    "id": "homerun_1790268842820_31",
+    "name": "Atlas Paper Foolscap 250 Sheets Square Ruled",
+    "image": "/products/PF0084105-600x600.jpg",
+    "price": 1000,
+    "brand": "Atlas",
+    "category": "Foolscap Papers"
+  },
+  {
+    "id": "homerun_1790268842820_32",
+    "name": "Trace &amp; Learn Alphabet Kit",
+    "image": "/products/509978--600x600.jpg",
+    "price": 990,
+    "brand": "Atlas",
+    "category": "EDU Toys"
+  },
+  {
+    "id": "homerun_1790268842820_33",
+    "name": "Animal Craft &amp; Weave Kit",
+    "image": "/products/509832--600x600.jpg",
+    "price": 1390,
+    "brand": "Atlas",
+    "category": "EDU Toys"
+  },
+  {
+    "id": "homerun_1790268842820_34",
+    "name": "Word Building Kit (Module 3)",
+    "image": "/products/509833-600x600.jpg",
+    "price": 1250,
+    "brand": "Atlas",
+    "category": "EDU Toys"
+  },
+  {
+    "id": "homerun_1790268842820_35",
+    "name": "Storytelling &amp; Role-play Kit (Module 2)",
+    "image": "/products/509831-600x600.jpg",
+    "price": 1390,
+    "brand": "Atlas",
+    "category": "EDU Toys"
+  },
+  {
+    "id": "homerun_1790268842820_36",
+    "name": "Atlas Active Fit School Bag Blue L C1",
+    "image": "/products/GF7001405-11-min-600x600.jpg",
+    "price": 3300,
+    "brand": "Atlas",
+    "category": "Bags"
+  },
+  {
+    "id": "homerun_1790268842820_37",
+    "name": "Atlas Active Fit School Bag Black L C2",
+    "image": "/products/GF7001402-31-min-600x600.jpg",
+    "price": 3300,
+    "brand": "Atlas",
+    "category": "Bags"
+  },
+  {
+    "id": "homerun_1790268842820_38",
+    "name": "Atlas Active Fit School Bag Black L C1",
+    "image": "/products/GF7001401-21-min-600x600.jpg",
+    "price": 3300,
+    "brand": "Atlas",
+    "category": "Bags"
+  },
+  {
+    "id": "homerun_1790268842820_39",
+    "name": "Homerun 12 Colour Pencil",
+    "image": "/products/WF7050104-1.jpg",
+    "price": 430,
+    "brand": "Homerun",
+    "category": "Colour Pencils"
+  },
+  {
+    "id": "homerun_1790268842820_40",
+    "name": "Homerun 6 Colour Pencil",
+    "image": "/products/GF4501104.jpg",
+    "price": 240,
+    "brand": "Homerun",
+    "category": "Colour Pencils"
+  },
+  {
+    "id": "homerun_1790268842820_41",
+    "name": "Homerun Pastel 12 Colours",
+    "image": "/products/GF4501603-.jpg",
+    "price": 200,
+    "brand": "Homerun",
+    "category": "Pastels"
+  },
+  {
+    "id": "homerun_1790268842820_42",
+    "name": "Homerun Pastel 24 Colours",
+    "image": "/products/GF4501602-min.jpg",
+    "price": 350,
+    "brand": "Homerun",
+    "category": "Pastels"
+  },
+  {
+    "id": "homerun_1790268842820_43",
+    "name": "Homerun Jumbo Pastel 24 Colours",
+    "image": "/products/GF4501602-min.jpg",
+    "price": 500,
+    "brand": "Homerun",
+    "category": "Pastels"
+  },
+  {
+    "id": "homerun_1790268842820_44",
+    "name": "Homerun Book Exe (#) 120pg",
+    "image": "/products/PF0013351.jpg",
+    "price": 105,
+    "brand": "Homerun",
+    "category": "A5 Exercise Books"
+  },
+  {
+    "id": "homerun_1790268842820_45",
+    "name": "Homerun Book Exe (=) 120pg",
+    "image": "/products/PF0033335.jpg",
+    "price": 105,
+    "brand": "Homerun",
+    "category": "A5 Exercise Books"
+  },
+  {
+    "id": "homerun_1790268842820_46",
+    "name": "Homerun Book CR (#) 120pg",
+    "image": "/products/PF0033038.jpg",
+    "price": 220,
+    "brand": "Homerun",
+    "category": "A4 CR Books"
+  },
+  {
+    "id": "homerun_1790268842820_47",
+    "name": "Homerun Book CR (#) 80pg",
+    "image": "/products/PF0013929.jpg",
+    "price": 150,
+    "brand": "Homerun",
+    "category": "A4 CR Books"
+  },
+  {
+    "id": "homerun_1790268842820_48",
+    "name": "Homerun Book Exe (#) 200pg",
+    "image": "/products/PF0013928.jpg",
+    "price": 195,
+    "brand": "Homerun",
+    "category": "A5 Exercise Books"
+  },
+  {
+    "id": "homerun_1790268842820_49",
+    "name": "Homerun Book Exe (=) 200pg",
+    "image": "/products/PF0013732.jpg",
+    "price": 185,
+    "brand": "Homerun",
+    "category": "A5 Exercise Books"
+  },
+  {
+    "id": "homerun_1790268842820_50",
+    "name": "Homerun Book Exe (=) 160pg",
+    "image": "/products/PF0033724.jpg",
+    "price": 150,
+    "brand": "Homerun",
+    "category": "A5 Exercise Books"
+  },
+  {
+    "id": "homerun_1790268842820_51",
+    "name": "Homerun Book CR (=) 160pg",
+    "image": "/products/PF0033037.jpg",
+    "price": 300,
+    "brand": "Homerun",
+    "category": "A4 CR Books"
+  },
+  {
+    "id": "homerun_1790268842820_52",
+    "name": "Homerun Book CR (=) 80pg",
+    "image": "/products/PF0013063-.jpg",
+    "price": 150,
+    "brand": "Homerun",
+    "category": "A4 CR Books"
+  },
+  {
+    "id": "homerun_1790268842820_53",
+    "name": "Homerun Book Exe (=) 80pg",
+    "image": "/products/PF0033925.jpg",
+    "price": 70,
+    "brand": "Homerun",
+    "category": "A5 Exercise Books"
+  },
+  {
+    "id": "homerun_1790268842820_54",
+    "name": "Homerun Book CR (=) 200pg",
+    "image": "/products/PF0033926.jpg",
+    "price": 390,
+    "brand": "Homerun",
+    "category": "A4 CR Books"
+  },
+  {
+    "id": "homerun_1790268842820_55",
+    "name": "Homerun Book CR (#) 200pg",
+    "image": "/products/PF0013064.jpg",
+    "price": 380,
+    "brand": "Homerun",
+    "category": "A4 CR Books"
+  },
+  {
+    "id": "homerun_1790268842820_56",
+    "name": "Homerun Book Exe (#) 80pg",
+    "image": "/products/PF0033725.jpg",
+    "price": 70,
+    "brand": "Homerun",
+    "category": "A5 Exercise Books"
+  },
+  {
+    "id": "homerun_1790268842820_57",
+    "name": "Homerun Book CR (#) 160pg",
+    "image": "/products/atlas-logo-min-110x63.png",
+    "price": 300,
+    "brand": "Homerun",
+    "category": "A4 CR Books"
+  },
+  {
+    "id": "promate_0",
+    "name": "Mango Arrow Pen",
+    "image": "https://www.promateworld.com/storage/mango-arrow-black-150x150.png",
+    "price": 24,
+    "brand": "Promate",
+    "category": "Stationery"
+  },
+  {
+    "id": "promate_1",
+    "name": "Nidi Kumariya",
+    "image": "https://www.promateworld.com/storage/june-1/01-nidi-kumariya-back-150x150.png",
+    "price": 240,
+    "brand": "Promate",
+    "category": "Stationery"
+  },
+  {
+    "id": "promate_2",
+    "name": "Sudu Hansaya",
+    "image": "https://www.promateworld.com/storage/june-1/sudu-hansaya-600x600-front-150x150.png",
+    "price": 200,
+    "brand": "Promate",
+    "category": "Stationery"
+  },
+  {
+    "id": "promate_3",
+    "name": "Dambo",
+    "image": "https://www.promateworld.com/storage/june-1/dumbo-600x600-front-150x150.png",
+    "price": 240,
+    "brand": "Promate",
+    "category": "Stationery"
+  },
+  {
+    "id": "promate_4",
+    "name": "Waligaya Nati Nariya (Esopge Upamakatha - 3)",
+    "image": "https://www.promateworld.com/storage/june-1/01-waligaya-nathi-nariya-back-150x150.png",
+    "price": 240,
+    "brand": "Promate",
+    "category": "Stationery"
+  },
+  {
+    "id": "promate_5",
+    "name": "The Miser",
+    "image": "https://www.promateworld.com/storage/june-1/01-the-miser-front-150x150.png",
+    "price": 160,
+    "brand": "Promate",
+    "category": "Stationery"
+  },
+  {
+    "id": "promate_6",
+    "name": "The Merchant's Gold",
+    "image": "https://www.promateworld.com/storage/june-1/01-the-merchants-gold-front-150x150.png",
+    "price": 160,
+    "brand": "Promate",
+    "category": "Stationery"
+  },
+  {
+    "id": "promate_7",
+    "name": "Saba Kumariya saha kadala ataya",
+    "image": "https://www.promateworld.com/storage/june-1/01-saba-kumariya-saha-kadala-ataya-back-150x150.png",
+    "price": 240,
+    "brand": "Promate",
+    "category": "Stationery"
+  },
+  {
+    "id": "promate_8",
+    "name": "MANGO A4 PHOTOCOPY 70 GSM 500 SHEET PACK",
+    "image": "https://www.promateworld.com/storage/mango-photocopy-paper-70gsm-a4-500-sheets-pack-front-150x150.png",
+    "price": 1299.2,
+    "brand": "Promate",
+    "category": "Stationery"
+  },
+  {
+    "id": "promate_9",
+    "name": "MANGO A4 PHOTOCOPY 80 GSM 500 SHEET PACK",
+    "image": "https://www.promateworld.com/storage/80-gsm-mango-photocopy-paper-80gsm-a4-500-sheets-pack-new-1-150x150.png",
+    "price": 1397.6,
+    "brand": "Promate",
+    "category": "Stationery"
+  },
+  {
+    "id": "promate_10",
+    "name": "Senehasa -",
+    "image": "https://www.promateworld.com/storage/senehasa-600x600-front-150x150.png",
+    "price": 448,
+    "brand": "Promate",
+    "category": "Stationery"
+  },
+  {
+    "id": "promate_11",
+    "name": "Kiri Kos -",
+    "image": "https://www.promateworld.com/storage/kiri-kos-600x600-front-150x150.png",
+    "price": 360,
+    "brand": "Promate",
+    "category": "Stationery"
+  },
+  {
+    "id": "promate_12",
+    "name": "ProKids Activity and Colouring Christmas Gift Pack -  Buy 2 Get 1 Free",
+    "image": "https://www.promateworld.com/storage/prokids-gift-pack-150x150.jpeg",
+    "price": 640,
+    "brand": "Promate",
+    "category": "Stationery"
+  },
+  {
+    "id": "promate_13",
+    "name": "Rathna B5 Square Ruled 200 Pages Book",
+    "image": "https://www.promateworld.com/storage/rathna-b5-new/bpfg0299-4-150x150.png",
+    "price": 232,
+    "brand": "Promate",
+    "category": "Stationery"
+  },
+  {
+    "id": "promate_14",
+    "name": "Rathna B5 Single Ruled 200 Pages Book",
+    "image": "https://www.promateworld.com/storage/rathna-b5-new/bpfg0294-3-150x150.png",
+    "price": 232,
+    "brand": "Promate",
+    "category": "Stationery"
+  },
+  {
+    "id": "promate_15",
+    "name": "Purana Sanna Sahitha Maha Sathipattana Suthraya -",
+    "image": "https://www.promateworld.com/storage/pulisher/bpfg1409-150x150.png",
+    "price": 560,
+    "brand": "Promate",
+    "category": "Stationery"
+  },
+  {
+    "id": "promate_16",
+    "name": "Dalada Siritha -",
+    "image": "https://www.promateworld.com/storage/pulisher/bpfg3984-150x150.png",
+    "price": 216,
+    "brand": "Promate",
+    "category": "Stationery"
+  },
+  {
+    "id": "promate_17",
+    "name": "Children's Colouring Books Christmas Gift Pack",
+    "image": "https://www.promateworld.com/storage/christmas-books-pack-150x150.jpeg",
+    "price": 1260,
+    "brand": "Promate",
+    "category": "Stationery"
+  },
+  {
+    "id": "promate_18",
+    "name": "Everyday Pictures - A Little Kid's Colouring Book",
+    "image": "https://www.promateworld.com/storage/promate-practical-range/bpfg3927-150x150.png",
+    "price": 180,
+    "brand": "Promate",
+    "category": "Stationery"
+  },
+  {
+    "id": "promate_19",
+    "name": "Colour Me Happy - Fun for Little Kids",
+    "image": "https://www.promateworld.com/storage/promate-practical-range/bpfg3922-150x150.png",
+    "price": 180,
+    "brand": "Promate",
+    "category": "Stationery"
+  },
+  {
+    "id": "promate_20",
+    "name": "Fun and Simple - A Toddler's Colouring Book",
+    "image": "https://www.promateworld.com/storage/promate-practical-range/bpfg3921-150x150.png",
+    "price": 180,
+    "brand": "Promate",
+    "category": "Stationery"
+  },
+  {
+    "id": "promate_21",
+    "name": "My First Colouring Book - Things I Love",
+    "image": "https://www.promateworld.com/storage/promate-practical-range/bpfg3926-150x150.png",
+    "price": 180,
+    "brand": "Promate",
+    "category": "Stationery"
+  },
+  {
+    "id": "promate_22",
+    "name": "Colourful World Colouring Book - Easy Pictures for Little Ones",
+    "image": "https://www.promateworld.com/storage/promate-practical-range/bpfg3925-150x150.png",
+    "price": 180,
+    "brand": "Promate",
+    "category": "Stationery"
+  },
+  {
+    "id": "promate_23",
+    "name": "Let's Colour Colouring Book - Simple and Fun for Tiny Artists",
+    "image": "https://www.promateworld.com/storage/promate-practical-range/bpfg3924-150x150.png",
+    "price": 180,
+    "brand": "Promate",
+    "category": "Stationery"
+  },
+  {
+    "id": "promate_24",
+    "name": "Fruity Fun Colouring Book - Explore Fruits Through Colouring",
+    "image": "https://www.promateworld.com/storage/promate-practical-range/bpfg3923-150x150.png",
+    "price": 180,
+    "brand": "Promate",
+    "category": "Stationery"
+  },
+  {
+    "id": "promate_25",
+    "name": "ProKids 304 Pages Activity Book",
+    "image": "https://www.promateworld.com/storage/promate-practical-range/bpfg3802-150x150.png",
+    "price": 320,
+    "brand": "Promate",
+    "category": "Stationery"
+  },
+  {
+    "id": "promate_26",
+    "name": "Esopge Upama Kathandara -50",
+    "image": "https://www.promateworld.com/storage/june-1/01-esopge-upama-katha-50-back-150x150.png",
+    "price": 480,
+    "brand": "Promate",
+    "category": "Stationery"
+  },
+  {
+    "id": "promate_27",
+    "name": "Cinderella",
+    "image": "https://www.promateworld.com/storage/june-1/01-cinderella-back-150x150.png",
+    "price": 240,
+    "brand": "Promate",
+    "category": "Stationery"
+  },
+  {
+    "id": "promate_28",
+    "name": "Pinokio",
+    "image": "https://www.promateworld.com/storage/june-1/01-pinokio-back-150x150.png",
+    "price": 240,
+    "brand": "Promate",
+    "category": "Stationery"
+  },
+  {
+    "id": "promate_29",
+    "name": "Palu Niwasa",
+    "image": "https://www.promateworld.com/storage/june-1/01-palu-niwasa-back-150x150.png",
+    "price": 280,
+    "brand": "Promate",
+    "category": "Stationery"
+  },
+  {
+    "id": "promate_30",
+    "name": "Nariyage Dadayama",
+    "image": "https://www.promateworld.com/storage/june-1/01-nariyage-dadayama-front-150x150.png",
+    "price": 200,
+    "brand": "Promate",
+    "category": "Stationery"
+  },
+  {
+    "id": "promate_31",
+    "name": "Niwaduwa",
+    "image": "https://www.promateworld.com/storage/june-1/niwaduwa-600x600-front-150x150.png",
+    "price": 240,
+    "brand": "Promate",
+    "category": "Stationery"
+  },
+  {
+    "id": "promate_32",
+    "name": "Moda Raja",
+    "image": "https://www.promateworld.com/storage/june-1/modaraja-600x600-front-150x150.png",
+    "price": 240,
+    "brand": "Promate",
+    "category": "Stationery"
+  },
+  {
+    "id": "promate_33",
+    "name": "Kiri Bertty",
+    "image": "https://www.promateworld.com/storage/june-1/kiri-bertty-600x600-front-150x150.png",
+    "price": 240,
+    "brand": "Promate",
+    "category": "Stationery"
+  },
+  {
+    "id": "promate_34",
+    "name": "Jani",
+    "image": "https://www.promateworld.com/storage/june-1/jeni-600x600-front-150x150.png",
+    "price": 240,
+    "brand": "Promate",
+    "category": "Stationery"
+  },
+  {
+    "id": "promate_35",
+    "name": "Chabi",
+    "image": "https://www.promateworld.com/storage/june-1/chabi-600x600-front-150x150.png",
+    "price": 240,
+    "brand": "Promate",
+    "category": "Stationery"
+  },
+  {
+    "id": "promate_36",
+    "name": "The Two Friends",
+    "image": "https://www.promateworld.com/storage/june-1/01-the-two-friends-front-150x150.png",
+    "price": 160,
+    "brand": "Promate",
+    "category": "Stationery"
+  },
+  {
+    "id": "promate_37",
+    "name": "The Three Wishes",
+    "image": "https://www.promateworld.com/storage/june-1/01-the-three-wishes-front-150x150.png",
+    "price": 160,
+    "brand": "Promate",
+    "category": "Stationery"
+  },
+  {
+    "id": "promate_38",
+    "name": "Sick Lion",
+    "image": "https://www.promateworld.com/storage/june-1/01-sick-lion-front-150x150.png",
+    "price": 160,
+    "brand": "Promate",
+    "category": "Stationery"
+  },
+  {
+    "id": "promate_39",
+    "name": "Robinson Crusoe",
+    "image": "https://www.promateworld.com/storage/june-1/01-robinson-crusoe-back-150x150.png",
+    "price": 280,
+    "brand": "Promate",
+    "category": "Stationery"
+  },
+  {
+    "id": "promate_40",
+    "name": "Mango Arrow Pen",
+    "image": "https://www.promateworld.com/storage/mango-arrow-black-150x150.png",
+    "price": 30,
+    "brand": "Promate",
+    "category": "Stationery"
+  },
+  {
+    "id": "promate_41",
+    "name": "Esopge Upama Kathandara -50",
+    "image": "https://www.promateworld.com/storage/june-1/01-esopge-upama-katha-50-back-150x150.png",
+    "price": 600,
+    "brand": "Promate",
+    "category": "Stationery"
+  },
+  {
+    "id": "promate_42",
+    "name": "Cinderella",
+    "image": "https://www.promateworld.com/storage/june-1/01-cinderella-back-150x150.png",
+    "price": 300,
+    "brand": "Promate",
+    "category": "Stationery"
+  },
+  {
+    "id": "promate_43",
+    "name": "Pinokio",
+    "image": "https://www.promateworld.com/storage/june-1/01-pinokio-back-150x150.png",
+    "price": 300,
+    "brand": "Promate",
+    "category": "Stationery"
+  },
+  {
+    "id": "promate_44",
+    "name": "Palu Niwasa",
+    "image": "https://www.promateworld.com/storage/june-1/01-palu-niwasa-back-150x150.png",
+    "price": 350,
+    "brand": "Promate",
+    "category": "Stationery"
+  },
+  {
+    "id": "promate_45",
+    "name": "Nidi Kumariya",
+    "image": "https://www.promateworld.com/storage/june-1/01-nidi-kumariya-back-150x150.png",
+    "price": 300,
+    "brand": "Promate",
+    "category": "Stationery"
+  },
+  {
+    "id": "promate_46",
+    "name": "Nariyage Dadayama",
+    "image": "https://www.promateworld.com/storage/june-1/01-nariyage-dadayama-front-150x150.png",
+    "price": 250,
+    "brand": "Promate",
+    "category": "Stationery"
+  },
+  {
+    "id": "promate_47",
+    "name": "Sudu Hansaya",
+    "image": "https://www.promateworld.com/storage/june-1/sudu-hansaya-600x600-front-150x150.png",
+    "price": 250,
+    "brand": "Promate",
+    "category": "Stationery"
+  },
+  {
+    "id": "promate_48",
+    "name": "Niwaduwa",
+    "image": "https://www.promateworld.com/storage/june-1/niwaduwa-600x600-front-150x150.png",
+    "price": 300,
+    "brand": "Promate",
+    "category": "Stationery"
+  },
+  {
+    "id": "promate_49",
+    "name": "Moda Raja",
+    "image": "https://www.promateworld.com/storage/june-1/modaraja-600x600-front-150x150.png",
+    "price": 300,
+    "brand": "Promate",
+    "category": "Stationery"
+  },
+  {
+    "id": "promate_50",
+    "name": "Kiri Bertty",
+    "image": "https://www.promateworld.com/storage/june-1/kiri-bertty-600x600-front-150x150.png",
+    "price": 300,
+    "brand": "Promate",
+    "category": "Stationery"
+  },
+  {
+    "id": "promate_51",
+    "name": "Jani",
+    "image": "https://www.promateworld.com/storage/june-1/jeni-600x600-front-150x150.png",
+    "price": 300,
+    "brand": "Promate",
+    "category": "Stationery"
+  },
+  {
+    "id": "promate_52",
+    "name": "Dambo",
+    "image": "https://www.promateworld.com/storage/june-1/dumbo-600x600-front-150x150.png",
+    "price": 300,
+    "brand": "Promate",
+    "category": "Stationery"
+  },
+  {
+    "id": "promate_53",
+    "name": "Waligaya Nati Nariya (Esopge Upamakatha - 3)",
+    "image": "https://www.promateworld.com/storage/june-1/01-waligaya-nathi-nariya-back-150x150.png",
+    "price": 300,
+    "brand": "Promate",
+    "category": "Stationery"
+  },
+  {
+    "id": "promate_54",
+    "name": "Chabi",
+    "image": "https://www.promateworld.com/storage/june-1/chabi-600x600-front-150x150.png",
+    "price": 300,
+    "brand": "Promate",
+    "category": "Stationery"
+  },
+  {
+    "id": "promate_55",
+    "name": "The Two Friends",
+    "image": "https://www.promateworld.com/storage/june-1/01-the-two-friends-front-150x150.png",
+    "price": 200,
+    "brand": "Promate",
+    "category": "Stationery"
+  },
+  {
+    "id": "promate_56",
+    "name": "The Three Wishes",
+    "image": "https://www.promateworld.com/storage/june-1/01-the-three-wishes-front-150x150.png",
+    "price": 200,
+    "brand": "Promate",
+    "category": "Stationery"
+  },
+  {
+    "id": "promate_57",
+    "name": "The Miser",
+    "image": "https://www.promateworld.com/storage/june-1/01-the-miser-front-150x150.png",
+    "price": 200,
+    "brand": "Promate",
+    "category": "Stationery"
+  },
+  {
+    "id": "promate_58",
+    "name": "The Merchant's Gold",
+    "image": "https://www.promateworld.com/storage/june-1/01-the-merchants-gold-front-150x150.png",
+    "price": 200,
+    "brand": "Promate",
+    "category": "Stationery"
+  },
+  {
+    "id": "promate_59",
+    "name": "Sick Lion",
+    "image": "https://www.promateworld.com/storage/june-1/01-sick-lion-front-150x150.png",
+    "price": 200,
+    "brand": "Promate",
+    "category": "Stationery"
+  },
+  {
+    "id": "promate_60",
+    "name": "Saba Kumariya saha kadala ataya",
+    "image": "https://www.promateworld.com/storage/june-1/01-saba-kumariya-saha-kadala-ataya-back-150x150.png",
+    "price": 300,
+    "brand": "Promate",
+    "category": "Stationery"
+  },
+  {
+    "id": "promate_61",
+    "name": "Robinson Crusoe",
+    "image": "https://www.promateworld.com/storage/june-1/01-robinson-crusoe-back-150x150.png",
+    "price": 350,
+    "brand": "Promate",
+    "category": "Stationery"
+  },
+  {
+    "id": "promate_62",
+    "name": "MANGO A4 PHOTOCOPY 70 GSM 500 SHEET PACK",
+    "image": "https://www.promateworld.com/storage/mango-photocopy-paper-70gsm-a4-500-sheets-pack-front-150x150.png",
+    "price": 1624,
+    "brand": "Promate",
+    "category": "Stationery"
+  },
+  {
+    "id": "promate_63",
+    "name": "MANGO A4 PHOTOCOPY 80 GSM 500 SHEET PACK",
+    "image": "https://www.promateworld.com/storage/80-gsm-mango-photocopy-paper-80gsm-a4-500-sheets-pack-new-1-150x150.png",
+    "price": 1747,
+    "brand": "Promate",
+    "category": "Stationery"
+  },
+  {
+    "id": "promate_64",
+    "name": "Senehasa -",
+    "image": "https://www.promateworld.com/storage/senehasa-600x600-front-150x150.png",
+    "price": 560,
+    "brand": "Promate",
+    "category": "Stationery"
+  },
+  {
+    "id": "promate_65",
+    "name": "Kiri Kos -",
+    "image": "https://www.promateworld.com/storage/kiri-kos-600x600-front-150x150.png",
+    "price": 450,
+    "brand": "Promate",
+    "category": "Stationery"
+  },
+  {
+    "id": "promate_66",
+    "name": "ProKids Activity and Colouring Christmas Gift Pack -  Buy 2 Get 1 Free",
+    "image": "https://www.promateworld.com/storage/prokids-gift-pack-150x150.jpeg",
+    "price": 800,
+    "brand": "Promate",
+    "category": "Stationery"
+  },
+  {
+    "id": "promate_67",
+    "name": "Rathna B5 Square Ruled 200 Pages Book",
+    "image": "https://www.promateworld.com/storage/rathna-b5-new/bpfg0299-4-150x150.png",
+    "price": 290,
+    "brand": "Promate",
+    "category": "Stationery"
+  },
+  {
+    "id": "promate_68",
+    "name": "Rathna B5 Single Ruled 200 Pages Book",
+    "image": "https://www.promateworld.com/storage/rathna-b5-new/bpfg0294-3-150x150.png",
+    "price": 290,
+    "brand": "Promate",
+    "category": "Stationery"
+  },
+  {
+    "id": "promate_69",
+    "name": "Purana Sanna Sahitha Maha Sathipattana Suthraya -",
+    "image": "https://www.promateworld.com/storage/pulisher/bpfg1409-150x150.png",
+    "price": 700,
+    "brand": "Promate",
+    "category": "Stationery"
+  },
+  {
+    "id": "promate_70",
+    "name": "Dalada Siritha -",
+    "image": "https://www.promateworld.com/storage/pulisher/bpfg3984-150x150.png",
+    "price": 270,
+    "brand": "Promate",
+    "category": "Stationery"
+  },
+  {
+    "id": "promate_71",
+    "name": "Children's Colouring Books Christmas Gift Pack",
+    "image": "https://www.promateworld.com/storage/christmas-books-pack-150x150.jpeg",
+    "price": 1575,
+    "brand": "Promate",
+    "category": "Stationery"
+  },
+  {
+    "id": "promate_72",
+    "name": "Everyday Pictures - A Little Kid's Colouring Book",
+    "image": "https://www.promateworld.com/storage/promate-practical-range/bpfg3927-150x150.png",
+    "price": 225,
+    "brand": "Promate",
+    "category": "Stationery"
+  },
+  {
+    "id": "promate_73",
+    "name": "Colour Me Happy - Fun for Little Kids",
+    "image": "https://www.promateworld.com/storage/promate-practical-range/bpfg3922-150x150.png",
+    "price": 225,
+    "brand": "Promate",
+    "category": "Stationery"
+  },
+  {
+    "id": "promate_74",
+    "name": "Fun and Simple - A Toddler's Colouring Book",
+    "image": "https://www.promateworld.com/storage/promate-practical-range/bpfg3921-150x150.png",
+    "price": 225,
+    "brand": "Promate",
+    "category": "Stationery"
+  },
+  {
+    "id": "promate_75",
+    "name": "My First Colouring Book - Things I Love",
+    "image": "https://www.promateworld.com/storage/promate-practical-range/bpfg3926-150x150.png",
+    "price": 225,
+    "brand": "Promate",
+    "category": "Stationery"
+  },
+  {
+    "id": "promate_76",
+    "name": "Colourful World Colouring Book - Easy Pictures for Little Ones",
+    "image": "https://www.promateworld.com/storage/promate-practical-range/bpfg3925-150x150.png",
+    "price": 225,
+    "brand": "Promate",
+    "category": "Stationery"
+  },
+  {
+    "id": "promate_77",
+    "name": "Let's Colour Colouring Book - Simple and Fun for Tiny Artists",
+    "image": "https://www.promateworld.com/storage/promate-practical-range/bpfg3924-150x150.png",
+    "price": 225,
+    "brand": "Promate",
+    "category": "Stationery"
+  },
+  {
+    "id": "promate_78",
+    "name": "Fruity Fun Colouring Book - Explore Fruits Through Colouring",
+    "image": "https://www.promateworld.com/storage/promate-practical-range/bpfg3923-150x150.png",
+    "price": 225,
+    "brand": "Promate",
+    "category": "Stationery"
+  },
+  {
+    "id": "promate_79",
+    "name": "ProKids 304 Pages Activity Book",
+    "image": "https://www.promateworld.com/storage/promate-practical-range/bpfg3802-150x150.png",
+    "price": 400,
+    "brand": "Promate",
+    "category": "Stationery"
   }
 ];

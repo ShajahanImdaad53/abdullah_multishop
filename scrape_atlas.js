@@ -38,7 +38,7 @@ async function scrapeAtlas() {
         let priceText = priceEl.text().trim();
         let price = 0; 
         if (priceText) {
-            const match = priceText.match(/[\d,.]+/);
+            const match = priceText.match(/[\d,]+(\.\d+)?/);
             if (match) {
                 price = parseFloat(match[0].replace(/,/g, ''));
             }
@@ -68,17 +68,8 @@ async function scrapeAtlas() {
 
   console.log(`Finished! Scraped ${atlasProducts.length} total Atlas products.`);
 
-  // Merge with existing promate products if any
-  let existingProducts = [];
-  if (fs.existsSync('promate_products.json')) {
-    existingProducts = JSON.parse(fs.readFileSync('promate_products.json', 'utf8'));
-  }
-
-  const allProducts = [...existingProducts, ...atlasProducts];
-  
-  const fileContent = `export const products = \n${JSON.stringify(allProducts, null, 2)};\n`;
-  fs.writeFileSync('src/data/products.ts', fileContent, 'utf8');
-  console.log(`Total combined products saved: ${allProducts.length}`);
+  fs.writeFileSync('scratch/temp_atlas.json', JSON.stringify(atlasProducts, null, 2), 'utf8');
+  console.log(`Temp atlas products saved: ${atlasProducts.length}`);
 }
 
 scrapeAtlas();
