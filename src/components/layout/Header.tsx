@@ -68,19 +68,19 @@ export function Header() {
           {/* Right: Icons & Cart */}
           <div className="hidden lg:flex items-center gap-2 pr-4 md:pr-8 xl:pr-12 py-3 h-full">
             <ThemeToggle />
-            <Link href="/account" className="w-10 h-10 rounded-full bg-white/10 hover:bg-white/20 dark:liquid-glass flex items-center justify-center transition-all duration-300 relative overflow-hidden group">
+            <Link href="/account" className="w-10 h-10 rounded-full liquid-glass hover:opacity-80 flex items-center justify-center transition-all duration-300 relative overflow-hidden group">
               <HelpCircle className="h-5 w-5" />
             </Link>
-            <Link href="/compare" className="w-10 h-10 rounded-full bg-white/10 hover:bg-white/20 dark:liquid-glass flex items-center justify-center transition-all duration-300 relative overflow-hidden group">
+            <Link href="/compare" className="w-10 h-10 rounded-full liquid-glass hover:opacity-80 flex items-center justify-center transition-all duration-300 relative overflow-hidden group">
               <GitCompare className="h-5 w-5" />
               <span className="absolute -top-1 -right-1 bg-white text-[#f47820] dark:bg-gray-900 dark:text-white text-[10px] font-bold w-4 h-4 rounded-full flex items-center justify-center">0</span>
             </Link>
-            <Link href="/wishlist" className="w-10 h-10 rounded-full bg-white/10 hover:bg-white/20 dark:liquid-glass flex items-center justify-center transition-all duration-300 relative overflow-hidden group">
+            <Link href="/wishlist" className="w-10 h-10 rounded-full liquid-glass hover:opacity-80 flex items-center justify-center transition-all duration-300 relative overflow-hidden group">
               <Heart className="h-5 w-5" />
               <span className="absolute -top-1 -right-1 bg-white text-[#f47820] dark:bg-gray-900 dark:text-white text-[10px] font-bold w-4 h-4 rounded-full flex items-center justify-center">0</span>
             </Link>
             
-            <Link href="/cart" className="ml-2 bg-white text-[#f47820] dark:liquid-glass dark:text-white hover:bg-gray-50 rounded-full px-4 h-10 flex items-center gap-3 transition-all duration-300 shadow-sm relative overflow-hidden group">
+            <Link href="/cart" className="ml-2 text-[#f47820] dark:text-white liquid-glass hover:opacity-80 rounded-full px-4 h-10 flex items-center gap-3 transition-all duration-300 shadow-sm relative overflow-hidden group">
               <div className="relative">
                 <ShoppingCart className="h-5 w-5" />
                 {mounted && (
@@ -120,16 +120,16 @@ export function Header() {
               </div>
             </div>
             
-            <nav className="hidden lg:flex items-center h-full">
-              <Link href="/" className="px-5 h-full flex items-center text-sm font-bold tracking-wide hover:text-[#f47820] dark:hover:text-white hover:bg-gray-50 dark:hover:bg-white/5 transition-colors">HOME</Link>
-              <Link href="/shop" className="px-5 h-full flex items-center text-sm font-bold tracking-wide hover:text-[#f47820] dark:hover:text-white hover:bg-gray-50 dark:hover:bg-white/5 transition-colors">ALL PRODUCTS</Link>
-              <Link href="/shop?cat=Books" className="px-5 h-full flex items-center text-sm font-bold tracking-wide hover:text-[#f47820] dark:hover:text-white hover:bg-gray-50 dark:hover:bg-white/5 transition-colors relative">
-                BOOKS <span className="absolute top-2 right-1 text-[8px] bg-red-600 text-white px-1 rounded">NEW</span>
+            <nav className="hidden lg:flex items-center h-full gap-2">
+              <Link href="/" className="px-5 h-8 flex items-center text-sm font-bold tracking-wide hover:text-[#f47820] dark:hover:text-[#f47820] transition-colors rounded-full liquid-glass hover:opacity-80">HOME</Link>
+              <Link href="/shop" className="px-5 h-8 flex items-center text-sm font-bold tracking-wide hover:text-[#f47820] dark:hover:text-[#f47820] transition-colors rounded-full liquid-glass hover:opacity-80">ALL PRODUCTS</Link>
+              <Link href="/shop?cat=Books" className="px-5 h-8 flex items-center text-sm font-bold tracking-wide hover:text-[#f47820] dark:hover:text-[#f47820] transition-colors relative rounded-full liquid-glass hover:opacity-80">
+                BOOKS <span className="absolute -top-1 -right-2 text-[8px] bg-red-600 text-white px-1 rounded">NEW</span>
               </Link>
-              <Link href="/shop?cat=Pens" className="px-5 h-full flex items-center text-sm font-bold tracking-wide hover:text-[#f47820] dark:hover:text-white hover:bg-gray-50 dark:hover:bg-white/5 transition-colors relative">
-                PENS <span className="absolute top-2 right-1 text-[8px] bg-red-600 text-white px-1 rounded">NEW</span>
+              <Link href="/shop?cat=Pens" className="px-5 h-8 flex items-center text-sm font-bold tracking-wide hover:text-[#f47820] dark:hover:text-[#f47820] transition-colors relative rounded-full liquid-glass hover:opacity-80">
+                PENS <span className="absolute -top-1 -right-2 text-[8px] bg-red-600 text-white px-1 rounded">NEW</span>
               </Link>
-              <Link href="/shop?cat=Art" className="px-5 h-full flex items-center text-sm font-bold tracking-wide hover:text-[#f47820] dark:hover:text-white hover:bg-gray-50 dark:hover:bg-white/5 transition-colors">ART SUPPLIES</Link>
+              <Link href="/shop?cat=Art" className="px-5 h-8 flex items-center text-sm font-bold tracking-wide hover:text-[#f47820] dark:hover:text-[#f47820] transition-colors rounded-full liquid-glass hover:opacity-80">ART SUPPLIES</Link>
             </nav>
           </div>
           

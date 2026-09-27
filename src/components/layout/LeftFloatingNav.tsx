@@ -59,7 +59,7 @@ export function LeftFloatingNav() {
           >
             <Link 
               href={item.slug} 
-              className={`h-10 flex items-center text-gray-500 dark:text-gray-400 hover:text-gray-800 dark:hover:text-white transition-all duration-300 relative overflow-hidden group ${isExpanded ? 'px-4 hover:liquid-glass rounded-lg mx-2' : 'justify-center mx-auto w-8 rounded-full hover:liquid-glass'}`}
+              className={`h-10 flex items-center text-gray-800 dark:text-gray-200 hover:text-[#f47820] dark:hover:text-[#f47820] transition-all duration-300 relative overflow-hidden group liquid-glass ${isExpanded ? 'px-4 rounded-lg mx-2' : 'justify-center mx-auto w-10 rounded-full'}`}
               title={!isExpanded ? item.name : undefined}
             >
               <item.icon className="h-4 w-4 flex-shrink-0 relative z-10" />
