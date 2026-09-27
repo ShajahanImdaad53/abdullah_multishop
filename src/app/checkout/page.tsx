@@ -22,6 +22,7 @@ export default function CheckoutPage() {
     district: "",
     postalCode: "",
     deliveryNotes: "",
+    googleLocation: "",
   });
 
   useEffect(() => {
@@ -47,22 +48,40 @@ export default function CheckoutPage() {
 
     const orderNumber = `ORD-${new Date().toISOString().slice(0,10).replace(/-/g, '')}-${Math.floor(1000 + Math.random() * 9000)}`;
 
-    let message = `Hello ${siteConfig.companyName},\n\nI would like to place an order.\n\n`;
-    message += `Order No: ${orderNumber}\n\nProducts:\n`;
+    let message = `*NEW ORDER ALERT!* 🛒\n\n`;
+    message += `Hello *${siteConfig.companyName}*, I would like to place an order.\n\n`;
+    message += `🧾 *ORDER INVOICE*\n`;
+    message += `*Order No:* ${orderNumber}\n`;
+    message += `〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️\n`;
     
     cartItems.forEach((item, index) => {
-      message += `${index + 1}. ${item.name}\nSKU: ${item.sku}\nQty: ${item.quantity}\nUnit Price: ${siteConfig.currencySymbol} ${item.price.toFixed(2)}\nSubtotal: ${siteConfig.currencySymbol} ${(item.price * item.quantity).toFixed(2)}\n\n`;
+      message += `*${index + 1}. ${item.name}*\n`;
+      message += `  ▫️ SKU: ${item.sku}\n`;
+      message += `  ▫️ Qty: ${item.quantity} x ${siteConfig.currencySymbol} ${item.price.toFixed(2)}\n`;
+      message += `  *Subtotal: ${siteConfig.currencySymbol} ${(item.price * item.quantity).toFixed(2)}*\n`;
+      message += `〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️\n`;
     });
 
-    message += `Delivery Address:\n${formData.address}\n\nCity: ${formData.city}\nDistrict: ${formData.district}\n\n`;
-    if (formData.deliveryNotes) {
-      message += `Notes: ${formData.deliveryNotes}\n\n`;
-    }
+    message += `\n📦 *DELIVERY INFORMATION*\n`;
+    message += `👤 *Name:* ${formData.fullName}\n`;
+    message += `📞 *Phone:* ${formData.phone}\n`;
+    if (formData.whatsapp) message += `💬 *WhatsApp:* ${formData.whatsapp}\n`;
+    message += `📍 *Address:* ${formData.address}\n`;
+    message += `🏙️ *City:* ${formData.city}\n`;
+    message += `🗺️ *District:* ${formData.district}\n`;
+    if (formData.postalCode) message += `📮 *Postal Code:* ${formData.postalCode}\n`;
+    if (formData.googleLocation) message += `📍 *Google Location:* ${formData.googleLocation}\n`;
+    if (formData.deliveryNotes) message += `📝 *Notes:* ${formData.deliveryNotes}\n`;
 
-    message += `Subtotal: ${siteConfig.currencySymbol} ${subtotal.toFixed(2)}\n`;
-    message += `Shipping Fee: ${siteConfig.currencySymbol} ${shippingFee.toFixed(2)}\n`;
-    message += `Total: ${siteConfig.currencySymbol} ${grandTotal.toFixed(2)}\n\n`;
-    message += `Please confirm my order.`;
+    message += `\n💳 *PAYMENT SUMMARY*\n`;
+    message += `〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️\n`;
+    message += `*Subtotal:*     ${siteConfig.currencySymbol} ${subtotal.toFixed(2)}\n`;
+    message += `*Shipping Fee:* ${siteConfig.currencySymbol} ${shippingFee.toFixed(2)}\n`;
+    if (discount > 0) message += `*Discount:*    -${siteConfig.currencySymbol} ${discount.toFixed(2)}\n`;
+    message += `〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️\n`;
+    message += `✅ *GRAND TOTAL: ${siteConfig.currencySymbol} ${grandTotal.toFixed(2)}*\n`;
+    message += `〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️\n\n`;
+    message += `Please confirm my order. Thank you! 🙏`;
 
     const encodedMessage = encodeURIComponent(message);
     const whatsappUrl = `https://wa.me/${siteConfig.whatsappNumber.replace('+', '')}?text=${encodedMessage}`;
@@ -102,7 +121,7 @@ export default function CheckoutPage() {
                   <input required name="fullName" value={formData.fullName} onChange={handleChange} type="text" className="w-full border border-gray-300 dark:border-white/20 rounded-lg px-4 py-2.5 focus:ring-2 focus:ring-brand-secondary focus:border-brand-secondary outline-none transition-all" placeholder="John Doe" />
                 </div>
                 <div>
-                  <label className="block text-sm font-medium text-gray-700 dark:text-gray-200 mb-2">Email Address</label>
+                  <label className="block text-sm font-medium text-gray-700 dark:text-gray-200 mb-2">Email Address (Optional)</label>
                   <input name="email" value={formData.email} onChange={handleChange} type="email" className="w-full border border-gray-300 dark:border-white/20 rounded-lg px-4 py-2.5 focus:ring-2 focus:ring-brand-secondary focus:border-brand-secondary outline-none transition-all" placeholder="john@example.com" />
                 </div>
                 <div>
@@ -125,6 +144,8 @@ export default function CheckoutPage() {
                   <label className="block text-sm font-medium text-gray-700 dark:text-gray-200 mb-2">City *</label>
                   <input required name="city" value={formData.city} onChange={handleChange} type="text" className="w-full border border-gray-300 dark:border-white/20 rounded-lg px-4 py-2.5 focus:ring-2 focus:ring-brand-secondary focus:border-brand-secondary outline-none transition-all" placeholder="Colombo 03" />
                 </div>
+
+
                 <div>
                   <label className="block text-sm font-medium text-gray-700 dark:text-gray-200 mb-2">District *</label>
                   <select required name="district" value={formData.district} onChange={handleChange} className="w-full border border-gray-300 dark:border-white/20 rounded-lg px-4 py-2.5 focus:ring-2 focus:ring-brand-secondary focus:border-brand-secondary outline-none transition-all bg-white dark:bg-[#0a192f]">
@@ -141,6 +162,10 @@ export default function CheckoutPage() {
                 </div>
               </div>
 
+              <div className="mb-6">
+                <label className="block text-sm font-medium text-gray-700 dark:text-gray-200 mb-2">Google Map Location Link (Optional)</label>
+                <input name="googleLocation" value={formData.googleLocation} onChange={handleChange} type="url" className="w-full border border-gray-300 dark:border-white/20 rounded-lg px-4 py-2.5 focus:ring-2 focus:ring-brand-secondary focus:border-brand-secondary outline-none transition-all" placeholder="https://maps.app.goo.gl/..." />
+              </div>
               <div className="mb-8">
                 <label className="block text-sm font-medium text-gray-700 dark:text-gray-200 mb-2">Delivery Notes (Optional)</label>
                 <textarea name="deliveryNotes" value={formData.deliveryNotes} onChange={handleChange} rows={3} className="w-full border border-gray-300 dark:border-white/20 rounded-lg px-4 py-2.5 focus:ring-2 focus:ring-brand-secondary focus:border-brand-secondary outline-none transition-all" placeholder="E.g. Please call before delivery"></textarea>
