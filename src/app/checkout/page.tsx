@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react";
 import { siteConfig } from "@/config/site";
 import Image from "next/image";
-import { ShieldCheck } from "lucide-react";
+import { ShieldCheck, MapPin, Loader2 } from "lucide-react";
 import { useCartStore } from "@/store/useCartStore";
 import Link from "next/link";
 
@@ -24,6 +24,8 @@ export default function CheckoutPage() {
     deliveryNotes: "",
     googleLocation: "",
   });
+  const [isGettingLocation, setIsGettingLocation] = useState(false);
+  const [locationError, setLocationError] = useState("");
 
   useEffect(() => {
     setMounted(true);
@@ -35,6 +37,31 @@ export default function CheckoutPage() {
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
+  };
+
+  const handleGetLocation = () => {
+    if (!navigator.geolocation) {
+      setLocationError("Geolocation is not supported by your browser");
+      return;
+    }
+    
+    setIsGettingLocation(true);
+    setLocationError("");
+    
+    navigator.geolocation.getCurrentPosition(
+      (position) => {
+        const { latitude, longitude } = position.coords;
+        const mapsUrl = `https://www.google.com/maps?q=${latitude},${longitude}`;
+        setFormData(prev => ({ ...prev, googleLocation: mapsUrl }));
+        setIsGettingLocation(false);
+      },
+      (error) => {
+        console.error("Geolocation error:", error);
+        setLocationError("Unable to retrieve your location. Please check browser permissions.");
+        setIsGettingLocation(false);
+      },
+      { enableHighAccuracy: true, timeout: 10000 }
+    );
   };
 
   const handleWhatsAppOrder = (e: React.FormEvent) => {
@@ -164,7 +191,20 @@ export default function CheckoutPage() {
 
               <div className="mb-6">
                 <label className="block text-sm font-medium text-gray-700 dark:text-gray-200 mb-2">Google Map Location Link (Optional)</label>
-                <input name="googleLocation" value={formData.googleLocation} onChange={handleChange} type="url" className="w-full border border-gray-300 dark:border-white/20 rounded-lg px-4 py-2.5 focus:ring-2 focus:ring-brand-secondary focus:border-brand-secondary outline-none transition-all" placeholder="https://maps.app.goo.gl/..." />
+                <div className="flex gap-2">
+                  <input name="googleLocation" value={formData.googleLocation} onChange={handleChange} type="url" className="flex-1 border border-gray-300 dark:border-white/20 rounded-lg px-4 py-2.5 focus:ring-2 focus:ring-brand-secondary focus:border-brand-secondary outline-none transition-all" placeholder="https://maps.app.goo.gl/... or click Get Location" />
+                  <button 
+                    type="button" 
+                    onClick={handleGetLocation} 
+                    disabled={isGettingLocation}
+                    className="flex items-center justify-center gap-2 bg-gray-100 hover:bg-gray-200 dark:bg-[#060d1f] dark:hover:bg-[#0a192f] text-gray-700 dark:text-gray-200 px-4 py-2.5 rounded-lg transition-colors border border-gray-300 dark:border-white/20 shrink-0"
+                    title="Get Current Location"
+                  >
+                    {isGettingLocation ? <Loader2 className="w-5 h-5 animate-spin" /> : <MapPin className="w-5 h-5 text-[#f47820]" />}
+                    <span className="hidden sm:inline text-sm font-medium">{isGettingLocation ? "Locating..." : "Get Location"}</span>
+                  </button>
+                </div>
+                {locationError && <p className="text-red-500 text-xs mt-1.5 font-medium">{locationError}</p>}
               </div>
               <div className="mb-8">
                 <label className="block text-sm font-medium text-gray-700 dark:text-gray-200 mb-2">Delivery Notes (Optional)</label>
