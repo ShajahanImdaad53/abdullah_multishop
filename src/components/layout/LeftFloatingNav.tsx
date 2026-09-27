@@ -59,16 +59,17 @@ export function LeftFloatingNav() {
           >
             <Link 
               href={item.slug} 
-              className={`h-10 flex items-center text-gray-500 dark:text-gray-400 hover:text-[#f47820] dark:hover:text-white transition-colors ${isExpanded ? 'px-4 hover:bg-orange-50 dark:hover:bg-white/5' : 'justify-center mx-auto w-8 rounded-full hover:bg-orange-50 dark:hover:bg-white/5'}`}
+              className={`h-10 flex items-center text-gray-500 dark:text-gray-400 hover:text-gray-800 dark:hover:text-white transition-all duration-300 relative overflow-hidden group ${isExpanded ? 'px-4 hover:liquid-glass rounded-lg mx-2' : 'justify-center mx-auto w-8 rounded-full hover:liquid-glass'}`}
               title={!isExpanded ? item.name : undefined}
             >
-              <item.icon className="h-4 w-4 flex-shrink-0" />
+              <item.icon className="h-4 w-4 flex-shrink-0 relative z-10" />
               {isExpanded && (
                 <>
-                  <span className="ml-3 text-[13px] font-bold tracking-tight whitespace-nowrap">{item.name}</span>
-                  {item.hasSub && <ChevronRight className="h-4 w-4 ml-auto text-gray-400" />}
+                  <span className="ml-3 text-[13px] font-bold tracking-tight whitespace-nowrap relative z-10">{item.name}</span>
+                  {item.hasSub && <ChevronRight className="h-4 w-4 ml-auto text-gray-400 relative z-10" />}
                 </>
               )}
+              <div className="absolute inset-0 -translate-x-full bg-gradient-to-r from-transparent via-white/40 to-transparent hidden group-hover:block group-hover:animate-[shimmer_1.5s_infinite]" />
             </Link>
           </div>
         ))}

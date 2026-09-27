@@ -91,7 +91,7 @@ export default function Home() {
              <div className="relative z-10 flex flex-col items-center pt-8 p-4 text-center">
                 <span className="bg-red-600 text-white font-bold text-[10px] px-2 py-1 rounded-full absolute top-4 right-4 uppercase">Newly Arrived</span>
                 <h3 className="font-extrabold text-3xl text-blue-900 mb-2 leading-tight">Style &<br/>ZIPPY</h3>
-                <p className="text-gray-600 text-sm font-medium mb-6">Unbox your lunch with PRO</p>
+                <p className="text-gray-600 dark:text-gray-300 text-sm font-medium mb-6">Unbox your lunch with PRO</p>
                 <div className="relative w-48 h-64 mt-auto">
                     <Image src="/logo.jpg" alt="Zippy Bottle" fill className="object-contain drop-shadow-xl group-hover:scale-105 transition-transform mix-blend-multiply" />
                 </div>
@@ -118,20 +118,20 @@ export default function Home() {
         <div className="container mx-auto px-4 relative z-10 flex flex-col lg:flex-row items-center gap-12">
           {/* Left Visual */}
           <div className="w-full lg:w-1/3 flex justify-center relative">
-             <div className="relative w-[400px] h-[250px] bg-white rounded-xl shadow-2xl p-4 rotate-[-5deg] hover:rotate-0 transition-transform duration-500">
+             <div className="relative w-[400px] h-[250px] bg-white dark:bg-[#0a192f] rounded-xl shadow-2xl p-4 rotate-[-5deg] hover:rotate-0 transition-transform duration-500">
                <div className="border border-dashed border-[#f47820] w-full h-full flex flex-col items-center justify-center relative overflow-hidden">
                  <div className="absolute -left-10 -bottom-10 w-32 h-32 bg-yellow-400 rounded-full blur-xl opacity-50"></div>
                  <Image src="/logo.jpg" alt="Logo" width={80} height={30} className="mb-2 mix-blend-multiply" />
-                 <h3 className="font-serif text-3xl text-gray-800 italic mb-2">Gift Voucher</h3>
-                 <p className="text-xs text-gray-500">You Deserve a Gift !</p>
+                 <h3 className="font-serif text-3xl text-gray-800 dark:text-gray-100 italic mb-2">Gift Voucher</h3>
+                 <p className="text-xs text-gray-500 dark:text-gray-400">You Deserve a Gift !</p>
                </div>
              </div>
           </div>
 
           {/* Right Content & Cards */}
           <div className="w-full lg:w-2/3">
-            <h2 className="text-5xl font-black text-gray-900 mb-4 tracking-tight drop-shadow-sm">Gift Vouchers</h2>
-            <p className="text-lg text-gray-800 font-medium mb-8">Gift your happiness with a range of stationary gift vouchers exclusively from {siteConfig.companyName}</p>
+            <h2 className="text-5xl font-black text-gray-900 dark:text-gray-50 mb-4 tracking-tight drop-shadow-sm">Gift Vouchers</h2>
+            <p className="text-lg text-gray-800 dark:text-gray-100 font-medium mb-8">Gift your happiness with a range of stationary gift vouchers exclusively from {siteConfig.companyName}</p>
             
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               {[
@@ -140,8 +140,8 @@ export default function Home() {
                 { name: "GIFT VOUCHER RS 1000 - PRINTED", price: "Rs.1,000.00" },
                 { name: "GIFT VOUCHER RS 5000 - PRINTED", price: "Rs.5,000.00" },
               ].map((v, i) => (
-                <div key={i} className="bg-white/90 dark:bg-[#020617]/90 backdrop-blur-sm rounded-lg p-3 flex items-center gap-4 hover:bg-white dark:hover:bg-[#020617] transition-colors cursor-pointer shadow-sm">
-                  <div className="w-20 h-12 bg-gray-100 border border-gray-200 rounded flex items-center justify-center flex-shrink-0">
+                <div key={i} className="bg-white dark:bg-[#0a192f]/90 dark:bg-[#020617]/90 backdrop-blur-sm rounded-lg p-3 flex items-center gap-4 hover:bg-white dark:bg-[#0a192f] dark:hover:bg-[#020617] transition-colors cursor-pointer shadow-sm">
+                  <div className="w-20 h-12 bg-gray-100 border border-gray-200 dark:border-white/10 rounded flex items-center justify-center flex-shrink-0">
                     <span className="text-[8px] font-bold text-[#f47820]">VOUCHER</span>
                   </div>
                   <div>
