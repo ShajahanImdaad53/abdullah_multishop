@@ -108,7 +108,7 @@ export default function Home() {
       </section>
 
       {/* Gift Vouchers Section */}
-      <section className="w-full py-16 bg-gradient-to-r from-orange-400 via-[#f47820] to-orange-500 relative overflow-hidden">
+      <section className="w-full py-16 bg-gradient-to-r from-orange-400 via-[#f47820] to-orange-500 dark:from-[#0a192f] dark:via-[#020617] dark:to-[#0a192f] relative overflow-hidden">
         {/* Background Abstract Shapes */}
         <div className="absolute inset-0 opacity-20">
           <div className="absolute w-[800px] h-[800px] bg-yellow-300 rounded-full blur-3xl -top-[400px] -left-[200px]"></div>

@@ -247,19 +247,20 @@ function ShopContent() {
                       {product.name}
                     </Link>
                     <div className="mt-auto pt-2 flex items-center justify-between mb-4">
-                      <span className="font-bold text-lg text-brand-primary">{siteConfig.currencySymbol} {product.price.toFixed(2)}</span>
+                      <span className="font-bold text-lg text-brand-primary dark:text-gray-100">{siteConfig.currencySymbol} {product.price.toFixed(2)}</span>
                     </div>
 
                     <div className="flex gap-2">
                       <button 
                         onClick={(e) => handleAddToCart(product, e)}
-                        className="flex-1 bg-gray-100 hover:bg-gray-200 text-gray-800 dark:text-gray-100 font-medium py-2 rounded-lg transition-colors text-sm flex items-center justify-center gap-1"
+                        className="flex-1 liquid-glass hover-lift text-brand-secondary hover:bg-brand-secondary/10 font-medium py-2 rounded-lg transition-colors text-sm flex items-center justify-center gap-1"
                       >
                         <ShoppingCart className="h-4 w-4" /> Add
                       </button>
                       <button 
                         onClick={(e) => handleBuyNow(product, e)}
-                        className="flex-1 bg-brand-primary hover:bg-brand-secondary text-white font-medium py-2 rounded-lg transition-colors text-sm"
+                        style={{ '--glass-bg': 'rgba(15, 23, 42, 0.05)' } as React.CSSProperties}
+                        className="flex-1 liquid-glass hover-lift border-brand-primary/20 text-brand-primary dark:text-gray-100 hover:text-white hover:bg-brand-primary dark:hover:bg-brand-secondary font-medium py-2 rounded-lg transition-all duration-300 text-sm"
                       >
                         Buy Now
                       </button>

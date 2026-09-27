@@ -200,7 +200,8 @@ export default function CheckoutPage() {
               <button 
                 type="submit" 
                 form="checkout-form"
-                className="w-full bg-[#25D366] hover:bg-[#128C7E] text-white font-bold py-4 px-4 rounded-xl transition-colors hover-lift flex items-center justify-center gap-2 mb-4"
+                style={{ '--glass-bg': 'rgba(37, 211, 102, 0.15)' } as React.CSSProperties}
+                className="w-full liquid-glass hover-lift border-[#25D366]/30 text-[#25D366] hover:text-white hover:bg-[#25D366] font-bold py-4 px-4 rounded-xl transition-all duration-300 flex items-center justify-center gap-2 mb-4 shadow-sm"
               >
                 Order via WhatsApp
               </button>

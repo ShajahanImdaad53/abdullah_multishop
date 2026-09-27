@@ -106,17 +106,17 @@ export default function ProductDetailPage({ params }: { params: Promise<{ id: st
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4 items-center mb-8 pb-8 border-b border-gray-200 dark:border-white/10">
-              <div className="flex items-center border border-gray-300 dark:border-white/20 rounded-md h-10 w-28 bg-white dark:bg-[#0a192f] overflow-hidden shrink-0">
+              <div className="flex items-center rounded-md h-10 w-28 overflow-hidden shrink-0 liquid-glass hover-lift">
                 <button 
                   onClick={() => setQuantity(Math.max(1, quantity - 1))}
-                  className="flex-1 text-gray-600 dark:text-gray-300 hover:bg-gray-100 transition-colors h-full flex items-center justify-center font-medium border-r border-gray-300 dark:border-white/20"
+                  className="flex-1 text-brand-orange hover:bg-brand-orange/10 transition-colors h-full flex items-center justify-center font-medium border-r border-gray-200/50 dark:border-white/10"
                 >
                   -
                 </button>
-                <span className="flex-1 text-center font-medium text-sm">{quantity}</span>
+                <span className="flex-1 text-center font-bold text-sm text-brand-orange">{quantity}</span>
                 <button 
                   onClick={() => setQuantity(quantity + 1)}
-                  className="flex-1 text-gray-600 dark:text-gray-300 hover:bg-gray-100 transition-colors h-full flex items-center justify-center font-medium border-l border-gray-300 dark:border-white/20"
+                  className="flex-1 text-brand-orange hover:bg-brand-orange/10 transition-colors h-full flex items-center justify-center font-medium border-l border-gray-200/50 dark:border-white/10"
                 >
                   +
                 </button>
@@ -124,14 +124,15 @@ export default function ProductDetailPage({ params }: { params: Promise<{ id: st
 
               <button 
                 onClick={handleAddToCart}
-                className="flex-1 w-full bg-[#FF6600] hover:bg-[#e65c00] text-white font-bold text-sm py-2.5 px-4 rounded-md transition-all shadow-sm"
+                className="flex-1 w-full liquid-glass hover-lift text-brand-orange hover:text-orange-600 hover:bg-brand-orange/10 dark:hover:bg-brand-orange/20 font-bold text-sm py-2.5 px-4 rounded-md transition-all shadow-sm"
               >
                 ADD TO CART
               </button>
               
               <button 
                 onClick={handleBuyNow}
-                className="flex-1 w-full bg-[#FF6600] hover:bg-[#e65c00] text-white font-bold text-sm py-2.5 px-4 rounded-md transition-all shadow-sm"
+                style={{ '--glass-bg': 'rgba(244, 120, 32, 0.15)' } as React.CSSProperties}
+                className="flex-1 w-full liquid-glass hover-lift border-brand-orange/30 text-brand-orange hover:text-white hover:bg-brand-orange font-bold text-sm py-2.5 px-4 rounded-md transition-all duration-300 shadow-sm"
               >
                 BUY NOW
               </button>

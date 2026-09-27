@@ -56,10 +56,10 @@ export default function CartPage() {
                     </td>
                     <td className="p-4 font-bold text-gray-600 dark:text-gray-300">Rs.{item.price.toFixed(2)}</td>
                     <td className="p-4 text-center">
-                      <div className="inline-flex items-center border border-gray-200 dark:border-white/10 rounded">
-                        <button onClick={() => updateQuantity(item.id, Math.max(1, item.quantity - 1))} className="px-3 py-1 bg-gray-50 dark:bg-[#060d1f] hover:bg-gray-100 font-bold text-gray-600 dark:text-gray-300">-</button>
-                        <span className="px-3 font-bold text-sm w-10 text-center">{item.quantity}</span>
-                        <button onClick={() => updateQuantity(item.id, item.quantity + 1)} className="px-3 py-1 bg-gray-50 dark:bg-[#060d1f] hover:bg-gray-100 font-bold text-gray-600 dark:text-gray-300">+</button>
+                      <div className="inline-flex items-center rounded overflow-hidden liquid-glass hover-lift">
+                        <button onClick={() => updateQuantity(item.id, Math.max(1, item.quantity - 1))} className="px-3 py-1 hover:bg-brand-orange/10 font-bold text-brand-orange">-</button>
+                        <span className="px-3 font-bold text-sm w-10 text-center text-brand-orange">{item.quantity}</span>
+                        <button onClick={() => updateQuantity(item.id, item.quantity + 1)} className="px-3 py-1 hover:bg-brand-orange/10 font-bold text-brand-orange">+</button>
                       </div>
                     </td>
                     <td className="p-4 font-bold text-[#f47820] text-right">Rs.{(item.price * item.quantity).toFixed(2)}</td>
@@ -89,10 +89,10 @@ export default function CartPage() {
                   <button onClick={() => removeItem(item.id)} className="text-red-500 hover:text-red-700 p-1 font-bold text-2xl leading-none self-start shrink-0" title="Remove">&times;</button>
                 </div>
                 <div className="flex items-center justify-between border-t border-gray-100 dark:border-white/5 pt-4">
-                  <div className="inline-flex items-center border border-gray-200 dark:border-white/10 rounded">
-                    <button onClick={() => updateQuantity(item.id, Math.max(1, item.quantity - 1))} className="px-4 py-1 bg-gray-50 dark:bg-[#060d1f] hover:bg-gray-100 font-bold text-gray-600 dark:text-gray-300">-</button>
-                    <span className="px-3 font-bold text-sm w-10 text-center">{item.quantity}</span>
-                    <button onClick={() => updateQuantity(item.id, item.quantity + 1)} className="px-4 py-1 bg-gray-50 dark:bg-[#060d1f] hover:bg-gray-100 font-bold text-gray-600 dark:text-gray-300">+</button>
+                  <div className="inline-flex items-center rounded overflow-hidden liquid-glass hover-lift">
+                    <button onClick={() => updateQuantity(item.id, Math.max(1, item.quantity - 1))} className="px-4 py-1 hover:bg-brand-orange/10 font-bold text-brand-orange">-</button>
+                    <span className="px-3 font-bold text-sm w-10 text-center text-brand-orange">{item.quantity}</span>
+                    <button onClick={() => updateQuantity(item.id, item.quantity + 1)} className="px-4 py-1 hover:bg-brand-orange/10 font-bold text-brand-orange">+</button>
                   </div>
                   <div className="font-bold text-[#f47820]">Rs.{(item.price * item.quantity).toFixed(2)}</div>
                 </div>
@@ -120,7 +120,9 @@ export default function CartPage() {
               <span className="text-2xl font-black text-[#f47820]">Rs.{getSubtotal().toFixed(2)}</span>
             </div>
             
-            <Link href="/checkout" className="block w-full bg-[#f47820] text-white font-bold py-4 rounded text-center hover:bg-[#e96b15] transition-colors tracking-wider uppercase">
+            <Link href="/checkout" 
+              style={{ '--glass-bg': 'rgba(244, 120, 32, 0.15)' } as React.CSSProperties}
+              className="block w-full liquid-glass hover-lift border-brand-orange/30 text-brand-orange hover:text-white hover:bg-brand-orange font-bold py-4 rounded text-center transition-all duration-300 tracking-wider uppercase">
               PROCEED TO CHECKOUT
             </Link>
           </div>
