@@ -20,7 +20,7 @@ const popularCategories = [
 
 export default function Home() {
   return (
-    <div className="flex flex-col min-h-screen bg-gray-50 font-sans pb-20">
+    <div className="flex flex-col min-h-screen font-sans pb-20 bg-gray-50 dark:bg-transparent">
       
       {/* Hero Section (Keep existing but simplified without the side menu since we moved it globally) */}
       <section className="container mx-auto px-4 py-4 mb-4">
@@ -32,9 +32,9 @@ export default function Home() {
       </section>
 
       {/* Popular Categories */}
-      <section className="container mx-auto px-4 py-8 bg-white mb-8 border-y border-gray-100">
+      <section className="container mx-auto px-4 py-8 bg-white dark:bg-[#0a192f] mb-8 border-y border-gray-100 dark:border-white/5">
         <div className="flex justify-between items-center mb-6">
-          <h2 className="text-[28px] font-bold text-gray-800 tracking-tight">Popular Categories</h2>
+          <h2 className="text-[28px] font-bold text-gray-800 dark:text-gray-100 tracking-tight">Popular Categories</h2>
           <Link href="/shop" className="bg-[#f47820] text-white font-bold text-xs px-4 py-2 rounded-full hover:bg-[#e96b15] transition-colors flex items-center gap-1">
             ALL CATEGORIES <ArrowRight className="h-3 w-3" />
           </Link>
@@ -43,7 +43,7 @@ export default function Home() {
         <div className="flex overflow-x-auto pb-4 gap-6 no-scrollbar snap-x">
           {popularCategories.map((cat, i) => (
             <Link key={i} href={cat.url} className="group flex flex-col items-center flex-shrink-0 snap-start w-[100px] md:w-[120px]">
-              <div className="relative w-[80px] h-[80px] md:w-[100px] md:h-[100px] rounded-full bg-gray-50 border border-gray-100 flex items-center justify-center overflow-hidden hover:border-[#f47820] hover:shadow-md transition-all mb-3">
+              <div className="relative w-[80px] h-[80px] md:w-[100px] md:h-[100px] rounded-full bg-gray-50 dark:bg-[#020617] border border-gray-100 dark:border-gray-800 flex items-center justify-center overflow-hidden hover:border-[#f47820] dark:hover:border-[#f47820] hover:shadow-md transition-all mb-3">
                 <Image 
                   src={cat.image} 
                   alt={cat.name}
@@ -51,7 +51,7 @@ export default function Home() {
                   className="object-cover group-hover:scale-110 transition-transform duration-500"
                 />
               </div>
-              <span className="font-semibold text-gray-800 text-[12px] md:text-[13px] text-center group-hover:text-[#f47820] transition-colors line-clamp-2">
+              <span className="font-semibold text-gray-800 dark:text-gray-200 text-[12px] md:text-[13px] text-center group-hover:text-[#f47820] dark:group-hover:text-[#f47820] transition-colors line-clamp-2">
                 {cat.name}
               </span>
             </Link>
@@ -60,9 +60,9 @@ export default function Home() {
       </section>
 
       {/* The Best Sellers */}
-      <section className="container mx-auto px-4 py-8 bg-[#f8f8f8] mb-8">
+      <section className="container mx-auto px-4 py-8 bg-[#f8f8f8] dark:bg-transparent mb-8">
         <div className="flex justify-between items-center mb-6">
-          <h2 className="text-[28px] font-bold text-gray-800 tracking-tight">The Best Sellers</h2>
+          <h2 className="text-[28px] font-bold text-gray-800 dark:text-gray-100 tracking-tight">The Best Sellers</h2>
           <Link href="/shop?sort=bestsellers" className="bg-[#f47820] text-white font-bold text-xs px-4 py-2 rounded-full hover:bg-[#e96b15] transition-colors flex items-center gap-1">
             MORE PRODUCTS <ArrowRight className="h-3 w-3" />
           </Link>
@@ -76,9 +76,9 @@ export default function Home() {
       </section>
 
       {/* New Products */}
-      <section className="container mx-auto px-4 py-8 bg-white mb-8">
+      <section className="container mx-auto px-4 py-8 bg-white dark:bg-[#0a192f] mb-8">
         <div className="flex justify-between items-center mb-6">
-          <h2 className="text-[28px] font-bold text-gray-800 tracking-tight">New Products</h2>
+          <h2 className="text-[28px] font-bold text-gray-800 dark:text-gray-100 tracking-tight">New Products</h2>
           <Link href="/shop?sort=newest" className="bg-[#f47820] text-white font-bold text-xs px-4 py-2 rounded-full hover:bg-[#e96b15] transition-colors flex items-center gap-1">
             MORE PRODUCTS <ArrowRight className="h-3 w-3" />
           </Link>
@@ -140,12 +140,12 @@ export default function Home() {
                 { name: "GIFT VOUCHER RS 1000 - PRINTED", price: "Rs.1,000.00" },
                 { name: "GIFT VOUCHER RS 5000 - PRINTED", price: "Rs.5,000.00" },
               ].map((v, i) => (
-                <div key={i} className="bg-white/90 backdrop-blur-sm rounded-lg p-3 flex items-center gap-4 hover:bg-white transition-colors cursor-pointer shadow-sm">
+                <div key={i} className="bg-white/90 dark:bg-[#020617]/90 backdrop-blur-sm rounded-lg p-3 flex items-center gap-4 hover:bg-white dark:hover:bg-[#020617] transition-colors cursor-pointer shadow-sm">
                   <div className="w-20 h-12 bg-gray-100 border border-gray-200 rounded flex items-center justify-center flex-shrink-0">
                     <span className="text-[8px] font-bold text-[#f47820]">VOUCHER</span>
                   </div>
                   <div>
-                    <h4 className="font-bold text-gray-800 text-[11px] uppercase mb-1 leading-tight">{v.name}</h4>
+                    <h4 className="font-bold text-gray-800 dark:text-gray-100 text-[11px] uppercase mb-1 leading-tight">{v.name}</h4>
                     <p className="font-bold text-[#f47820] text-sm">{v.price}</p>
                   </div>
                 </div>
