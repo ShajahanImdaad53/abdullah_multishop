@@ -93,7 +93,7 @@ export default function Home() {
                 <h3 className="font-extrabold text-3xl text-blue-900 mb-2 leading-tight">Style &<br/>ZIPPY</h3>
                 <p className="text-gray-600 dark:text-gray-300 text-sm font-medium mb-6">Unbox your lunch with PRO</p>
                 <div className="relative w-48 h-64 mt-auto">
-                    <Image src="/logo.jpg" alt="Zippy Bottle" fill className="object-contain drop-shadow-xl group-hover:scale-105 transition-transform mix-blend-multiply" />
+                    <Image src="/logo.jpg" alt="Zippy Bottle" fill className="object-contain drop-shadow-xl group-hover:scale-105 transition-transform mix-blend-multiply dark:invert dark:mix-blend-screen" />
                 </div>
              </div>
           </div>
@@ -121,7 +121,7 @@ export default function Home() {
              <div className="relative w-[400px] h-[250px] bg-white dark:bg-[#0a192f] rounded-xl shadow-2xl p-4 rotate-[-5deg] hover:rotate-0 transition-transform duration-500">
                <div className="border border-dashed border-[#f47820] w-full h-full flex flex-col items-center justify-center relative overflow-hidden">
                  <div className="absolute -left-10 -bottom-10 w-32 h-32 bg-yellow-400 rounded-full blur-xl opacity-50"></div>
-                 <Image src="/logo.jpg" alt="Logo" width={80} height={30} className="mb-2 mix-blend-multiply" />
+                 <Image src="/logo.jpg" alt="Logo" width={80} height={30} className="mb-2 mix-blend-multiply dark:invert dark:mix-blend-screen" />
                  <h3 className="font-serif text-3xl text-gray-800 dark:text-gray-100 italic mb-2">Gift Voucher</h3>
                  <p className="text-xs text-gray-500 dark:text-gray-400">You Deserve a Gift !</p>
                </div>

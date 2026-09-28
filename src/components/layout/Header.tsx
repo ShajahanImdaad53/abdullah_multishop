@@ -40,7 +40,7 @@ export function Header() {
           
           {/* Left: Logo */}
           <Link href="/" className="flex flex-col md:flex-row items-center flex-shrink-0 bg-transparent py-2 md:py-0 px-4 md:px-8 xl:px-12 self-stretch justify-center w-full md:w-auto">
-            <Image src="/logo.jpg" alt={siteConfig.companyName} width={500} height={200} className="object-contain mix-blend-multiply md:w-[320px] md:h-[100px] w-[240px] h-[70px]" priority />
+            <Image src="/logo.jpg" alt={siteConfig.companyName} width={500} height={200} className="object-contain mix-blend-multiply dark:invert dark:mix-blend-screen md:w-[320px] md:h-[100px] w-[240px] h-[70px]" priority />
           </Link>
 
           {/* Middle: Search Bar */}
