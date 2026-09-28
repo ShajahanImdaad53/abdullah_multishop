@@ -6,6 +6,7 @@ import Image from "next/image";
 import { ShieldCheck, MapPin, Loader2 } from "lucide-react";
 import { useCartStore } from "@/store/useCartStore";
 import Link from "next/link";
+import html2canvas from "html2canvas";
 
 export default function CheckoutPage() {
   const [mounted, setMounted] = useState(false);
@@ -64,7 +65,7 @@ export default function CheckoutPage() {
     );
   };
 
-  const handleWhatsAppOrder = (e: React.FormEvent) => {
+  const handleWhatsAppOrder = async (e: React.FormEvent) => {
     e.preventDefault();
     
     // Validate form (basic)
@@ -73,42 +74,74 @@ export default function CheckoutPage() {
       return;
     }
 
+    // Capture the invoice as an image
+    try {
+      const invoiceElement = document.getElementById("invoice-capture");
+      const itemsContainer = document.getElementById("invoice-items-container");
+      if (invoiceElement && itemsContainer) {
+        // Temporarily remove max height for full screenshot
+        itemsContainer.classList.remove("max-h-[40vh]", "overflow-y-auto");
+        
+        // Hide the button during screenshot
+        const orderButton = document.getElementById("place-order-btn");
+        if (orderButton) orderButton.style.display = "none";
+        
+        await new Promise(resolve => setTimeout(resolve, 100)); // wait for layout shift
+        const canvas = await html2canvas(invoiceElement, { backgroundColor: '#ffffff', scale: 2 });
+        const image = canvas.toDataURL("image/png");
+        
+        // Create a link to download the image
+        const link = document.createElement('a');
+        link.href = image;
+        link.download = `Invoice_${new Date().toISOString().slice(0,10)}.png`;
+        link.click();
+        
+        // Restore classes and button
+        itemsContainer.classList.add("max-h-[40vh]", "overflow-y-auto");
+        if (orderButton) orderButton.style.display = "flex";
+      }
+    } catch (error) {
+      console.error("Failed to generate invoice image", error);
+    }
+
     const orderNumber = `ORD-${new Date().toISOString().slice(0,10).replace(/-/g, '')}-${Math.floor(1000 + Math.random() * 9000)}`;
 
-    let message = `*NEW ORDER ALERT!* 🛒\n\n`;
-    message += `Hello *${siteConfig.companyName}*, I would like to place an order.\n\n`;
-    message += `🧾 *ORDER INVOICE*\n`;
-    message += `*Order No:* ${orderNumber}\n`;
-    message += `〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️\n`;
+    let message = `=======================================\n`;
+    message += `           ORDER INVOICE               \n`;
+    message += `=======================================\n`;
+    message += `Order No : ${orderNumber}\n`;
+    message += `\n[ ITEMS ]\n`;
+    message += `---------------------------------------\n`;
     
     cartItems.forEach((item, index) => {
-      message += `*${index + 1}. ${item.name}*\n`;
-      message += `  ▫️ SKU: ${item.sku}\n`;
-      message += `  ▫️ Qty: ${item.quantity} x ${siteConfig.currencySymbol} ${item.price.toFixed(2)}\n`;
-      message += `  *Subtotal: ${siteConfig.currencySymbol} ${(item.price * item.quantity).toFixed(2)}*\n`;
-      message += `〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️\n`;
+      message += `${index + 1}. ${item.name}\n`;
+      message += `   SKU: ${item.sku || 'N/A'}\n`;
+      message += `   ${item.quantity} x ${siteConfig.currencySymbol} ${item.price.toFixed(2)}\n`;
+      message += `   Subtotal: ${siteConfig.currencySymbol} ${(item.price * item.quantity).toFixed(2)}\n`;
+      message += `---------------------------------------\n`;
     });
 
-    message += `\n📦 *DELIVERY INFORMATION*\n`;
-    message += `👤 *Name:* ${formData.fullName}\n`;
-    message += `📞 *Phone:* ${formData.phone}\n`;
-    if (formData.whatsapp) message += `💬 *WhatsApp:* ${formData.whatsapp}\n`;
-    message += `📍 *Address:* ${formData.address}\n`;
-    message += `🏙️ *City:* ${formData.city}\n`;
-    message += `🗺️ *District:* ${formData.district}\n`;
-    if (formData.postalCode) message += `📮 *Postal Code:* ${formData.postalCode}\n`;
-    if (formData.googleLocation) message += `📍 *Google Location:* ${formData.googleLocation}\n`;
-    if (formData.deliveryNotes) message += `📝 *Notes:* ${formData.deliveryNotes}\n`;
+    message += `\n[ DELIVERY DETAILS ]\n`;
+    message += `---------------------------------------\n`;
+    message += `Name     : ${formData.fullName}\n`;
+    message += `Phone    : ${formData.phone}\n`;
+    if (formData.whatsapp) message += `WhatsApp : ${formData.whatsapp}\n`;
+    message += `Address  : ${formData.address}\n`;
+    message += `City     : ${formData.city}\n`;
+    message += `District : ${formData.district}\n`;
+    if (formData.postalCode) message += `Postal   : ${formData.postalCode}\n`;
+    if (formData.googleLocation) message += `Location : ${formData.googleLocation}\n`;
+    if (formData.deliveryNotes) message += `Notes    : ${formData.deliveryNotes}\n`;
 
-    message += `\n💳 *PAYMENT SUMMARY*\n`;
-    message += `〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️\n`;
-    message += `*Subtotal:*     ${siteConfig.currencySymbol} ${subtotal.toFixed(2)}\n`;
-    message += `*Shipping Fee:* ${siteConfig.currencySymbol} ${shippingFee.toFixed(2)}\n`;
-    if (discount > 0) message += `*Discount:*    -${siteConfig.currencySymbol} ${discount.toFixed(2)}\n`;
-    message += `〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️\n`;
-    message += `✅ *GRAND TOTAL: ${siteConfig.currencySymbol} ${grandTotal.toFixed(2)}*\n`;
-    message += `〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️\n\n`;
-    message += `Please confirm my order. Thank you! 🙏`;
+    message += `\n[ PAYMENT SUMMARY ]\n`;
+    message += `---------------------------------------\n`;
+    message += `Subtotal      : ${siteConfig.currencySymbol} ${subtotal.toFixed(2)}\n`;
+    message += `Shipping Fee  : ${siteConfig.currencySymbol} ${shippingFee.toFixed(2)}\n`;
+    if (discount > 0) message += `Discount      : -${siteConfig.currencySymbol} ${discount.toFixed(2)}\n`;
+    message += `---------------------------------------\n`;
+    message += `GRAND TOTAL   : ${siteConfig.currencySymbol} ${grandTotal.toFixed(2)}\n`;
+    message += `=======================================\n\n`;
+    message += `Please confirm my order. I have also attached the invoice image. Thank you!`;
 
     const encodedMessage = encodeURIComponent(message);
     const whatsappUrl = `https://wa.me/${siteConfig.whatsappNumber.replace('+', '')}?text=${encodedMessage}`;
@@ -236,7 +269,7 @@ export default function CheckoutPage() {
 
           {/* Order Summary (Bill Format) */}
           <div className="w-full lg:w-[400px] shrink-0">
-            <div className="bg-white dark:bg-[#0a192f] p-6 sm:p-8 rounded-xl shadow-lg border border-gray-200 dark:border-white/10 sticky top-24 relative overflow-hidden">
+            <div id="invoice-capture" className="bg-white dark:bg-[#0a192f] p-6 sm:p-8 rounded-xl shadow-lg border border-gray-200 dark:border-white/10 sticky top-24 relative overflow-hidden">
               {/* Receipt Top Zigzag effect */}
               <div className="absolute top-0 left-0 w-full h-2 bg-[url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIxMCI+PHBvbHlnb24gcG9pbnRzPSIwLDAgMTAsMTAgMjAsMCIgZmlsbD0iI2Y5ZmFmYiIvPjwvc3ZnPg==')] opacity-100 dark:opacity-0" />
               
@@ -250,7 +283,7 @@ export default function CheckoutPage() {
                 <span>Amount</span>
               </div>
 
-              <div className="space-y-4 mb-6 max-h-[40vh] overflow-y-auto pr-2 custom-scrollbar">
+              <div id="invoice-items-container" className="space-y-4 mb-6 max-h-[40vh] overflow-y-auto pr-2 custom-scrollbar">
                 {cartItems.map((item) => (
                   <div key={item.id} className="flex gap-3">
                     <div className="w-12 h-12 relative bg-gray-50 dark:bg-[#060d1f] rounded border border-gray-200 dark:border-white/10 overflow-hidden shrink-0">
@@ -290,6 +323,7 @@ export default function CheckoutPage() {
               </div>
 
               <button 
+                id="place-order-btn"
                 type="submit" 
                 form="checkout-form"
                 className="w-full bg-[#25D366] hover:bg-[#20bd5a] text-white font-bold py-4 px-4 rounded-xl transition-all duration-300 flex items-center justify-center gap-2 mb-4 shadow-lg hover:shadow-xl transform hover:-translate-y-1"
