@@ -46,7 +46,7 @@ export async function getOrders() {
     const orders = querySnapshot.docs.map(doc => ({
       id: doc.id,
       ...doc.data()
-    }));
+    } as any));
     return { success: true, orders };
   } catch (error) {
     console.error("Error fetching orders from Firebase:", error);
@@ -59,7 +59,7 @@ export async function getOrderById(id: string) {
     const docRef = doc(db, "orders", id);
     const docSnap = await getDoc(docRef);
     if (docSnap.exists()) {
-      return { success: true, order: { id: docSnap.id, ...docSnap.data() } };
+      return { success: true, order: { id: docSnap.id, ...docSnap.data() } as any };
     } else {
       return { success: false, order: null };
     }
