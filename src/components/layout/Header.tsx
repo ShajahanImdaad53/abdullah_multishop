@@ -30,7 +30,14 @@ export function Header() {
   }, []);
 
   return (
-    <header className="w-full font-sans">
+    <header className="w-full font-sans relative z-50">
+      {/* Announcement Bar */}
+      <div className="bg-gradient-to-r from-red-500 via-[#f47820] to-yellow-500 text-white text-xs sm:text-sm font-extrabold text-center py-2 px-4 shadow-sm flex items-center justify-center gap-2 uppercase tracking-wide">
+        <span className="animate-bounce text-lg">🚚</span> 
+        <span className="animate-pulse drop-shadow-md">Free Delivery Promotion on All Orders!</span>
+        <span className="animate-bounce text-lg">🎉</span>
+      </div>
+
       {/* Top Bar - Orange Background */}
       <div className="bg-[#f47820] dark:bg-[#020617] text-white transition-colors duration-300 relative">
         <div className="absolute top-2 right-4 lg:hidden z-10">

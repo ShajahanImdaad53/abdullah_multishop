@@ -70,6 +70,11 @@ export default function ProductDetailPage({ params }: { params: Promise<{ id: st
                 fill
                 className="object-contain"
               />
+              
+              {/* Free Delivery Badge */}
+              <div className="absolute top-4 left-4 z-10 bg-gradient-to-r from-red-500 to-[#f47820] text-white text-xs font-black px-3 py-1.5 rounded-md shadow-md uppercase tracking-wider promo-border animate-pulse">
+                Free Delivery
+              </div>
             </div>
           </div>
 
@@ -159,7 +164,7 @@ export default function ProductDetailPage({ params }: { params: Promise<{ id: st
                 </div>
                 <div className="text-right">
                   <p className="text-xs text-gray-700 dark:text-gray-200 font-medium mb-1">3-5 Working days</p>
-                  <p className="text-xs font-bold text-gray-900 dark:text-gray-50">Charges may apply</p>
+                  <p className="text-xs font-black text-[#f47820] uppercase tracking-wider animate-pulse">FREE (Promo)</p>
                 </div>
               </div>
             </div>

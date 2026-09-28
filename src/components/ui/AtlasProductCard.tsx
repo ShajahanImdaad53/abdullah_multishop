@@ -44,6 +44,11 @@ export function AtlasProductCard({ product }: { product: any }) {
           />
         </Link>
         
+        {/* Free Delivery Badge */}
+        <div className="absolute top-2 left-2 z-10 bg-gradient-to-r from-red-500 to-[#f47820] text-white text-[9px] font-black px-2 py-1 rounded shadow-md uppercase tracking-wider promo-border animate-pulse">
+          Free Delivery
+        </div>
+        
         {/* Hover Action Icons */}
         <div className="absolute top-2 right-2 flex flex-col gap-2 opacity-0 group-hover:opacity-100 transition-opacity translate-x-4 group-hover:translate-x-0 duration-300">
           <button className="w-8 h-8 bg-white dark:bg-[#020617] border border-gray-200 dark:border-gray-700 rounded-full flex items-center justify-center text-gray-500 dark:text-gray-400 hover:text-brand-orange dark:hover:text-brand-orange hover:border-brand-orange dark:hover:border-brand-orange transition-colors shadow-sm">
