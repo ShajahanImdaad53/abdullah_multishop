@@ -47,8 +47,8 @@ export default async function AdminOrderDetailPage({ params }: { params: { id: s
                 {order.items.map((item: any, idx: number) => (
                   <div key={idx} className="flex justify-between items-center text-sm">
                     <div className="flex-1">
-                      <p className="font-medium text-gray-900 dark:text-gray-100">{item.product?.name || 'Unknown Product'}</p>
-                      <p className="text-gray-500">SKU: {item.product?.sku || 'N/A'}</p>
+                      <p className="font-medium text-gray-900 dark:text-gray-100">{item.name || 'Unknown Product'}</p>
+                      <p className="text-gray-500">SKU: {item.sku || 'N/A'}</p>
                       <p className="text-gray-500 mt-1">{item.quantity} x {siteConfig.currencySymbol} {item.price.toFixed(2)}</p>
                     </div>
                     <div className="font-bold text-gray-900 dark:text-gray-100">

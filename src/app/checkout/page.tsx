@@ -125,7 +125,9 @@ export default function CheckoutPage() {
         discount: discount,
         total: grandTotal,
         items: cartItems.map(item => ({
-          id: item.id, // Ensure this corresponds to a product in the DB or handle appropriately in action
+          id: item.id,
+          name: item.name,
+          sku: item.sku,
           quantity: item.quantity,
           price: item.price
         }))
