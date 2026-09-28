@@ -123,6 +123,7 @@ export function Header() {
                 <Link href="/shop?cat=pens" className="px-6 py-3 text-sm text-gray-600 dark:text-gray-300 hover:text-[#f47820] dark:hover:text-white hover:bg-orange-50 dark:hover:bg-white/5 font-medium transition-colors">Pens</Link>
                 <Link href="/product-category/edu-toys" className="px-6 py-3 text-sm text-gray-600 dark:text-gray-300 hover:text-[#f47820] dark:hover:text-white hover:bg-orange-50 dark:hover:bg-white/5 font-medium transition-colors">EDU Toys</Link>
                 <Link href="/shop?cat=school" className="px-6 py-3 text-sm text-gray-600 dark:text-gray-300 hover:text-[#f47820] dark:hover:text-white hover:bg-orange-50 dark:hover:bg-white/5 font-medium transition-colors">School Products</Link>
+                <Link href="/shop?cat=File" className="px-6 py-3 text-sm text-gray-600 dark:text-gray-300 hover:text-[#f47820] dark:hover:text-white hover:bg-orange-50 dark:hover:bg-white/5 font-medium transition-colors">Files</Link>
                 <Link href="/shop" className="px-6 py-3 text-sm font-bold text-[#f47820] dark:text-white hover:bg-orange-50 dark:hover:bg-white/5 mt-2 border-t border-gray-100 dark:border-white/10 transition-colors">View All Categories</Link>
               </div>
             </div>

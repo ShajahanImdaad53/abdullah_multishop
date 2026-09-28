@@ -1,6 +1,86 @@
 export const products = 
 [
   {
+    "id": "daraz_file_1",
+    "name": "Premium Zip Closure Document File Folder | Office Document Holder",
+    "image": "/logo.jpg",
+    "price": 1067,
+    "brand": "Daraz",
+    "category": "File"
+  },
+  {
+    "id": "daraz_file_2",
+    "name": "File Organizer Desk File Folder Document Paper Organizer Storage Holder",
+    "image": "/logo.jpg",
+    "price": 1534,
+    "brand": "Daraz",
+    "category": "File"
+  },
+  {
+    "id": "daraz_file_3",
+    "name": "Bill Holder | Document Holder for Office",
+    "image": "/logo.jpg",
+    "price": 533,
+    "brand": "Daraz",
+    "category": "File"
+  },
+  {
+    "id": "daraz_file_4",
+    "name": "Box File 75mm Laminated F4 - Light Green",
+    "image": "/logo.jpg",
+    "price": 610,
+    "brand": "Daraz",
+    "category": "File"
+  },
+  {
+    "id": "daraz_file_5",
+    "name": "Certificate File holder ( 10/20/30/40-Pockets )",
+    "image": "/logo.jpg",
+    "price": 750,
+    "brand": "Daraz",
+    "category": "File"
+  },
+  {
+    "id": "daraz_file_6",
+    "name": "File Organizer,Expanding File Folder 13 Pocket File Organizer Colorul",
+    "image": "/logo.jpg",
+    "price": 965,
+    "brand": "Daraz",
+    "category": "File"
+  },
+  {
+    "id": "daraz_file_7",
+    "name": "Panther Box File 75mm Laminated F4 - Maroon",
+    "image": "/logo.jpg",
+    "price": 610,
+    "brand": "Daraz",
+    "category": "File"
+  },
+  {
+    "id": "daraz_file_8",
+    "name": "Box File 75mm Laminated F4 - Black",
+    "image": "/logo.jpg",
+    "price": 610,
+    "brand": "Daraz",
+    "category": "File"
+  },
+  {
+    "id": "daraz_file_9",
+    "name": "Document Holder EXEC - Black",
+    "image": "/logo.jpg",
+    "price": 570,
+    "brand": "Daraz",
+    "category": "File"
+  },
+  {
+    "id": "daraz_file_10",
+    "name": "Mini Zip File | Office Document Holder",
+    "image": "/logo.jpg",
+    "price": 922,
+    "brand": "Daraz",
+    "category": "File"
+  },
+  {
     "id": "atlas_p_all_0",
     "name": "Animal Craft & Weave Kit",
     "image": "/products/509832-.jpg",
