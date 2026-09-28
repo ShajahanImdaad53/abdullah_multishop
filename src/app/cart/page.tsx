@@ -102,7 +102,7 @@ export default function CartPage() {
         </div>
         
         <div className="w-full lg:w-1/3">
-          <div className="bg-gray-50 dark:bg-[#060d1f] rounded-lg p-6 border border-gray-200 dark:border-white/10">
+          <div className="bg-gray-50 dark:bg-[#060d1f] rounded-lg p-6 promo-border">
             <h2 className="text-xl font-bold text-gray-800 dark:text-gray-100 mb-6 border-b border-gray-200 dark:border-white/10 pb-4">Cart totals</h2>
             
             <div className="flex justify-between items-center mb-4">
@@ -111,8 +111,11 @@ export default function CartPage() {
             </div>
             
             <div className="flex justify-between items-center mb-6">
-              <span className="font-medium text-gray-600 dark:text-gray-300">Shipping</span>
-              <span className="text-sm text-gray-500 dark:text-gray-400">Calculated at checkout</span>
+              <span className="flex items-center gap-2 font-medium text-gray-600 dark:text-gray-300">
+                Shipping
+                <span className="bg-red-100 text-red-600 text-[10px] font-bold px-2 py-0.5 rounded-full uppercase animate-pulse">Promo</span>
+              </span>
+              <span className="font-bold text-green-500">FREE</span>
             </div>
             
             <div className="flex justify-between items-center mb-8 border-t border-gray-200 dark:border-white/10 pt-4">

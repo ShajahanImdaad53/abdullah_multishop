@@ -35,7 +35,8 @@ export default function CheckoutPage() {
 
   const shippingFee = 350;
   const discount = 0;
-  const grandTotal = subtotal + shippingFee - discount;
+  // Free delivery promotion applied
+  const grandTotal = subtotal - discount;
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
@@ -166,7 +167,7 @@ export default function CheckoutPage() {
     message += `\n[ PAYMENT SUMMARY ]\n`;
     message += `---------------------------------------\n`;
     message += `Subtotal      : ${siteConfig.currencySymbol} ${subtotal.toFixed(2)}\n`;
-    message += `Shipping Fee  : ${siteConfig.currencySymbol} ${shippingFee.toFixed(2)}\n`;
+    message += `Shipping Fee  : FREE (Promo)\n`;
     if (discount > 0) message += `Discount      : -${siteConfig.currencySymbol} ${discount.toFixed(2)}\n`;
     message += `---------------------------------------\n`;
     message += `GRAND TOTAL   : ${siteConfig.currencySymbol} ${grandTotal.toFixed(2)}\n`;
@@ -299,7 +300,7 @@ export default function CheckoutPage() {
 
           {/* Order Summary (Bill Format) */}
           <div className="w-full lg:w-[400px] shrink-0">
-            <div id="invoice-capture" className="bg-white dark:bg-[#0a192f] p-6 sm:p-8 rounded-xl shadow-lg border border-gray-200 dark:border-white/10 sticky top-24 relative overflow-hidden">
+            <div id="invoice-capture" className="bg-white dark:bg-[#0a192f] p-6 sm:p-8 rounded-xl shadow-lg promo-border sticky top-24 relative overflow-hidden">
               {/* Receipt Top Zigzag effect */}
               <div className="absolute top-0 left-0 w-full h-2 bg-[url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIxMCI+PHBvbHlnb24gcG9pbnRzPSIwLDAgMTAsMTAgMjAsMCIgZmlsbD0iI2Y5ZmFmYiIvPjwvc3ZnPg==')] opacity-100 dark:opacity-0" />
               
@@ -335,9 +336,15 @@ export default function CheckoutPage() {
                   <span>Subtotal</span>
                   <span className="font-medium">{siteConfig.currencySymbol} {subtotal.toFixed(2)}</span>
                 </div>
-                <div className="flex justify-between text-gray-600 dark:text-gray-400">
-                  <span>Shipping Fee</span>
-                  <span className="font-medium">{siteConfig.currencySymbol} {shippingFee.toFixed(2)}</span>
+                <div className="flex justify-between items-center text-gray-600 dark:text-gray-400">
+                  <span className="flex items-center gap-2">
+                    Shipping Fee
+                    <span className="bg-red-100 text-red-600 text-[10px] font-bold px-2 py-0.5 rounded-full uppercase animate-pulse">Promo</span>
+                  </span>
+                  <div className="flex flex-col items-end">
+                    <span className="font-medium line-through text-xs text-gray-400">{siteConfig.currencySymbol} {shippingFee.toFixed(2)}</span>
+                    <span className="font-bold text-green-500">FREE</span>
+                  </div>
                 </div>
                 {discount > 0 && (
                   <div className="flex justify-between text-green-600">

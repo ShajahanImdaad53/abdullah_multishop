@@ -49,3 +49,16 @@ body {
     transform: translateX(100%);
   }
 }
+
+@keyframes border-dance {
+  0% { border-color: #f47820; box-shadow: 0 0 10px rgba(244, 120, 32, 0.5); }
+  33% { border-color: #10b981; box-shadow: 0 0 10px rgba(16, 185, 129, 0.5); }
+  66% { border-color: #3b82f6; box-shadow: 0 0 10px rgba(59, 130, 246, 0.5); }
+  100% { border-color: #f47820; box-shadow: 0 0 10px rgba(244, 120, 32, 0.5); }
+}
+
+.promo-border {
+  animation: border-dance 3s linear infinite;
+  border-width: 2px !important;
+  border-style: solid !important;
+}
