@@ -7,6 +7,7 @@ import { ShieldCheck, MapPin, Loader2 } from "lucide-react";
 import { useCartStore } from "@/store/useCartStore";
 import Link from "next/link";
 import html2canvas from "html2canvas";
+import { createOrder } from "@/actions/orders";
 
 export default function CheckoutPage() {
   const [mounted, setMounted] = useState(false);
@@ -105,6 +106,33 @@ export default function CheckoutPage() {
     }
 
     const orderNumber = `ORD-${new Date().toISOString().slice(0,10).replace(/-/g, '')}-${Math.floor(1000 + Math.random() * 9000)}`;
+
+    // Save order to database
+    try {
+      await createOrder({
+        orderNumber,
+        customerName: formData.fullName,
+        phone: formData.phone,
+        whatsapp: formData.whatsapp,
+        email: formData.email,
+        address: formData.address,
+        city: formData.city,
+        district: formData.district,
+        postalCode: formData.postalCode,
+        deliveryNotes: formData.deliveryNotes,
+        subtotal: subtotal,
+        shippingFee: shippingFee,
+        discount: discount,
+        total: grandTotal,
+        items: cartItems.map(item => ({
+          id: item.id, // Ensure this corresponds to a product in the DB or handle appropriately in action
+          quantity: item.quantity,
+          price: item.price
+        }))
+      });
+    } catch (err) {
+      console.error("Failed to save order to DB:", err);
+    }
 
     let message = `=======================================\n`;
     message += `           ORDER INVOICE               \n`;
