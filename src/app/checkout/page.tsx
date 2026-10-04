@@ -36,10 +36,10 @@ export default function CheckoutPage() {
     setMounted(true);
   }, []);
 
-  const shippingFee = 350;
+  const standardShippingFee = 350;
+  const shippingFee = 0; // Free delivery promotion applied
   const discount = 0;
-  // Free delivery promotion applied
-  const grandTotal = subtotal - discount;
+  const grandTotal = subtotal + shippingFee - discount;
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
@@ -76,117 +76,157 @@ export default function CheckoutPage() {
     if (isSubmitting) return;
     setIsSubmitting(true);
     
-    // Validate form (basic)
-    if (!formData.fullName || !formData.phone || !formData.address || !formData.city || !formData.district) {
-      alert("Please fill in all required fields.");
+    // 1. Validate Cart is not empty
+    if (cartItems.length === 0) {
+      alert("Your cart is empty. Please add products before checking out.");
       setIsSubmitting(false);
       return;
     }
 
-    // Capture the invoice as an image
-    try {
-      const invoiceElement = document.getElementById("invoice-capture");
-      const itemsContainer = document.getElementById("invoice-items-container");
-      if (invoiceElement && itemsContainer) {
-        // Temporarily remove max height for full screenshot
-        itemsContainer.classList.remove("max-h-[40vh]", "overflow-y-auto");
-        
-        // Hide the button during screenshot
-        const orderButton = document.getElementById("place-order-btn");
-        if (orderButton) orderButton.style.display = "none";
-        
-        await new Promise(resolve => setTimeout(resolve, 100)); // wait for layout shift
-        const canvas = await html2canvas(invoiceElement, { backgroundColor: '#ffffff', scale: 2 });
-        const image = canvas.toDataURL("image/png");
-        
-        // Create a link to download the image
-        const link = document.createElement('a');
-        link.href = image;
-        link.download = `Invoice_${new Date().toISOString().slice(0,10)}.png`;
-        link.click();
-        
-        // Restore classes and button
-        itemsContainer.classList.add("max-h-[40vh]", "overflow-y-auto");
-        if (orderButton) orderButton.style.display = "flex";
-      }
-    } catch (error) {
-      console.error("Failed to generate invoice image", error);
+    // 2. Validate required form fields
+    if (
+      !formData.fullName.trim() ||
+      !formData.phone.trim() ||
+      !formData.address.trim() ||
+      !formData.city.trim() ||
+      !formData.district.trim()
+    ) {
+      alert("Please fill in all required fields (Full Name, Phone Number, Address, City, and District).");
+      setIsSubmitting(false);
+      return;
     }
 
-    const orderNumber = `ORD-${new Date().toISOString().slice(0,10).replace(/-/g, '')}-${Math.floor(1000 + Math.random() * 9000)}`;
+    // 3. Build canonical Order Data (Single Source of Truth)
+    const orderNumber = `ORD-${new Date().toISOString().slice(0, 10).replace(/-/g, "")}-${Math.floor(1000 + Math.random() * 9000)}`;
+    const orderCreatedAt = new Date().toISOString();
 
-    // Save order to database
+    const orderData = {
+      orderNumber,
+      createdAt: orderCreatedAt,
+      customerName: formData.fullName.trim(),
+      phone: formData.phone.trim(),
+      whatsapp: formData.whatsapp.trim(),
+      email: formData.email.trim(),
+      address: formData.address.trim(),
+      city: formData.city.trim(),
+      district: formData.district.trim(),
+      postalCode: formData.postalCode.trim(),
+      deliveryNotes: formData.deliveryNotes.trim(),
+      googleLocation: formData.googleLocation.trim(),
+      subtotal,
+      shippingFee,
+      discount,
+      total: grandTotal,
+      items: cartItems.map((item) => ({
+        productId: item.id,
+        name: item.name,
+        sku: item.sku || "N/A",
+        quantity: item.quantity,
+        price: item.price,
+        subtotal: item.price * item.quantity,
+      })),
+    };
+
+    // 4. Save Order to Firestore & verify success
+    let orderResult;
     try {
-      await createOrder({
-        orderNumber,
-        customerName: formData.fullName,
-        phone: formData.phone,
-        whatsapp: formData.whatsapp,
-        email: formData.email,
-        address: formData.address,
-        city: formData.city,
-        district: formData.district,
-        postalCode: formData.postalCode,
-        deliveryNotes: formData.deliveryNotes,
-        subtotal: subtotal,
-        shippingFee: shippingFee,
-        discount: discount,
-        total: grandTotal,
-        items: cartItems.map(item => ({
-          id: item.id,
-          name: item.name,
-          sku: item.sku,
-          quantity: item.quantity,
-          price: item.price
-        }))
-      });
+      orderResult = await createOrder(orderData);
     } catch (err) {
-      console.error("Failed to save order to DB:", err);
+      console.error("Order creation network error:", err);
+      orderResult = { success: false, error: "Network error occurred" };
     }
 
-    let message = `=======================================\n`;
-    message += `           ORDER INVOICE               \n`;
-    message += `=======================================\n`;
-    message += `Order No : ${orderNumber}\n`;
-    message += `\n[ ITEMS ]\n`;
-    message += `---------------------------------------\n`;
-    
-    cartItems.forEach((item, index) => {
-      message += `${index + 1}. ${item.name}\n`;
-      message += `   SKU: ${item.sku || 'N/A'}\n`;
-      message += `   ${item.quantity} x ${siteConfig.currencySymbol} ${item.price.toFixed(2)}\n`;
-      message += `   Subtotal: ${siteConfig.currencySymbol} ${(item.price * item.quantity).toFixed(2)}\n`;
-      message += `---------------------------------------\n`;
+    if (!orderResult || !orderResult.success) {
+      alert("Failed to place your order. Please check your connection and try again.");
+      setIsSubmitting(false);
+      return; // Do NOT clear cart, do NOT open WhatsApp
+    }
+
+    // 5. Build WhatsApp Message from the SAME orderData
+    const dateFormatted = new Date(orderData.createdAt).toLocaleString("en-US", {
+      dateStyle: "medium",
+      timeStyle: "short",
     });
 
-    message += `\n[ DELIVERY DETAILS ]\n`;
-    message += `---------------------------------------\n`;
-    message += `Name     : ${formData.fullName}\n`;
-    message += `Phone    : ${formData.phone}\n`;
-    if (formData.whatsapp) message += `WhatsApp : ${formData.whatsapp}\n`;
-    message += `Address  : ${formData.address}\n`;
-    message += `City     : ${formData.city}\n`;
-    message += `District : ${formData.district}\n`;
-    if (formData.postalCode) message += `Postal   : ${formData.postalCode}\n`;
-    if (formData.googleLocation) message += `Location : ${formData.googleLocation}\n`;
-    if (formData.deliveryNotes) message += `Notes    : ${formData.deliveryNotes}\n`;
+    let message = `🛒 *NEW ORDER - ${siteConfig.companyName.toUpperCase()}*\n`;
+    message += `━━━━━━━━━━━━━━━━━━━━━\n`;
+    message += `📋 *ORDER DETAILS*\n`;
+    message += `• Order Number: ${orderData.orderNumber}\n`;
+    message += `• Date/Time: ${dateFormatted}\n\n`;
 
-    message += `\n[ PAYMENT SUMMARY ]\n`;
-    message += `---------------------------------------\n`;
-    message += `Subtotal      : ${siteConfig.currencySymbol} ${subtotal.toFixed(2)}\n`;
-    message += `Shipping Fee  : FREE (Promo)\n`;
-    if (discount > 0) message += `Discount      : -${siteConfig.currencySymbol} ${discount.toFixed(2)}\n`;
-    message += `---------------------------------------\n`;
-    message += `GRAND TOTAL   : ${siteConfig.currencySymbol} ${grandTotal.toFixed(2)}\n`;
-    message += `=======================================\n\n`;
-    message += `Please confirm my order. I have also attached the invoice image. Thank you!`;
+    message += `👤 *CUSTOMER DETAILS*\n`;
+    message += `• Name: ${orderData.customerName}\n`;
+    message += `• Phone: ${orderData.phone}\n`;
+    if (orderData.whatsapp) message += `• WhatsApp: ${orderData.whatsapp}\n`;
+    if (orderData.email) message += `• Email: ${orderData.email}\n`;
+    message += `\n`;
 
-    const encodedMessage = encodeURIComponent(message);
-    const url = `https://wa.me/${siteConfig.whatsappNumber.replace('+', '')}?text=${encodedMessage}`;
-    
+    message += `📍 *DELIVERY DETAILS*\n`;
+    message += `• Address: ${orderData.address}\n`;
+    message += `• City: ${orderData.city}\n`;
+    message += `• District: ${orderData.district}\n`;
+    if (orderData.postalCode) message += `• Postal Code: ${orderData.postalCode}\n`;
+    if (orderData.googleLocation) message += `• Google Maps: ${orderData.googleLocation}\n`;
+    if (orderData.deliveryNotes) message += `• Notes: ${orderData.deliveryNotes}\n`;
+    message += `\n`;
+
+    message += `📦 *ORDERED PRODUCTS*\n`;
+    message += `━━━━━━━━━━━━━━━━━━━━━\n`;
+    orderData.items.forEach((item, index) => {
+      message += `${index + 1}. *${item.name}*\n`;
+      message += `   • SKU: ${item.sku}\n`;
+      message += `   • Quantity: ${item.quantity}\n`;
+      message += `   • Unit Price: ${siteConfig.currencySymbol} ${item.price.toFixed(2)}\n`;
+      message += `   • Subtotal: ${siteConfig.currencySymbol} ${item.subtotal.toFixed(2)}\n`;
+    });
+    message += `━━━━━━━━━━━━━━━━━━━━━\n\n`;
+
+    message += `💰 *PAYMENT SUMMARY*\n`;
+    message += `• Subtotal: ${siteConfig.currencySymbol} ${orderData.subtotal.toFixed(2)}\n`;
+    message += `• Shipping Fee: ${siteConfig.currencySymbol} ${orderData.shippingFee.toFixed(2)} (Free Delivery Promo)\n`;
+    if (orderData.discount > 0) {
+      message += `• Discount: -${siteConfig.currencySymbol} ${orderData.discount.toFixed(2)}\n`;
+    }
+    message += `• *Final Total: ${siteConfig.currencySymbol} ${orderData.total.toFixed(2)}*\n`;
+    message += `━━━━━━━━━━━━━━━━━━━━━\n\n`;
+    message += `Please confirm my order. Thank you!`;
+
+    // 6. Generate WhatsApp URL
+    const cleanPhone = siteConfig.whatsappNumber.replace(/[^0-9]/g, "");
+    const url = `https://wa.me/${cleanPhone}?text=${encodeURIComponent(message)}`;
+
+    // 7. Update state and attempt browser-safe automatic opening
     setWhatsappUrl(url);
     setOrderPlaced(true);
-    clearCart(); // Empty the cart after ordering
+
+    try {
+      window.open(url, "_blank", "noopener,noreferrer");
+    } catch (popupErr) {
+      console.error("Automatic WhatsApp opening was blocked by browser:", popupErr);
+    }
+
+    // 8. Safely attempt optional invoice download in background
+    try {
+      const invoiceElement = document.getElementById("invoice-capture");
+      if (invoiceElement) {
+        html2canvas(invoiceElement, { backgroundColor: "#ffffff", scale: 1.5, logging: false })
+          .then((canvas) => {
+            const image = canvas.toDataURL("image/png");
+            const link = document.createElement("a");
+            link.href = image;
+            link.download = `Invoice_${orderNumber}.png`;
+            link.click();
+          })
+          .catch((canvasErr) => {
+            console.warn("Invoice image capture skipped:", canvasErr);
+          });
+      }
+    } catch (err) {
+      console.warn("Invoice generation skipped:", err);
+    }
+
+    // 9. Finish checkout & clear cart
+    clearCart();
     setIsSubmitting(false);
   };
 
@@ -201,7 +241,7 @@ export default function CheckoutPage() {
           </div>
           <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-2">Order Saved!</h2>
           <p className="text-gray-500 dark:text-gray-400 mb-8">
-            Your order has been saved securely. Please click the button below to send your details to our WhatsApp to finalize the purchase.
+            Your order has been saved securely. If WhatsApp didn&apos;t open automatically, please click the button below to send your order details.
           </p>
           <a 
             href={whatsappUrl}
@@ -380,7 +420,7 @@ export default function CheckoutPage() {
                     <span className="bg-red-100 text-red-600 text-[10px] font-bold px-2 py-0.5 rounded-full uppercase animate-pulse">Promo</span>
                   </span>
                   <div className="flex flex-col items-end">
-                    <span className="font-medium line-through text-xs text-gray-400">{siteConfig.currencySymbol} {shippingFee.toFixed(2)}</span>
+                    <span className="font-medium line-through text-xs text-gray-400">{siteConfig.currencySymbol} {standardShippingFee.toFixed(2)}</span>
                     <span className="font-bold text-green-500">FREE</span>
                   </div>
                 </div>

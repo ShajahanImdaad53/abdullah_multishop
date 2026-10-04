@@ -6,7 +6,7 @@ import { revalidatePath } from "next/cache";
 
 export async function createOrder(data: any) {
   try {
-    const orderRef = await addDoc(collection(db, "orders"), {
+    const firestoreWrite = addDoc(collection(db, "orders"), {
       orderNumber: data.orderNumber,
       customerName: data.customerName,
       phone: data.phone,
@@ -17,21 +17,28 @@ export async function createOrder(data: any) {
       district: data.district,
       postalCode: data.postalCode || "",
       deliveryNotes: data.deliveryNotes || "",
-      subtotal: data.subtotal,
-      shippingFee: data.shippingFee,
-      discount: data.discount,
-      total: data.total,
+      googleLocation: data.googleLocation || "",
+      subtotal: Number(data.subtotal) || 0,
+      shippingFee: Number(data.shippingFee) || 0,
+      discount: Number(data.discount) || 0,
+      total: Number(data.total) || 0,
       status: "PENDING",
-      createdAt: new Date().toISOString(),
-      items: data.items.map((item: any) => ({
-        productId: item.id,
+      createdAt: data.createdAt || new Date().toISOString(),
+      items: (data.items || []).map((item: any) => ({
+        productId: item.productId || item.id || "",
         name: item.name || "Product",
         sku: item.sku || "N/A",
-        quantity: item.quantity,
-        price: item.price,
-        subtotal: item.price * item.quantity
+        quantity: Number(item.quantity) || 1,
+        price: Number(item.price) || 0,
+        subtotal: item.subtotal !== undefined ? Number(item.subtotal) : (Number(item.price) || 0) * (Number(item.quantity) || 1)
       }))
     });
+
+    const timeoutPromise = new Promise<{ id: string }>((_, reject) =>
+      setTimeout(() => reject(new Error("Firestore write timed out")), 5000)
+    );
+
+    const orderRef = await Promise.race([firestoreWrite, timeoutPromise]);
     return { success: true, orderId: orderRef.id };
   } catch (error) {
     console.error("Error creating order in Firebase:", error);
