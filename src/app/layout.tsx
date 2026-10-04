@@ -26,21 +26,23 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={`${inter.className} min-h-screen flex bg-gray-50 dark:bg-[#060d1f] dark:text-gray-100 transition-colors duration-300`}>
+      <body className={`${inter.className} min-h-screen flex flex-col bg-gray-50 dark:bg-[#060d1f] dark:text-gray-100 transition-colors duration-300`}>
         <ThemeProvider
           attribute="class"
           defaultTheme="light"
           enableSystem
           disableTransitionOnChange={false}
         >
-          <LeftFloatingNav />
-          <MainContentWrapper>
-            <Header />
-            <main className="flex-1 w-full">
-              {children}
-            </main>
-            <Footer />
-          </MainContentWrapper>
+          <Header />
+          <div className="flex-1 flex w-full relative">
+            <LeftFloatingNav />
+            <MainContentWrapper>
+              <main className="flex-1 w-full">
+                {children}
+              </main>
+              <Footer />
+            </MainContentWrapper>
+          </div>
           <BottomNav />
         </ThemeProvider>
       </body>
