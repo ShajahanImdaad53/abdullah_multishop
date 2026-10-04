@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react";
 import { siteConfig } from "@/config/site";
-import Image from "next/image";
+import { ProductImage } from "@/components/ui/ProductImage";
 import { ShieldCheck, MapPin, Loader2 } from "lucide-react";
 import { useCartStore } from "@/store/useCartStore";
 import Link from "next/link";
@@ -382,7 +382,7 @@ export default function CheckoutPage() {
                 {cartItems.map((item) => (
                   <div key={item.id} className="flex gap-3">
                     <div className="w-12 h-12 relative bg-gray-50 dark:bg-[#060d1f] rounded border border-gray-200 dark:border-white/10 overflow-hidden shrink-0">
-                      <Image src={item.image} alt={item.name} fill className="object-contain p-1" />
+                      <ProductImage src={item.image} alt={item.name} fill className="object-contain p-1" />
                     </div>
                     <div className="flex-1 text-sm min-w-0">
                       <h4 className="font-semibold text-gray-800 dark:text-gray-200 line-clamp-2 leading-tight">{item.name}</h4>

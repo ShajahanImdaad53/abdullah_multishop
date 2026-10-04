@@ -3,7 +3,7 @@ export const products =
   {
     "id": "daraz_file_1",
     "name": "Premium Zip Closure Document File Folder | Office Document Holder",
-    "image": "https://images.unsplash.com/photo-1544473244-f6895e69da8e?w=800&q=80",
+    "image": "https://images.unsplash.com/photo-1628126235206-5260b9ea6441?w=800&q=80",
     "price": 1067,
     "brand": "Daraz",
     "category": "File"
@@ -35,7 +35,7 @@ export const products =
   {
     "id": "daraz_file_5",
     "name": "Certificate File holder ( 10/20/30/40-Pockets )",
-    "image": "https://images.unsplash.com/photo-1544473244-f6895e69da8e?w=800&q=80",
+    "image": "https://images.unsplash.com/photo-1628126235206-5260b9ea6441?w=800&q=80",
     "price": 750,
     "brand": "Daraz",
     "category": "File"
@@ -75,7 +75,7 @@ export const products =
   {
     "id": "daraz_file_10",
     "name": "Mini Zip File | Office Document Holder",
-    "image": "https://images.unsplash.com/photo-1544473244-f6895e69da8e?w=800&q=80",
+    "image": "https://images.unsplash.com/photo-1628126235206-5260b9ea6441?w=800&q=80",
     "price": 922,
     "brand": "Daraz",
     "category": "File"
@@ -115,7 +115,7 @@ export const products =
   {
     "id": "atlas_p_all_4",
     "name": "Atlas myshop Gift voucher Rs 1000  Printed",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2026/04/Atlas-myshop-Gift-voucher-Rs-1000-printed.jpg",
+    "image": "/products/Atlas-myshop-Gift-voucher-Rs-1000-printed.jpg",
     "price": 1000,
     "brand": "Atlas",
     "category": "Books & Supplies"
@@ -123,7 +123,7 @@ export const products =
   {
     "id": "atlas_p_all_5",
     "name": "Atlas Myshop Gift voucher Rs 5000  Printed",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2026/04/Atlas-myshop-Gift-voucher-Rs-5000-printed.jpg",
+    "image": "/products/Atlas-myshop-Gift-voucher-Rs-5000-printed.jpg",
     "price": 5000,
     "brand": "Atlas",
     "category": "Books & Supplies"
@@ -131,7 +131,7 @@ export const products =
   {
     "id": "atlas_p_all_6",
     "name": "Mega Blocks 30 Pieces",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2026/07/WF9020104.jpg",
+    "image": "/products/WF9020104.jpg",
     "price": 1600,
     "brand": "Atlas",
     "category": "Books & Supplies"
@@ -139,7 +139,7 @@ export const products =
   {
     "id": "atlas_p_all_7",
     "name": "Raze by Atlas",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2026/03/WFO410103.jpg",
+    "image": "/products/WFO410103.jpg",
     "price": 350,
     "brand": "Atlas",
     "category": "Books & Supplies"
@@ -163,7 +163,7 @@ export const products =
   {
     "id": "atlas_p_all_10",
     "name": "Dino Egg  Mechanical",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2026/03/TT4000108-1.jpg",
+    "image": "/products/TT4000108-1.jpg",
     "price": 490,
     "brand": "Atlas",
     "category": "Books & Supplies"
@@ -171,7 +171,7 @@ export const products =
   {
     "id": "atlas_p_all_11",
     "name": "Dino Egg  Stimulator",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2026/03/TT4000107-1.jpg",
+    "image": "/products/TT4000107-1.jpg",
     "price": 490,
     "brand": "Atlas",
     "category": "Books & Supplies"
@@ -179,7 +179,7 @@ export const products =
   {
     "id": "atlas_p_all_12",
     "name": "Animal Building Block",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2026/03/TT4000205-1.jpg",
+    "image": "/products/TT4000205-1.jpg",
     "price": 260,
     "brand": "Atlas",
     "category": "Books & Supplies"
@@ -187,7 +187,7 @@ export const products =
   {
     "id": "atlas_p_all_13",
     "name": "Atl SFY Exam Writer pencil 12pkt  0280",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2025/10/WF7043101.jpg",
+    "image": "/products/WF7043101.jpg",
     "price": 600,
     "brand": "Atlas",
     "category": "Books & Supplies"
@@ -195,7 +195,7 @@ export const products =
   {
     "id": "atlas_p_all_14",
     "name": "Atlas Active Fit School Bag Black L C1",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2025/11/GF7001401-21-min.jpg",
+    "image": "/products/GF7001401-21-min.jpg",
     "price": 3300,
     "brand": "Atlas",
     "category": "Books & Supplies"
@@ -203,7 +203,7 @@ export const products =
   {
     "id": "atlas_p_all_15",
     "name": "Atlas Active Fit School Bag Black L C2",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2025/11/GF7001402-31-min.jpg",
+    "image": "/products/GF7001402-31-min.jpg",
     "price": 3300,
     "brand": "Atlas",
     "category": "Books & Supplies"
@@ -211,7 +211,7 @@ export const products =
   {
     "id": "atlas_p_all_16",
     "name": "Atlas Active Fit School Bag Blue L C1",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2025/09/GF7001405-11-min.jpg",
+    "image": "/products/GF7001405-11-min.jpg",
     "price": 3300,
     "brand": "Atlas",
     "category": "Books & Supplies"
@@ -219,7 +219,7 @@ export const products =
   {
     "id": "atlas_p_all_17",
     "name": "Atlas Colour Paper A4  Blue",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2025/12/PF0083228.jpg",
+    "image": "/products/PF0083228.jpg",
     "price": 660,
     "brand": "Atlas",
     "category": "Books & Supplies"
@@ -227,7 +227,7 @@ export const products =
   {
     "id": "atlas_p_all_18",
     "name": "Atlas Colour Paper A4  Green",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2025/12/PF0083227.jpg",
+    "image": "/products/PF0083227.jpg",
     "price": 660,
     "brand": "Atlas",
     "category": "Books & Supplies"
@@ -235,7 +235,7 @@ export const products =
   {
     "id": "atlas_p_all_19",
     "name": "Atlas Colour Paper A4  Orange",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2025/12/PF0083225.jpg",
+    "image": "/products/PF0083225.jpg",
     "price": 660,
     "brand": "Atlas",
     "category": "Books & Supplies"
@@ -243,7 +243,7 @@ export const products =
   {
     "id": "atlas_p_all_20",
     "name": "Atlas Colour Paper A4  Pink",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2025/12/PF0083229.jpg",
+    "image": "/products/PF0083229.jpg",
     "price": 750,
     "brand": "Atlas",
     "category": "Books & Supplies"
@@ -251,7 +251,7 @@ export const products =
   {
     "id": "atlas_p_all_21",
     "name": "Atlas Colour Paper A4  Red",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2025/12/PF0083226.jpg",
+    "image": "/products/PF0083226.jpg",
     "price": 660,
     "brand": "Atlas",
     "category": "Books & Supplies"
@@ -259,7 +259,7 @@ export const products =
   {
     "id": "atlas_p_all_22",
     "name": "Atlas Colour Paper A4  Yellow",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2025/12/PF0083224.jpg",
+    "image": "/products/PF0083224.jpg",
     "price": 660,
     "brand": "Atlas",
     "category": "Books & Supplies"
@@ -267,7 +267,7 @@ export const products =
   {
     "id": "atlas_p_all_23",
     "name": "Atlas Glyde Pen Black",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2026/01/WF2350202.jpg",
+    "image": "/products/WF2350202.jpg",
     "price": 40,
     "brand": "Atlas",
     "category": "Books & Supplies"
@@ -275,7 +275,7 @@ export const products =
   {
     "id": "atlas_p_all_24",
     "name": "Atlas Glyde Pen Blue",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2026/01/WF2350201.jpg",
+    "image": "/products/WF2350201.jpg",
     "price": 40,
     "brand": "Atlas",
     "category": "Books & Supplies"
@@ -283,7 +283,7 @@ export const products =
   {
     "id": "atlas_p_all_25",
     "name": "Atlas Lunch Box Luncher Pro Divider-0018",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2025/09/WF7240115-3.jpg",
+    "image": "/products/WF7240115-3.jpg",
     "price": 1850,
     "brand": "Atlas",
     "category": "Books & Supplies"
@@ -291,7 +291,7 @@ export const products =
   {
     "id": "atlas_p_all_26",
     "name": "Atlas Lunch Box Snacker-0036",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2025/09/Snacker-group-copy.png",
+    "image": "/products/Snacker-group-copy.png",
     "price": 380,
     "brand": "Atlas",
     "category": "Books & Supplies"
@@ -299,7 +299,7 @@ export const products =
   {
     "id": "atlas_p_all_27",
     "name": "Coloursand Activity Pack  Prince and the Dragon",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2025/07/WF9030202.jpg",
+    "image": "/products/WF9030202.jpg",
     "price": 1490,
     "brand": "Atlas",
     "category": "Books & Supplies"
@@ -307,7 +307,7 @@ export const products =
   {
     "id": "atlas_p_all_28",
     "name": "Coloursand Activity Pack  Tortoise and the Hare",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2025/07/WF9030204.jpg",
+    "image": "/products/WF9030204.jpg",
     "price": 1490,
     "brand": "Atlas",
     "category": "Books & Supplies"
@@ -315,7 +315,7 @@ export const products =
   {
     "id": "atlas_p_all_29",
     "name": "Eco Block bag",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2025/08/TT4020202.jpg",
+    "image": "/products/TT4020202.jpg",
     "price": 1090,
     "brand": "Atlas",
     "category": "Books & Supplies"
@@ -323,7 +323,7 @@ export const products =
   {
     "id": "atlas_p_all_30",
     "name": "Eco Block car",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2025/08/TT4020201.jpg",
+    "image": "/products/TT4020201.jpg",
     "price": 990,
     "brand": "Atlas",
     "category": "Books & Supplies"
@@ -331,7 +331,7 @@ export const products =
   {
     "id": "atlas_p_all_31",
     "name": "Innovate Pen Akuru Blue",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2025/07/WF2331901-1.jpg",
+    "image": "/products/WF2331901-1.jpg",
     "price": 150,
     "brand": "Innovate",
     "category": "Books & Supplies"
@@ -339,7 +339,7 @@ export const products =
   {
     "id": "atlas_p_all_32",
     "name": "JK Sparkle  A4 70GSM",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2025/09/TT0011001.jpg",
+    "image": "/products/TT0011001.jpg",
     "price": 1240.6,
     "brand": "Atlas",
     "category": "Books & Supplies"
@@ -347,7 +347,7 @@ export const products =
   {
     "id": "atlas_p_all_33",
     "name": "JK Sparkle  A4 75GSM",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2025/09/TT0011002.jpg",
+    "image": "/products/TT0011002.jpg",
     "price": 1359.02,
     "brand": "Atlas",
     "category": "Books & Supplies"
@@ -355,7 +355,7 @@ export const products =
   {
     "id": "atlas_p_all_34",
     "name": "JK Sparkle  A4 80GSM",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2025/09/TT0011003.jpg",
+    "image": "/products/TT0011003.jpg",
     "price": 1422.31,
     "brand": "Atlas",
     "category": "Books & Supplies"
@@ -363,7 +363,7 @@ export const products =
   {
     "id": "atlas_p_all_35",
     "name": "Kinetic Sand",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2025/10/Kinetic_sand_1.jpg",
+    "image": "/products/Kinetic_sand_1.jpg",
     "price": 490,
     "brand": "Atlas",
     "category": "Books & Supplies"
@@ -371,7 +371,7 @@ export const products =
   {
     "id": "atlas_p_all_36",
     "name": "PP Eduaids Flash Card Fruits20  0048",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2025/09/PF8000117.jpg",
+    "image": "/products/PF8000117.jpg",
     "price": 290,
     "brand": "Atlas",
     "category": "Books & Supplies"
@@ -379,7 +379,7 @@ export const products =
   {
     "id": "atlas_p_all_37",
     "name": "PP Eduaids Flash Card Numbers20  0048",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2025/09/PF8000120.jpg",
+    "image": "/products/PF8000120.jpg",
     "price": 290,
     "brand": "Atlas",
     "category": "Books & Supplies"
@@ -395,7 +395,7 @@ export const products =
   {
     "id": "atlas_p_all_39",
     "name": "3D Puzzle Insects",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2024/10/TT4020115.jpg",
+    "image": "/products/TT4020115.jpg",
     "price": 2690,
     "brand": "Atlas",
     "category": "Books & Supplies"
@@ -403,7 +403,7 @@ export const products =
   {
     "id": "atlas_p_all_40",
     "name": "3D Puzzle Sea Creatures",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2024/10/TT4020116.jpg",
+    "image": "/products/TT4020116.jpg",
     "price": 2690,
     "brand": "Atlas",
     "category": "Books & Supplies"
@@ -411,7 +411,7 @@ export const products =
   {
     "id": "atlas_p_all_41",
     "name": "3D Puzzle Transport",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2024/10/TT4020114.jpg",
+    "image": "/products/TT4020114.jpg",
     "price": 2690,
     "brand": "Atlas",
     "category": "Books & Supplies"
@@ -427,7 +427,7 @@ export const products =
   {
     "id": "atlas_p_all_43",
     "name": "Atlas Book Science Botany 40Pgs",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2025/06/PF0042105.jpg",
+    "image": "/products/PF0042105.jpg",
     "price": 135,
     "brand": "Atlas",
     "category": "Books & Supplies"
@@ -435,7 +435,7 @@ export const products =
   {
     "id": "atlas_p_all_44",
     "name": "Atlas Calculator AT2276C",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2025/02/AT-2276C_front_.jpg",
+    "image": "/products/AT-2276C_front_.jpg",
     "price": 2100,
     "brand": "Atlas",
     "category": "Books & Supplies"
@@ -443,7 +443,7 @@ export const products =
   {
     "id": "atlas_p_all_45",
     "name": "Atlas Colour SparX Pastel 12 Colours",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2024/07/GF4001118-5.jpg",
+    "image": "/products/GF4001118-5.jpg",
     "price": 250,
     "brand": "Atlas",
     "category": "Books & Supplies"
@@ -451,7 +451,7 @@ export const products =
   {
     "id": "atlas_p_all_46",
     "name": "Atlas Lunch Box Luncher Pro",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2024/10/WF7240114.jpg",
+    "image": "/products/WF7240114.jpg",
     "price": 1750,
     "brand": "Atlas",
     "category": "Books & Supplies"
@@ -475,7 +475,7 @@ export const products =
   {
     "id": "atlas_p_all_49",
     "name": "Atlas SparX Crayon 12 colours",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2024/09/TT0260601.jpg",
+    "image": "/products/TT0260601.jpg",
     "price": 420,
     "brand": "Atlas",
     "category": "Books & Supplies"
@@ -483,7 +483,7 @@ export const products =
   {
     "id": "atlas_p_all_50",
     "name": "Atlas Water colour cake 12 Colours",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2024/09/TT0390104.jpg",
+    "image": "/products/TT0390104.jpg",
     "price": 375,
     "brand": "Atlas",
     "category": "Books & Supplies"
@@ -491,7 +491,7 @@ export const products =
   {
     "id": "atlas_p_all_51",
     "name": "Blocks Mega Pre 100",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2024/07/WF9020102-A.jpg",
+    "image": "/products/WF9020102-A.jpg",
     "price": 6290,
     "brand": "Atlas",
     "category": "Books & Supplies"
@@ -499,7 +499,7 @@ export const products =
   {
     "id": "atlas_p_all_52",
     "name": "Blocks Mega Pre 150",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2024/07/WF9020103-A.jpg",
+    "image": "/products/WF9020103-A.jpg",
     "price": 8490,
     "brand": "Atlas",
     "category": "Books & Supplies"
@@ -507,7 +507,7 @@ export const products =
   {
     "id": "atlas_p_all_53",
     "name": "Blocks Mega Pre 50",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2024/07/WF9020101-A.jpg",
+    "image": "/products/WF9020101-A.jpg",
     "price": 3490,
     "brand": "Atlas",
     "category": "Books & Supplies"
@@ -515,7 +515,7 @@ export const products =
   {
     "id": "atlas_p_all_54",
     "name": "Chunky Puzzle Professions",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2024/10/TT4020113.jpg",
+    "image": "/products/TT4020113.jpg",
     "price": 1990,
     "brand": "Atlas",
     "category": "Books & Supplies"
@@ -523,7 +523,7 @@ export const products =
   {
     "id": "atlas_p_all_55",
     "name": "Eduaids Flash Card Birds",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2024/07/PF8000105-A.jpg",
+    "image": "/products/PF8000105-A.jpg",
     "price": 290,
     "brand": "Atlas",
     "category": "Books & Supplies"
@@ -531,7 +531,7 @@ export const products =
   {
     "id": "atlas_p_all_56",
     "name": "Eduaids Flash Card English",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2024/07/PF8000101-A-min.jpg",
+    "image": "/products/PF8000101-A-min.jpg",
     "price": 490,
     "brand": "Atlas",
     "category": "Books & Supplies"
@@ -539,7 +539,7 @@ export const products =
   {
     "id": "atlas_p_all_57",
     "name": "Eduaids Flash Card Sea Animals",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2024/07/PF8000106-A.jpg",
+    "image": "/products/PF8000106-A.jpg",
     "price": 290,
     "brand": "Atlas",
     "category": "Books & Supplies"
@@ -547,7 +547,7 @@ export const products =
   {
     "id": "atlas_p_all_58",
     "name": "Eduaids Flash Card Sinhala",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2024/07/PF8000102-A.jpg",
+    "image": "/products/PF8000102-A.jpg",
     "price": 490,
     "brand": "Atlas",
     "category": "Books & Supplies"
@@ -555,7 +555,7 @@ export const products =
   {
     "id": "atlas_p_all_59",
     "name": "Eduaids Flash Card Tamil",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2024/07/PF8000103-A.jpg",
+    "image": "/products/PF8000103-A.jpg",
     "price": 490,
     "brand": "Atlas",
     "category": "Books & Supplies"
@@ -563,7 +563,7 @@ export const products =
   {
     "id": "atlas_p_all_60",
     "name": "Eduaids Puzzles 2 Letter Words Sinhala",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2024/07/PF8000205-A.jpg",
+    "image": "/products/PF8000205-A.jpg",
     "price": 1490,
     "brand": "Atlas",
     "category": "Books & Supplies"
@@ -571,7 +571,7 @@ export const products =
   {
     "id": "atlas_p_all_61",
     "name": "Eduaids Puzzles 2 Letter Words Tamil",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2024/07/PF8000209-A.jpg",
+    "image": "/products/PF8000209-A.jpg",
     "price": 1490,
     "brand": "Atlas",
     "category": "Books & Supplies"
@@ -579,7 +579,7 @@ export const products =
   {
     "id": "atlas_p_all_62",
     "name": "Eduaids Puzzles 3 Letter Words English",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2024/07/PF8000207-A.jpg",
+    "image": "/products/PF8000207-A.jpg",
     "price": 1490,
     "brand": "Atlas",
     "category": "Books & Supplies"
@@ -587,7 +587,7 @@ export const products =
   {
     "id": "atlas_p_all_63",
     "name": "Eduaids Puzzles 3 Letter Words Sinhala",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2024/07/PF8000206-A.jpg",
+    "image": "/products/PF8000206-A.jpg",
     "price": 1490,
     "brand": "Atlas",
     "category": "Books & Supplies"
@@ -595,7 +595,7 @@ export const products =
   {
     "id": "atlas_p_all_64",
     "name": "Eduaids Puzzles 3 Letter Words Tamil",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2024/07/PF8000210-A.jpg",
+    "image": "/products/PF8000210-A.jpg",
     "price": 1490,
     "brand": "Atlas",
     "category": "Books & Supplies"
@@ -603,7 +603,7 @@ export const products =
   {
     "id": "atlas_p_all_65",
     "name": "Eduaids Puzzles 4 Letter Words English",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2024/07/PF8000208-A.jpg",
+    "image": "/products/PF8000208-A.jpg",
     "price": 1490,
     "brand": "Atlas",
     "category": "Books & Supplies"
@@ -611,7 +611,7 @@ export const products =
   {
     "id": "atlas_p_all_66",
     "name": "Eduaids Puzzles Action Words",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2024/07/PF8000204-A.jpg",
+    "image": "/products/PF8000204-A.jpg",
     "price": 750,
     "brand": "Atlas",
     "category": "Books & Supplies"
@@ -619,7 +619,7 @@ export const products =
   {
     "id": "atlas_p_all_67",
     "name": "Eduaids Puzzles One and Many",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2024/07/PF8000203-A.jpg",
+    "image": "/products/PF8000203-A.jpg",
     "price": 750,
     "brand": "Atlas",
     "category": "Books & Supplies"
@@ -627,7 +627,7 @@ export const products =
   {
     "id": "atlas_p_all_68",
     "name": "Eduaids Puzzles Opposite",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2024/07/PF8000202-A.jpg",
+    "image": "/products/PF8000202-A.jpg",
     "price": 750,
     "brand": "Atlas",
     "category": "Books & Supplies"
@@ -635,7 +635,7 @@ export const products =
   {
     "id": "atlas_p_all_69",
     "name": "Eduaids Puzzles Synonyms",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2024/07/PF8000201-A.jpg",
+    "image": "/products/PF8000201-A.jpg",
     "price": 750,
     "brand": "Atlas",
     "category": "Books & Supplies"
@@ -643,7 +643,7 @@ export const products =
   {
     "id": "atlas_p_all_70",
     "name": "Finger Paints 6 Pack 30ml",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2024/07/TT4000103-A.jpg",
+    "image": "/products/TT4000103-A.jpg",
     "price": 1190,
     "brand": "Atlas",
     "category": "Books & Supplies"
@@ -651,7 +651,7 @@ export const products =
   {
     "id": "atlas_p_all_71",
     "name": "Finger Paints 6 Pack 75ml",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2024/07/TT4000104-A.jpg",
+    "image": "/products/TT4000104-A.jpg",
     "price": 2150,
     "brand": "Atlas",
     "category": "Books & Supplies"
@@ -691,7 +691,7 @@ export const products =
   {
     "id": "atlas_p_all_76",
     "name": "Innovate Book Divder CR Single Rule 240pg-0012",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2024/12/PF0034003.jpg",
+    "image": "/products/PF0034003.jpg",
     "price": 1000,
     "brand": "Innovate",
     "category": "Books & Supplies"
@@ -699,7 +699,7 @@ export const products =
   {
     "id": "atlas_p_all_77",
     "name": "Innovate Book Exe Single Rule 120Pgs-0100",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2024/12/PF0013328-1.jpg",
+    "image": "/products/PF0013328-1.jpg",
     "price": 165,
     "brand": "Innovate",
     "category": "Books & Supplies"
@@ -707,7 +707,7 @@ export const products =
   {
     "id": "atlas_p_all_78",
     "name": "Innovate Book Exe Single Rule 80pgs -0144",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2024/06/PF0013052.jpg",
+    "image": "/products/PF0013052.jpg",
     "price": 100,
     "brand": "Innovate",
     "category": "Books & Supplies"
@@ -715,7 +715,7 @@ export const products =
   {
     "id": "atlas_p_all_79",
     "name": "Innovate Book Spiral Exe Single Rule 120Pg-0060",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2024/12/PF0013345-1.jpg",
+    "image": "/products/PF0013345-1.jpg",
     "price": 400,
     "brand": "Innovate",
     "category": "Books & Supplies"
@@ -723,7 +723,7 @@ export const products =
   {
     "id": "atlas_p_all_80",
     "name": "Innovate Book Spiral B5 Single Ruled 120Pg-0030",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2024/12/PF0183311-1.jpg",
+    "image": "/products/PF0183311-1.jpg",
     "price": 600,
     "brand": "Innovate",
     "category": "Books & Supplies"
@@ -731,7 +731,7 @@ export const products =
   {
     "id": "atlas_p_all_81",
     "name": "Innovate Book Spiral CR Single Ruled 120Pg-0030",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2024/12/PF0033329-1.jpg",
+    "image": "/products/PF0033329-1.jpg",
     "price": 800,
     "brand": "Innovate",
     "category": "Books & Supplies"
@@ -739,7 +739,7 @@ export const products =
   {
     "id": "atlas_p_all_82",
     "name": "PP Eduaids Flash Card Vegetables",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2024/07/PF8000108-A.jpg",
+    "image": "/products/PF8000108-A.jpg",
     "price": 290,
     "brand": "Atlas",
     "category": "Books & Supplies"
@@ -747,7 +747,7 @@ export const products =
   {
     "id": "atlas_p_all_83",
     "name": "Wooden Puzzle Animals",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2024/10/TT4020101.jpg",
+    "image": "/products/TT4020101.jpg",
     "price": 1390,
     "brand": "Atlas",
     "category": "Books & Supplies"
@@ -755,7 +755,7 @@ export const products =
   {
     "id": "atlas_p_all_84",
     "name": "Wooden Puzzle Farm Animals",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2024/10/TT4020112.jpg",
+    "image": "/products/TT4020112.jpg",
     "price": 1790,
     "brand": "Atlas",
     "category": "Books & Supplies"
@@ -763,7 +763,7 @@ export const products =
   {
     "id": "atlas_p_all_85",
     "name": "Wooden Puzzle Insects",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2024/10/TT4020110.jpg",
+    "image": "/products/TT4020110.jpg",
     "price": 1790,
     "brand": "Atlas",
     "category": "Books & Supplies"
@@ -771,7 +771,7 @@ export const products =
   {
     "id": "atlas_p_all_86",
     "name": "Wooden Puzzle Public Transport",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2024/10/TT4020106.jpg",
+    "image": "/products/TT4020106.jpg",
     "price": 1390,
     "brand": "Atlas",
     "category": "Books & Supplies"
@@ -779,7 +779,7 @@ export const products =
   {
     "id": "atlas_p_all_87",
     "name": "Wooden Puzzle Sea Animals",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2024/10/TT4020103.jpg",
+    "image": "/products/TT4020103.jpg",
     "price": 1390,
     "brand": "Atlas",
     "category": "Books & Supplies"
@@ -787,7 +787,7 @@ export const products =
   {
     "id": "atlas_p_all_88",
     "name": "Wooden Puzzle Tamil Alphabet",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2024/10/TT4020109.jpg",
+    "image": "/products/TT4020109.jpg",
     "price": 2690,
     "brand": "Atlas",
     "category": "Books & Supplies"
@@ -795,7 +795,7 @@ export const products =
   {
     "id": "atlas_p_all_89",
     "name": "Wooden Puzzle Wild Animals",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2024/10/TT4020111.jpg",
+    "image": "/products/TT4020111.jpg",
     "price": 1790,
     "brand": "Atlas",
     "category": "Books & Supplies"
@@ -803,7 +803,7 @@ export const products =
   {
     "id": "atlas_p_all_90",
     "name": "Atl Eraser AH30 big mistake",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2022/10/TT0020201-1.jpg",
+    "image": "/products/TT0020201-1.jpg",
     "price": 600,
     "brand": "Atlas",
     "category": "Books & Supplies"
@@ -811,7 +811,7 @@ export const products =
   {
     "id": "atlas_p_all_91",
     "name": "Atl Eraser AH30 real big mistake  3 in 1",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2022/10/WF7140202.jpg",
+    "image": "/products/WF7140202.jpg",
     "price": 100,
     "brand": "Atlas",
     "category": "Books & Supplies"
@@ -819,7 +819,7 @@ export const products =
   {
     "id": "atlas_p_all_92",
     "name": "Atl Finelighter Green",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2021/08/WF7020201-min.jpg",
+    "image": "/products/WF7020201-min.jpg",
     "price": 120,
     "brand": "Atlas",
     "category": "Books & Supplies"
@@ -827,7 +827,7 @@ export const products =
   {
     "id": "atlas_p_all_93",
     "name": "Atl Finelighter Orange",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2021/08/WF7020202-min.jpg",
+    "image": "/products/WF7020202-min.jpg",
     "price": 120,
     "brand": "Atlas",
     "category": "Books & Supplies"
@@ -835,7 +835,7 @@ export const products =
   {
     "id": "atlas_p_all_94",
     "name": "Atl Finelighter Pink",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2021/08/WF7020203-min.jpg",
+    "image": "/products/WF7020203-min.jpg",
     "price": 120,
     "brand": "Atlas",
     "category": "Books & Supplies"
@@ -843,7 +843,7 @@ export const products =
   {
     "id": "atlas_p_all_95",
     "name": "Atl Finelighter Yellow",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2021/08/WF7020204-min.jpg",
+    "image": "/products/WF7020204-min.jpg",
     "price": 120,
     "brand": "Atlas",
     "category": "Books & Supplies"
@@ -851,7 +851,7 @@ export const products =
   {
     "id": "atlas_p_all_96",
     "name": "Atl Pen Chooty Black",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2021/07/WF2002405.jpg",
+    "image": "/products/WF2002405.jpg",
     "price": 35,
     "brand": "Atlas",
     "category": "Books & Supplies"
@@ -859,7 +859,7 @@ export const products =
   {
     "id": "atlas_p_all_97",
     "name": "Atlas Pen  Chooty Red",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2022/01/WF2001903.jpg",
+    "image": "/products/WF2001903.jpg",
     "price": 35,
     "brand": "Atlas",
     "category": "Books & Supplies"
@@ -867,7 +867,7 @@ export const products =
   {
     "id": "atlas_p_all_98",
     "name": "Atl Pencil SFY Ewriter 2B-12Pkt-0240",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2022/04/WF7042702-1.jpg",
+    "image": "/products/WF7042702-1.jpg",
     "price": 600,
     "brand": "Atlas",
     "category": "Books & Supplies"
@@ -875,7 +875,7 @@ export const products =
   {
     "id": "atlas_p_all_99",
     "name": "Atl scissor fun cut",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2022/10/WF7090302.jpg",
+    "image": "/products/WF7090302.jpg",
     "price": 145,
     "brand": "Atlas",
     "category": "Books & Supplies"
@@ -883,7 +883,7 @@ export const products =
   {
     "id": "atlas_book_new_1790251932184_5630",
     "name": "Atlas Book Science Botany 40Pgs",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2025/06/PF0042105.jpg",
+    "image": "/products/PF0042105.jpg",
     "price": 135,
     "brand": "Atlas",
     "category": "Books"
@@ -891,7 +891,7 @@ export const products =
   {
     "id": "atlas_book_new_1790251932184_4804",
     "name": "Innovate Book Divder CR Single Rule 240pg-0012",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2024/12/PF0034003.jpg",
+    "image": "/products/PF0034003.jpg",
     "price": 1000,
     "brand": "Innovate",
     "category": "Books"
@@ -899,7 +899,7 @@ export const products =
   {
     "id": "atlas_book_new_1790251932184_7362",
     "name": "Innovate Book Exe Single Rule 120Pgs-0100",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2024/12/PF0013328-1.jpg",
+    "image": "/products/PF0013328-1.jpg",
     "price": 165,
     "brand": "Innovate",
     "category": "Books"
@@ -907,7 +907,7 @@ export const products =
   {
     "id": "atlas_book_new_1790251932185_7190",
     "name": "Innovate Book Exe Single Rule 80pgs -0144",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2024/06/PF0013052.jpg",
+    "image": "/products/PF0013052.jpg",
     "price": 100,
     "brand": "Innovate",
     "category": "Books"
@@ -915,7 +915,7 @@ export const products =
   {
     "id": "atlas_book_new_1790251932185_6109",
     "name": "Innovate Book Spiral Exe Single Rule 120Pg-0060",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2024/12/PF0013345-1.jpg",
+    "image": "/products/PF0013345-1.jpg",
     "price": 400,
     "brand": "Innovate",
     "category": "Books"
@@ -923,7 +923,7 @@ export const products =
   {
     "id": "atlas_book_new_1790251932185_3792",
     "name": "Innovate Book Spiral B5 Single Ruled 120Pg-0030",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2024/12/PF0183311-1.jpg",
+    "image": "/products/PF0183311-1.jpg",
     "price": 600,
     "brand": "Innovate",
     "category": "Books"
@@ -931,7 +931,7 @@ export const products =
   {
     "id": "atlas_book_new_1790251932185_5519",
     "name": "Innovate Book Spiral CR Single Ruled 120Pg-0030",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2024/12/PF0033329-1.jpg",
+    "image": "/products/PF0033329-1.jpg",
     "price": 800,
     "brand": "Innovate",
     "category": "Books"
@@ -939,7 +939,7 @@ export const products =
   {
     "id": "atlas_book_new_1790251932186_1017",
     "name": "Atlas A5 Spiral Notebook 100pgs",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2021/06/PF0063211-min.jpg",
+    "image": "/products/PF0063211-min.jpg",
     "price": 230,
     "brand": "Atlas",
     "category": "Books"
@@ -947,7 +947,7 @@ export const products =
   {
     "id": "atlas_book_new_1790251932186_9239",
     "name": "Atlas A4 Drawing Book Small 20Pgs",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0051501-min.jpg",
+    "image": "/products/PF0051501-min.jpg",
     "price": 80,
     "brand": "Atlas",
     "category": "Books"
@@ -955,7 +955,7 @@ export const products =
   {
     "id": "atlas_book_new_1790251932186_4559",
     "name": "Atlas A4 Drawing Book Small 40Pgs",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0052101-min.jpg",
+    "image": "/products/PF0052101-min.jpg",
     "price": 120,
     "brand": "Atlas",
     "category": "Books"
@@ -963,7 +963,7 @@ export const products =
   {
     "id": "atlas_book_new_1790251932186_3959",
     "name": "Atlas A4 Black Drawing Book Small 40Pgs",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0072101-min.jpg",
+    "image": "/products/PF0072101-min.jpg",
     "price": 240,
     "brand": "Atlas",
     "category": "Books"
@@ -971,7 +971,7 @@ export const products =
   {
     "id": "atlas_book_new_1790251932186_7454",
     "name": "Atlas A4 Book CR 40Pgs (=) Single Ruled",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0032101-min.jpg",
+    "image": "/products/PF0032101-min.jpg",
     "price": 110,
     "brand": "Atlas",
     "category": "Books"
@@ -979,7 +979,7 @@ export const products =
   {
     "id": "atlas_book_new_1790251932186_162",
     "name": "Atlas A4 Book CR 80Pgs (=) Single Ruled",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0033022-min.jpg",
+    "image": "/products/PF0033022-min.jpg",
     "price": 180,
     "brand": "Atlas",
     "category": "Books"
@@ -987,7 +987,7 @@ export const products =
   {
     "id": "atlas_book_new_1790251932187_9295",
     "name": "Atlas A4 Book CR 120Pgs (=) Single Ruled",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0033301-min.jpg",
+    "image": "/products/PF0033301-min.jpg",
     "price": 250,
     "brand": "Atlas",
     "category": "Books"
@@ -995,7 +995,7 @@ export const products =
   {
     "id": "atlas_book_new_1790251932187_959",
     "name": "Atlas A4 Book CR 160Pgs (=) Single Ruled",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0033701-min.jpg",
+    "image": "/products/PF0033701-min.jpg",
     "price": 350,
     "brand": "Atlas",
     "category": "Books"
@@ -1003,7 +1003,7 @@ export const products =
   {
     "id": "atlas_book_new_1790251932187_4881",
     "name": "Atlas A4 Book CR 200Pgs (=) Single Ruled",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0033901-min.jpg",
+    "image": "/products/PF0033901-min.jpg",
     "price": 430,
     "brand": "Atlas",
     "category": "Books"
@@ -1011,7 +1011,7 @@ export const products =
   {
     "id": "atlas_book_new_1790251932188_3577",
     "name": "Atlas A4 Book CR 400Pgs (=) Single Ruled",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0034701-min.jpg",
+    "image": "/products/PF0034701-min.jpg",
     "price": 850,
     "brand": "Atlas",
     "category": "Books"
@@ -1019,7 +1019,7 @@ export const products =
   {
     "id": "atlas_book_new_1790251932188_3603",
     "name": "Atlas A4 CR Book Square Ruled 40Pgs",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0032102-min.jpg",
+    "image": "/products/PF0032102-min.jpg",
     "price": 110,
     "brand": "Atlas",
     "category": "Books"
@@ -1027,7 +1027,7 @@ export const products =
   {
     "id": "atlas_book_new_1790251932188_6596",
     "name": "Atlas A4 Book CR 80Pgs (#) Square Ruled",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0033023-min.jpg",
+    "image": "/products/PF0033023-min.jpg",
     "price": 180,
     "brand": "Atlas",
     "category": "Books"
@@ -1035,7 +1035,7 @@ export const products =
   {
     "id": "atlas_book_new_1790251932188_633",
     "name": "Atlas A4 Book CR 120Pgs (#) Square Ruled",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0033302-min.jpg",
+    "image": "/products/PF0033302-min.jpg",
     "price": 250,
     "brand": "Atlas",
     "category": "Books"
@@ -1043,7 +1043,7 @@ export const products =
   {
     "id": "atlas_book_new_1790251935120_7912",
     "name": "Atlas A4 Book CR 160Pgs (#) Square Ruled",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0033702-min.jpg",
+    "image": "/products/PF0033702-min.jpg",
     "price": 350,
     "brand": "Atlas",
     "category": "Books"
@@ -1051,7 +1051,7 @@ export const products =
   {
     "id": "atlas_book_new_1790251935120_5640",
     "name": "Atlas A4 Book CR 200Pgs (#) Square Ruled",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0033902-min.jpg",
+    "image": "/products/PF0033902-min.jpg",
     "price": 430,
     "brand": "Atlas",
     "category": "Books"
@@ -1059,7 +1059,7 @@ export const products =
   {
     "id": "atlas_book_new_1790251935120_1390",
     "name": "Innovate Book CR Single Rule 80Pgs",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0033013.jpg",
+    "image": "/products/PF0033013.jpg",
     "price": 225,
     "brand": "Innovate",
     "category": "Books"
@@ -1067,7 +1067,7 @@ export const products =
   {
     "id": "atlas_book_new_1790251935120_5787",
     "name": "Atlas A4 Drawing Book Small 80Pgs",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0053001-min.jpg",
+    "image": "/products/PF0053001-min.jpg",
     "price": 190,
     "brand": "Atlas",
     "category": "Books"
@@ -1075,7 +1075,7 @@ export const products =
   {
     "id": "atlas_book_new_1790251935120_1241",
     "name": "Atlas A4 Science Book Botany 80Pgs",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0043002-min.jpg",
+    "image": "/products/PF0043002-min.jpg",
     "price": 235,
     "brand": "Atlas",
     "category": "Books"
@@ -1083,7 +1083,7 @@ export const products =
   {
     "id": "atlas_book_new_1790251935120_7939",
     "name": "Atlas A4 Science Book Botany 120Pgs",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0043301-min.jpg",
+    "image": "/products/PF0043301-min.jpg",
     "price": 280,
     "brand": "Atlas",
     "category": "Books"
@@ -1091,7 +1091,7 @@ export const products =
   {
     "id": "atlas_book_new_1790251935120_2124",
     "name": "Atlas A4 Science Book Botany 160Pgs",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0043701-min.jpg",
+    "image": "/products/PF0043701-min.jpg",
     "price": 360,
     "brand": "Atlas",
     "category": "Books"
@@ -1099,7 +1099,7 @@ export const products =
   {
     "id": "atlas_book_new_1790251935120_5428",
     "name": "Atlas A4 Science Book Graph 40Pgs",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0042103-min.jpg",
+    "image": "/products/PF0042103-min.jpg",
     "price": 130,
     "brand": "Atlas",
     "category": "Books"
@@ -1107,7 +1107,7 @@ export const products =
   {
     "id": "atlas_book_new_1790251935121_1567",
     "name": "Atlas A4 Science Book Graph 80Pgs",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0043003-min.jpg",
+    "image": "/products/PF0043003-min.jpg",
     "price": 230,
     "brand": "Atlas",
     "category": "Books"
@@ -1115,7 +1115,7 @@ export const products =
   {
     "id": "atlas_book_new_1790251935121_2676",
     "name": "Atlas A4 Science Book Plain 80Pgs",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0043001-min.jpg",
+    "image": "/products/PF0043001-min.jpg",
     "price": 230,
     "brand": "Atlas",
     "category": "Books"
@@ -1123,7 +1123,7 @@ export const products =
   {
     "id": "atlas_book_new_1790251935121_619",
     "name": "Atlas A5 Book Exercise 40Pgs (=) Single Ruled",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0012116-min.jpg",
+    "image": "/products/PF0012116-min.jpg",
     "price": 65,
     "brand": "Atlas",
     "category": "Books"
@@ -1131,7 +1131,7 @@ export const products =
   {
     "id": "atlas_book_new_1790251935121_9284",
     "name": "Atlas A5 Book Exercise 80Pgs (=) Single Ruled",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0013041-min.jpg",
+    "image": "/products/PF0013041-min.jpg",
     "price": 80,
     "brand": "Atlas",
     "category": "Books"
@@ -1139,7 +1139,7 @@ export const products =
   {
     "id": "atlas_book_new_1790251935121_7331",
     "name": "Atlas A5 Book Exercise 120Pgs (=) Single Ruled",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0013301-min.jpg",
+    "image": "/products/PF0013301-min.jpg",
     "price": 125,
     "brand": "Atlas",
     "category": "Books"
@@ -1147,7 +1147,7 @@ export const products =
   {
     "id": "atlas_book_new_1790251935121_5077",
     "name": "Atlas A5 Book Practical 1/2\"(=) Single Ruled 80Pgs",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0023001-min.jpg",
+    "image": "/products/PF0023001-min.jpg",
     "price": 80,
     "brand": "Atlas",
     "category": "Books"
@@ -1155,7 +1155,7 @@ export const products =
   {
     "id": "atlas_book_new_1790251935121_7734",
     "name": "Atlas A5 Book Exercise 160Pgs (=) Single Ruled",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0013701-min.jpg",
+    "image": "/products/PF0013701-min.jpg",
     "price": 170,
     "brand": "Atlas",
     "category": "Books"
@@ -1163,7 +1163,7 @@ export const products =
   {
     "id": "atlas_book_new_1790251935121_2273",
     "name": "Atlas A5 Book Practical  1/2\"(#) Square Ruled 80Pgs",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0023003-min.jpg",
+    "image": "/products/PF0023003-min.jpg",
     "price": 80,
     "brand": "Atlas",
     "category": "Books"
@@ -1171,7 +1171,7 @@ export const products =
   {
     "id": "atlas_book_new_1790251935121_190",
     "name": "Atlas A5 Book Exercise 200Pgs (=) Single Ruled",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0013901-min.jpg",
+    "image": "/products/PF0013901-min.jpg",
     "price": 210,
     "brand": "Atlas",
     "category": "Books"
@@ -1179,7 +1179,7 @@ export const products =
   {
     "id": "atlas_book_new_1790251935122_7246",
     "name": "Atlas A5 Book Exercise 400Pgs (=) Single Ruled",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0014701-min.jpg",
+    "image": "/products/PF0014701-min.jpg",
     "price": 490,
     "brand": "Atlas",
     "category": "Books"
@@ -1187,7 +1187,7 @@ export const products =
   {
     "id": "atlas_book_new_1790251935122_3716",
     "name": "Atlas A5 Book Exercise 40Pgs (#) Square Ruled",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0012117-min.jpg",
+    "image": "/products/PF0012117-min.jpg",
     "price": 60,
     "brand": "Atlas",
     "category": "Books"
@@ -1195,7 +1195,7 @@ export const products =
   {
     "id": "atlas_book_new_1790251935122_3646",
     "name": "Atlas A5 Book Exercise 80Pgs (#) Square Ruled",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0013040-min.jpg",
+    "image": "/products/PF0013040-min.jpg",
     "price": 80,
     "brand": "Atlas",
     "category": "Books"
@@ -1203,7 +1203,7 @@ export const products =
   {
     "id": "atlas_book_new_1790251938068_1922",
     "name": "Atlas A5 Book Exercise 120Pgs (#) Square Ruled",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0013302-min.jpg",
+    "image": "/products/PF0013302-min.jpg",
     "price": 125,
     "brand": "Atlas",
     "category": "Books"
@@ -1211,7 +1211,7 @@ export const products =
   {
     "id": "atlas_book_new_1790251938068_136",
     "name": "Atlas A5 Book Exercise 160Pgs (#) Square Ruled",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0013702-min.jpg",
+    "image": "/products/PF0013702-min.jpg",
     "price": 170,
     "brand": "Atlas",
     "category": "Books"
@@ -1219,7 +1219,7 @@ export const products =
   {
     "id": "atlas_book_new_1790251938069_8654",
     "name": "Atlas A5 Book Exercise 200Pgs (#) Square Ruled",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0013902-min.jpg",
+    "image": "/products/PF0013902-min.jpg",
     "price": 210,
     "brand": "Atlas",
     "category": "Books"
@@ -1227,7 +1227,7 @@ export const products =
   {
     "id": "atlas_book_new_1790251938069_3035",
     "name": "Atlas A5 Book Exercise 400Pgs (#) Square Ruled",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0014702-min.jpg",
+    "image": "/products/PF0014702-min.jpg",
     "price": 420,
     "brand": "Atlas",
     "category": "Books"
@@ -1235,7 +1235,7 @@ export const products =
   {
     "id": "atlas_book_new_1790251938069_3976",
     "name": "Atlas A5 Book Practical 1\"(=) Single Ruled 80Pgs",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0023002-min.jpg",
+    "image": "/products/PF0023002-min.jpg",
     "price": 80,
     "brand": "Atlas",
     "category": "Books"
@@ -1243,7 +1243,7 @@ export const products =
   {
     "id": "atlas_book_new_1790251938069_8841",
     "name": "Atlas A5 Book Practical  1\"(#) Square Ruled 80Pgs",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0023004-min.jpg",
+    "image": "/products/PF0023004-min.jpg",
     "price": 80,
     "brand": "Atlas",
     "category": "Books"
@@ -1251,7 +1251,7 @@ export const products =
   {
     "id": "atlas_book_new_1790251938069_1255",
     "name": "Atlas A5 Book Practical Blank 80Pgs",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0023007-min.jpg",
+    "image": "/products/PF0023007-min.jpg",
     "price": 80,
     "brand": "Atlas",
     "category": "Books"
@@ -1259,7 +1259,7 @@ export const products =
   {
     "id": "atlas_book_new_1790251938069_9313",
     "name": "Atlas A5 Book Practical Botany 80Pgs",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0023008-min.jpg",
+    "image": "/products/PF0023008-min.jpg",
     "price": 80,
     "brand": "Atlas",
     "category": "Books"
@@ -1267,7 +1267,7 @@ export const products =
   {
     "id": "atlas_book_new_1790251938069_5758",
     "name": "Atlas A5 Book Practical Double Ruled 80Pgs",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0023006-min.jpg",
+    "image": "/products/PF0023006-min.jpg",
     "price": 80,
     "brand": "Atlas",
     "category": "Books"
@@ -1275,7 +1275,7 @@ export const products =
   {
     "id": "atlas_book_new_1790251938069_4667",
     "name": "Atlas A5 Practical Book Double Ruled 120Pgs",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0023308-min.jpg",
+    "image": "/products/PF0023308-min.jpg",
     "price": 125,
     "brand": "Atlas",
     "category": "Books"
@@ -1283,7 +1283,7 @@ export const products =
   {
     "id": "atlas_book_new_1790251938069_8245",
     "name": "Atlas A5 Book Practical Five Rule (Grade 2 & 3) 80Pgs",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0023015-min.jpg",
+    "image": "/products/PF0023015-min.jpg",
     "price": 80,
     "brand": "Atlas",
     "category": "Books"
@@ -1291,7 +1291,7 @@ export const products =
   {
     "id": "atlas_book_new_1790251938069_1317",
     "name": "Atlas A5 Book Practical Five Rule 80Pgs",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0023010-min.jpg",
+    "image": "/products/PF0023010-min.jpg",
     "price": 80,
     "brand": "Atlas",
     "category": "Books"
@@ -1299,7 +1299,7 @@ export const products =
   {
     "id": "atlas_book_new_1790251938069_4470",
     "name": "Atlas A5 Book Practical Jaffna Ruled 80Pgs",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0023009-min.jpg",
+    "image": "/products/PF0023009-min.jpg",
     "price": 80,
     "brand": "Atlas",
     "category": "Books"
@@ -1307,7 +1307,7 @@ export const products =
   {
     "id": "atlas_book_new_1790251938070_9792",
     "name": "Atlas B5 Book 80Pgs (=) Single Ruled",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0183001-min.jpg",
+    "image": "/products/PF0183001-min.jpg",
     "price": 125,
     "brand": "Atlas",
     "category": "Books"
@@ -1315,7 +1315,7 @@ export const products =
   {
     "id": "atlas_book_new_1790251938070_1066",
     "name": "Atlas B5 Book 160Pgs (=) Single Ruled",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0183702-min.jpg",
+    "image": "/products/PF0183702-min.jpg",
     "price": 240,
     "brand": "Atlas",
     "category": "Books"
@@ -1323,7 +1323,7 @@ export const products =
   {
     "id": "atlas_book_new_1790251938070_5215",
     "name": "Atlas B5 Book 80Pgs (#) Square Ruled",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0183301-min.jpg",
+    "image": "/products/PF0183301-min.jpg",
     "price": 125,
     "brand": "Atlas",
     "category": "Books"
@@ -1331,7 +1331,7 @@ export const products =
   {
     "id": "atlas_book_new_1790251938070_1889",
     "name": "Atlas B5 Book 120Pgs (#) Square Ruled",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0183701-min.jpg",
+    "image": "/products/PF0183701-min.jpg",
     "price": 220,
     "brand": "Atlas",
     "category": "Books"
@@ -1339,7 +1339,7 @@ export const products =
   {
     "id": "atlas_book_new_1790251938070_4596",
     "name": "Atlas B5 Book 160Pgs (#) Square Ruled",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0183004-min.jpg",
+    "image": "/products/PF0183004-min.jpg",
     "price": 240,
     "brand": "Atlas",
     "category": "Books"
@@ -1347,7 +1347,7 @@ export const products =
   {
     "id": "atlas_book_new_1790251938070_6288",
     "name": "Innovate Book B5 Single Rule 80Pgs",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0183002.jpg",
+    "image": "/products/PF0183002.jpg",
     "price": 175,
     "brand": "Innovate",
     "category": "Books"
@@ -1355,7 +1355,7 @@ export const products =
   {
     "id": "atlas_book_new_1790251938070_2711",
     "name": "Innovate Book CR Single Rule 120Pgs",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0033313.jpg",
+    "image": "/products/PF0033313.jpg",
     "price": 340,
     "brand": "Innovate",
     "category": "Books"
@@ -1363,7 +1363,7 @@ export const products =
   {
     "id": "atlas_book_new_1790251940933_6374",
     "name": "Innovate Book CR Single Rule 160Pgs",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0033711.jpg",
+    "image": "/products/PF0033711.jpg",
     "price": 470,
     "brand": "Innovate",
     "category": "Books"
@@ -1371,7 +1371,7 @@ export const products =
   {
     "id": "atlas_book_new_1790251940933_4167",
     "name": "Innovate Book CR Single Rule 200Pgs -0032",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0033911-1.jpg",
+    "image": "/products/PF0033911-1.jpg",
     "price": 575,
     "brand": "Innovate",
     "category": "Books"
@@ -1379,7 +1379,7 @@ export const products =
   {
     "id": "atlas_book_new_1790251940933_966",
     "name": "Innovate Book CR Square Rule 120Pgs- 0048",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0033317-1.jpg",
+    "image": "/products/PF0033317-1.jpg",
     "price": 340,
     "brand": "Innovate",
     "category": "Books"
@@ -1387,7 +1387,7 @@ export const products =
   {
     "id": "atlas_book_new_1790251940933_5120",
     "name": "Innovate Book Exe Single Rule 160Pgs-0080",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0013716-1.jpg",
+    "image": "/products/PF0013716-1.jpg",
     "price": 250,
     "brand": "Innovate",
     "category": "Books"
@@ -1395,7 +1395,7 @@ export const products =
   {
     "id": "atlas_book_new_1790251940933_6916",
     "name": "Innovate Book Exe Single Rule 200Pgs-0064",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0013916-1.jpg",
+    "image": "/products/PF0013916-1.jpg",
     "price": 300,
     "brand": "Innovate",
     "category": "Books"
@@ -1403,7 +1403,7 @@ export const products =
   {
     "id": "atlas_book_new_1790251940933_5705",
     "name": "Innovate Book B5 Single Rule 120Pgs",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0183302.jpg",
+    "image": "/products/PF0183302.jpg",
     "price": 275,
     "brand": "Innovate",
     "category": "Books"
@@ -1411,7 +1411,7 @@ export const products =
   {
     "id": "atlas_book_new_1790251940934_1427",
     "name": "Innovate B5 Book Single Ruled 160Pgs",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0183703-min.jpg",
+    "image": "/products/PF0183703-min.jpg",
     "price": 340,
     "brand": "Innovate",
     "category": "Books"
@@ -1419,7 +1419,7 @@ export const products =
   {
     "id": "atlas_book_new_1790251940934_6409",
     "name": "Innovate Book B5 Single Rule 200Pgs - 0032",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0183902-1.jpg",
+    "image": "/products/PF0183902-1.jpg",
     "price": 400,
     "brand": "Innovate",
     "category": "Books"
@@ -1427,7 +1427,7 @@ export const products =
   {
     "id": "atlas_book_new_1790251940934_1671",
     "name": "Innovate Book B5 Square Rule 200Pgs - 0032",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2020/11/PF0183903-1.jpg",
+    "image": "/products/PF0183903-1.jpg",
     "price": 400,
     "brand": "Innovate",
     "category": "Books"
@@ -1435,7 +1435,7 @@ export const products =
   {
     "id": "atlas_book_new_1790251940934_1016",
     "name": "Innovate Book B5 Square Rule 160Pgs - 0040",
-    "image": "https://www.atlas.lk/myshop/wp-content/uploads/2025/08/PF0183704.jpg",
+    "image": "/products/PF0183704.jpg",
     "price": 340,
     "brand": "Innovate",
     "category": "Books"

@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useMemo, useEffect, Suspense } from "react";
-import Image from "next/image";
+import { ProductImage } from "@/components/ui/ProductImage";
 import Link from "next/link";
 import { useRouter, useSearchParams } from "next/navigation";
 import { siteConfig } from "@/config/site";
@@ -234,7 +234,7 @@ function ShopContent() {
               {filteredProducts.map((product) => (
                 <div key={product.id} className="group flex flex-col bg-white dark:bg-[#0a192f] border border-gray-100 dark:border-white/5 rounded-2xl overflow-hidden hover:border-gray-200 dark:border-white/10 hover:shadow-lg transition-all hover-lift">
                   <Link href={`/product/${product.id}`} className="block relative aspect-square bg-gray-50 dark:bg-[#060d1f] overflow-hidden">
-                    <Image 
+                    <ProductImage 
                       src={product.image} 
                       alt={product.name}
                       fill

@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useCartStore } from "@/store/useCartStore";
 import { ShoppingCart } from "lucide-react";
-import Image from "next/image";
+import { ProductImage } from "@/components/ui/ProductImage";
 
 export default function CartPage() {
   const { items, removeItem, updateQuantity, getSubtotal } = useCartStore();
@@ -47,7 +47,7 @@ export default function CartPage() {
                     <td className="p-4">
                       <div className="flex items-center gap-4">
                         <div className="w-16 h-16 relative bg-white dark:bg-[#0a192f] border border-gray-200 dark:border-white/10 rounded p-1 shrink-0">
-                          <Image src={item.image || '/logo.jpg'} alt={item.name} fill className="object-contain" />
+                          <ProductImage src={item.image} alt={item.name} fill className="object-contain" />
                         </div>
                         <Link href={`/product/${item.id}`} className="font-bold text-sm text-gray-800 dark:text-gray-100 hover:text-[#f47820]">
                           {item.name}
@@ -78,7 +78,7 @@ export default function CartPage() {
               <div key={item.id} className="bg-white dark:bg-[#0a192f] p-4 rounded-lg shadow-sm border border-gray-100 dark:border-white/5 flex flex-col gap-4">
                 <div className="flex gap-4">
                   <div className="w-20 h-20 relative bg-gray-50 dark:bg-[#060d1f] border border-gray-200 dark:border-white/10 rounded p-1 shrink-0">
-                    <Image src={item.image || '/logo.jpg'} alt={item.name} fill className="object-contain" />
+                    <ProductImage src={item.image} alt={item.name} fill className="object-contain" />
                   </div>
                   <div className="flex-1 flex flex-col min-w-0">
                     <Link href={`/product/${item.id}`} className="font-bold text-sm text-gray-800 dark:text-gray-100 hover:text-[#f47820] line-clamp-2">

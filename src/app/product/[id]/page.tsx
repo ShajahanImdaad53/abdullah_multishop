@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, use } from "react";
-import Image from "next/image";
+import { ProductImage } from "@/components/ui/ProductImage";
 import Link from "next/link";
 import { siteConfig } from "@/config/site";
 import { ChevronRight, Heart, Share2, ShieldCheck, Truck } from "lucide-react";
@@ -64,10 +64,11 @@ export default function ProductDetailPage({ params }: { params: Promise<{ id: st
           {/* Product Images */}
           <div className="w-full md:w-1/2 p-6 flex justify-center items-center bg-white dark:bg-[#0a192f] border-r border-gray-100 dark:border-white/5">
             <div className="relative w-full aspect-square max-w-lg">
-              <Image 
-                src={product.images[0]} 
+              <ProductImage 
+                src={product.images?.[0] || product.image} 
                 alt={product.name}
                 fill
+                priority
                 className="object-contain"
               />
               

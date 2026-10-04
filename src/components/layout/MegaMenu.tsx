@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import Image from "next/image";
+import { ProductImage } from "@/components/ui/ProductImage";
 import { products } from "@/data/products";
 
 // Define the subcategories mapping
@@ -66,8 +66,8 @@ export function MegaMenu({ activeCategory }: { activeCategory: string }) {
             >
               <div className="w-16 h-16 bg-white border border-gray-100 rounded flex items-center justify-center p-1 shrink-0 group-hover:border-[#f47820] transition-colors">
                 <div className="relative w-full h-full">
-                  <Image 
-                    src={product.image || '/logo.jpg'} 
+                  <ProductImage 
+                    src={product.image} 
                     alt={product.name}
                     fill
                     className="object-contain"

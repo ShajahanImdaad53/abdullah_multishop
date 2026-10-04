@@ -1,6 +1,6 @@
 "use client";
 
-import Image from "next/image";
+import { ProductImage } from "@/components/ui/ProductImage";
 import Link from "next/link";
 import { Check, Search, Heart, Minus, Plus } from "lucide-react";
 import { useState } from "react";
@@ -36,8 +36,8 @@ export function AtlasProductCard({ product }: { product: any }) {
       {/* Top Image Area */}
       <div className="relative aspect-[4/5] p-6 flex justify-center items-center bg-white dark:bg-white/5 border-b border-gray-50 dark:border-white/5 overflow-hidden">
         <Link href={`/product/${product.id}`} className="block w-full h-full relative">
-          <Image 
-            src={product.image || '/logo.jpg'} 
+          <ProductImage 
+            src={product.image} 
             alt={product.name}
             fill
             className="object-contain group-hover:scale-110 transition-transform duration-500"
