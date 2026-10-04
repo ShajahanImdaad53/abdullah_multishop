@@ -7,7 +7,6 @@ import { ShieldCheck, MapPin, Loader2 } from "lucide-react";
 import { useCartStore } from "@/store/useCartStore";
 import Link from "next/link";
 import html2canvas from "html2canvas";
-import { createOrder } from "@/actions/orders";
 
 export default function CheckoutPage() {
   const [mounted, setMounted] = useState(false);
@@ -78,7 +77,7 @@ export default function CheckoutPage() {
     
     // 1. Validate Cart is not empty
     if (cartItems.length === 0) {
-      alert("Your cart is empty. Please add products before checking out.");
+      alert("Your cart is empty. Please add items to your cart before checking out.");
       setIsSubmitting(false);
       return;
     }
@@ -91,15 +90,18 @@ export default function CheckoutPage() {
       !formData.city.trim() ||
       !formData.district.trim()
     ) {
-      alert("Please fill in all required fields (Full Name, Phone Number, Address, City, and District).");
+      alert("Please complete the required checkout details (Full Name, Phone Number, Address, City, and District).");
       setIsSubmitting(false);
       return;
     }
 
-    // 3. Build canonical Order Data (Single Source of Truth)
-    const orderNumber = `ORD-${new Date().toISOString().slice(0, 10).replace(/-/g, "")}-${Math.floor(1000 + Math.random() * 9000)}`;
+    // 3. Build client-side order reference number (e.g. AMS-YYYYMMDD-XXXX)
+    const datePart = new Date().toISOString().slice(0, 10).replace(/-/g, "");
+    const randomPart = Math.floor(1000 + Math.random() * 9000);
+    const orderNumber = `AMS-${datePart}-${randomPart}`;
     const orderCreatedAt = new Date().toISOString();
 
+    // 4. Build canonical Order Data (Single Source of Truth)
     const orderData = {
       orderNumber,
       createdAt: orderCreatedAt,
@@ -127,29 +129,14 @@ export default function CheckoutPage() {
       })),
     };
 
-    // 4. Save Order to Firestore & verify success
-    let orderResult;
-    try {
-      orderResult = await createOrder(orderData);
-    } catch (err) {
-      console.error("Order creation network error:", err);
-      orderResult = { success: false, error: "Network error occurred" };
-    }
-
-    if (!orderResult || !orderResult.success) {
-      alert("Failed to place your order. Please check your connection and try again.");
-      setIsSubmitting(false);
-      return; // Do NOT clear cart, do NOT open WhatsApp
-    }
-
-    // 5. Build WhatsApp Message from the SAME orderData
+    // 5. Build WhatsApp Message directly from the canonical orderData
     const dateFormatted = new Date(orderData.createdAt).toLocaleString("en-US", {
       dateStyle: "medium",
       timeStyle: "short",
     });
 
-    let message = `🛒 *NEW ORDER - ${siteConfig.companyName.toUpperCase()}*\n`;
-    message += `━━━━━━━━━━━━━━━━━━━━━\n`;
+    let message = `🛍️ *NEW ORDER - ${siteConfig.companyName.toUpperCase()}*\n`;
+    message += `─────────────────────────────────────\n`;
     message += `📋 *ORDER DETAILS*\n`;
     message += `• Order Number: ${orderData.orderNumber}\n`;
     message += `• Date/Time: ${dateFormatted}\n\n`;
@@ -170,25 +157,25 @@ export default function CheckoutPage() {
     if (orderData.deliveryNotes) message += `• Notes: ${orderData.deliveryNotes}\n`;
     message += `\n`;
 
-    message += `📦 *ORDERED PRODUCTS*\n`;
-    message += `━━━━━━━━━━━━━━━━━━━━━\n`;
+    message += `📦 *PRODUCTS*\n`;
+    message += `─────────────────────────────────────\n`;
     orderData.items.forEach((item, index) => {
       message += `${index + 1}. *${item.name}*\n`;
       message += `   • SKU: ${item.sku}\n`;
       message += `   • Quantity: ${item.quantity}\n`;
       message += `   • Unit Price: ${siteConfig.currencySymbol} ${item.price.toFixed(2)}\n`;
-      message += `   • Subtotal: ${siteConfig.currencySymbol} ${item.subtotal.toFixed(2)}\n`;
+      message += `   • Item Subtotal: ${siteConfig.currencySymbol} ${item.subtotal.toFixed(2)}\n`;
     });
-    message += `━━━━━━━━━━━━━━━━━━━━━\n\n`;
+    message += `─────────────────────────────────────\n\n`;
 
-    message += `💰 *PAYMENT SUMMARY*\n`;
+    message += `💰 *ORDER SUMMARY*\n`;
     message += `• Subtotal: ${siteConfig.currencySymbol} ${orderData.subtotal.toFixed(2)}\n`;
-    message += `• Shipping Fee: ${siteConfig.currencySymbol} ${orderData.shippingFee.toFixed(2)} (Free Delivery Promo)\n`;
+    message += `• Shipping: ${siteConfig.currencySymbol} ${orderData.shippingFee.toFixed(2)} (Free Delivery Promo)\n`;
     if (orderData.discount > 0) {
       message += `• Discount: -${siteConfig.currencySymbol} ${orderData.discount.toFixed(2)}\n`;
     }
-    message += `• *Final Total: ${siteConfig.currencySymbol} ${orderData.total.toFixed(2)}*\n`;
-    message += `━━━━━━━━━━━━━━━━━━━━━\n\n`;
+    message += `• *TOTAL: ${siteConfig.currencySymbol} ${orderData.total.toFixed(2)}*\n`;
+    message += `─────────────────────────────────────\n\n`;
     message += `Please confirm my order. Thank you!`;
 
     // 6. Generate WhatsApp URL
@@ -205,7 +192,7 @@ export default function CheckoutPage() {
       console.error("Automatic WhatsApp opening was blocked by browser:", popupErr);
     }
 
-    // 8. Safely attempt optional invoice download in background
+    // 8. Optional non-blocking invoice download in background
     try {
       const invoiceElement = document.getElementById("invoice-capture");
       if (invoiceElement) {
@@ -225,8 +212,7 @@ export default function CheckoutPage() {
       console.warn("Invoice generation skipped:", err);
     }
 
-    // 9. Finish checkout & clear cart
-    clearCart();
+    // 9. Finish checkout submission (Do NOT clear cart here - cart is preserved until Send to WhatsApp is activated)
     setIsSubmitting(false);
   };
 
@@ -239,9 +225,9 @@ export default function CheckoutPage() {
           <div className="w-16 h-16 bg-green-100 dark:bg-green-900/30 text-green-500 rounded-full flex items-center justify-center mx-auto mb-6">
             <ShieldCheck className="w-8 h-8" />
           </div>
-          <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-2">Order Saved!</h2>
+          <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-2">Order Ready!</h2>
           <p className="text-gray-500 dark:text-gray-400 mb-8">
-            Your order has been saved securely. If WhatsApp didn&apos;t open automatically, please click the button below to send your order details.
+            Your order details have been prepared for WhatsApp. If WhatsApp did not open automatically, please click the button below to send your order.
           </p>
           <a 
             href={whatsappUrl}

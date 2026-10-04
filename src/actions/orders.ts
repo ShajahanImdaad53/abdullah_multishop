@@ -5,6 +5,15 @@ import { collection, addDoc, getDocs, doc, getDoc, updateDoc, query, orderBy } f
 import { revalidatePath } from "next/cache";
 
 export async function createOrder(data: any) {
+  // Check if Firebase environment is configured
+  if (!process.env.NEXT_PUBLIC_FIREBASE_PROJECT_ID && !process.env.FIREBASE_PROJECT_ID) {
+    console.error("[Firestore Error] Missing Firebase Project ID environment variable (NEXT_PUBLIC_FIREBASE_PROJECT_ID or FIREBASE_PROJECT_ID).");
+    return {
+      success: false,
+      error: "Database configuration is missing. Please configure Firebase environment variables in Vercel."
+    };
+  }
+
   try {
     const firestoreWrite = addDoc(collection(db, "orders"), {
       orderNumber: data.orderNumber,
@@ -35,19 +44,35 @@ export async function createOrder(data: any) {
     });
 
     const timeoutPromise = new Promise<{ id: string }>((_, reject) =>
-      setTimeout(() => reject(new Error("Firestore write timed out")), 5000)
+      setTimeout(() => reject(new Error("Firestore write timed out after 8s")), 8000)
     );
 
     const orderRef = await Promise.race([firestoreWrite, timeoutPromise]);
     return { success: true, orderId: orderRef.id };
-  } catch (error) {
-    console.error("Error creating order in Firebase:", error);
-    return { success: false, error: "Failed to create order" };
+  } catch (error: any) {
+    const errorCode = error?.code || "unknown";
+    const errorMessage = error?.message || "Failed to create order";
+    console.error(`[Firestore Order Creation Error] Code: ${errorCode}, Message: ${errorMessage}`);
+
+    let userFriendlyError = "Failed to create order. Please try again.";
+    if (errorCode === "permission-denied") {
+      userFriendlyError = "Database permission denied. Please verify Firestore security rules in Firebase Console.";
+    } else if (errorCode === "unavailable" || errorMessage.includes("timed out")) {
+      userFriendlyError = "Database connection timed out. Please check your internet connection and try again.";
+    } else if (errorCode === "unauthenticated" || errorCode === "invalid-argument") {
+      userFriendlyError = "Database authentication failed. Please verify Firebase environment variables in Vercel.";
+    }
+
+    return { success: false, error: userFriendlyError };
   }
 }
 
 export async function getOrders() {
   try {
+    if (!process.env.NEXT_PUBLIC_FIREBASE_PROJECT_ID && !process.env.FIREBASE_PROJECT_ID) {
+      console.warn("[Firestore] Missing Firebase Project ID environment variable.");
+      return { success: false, orders: [] };
+    }
     const q = query(collection(db, "orders"), orderBy("createdAt", "desc"));
     const querySnapshot = await getDocs(q);
     const orders = querySnapshot.docs.map(doc => ({
@@ -55,14 +80,18 @@ export async function getOrders() {
       ...doc.data()
     } as any));
     return { success: true, orders };
-  } catch (error) {
-    console.error("Error fetching orders from Firebase:", error);
+  } catch (error: any) {
+    console.error("[Firestore Error in getOrders]:", error?.code || error?.message || error);
     return { success: false, orders: [] };
   }
 }
 
 export async function getOrderById(id: string) {
   try {
+    if (!process.env.NEXT_PUBLIC_FIREBASE_PROJECT_ID && !process.env.FIREBASE_PROJECT_ID) {
+      console.warn("[Firestore] Missing Firebase Project ID environment variable.");
+      return { success: false, order: null };
+    }
     const docRef = doc(db, "orders", id);
     const docSnap = await getDoc(docRef);
     if (docSnap.exists()) {
@@ -70,21 +99,25 @@ export async function getOrderById(id: string) {
     } else {
       return { success: false, order: null };
     }
-  } catch (error) {
-    console.error("Error fetching order from Firebase:", error);
+  } catch (error: any) {
+    console.error("[Firestore Error in getOrderById]:", error?.code || error?.message || error);
     return { success: false, order: null };
   }
 }
 
 export async function updateOrderStatus(id: string, status: any) {
   try {
+    if (!process.env.NEXT_PUBLIC_FIREBASE_PROJECT_ID && !process.env.FIREBASE_PROJECT_ID) {
+      console.warn("[Firestore] Missing Firebase Project ID environment variable.");
+      return { success: false };
+    }
     const docRef = doc(db, "orders", id);
     await updateDoc(docRef, { status });
     revalidatePath("/admin/orders");
     revalidatePath(`/admin/orders/${id}`);
     return { success: true };
-  } catch (error) {
-    console.error("Error updating order status in Firebase:", error);
+  } catch (error: any) {
+    console.error("[Firestore Error in updateOrderStatus]:", error?.code || error?.message || error);
     return { success: false };
   }
 }
