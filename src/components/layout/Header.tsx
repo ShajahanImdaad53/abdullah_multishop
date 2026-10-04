@@ -111,24 +111,7 @@ export function Header() {
           
           {/* Left: Nav Links */}
           <div className="flex items-center h-full">
-            <div className="relative group h-full flex items-center">
-              <button className="flex items-center gap-2 hover:bg-gray-50 dark:hover:bg-white/5 px-6 h-full font-bold text-sm tracking-wide border-r border-gray-200 dark:border-white/10 transition-colors">
-                <Menu className="h-5 w-5 text-[#f47820] dark:text-white" />
-                ALL CATEGORIES
-              </button>
-              
-              {/* Header Dropdown Menu */}
-              <div className="absolute top-[48px] left-0 w-64 bg-white dark:bg-[#0a192f] shadow-xl border-t-2 border-[#f47820] dark:border-white/20 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 flex flex-col z-50 py-2">
-                <Link href="/shop?cat=books" className="px-6 py-3 text-sm text-gray-600 dark:text-gray-300 hover:text-[#f47820] dark:hover:text-white hover:bg-orange-50 dark:hover:bg-white/5 font-medium transition-colors">Books</Link>
-                <Link href="/shop?cat=pens" className="px-6 py-3 text-sm text-gray-600 dark:text-gray-300 hover:text-[#f47820] dark:hover:text-white hover:bg-orange-50 dark:hover:bg-white/5 font-medium transition-colors">Pens</Link>
-                <Link href="/product-category/edu-toys" className="px-6 py-3 text-sm text-gray-600 dark:text-gray-300 hover:text-[#f47820] dark:hover:text-white hover:bg-orange-50 dark:hover:bg-white/5 font-medium transition-colors">EDU Toys</Link>
-                <Link href="/shop?cat=school" className="px-6 py-3 text-sm text-gray-600 dark:text-gray-300 hover:text-[#f47820] dark:hover:text-white hover:bg-orange-50 dark:hover:bg-white/5 font-medium transition-colors">School Products</Link>
-                <Link href="/shop?cat=File" className="px-6 py-3 text-sm text-gray-600 dark:text-gray-300 hover:text-[#f47820] dark:hover:text-white hover:bg-orange-50 dark:hover:bg-white/5 font-medium transition-colors">Files</Link>
-                <Link href="/shop" className="px-6 py-3 text-sm font-bold text-[#f47820] dark:text-white hover:bg-orange-50 dark:hover:bg-white/5 mt-2 border-t border-gray-100 dark:border-white/10 transition-colors">View All Categories</Link>
-              </div>
-            </div>
-            
-            <nav className="hidden lg:flex items-center h-full gap-2">
+            <nav className="flex items-center h-full gap-2">
               <Link href="/" className="px-5 h-8 flex items-center text-sm font-bold tracking-wide hover:text-[#f47820] dark:hover:text-[#f47820] transition-colors rounded-full liquid-glass hover:opacity-80">HOME</Link>
               <Link href="/shop" className="px-5 h-8 flex items-center text-sm font-bold tracking-wide hover:text-[#f47820] dark:hover:text-[#f47820] transition-colors rounded-full liquid-glass hover:opacity-80">ALL PRODUCTS</Link>
               <Link href="/shop?cat=Books" className="px-5 h-8 flex items-center text-sm font-bold tracking-wide hover:text-[#f47820] dark:hover:text-[#f47820] transition-colors relative rounded-full liquid-glass hover:opacity-80">
