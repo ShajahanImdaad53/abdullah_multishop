@@ -3,7 +3,7 @@ export const products =
   {
     "id": "daraz_file_1",
     "name": "Premium Zip Closure Document File Folder | Office Document Holder",
-    "image": "/logo.jpg",
+    "image": "https://images.unsplash.com/photo-1544473244-f6895e69da8e?w=800&q=80",
     "price": 1067,
     "brand": "Daraz",
     "category": "File"
@@ -11,7 +11,7 @@ export const products =
   {
     "id": "daraz_file_2",
     "name": "File Organizer Desk File Folder Document Paper Organizer Storage Holder",
-    "image": "/logo.jpg",
+    "image": "https://images.unsplash.com/photo-1628126235206-5260b9ea6441?w=800&q=80",
     "price": 1534,
     "brand": "Daraz",
     "category": "File"
@@ -19,7 +19,7 @@ export const products =
   {
     "id": "daraz_file_3",
     "name": "Bill Holder | Document Holder for Office",
-    "image": "/logo.jpg",
+    "image": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=800&q=80",
     "price": 533,
     "brand": "Daraz",
     "category": "File"
@@ -27,7 +27,7 @@ export const products =
   {
     "id": "daraz_file_4",
     "name": "Box File 75mm Laminated F4 - Light Green",
-    "image": "/logo.jpg",
+    "image": "https://images.unsplash.com/photo-1606760227091-3dd870d97f1d?w=800&q=80",
     "price": 610,
     "brand": "Daraz",
     "category": "File"
@@ -35,7 +35,7 @@ export const products =
   {
     "id": "daraz_file_5",
     "name": "Certificate File holder ( 10/20/30/40-Pockets )",
-    "image": "/logo.jpg",
+    "image": "https://images.unsplash.com/photo-1544473244-f6895e69da8e?w=800&q=80",
     "price": 750,
     "brand": "Daraz",
     "category": "File"
@@ -43,7 +43,7 @@ export const products =
   {
     "id": "daraz_file_6",
     "name": "File Organizer,Expanding File Folder 13 Pocket File Organizer Colorul",
-    "image": "/logo.jpg",
+    "image": "https://images.unsplash.com/photo-1628126235206-5260b9ea6441?w=800&q=80",
     "price": 965,
     "brand": "Daraz",
     "category": "File"
@@ -51,7 +51,7 @@ export const products =
   {
     "id": "daraz_file_7",
     "name": "Panther Box File 75mm Laminated F4 - Maroon",
-    "image": "/logo.jpg",
+    "image": "https://images.unsplash.com/photo-1606760227091-3dd870d97f1d?w=800&q=80",
     "price": 610,
     "brand": "Daraz",
     "category": "File"
@@ -59,7 +59,7 @@ export const products =
   {
     "id": "daraz_file_8",
     "name": "Box File 75mm Laminated F4 - Black",
-    "image": "/logo.jpg",
+    "image": "https://images.unsplash.com/photo-1606760227091-3dd870d97f1d?w=800&q=80",
     "price": 610,
     "brand": "Daraz",
     "category": "File"
@@ -67,7 +67,7 @@ export const products =
   {
     "id": "daraz_file_9",
     "name": "Document Holder EXEC - Black",
-    "image": "/logo.jpg",
+    "image": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=800&q=80",
     "price": 570,
     "brand": "Daraz",
     "category": "File"
@@ -75,7 +75,7 @@ export const products =
   {
     "id": "daraz_file_10",
     "name": "Mini Zip File | Office Document Holder",
-    "image": "/logo.jpg",
+    "image": "https://images.unsplash.com/photo-1544473244-f6895e69da8e?w=800&q=80",
     "price": 922,
     "brand": "Daraz",
     "category": "File"
